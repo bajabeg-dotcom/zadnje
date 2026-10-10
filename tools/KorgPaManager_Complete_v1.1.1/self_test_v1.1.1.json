@@ -1,0 +1,20 @@
+{
+  "application": "KorgPaManager",
+  "version": "1.1.1",
+  "mido": "1.3.3",
+  "python_tk": "8.6",
+  "checks": [
+    "tkinter import and Tcl interpreter",
+    "Tk desktop window creation skipped in headless mode",
+    "SMF type-0 creation and strict load",
+    "real Program/Bank in-memory edit",
+    "note-on and note-off remap",
+    "validated atomic Save As",
+    "source SHA-256 preservation",
+    "strict reopen of edited output"
+  ],
+  "tcl_patchlevel": "8.6.16",
+  "saved_bytes": 70,
+  "source_preserved": true,
+  "status": "PASS"
+}

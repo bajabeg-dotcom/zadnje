@@ -1,0 +1,10 @@
+# VirtualPa800 NATIVE 0.2 -- lokalne/dist stavke koje ne idu u git
+VirtualPa800_NATIVE_0.2_*.zip
+VirtualPa800_NATIVE_0.2_*.zip.sha256
+*.mdmp
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db

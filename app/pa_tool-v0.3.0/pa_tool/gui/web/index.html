@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101824">
+  <title>pa_tool 0.3.0 · PA800 Manager — Baja Music</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-icon"><span>PA</span><i></i></div><div><strong>BAJA MUSIC</strong><small>PA800 MANAGER</small></div></div>
+    <div class="sidebar-label">RADNI PROSTOR</div>
+    <nav class="nav" aria-label="Glavna navigacija">
+      <button type="button" data-view="overview" class="nav-item active"><span class="nav-icon">◫</span><span>Pregled</span></button>
+      <button type="button" data-view="archive" class="nav-item"><span class="nav-icon">⬡</span><span>SET / PCM inventar</span></button>
+      <button type="button" data-view="styles" class="nav-item"><span class="nav-icon">▦</span><span>Style Library</span></button>
+      <button type="button" data-view="performances" class="nav-item"><span class="nav-icon">♫</span><span>Performance</span></button>
+      <button type="button" data-view="pads" class="nav-item"><span class="nav-icon">▤</span><span>PAD kolekcija</span></button>
+      <button type="button" data-view="sounds" class="nav-item"><span class="nav-icon">◎</span><span>Sound mapa</span></button>
+      <button type="button" data-view="setup" class="nav-item"><span class="nav-icon">⚙</span><span>Setup & mape</span></button>
+    </nav>
+    <div class="sidebar-label second">SISTEM</div>
+    <nav class="nav"><button type="button" data-view="validation" class="nav-item"><span class="nav-icon">◇</span><span>Validacija</span><span class="nav-dot"></span></button></nav>
+    <div class="sidebar-spacer"></div>
+    <div class="safety-card"><div class="safety-head"><span class="safety-icon">✳</span> SIGURNI NAČIN</div><p>Analiza ne mijenja original. Native upis ostaje zaključan do verifikacije na klavijaturi.</p><span class="safety-status"><i></i> WEB READ ONLY · PA_TOOL 0.3.0</span></div>
+    <div class="sidebar-foot">BAJA MUSIC <span>© 2026</span></div>
+  </aside>
+  <div class="main-wrap">
+    <header class="topbar"><div class="crumb"><span class="crumb-muted">Projekt</span><span class="crumb-slash">/</span><strong id="crumb-title">Pregled</strong></div><div class="top-actions"><span class="top-verified"><span class="pulse"></span> PA800 EVIDENCE · 22.09.2026</span><button id="import-button" class="button button-primary" type="button"><span class="button-icon">＋</span> Uvezi datoteke</button></div></header>
+    <main id="view" class="content" aria-live="polite"></main>
+    <footer class="footer"><span>Izgrađeno na dokazima, ne pretpostavkama.</span><span>pa_tool 0.3.0 <b>·</b> PA800 Forensics</span></footer>
+  </div>
+</div>
+<input type="file" id="file-input" accept=".sty,.STY,.prf,.PRF,.pad,.PAD,.pcg,.PCG,.gbl,.GBL,.tbl,.TBL,.zip,.ZIP" hidden>
+<div class="drop-screen" id="drop-screen"><div class="drop-content"><span>⬡</span><strong>Spusti PA800 datoteku ovdje</strong><small>STY · PRF · PAD · PCG · GBL · TBL · SET/ALL ZIP</small></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js" defer></script>
+</body>
+</html>

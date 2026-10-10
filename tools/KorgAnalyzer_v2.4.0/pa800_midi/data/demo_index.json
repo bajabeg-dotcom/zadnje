@@ -1,0 +1,72 @@
+{
+ "version": 1,
+ "source": "/home/user/ev/demo_midis",
+ "file_count": 54,
+ "rx_presets": {
+  "Nylon Guitar DNC": [
+   "Nylon Guitar DNC.MID"
+  ],
+  "Trumpet DNC": [
+   "TRUMPET ROB.MID"
+  ],
+  "Tenor Sax DNC": [
+   "Tenor Sax DNC.MID"
+  ]
+ },
+ "files": [
+  "50's Fox.MID",
+  "70_DANCE.MID",
+  "ACCORDEO.MID",
+  "AC_PIANO.MID",
+  "BIGBAND.MID",
+  "BIGBNDST.MID",
+  "BRASAMBA.MID",
+  "Bachata.MID",
+  "Black Funk.MID",
+  "COUNTRY.MID",
+  "DANCE RDL.MID",
+  "DANCE.MID",
+  "DEMOMIX.MID",
+  "DEMO_GT.MID",
+  "Demo 1 BDL.MID",
+  "Demo 2 BDL.MID",
+  "Demo 3 BDL.MID",
+  "E.Piano2 RX.MID",
+  "ELECTRO POP.MID",
+  "ETHNO.MID",
+  "FISCHIO.MID",
+  "FLUGSAX.MID",
+  "FUNK_MAX.MID",
+  "Funk R&B.MID",
+  "GIPSY.MID",
+  "GTR_TUNE.MID",
+  "GUITAR6S.MID",
+  "GUITARCL.MID",
+  "HARM&FLU.MID",
+  "HARMONICA.MID",
+  "Harmonica DNC.MID",
+  "LATINEB.MID",
+  "MARK.MID",
+  "MOVIE.MID",
+  "Movie DNC.MID",
+  "Nylon Guitar DNC.MID",
+  "ORGAN_MG.MID",
+  "Organ Ballad.MID",
+  "Organ Blues.MID",
+  "Quartet DNC.MID",
+  "RCKORGAN.MID",
+  "ROB_2_Pa_200.MID",
+  "ROCK.MID",
+  "SCAT.MID",
+  "SERENADE.MID",
+  "SWEET.MID",
+  "Smooth Jazz.MID",
+  "Strings DNC.MID",
+  "TRIO.MID",
+  "TRUMPET ROB.MID",
+  "Tenor Sax DNC.MID",
+  "TheatreOrgan.MID",
+  "UNPLUG.MID",
+  "WESTERN MOVIE.MID"
+ ]
+}

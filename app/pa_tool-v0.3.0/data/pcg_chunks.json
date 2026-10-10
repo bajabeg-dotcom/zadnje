@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "description": "Razlikovanje KORG PA KORF .PCG kontejnera od KORG workstation KORG/PCG1 chunk formata.",
+    "status": "VERIFIED za lokalne PA uzorke; HIGH za javno dokumentovani KORG/PCG1 dijalekt",
+    "created": "2026-10-06",
+    "rule": "PBK1/PRG1 nisu univerzalni potpisi svakog .PCG fajla. RLP1 je dokumentovan kao KMP relative-parameter chunk."
+  },
+  "dialects": {
+    "pa_korf": {
+      "label": "KORG PA KORF container",
+      "status": "VERIFIED",
+      "magic_hex": "01 00 01 14",
+      "korf_offset": 23,
+      "required_marker": "KORF",
+      "length_field": "u32 big-endian @+4; za cjelovit pojedinacni kontejner ocekuje se file_size-8",
+      "evidence": "Cetiri stvarna .PCG uzorka iz korisnikovog Drive/KORG korpusa imaju 01 00 01 14 i KORF@0x17; dva cjelovita USER uzorka imaju tacnu deklarisanu duzinu.",
+      "samples": [
+        {
+          "name": "USER01.PCG",
+          "size": 493,
+          "sha256": "accc652bfa0bcb81f5eb2f8cd0433fa26ccb95f7344e9196dd59c563cd35cc2b",
+          "source": "Google Drive file 1eGT1-_hYdoxhEeJSg0i4d-_8XBUDpKP8; NEWNAME.SET/SOUND",
+          "markers": {"KORF": [23], "OC31": [68], "KBEG": [473], "KEND": [485]},
+          "declared_length": 485,
+          "declared_ok": true
+        },
+        {
+          "name": "USERDK.PCG",
+          "size": 1986,
+          "sha256": "288d9490cc3b5c12cf7ca253ec1ebc10af66411b3d7d1e2cdeaf9a5b6a375469",
+          "source": "Google Drive file 1Ve3SYx-394qsl0Ps9p5IWMhetjKKqVrF; NEWNAME.SET/SOUND",
+          "markers": {"KORF": [23], "OC31": [68], "KBEG": [1966], "KEND": [1978]},
+          "declared_length": 1978,
+          "declared_ok": true
+        },
+        {
+          "name": "ROM.PCG",
+          "size": 131072,
+          "sha256": "146192e689134ac01e7f8948c57a3ce86225753637d226cf6b038043fefddbe2",
+          "source": "KORG_KOMPLET_2026-10-06.zip/corpus/pa1x_extract/bkp1/ROM.PCG (fragment)",
+          "markers": {"KORF": [23], "OC31_count": 4, "OC32_count": 258},
+          "declared_length": 424604,
+          "declared_ok": false,
+          "note": "Izvuceni fragment; nije cjelovit pojedinacni kontejner."
+        },
+        {
+          "name": "ROM_full.PCG",
+          "size": 698158,
+          "sha256": "575bd834cb9b0fe5e7f048412d03d8be9d82c6e82fb49fbdbd7a73554a1df06b",
+          "source": "KORG_KOMPLET_2026-10-06.zip/corpus/pa1x_extract/ROM_full.PCG",
+          "markers": {"KORF_count": 10, "KBEG_count": 8, "KEND_count": 8, "OC31_count": 21, "OC32_count": 824},
+          "note": "Agregat vise KORF kontejnera."
+        }
+      ],
+      "negative_token_scan": {
+        "tokens": ["PBK1", "PRG1", "RLP1"],
+        "sample_count": 4,
+        "occurrences": 0,
+        "status": "VERIFIED za ovaj korpus; ne tvrdi univerzalno nepostojanje"
+      }
+    },
+    "korg_riff_pcg": {
+      "label": "KORG workstation RIFF-like PCG",
+      "status": "HIGH",
+      "header_magic": "KORG",
+      "container_chunk": "PCG1",
+      "pcg1_offset": 16,
+      "evidence": "Javno objavljene strukture KORG OASYS/Triton PCG opisuju KORG header i PCG1/PRG1/PBK1 chunkove; lokalni binarni uzorak ovog dijalekta nije ukljucen.",
+      "sources": [
+        "https://korgforums.com/forum/phpBB3/viewtopic.php?t=50398",
+        "https://forums.karma-lab.com/forum/showthread.php?t=4922"
+      ]
+    }
+  },
+  "chunk_semantics": {
+    "PRG1": {
+      "format": "KORG/PCG1 workstation PCG",
+      "meaning": "program group containing program-bank chunks",
+      "status": "HIGH",
+      "source": "https://korgforums.com/forum/phpBB3/viewtopic.php?t=50398"
+    },
+    "PBK1": {
+      "format": "KORG/PCG1 workstation PCG",
+      "meaning": "PCM program bank chunk inside PRG1",
+      "status": "HIGH",
+      "source": "https://korgforums.com/forum/phpBB3/viewtopic.php?t=50398"
+    },
+    "RLP1": {
+      "format": "KORG KMP",
+      "meaning": "relative sample-parameter chunk; 18 bytes per sample",
+      "status": "HIGH",
+      "source": "https://www.manualslib.com/manual/675036/Korg-Tr.html?page=262"
+    }
+  },
+  "manager_strings": {
+    "status": "VERIFIED da poruke postoje; HIGH za tumacenje dijalekta",
+    "entries": [
+      {"offset": "0x0024F824", "text": "Missing ProgramsBank Chunk (PBK1)."},
+      {"offset": "0x0024F880", "text": "Missing ProgramsBank Chunk (PRG1)."}
+    ],
+    "conclusion": "Poruke dokazuju da PA Manager ima granu koja ocekuje PBK1/PRG1, ali ti tokeni nisu potpisi stvarnih PA KORF .PCG uzoraka. Ne koristiti ih kao univerzalni PA .PCG validator."
+  }
+}

@@ -1,0 +1,5098 @@
+[
+  {
+    "label": "Hammy.SET.zip",
+    "style_count": 384,
+    "style_element_count": 3272,
+    "track_record_count": 26176,
+    "unique_selectors": 756,
+    "bank_usage": [
+      {
+        "msb": 121,
+        "lsb": 0,
+        "track_appearances": 7590
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "track_appearances": 3271
+      },
+      {
+        "msb": 120,
+        "lsb": 0,
+        "track_appearances": 2858
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "track_appearances": 2344
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "track_appearances": 2321
+      },
+      {
+        "msb": 121,
+        "lsb": 5,
+        "track_appearances": 1079
+      },
+      {
+        "msb": 121,
+        "lsb": 1,
+        "track_appearances": 916
+      },
+      {
+        "msb": 121,
+        "lsb": 2,
+        "track_appearances": 903
+      },
+      {
+        "msb": 121,
+        "lsb": 3,
+        "track_appearances": 772
+      },
+      {
+        "msb": 121,
+        "lsb": 4,
+        "track_appearances": 745
+      },
+      {
+        "msb": 0,
+        "lsb": 0,
+        "track_appearances": 415
+      },
+      {
+        "msb": 121,
+        "lsb": 6,
+        "track_appearances": 372
+      },
+      {
+        "msb": 121,
+        "lsb": 7,
+        "track_appearances": 314
+      },
+      {
+        "msb": 121,
+        "lsb": 8,
+        "track_appearances": 285
+      },
+      {
+        "msb": 121,
+        "lsb": 10,
+        "track_appearances": 255
+      },
+      {
+        "msb": 121,
+        "lsb": 19,
+        "track_appearances": 222
+      },
+      {
+        "msb": 121,
+        "lsb": 13,
+        "track_appearances": 192
+      },
+      {
+        "msb": 121,
+        "lsb": 11,
+        "track_appearances": 186
+      },
+      {
+        "msb": 121,
+        "lsb": 23,
+        "track_appearances": 147
+      },
+      {
+        "msb": 121,
+        "lsb": 12,
+        "track_appearances": 141
+      },
+      {
+        "msb": 121,
+        "lsb": 20,
+        "track_appearances": 139
+      },
+      {
+        "msb": 121,
+        "lsb": 9,
+        "track_appearances": 108
+      },
+      {
+        "msb": 121,
+        "lsb": 16,
+        "track_appearances": 88
+      },
+      {
+        "msb": 121,
+        "lsb": 15,
+        "track_appearances": 83
+      },
+      {
+        "msb": 120,
+        "lsb": 68,
+        "track_appearances": 70
+      },
+      {
+        "msb": 121,
+        "lsb": 18,
+        "track_appearances": 54
+      },
+      {
+        "msb": 121,
+        "lsb": 30,
+        "track_appearances": 52
+      },
+      {
+        "msb": 121,
+        "lsb": 21,
+        "track_appearances": 49
+      },
+      {
+        "msb": 121,
+        "lsb": 14,
+        "track_appearances": 35
+      },
+      {
+        "msb": 121,
+        "lsb": 68,
+        "track_appearances": 34
+      },
+      {
+        "msb": 121,
+        "lsb": 17,
+        "track_appearances": 27
+      },
+      {
+        "msb": 121,
+        "lsb": 25,
+        "track_appearances": 25
+      },
+      {
+        "msb": 121,
+        "lsb": 27,
+        "track_appearances": 21
+      },
+      {
+        "msb": 121,
+        "lsb": 28,
+        "track_appearances": 19
+      },
+      {
+        "msb": 121,
+        "lsb": 32,
+        "track_appearances": 12
+      },
+      {
+        "msb": 121,
+        "lsb": 29,
+        "track_appearances": 7
+      },
+      {
+        "msb": 121,
+        "lsb": 34,
+        "track_appearances": 5
+      },
+      {
+        "msb": 121,
+        "lsb": 33,
+        "track_appearances": 4
+      },
+      {
+        "msb": 120,
+        "lsb": 1,
+        "track_appearances": 4
+      },
+      {
+        "msb": 121,
+        "lsb": 26,
+        "track_appearances": 2
+      },
+      {
+        "msb": 121,
+        "lsb": 31,
+        "track_appearances": 2
+      },
+      {
+        "msb": 4,
+        "lsb": 122,
+        "track_appearances": 1
+      },
+      {
+        "msb": 9,
+        "lsb": 58,
+        "track_appearances": 1
+      },
+      {
+        "msb": 4,
+        "lsb": 95,
+        "track_appearances": 1
+      },
+      {
+        "msb": 4,
+        "lsb": 96,
+        "track_appearances": 1
+      },
+      {
+        "msb": 3,
+        "lsb": 9,
+        "track_appearances": 1
+      },
+      {
+        "msb": 2,
+        "lsb": 88,
+        "track_appearances": 1
+      },
+      {
+        "msb": 121,
+        "lsb": 36,
+        "track_appearances": 1
+      },
+      {
+        "msb": 121,
+        "lsb": 69,
+        "track_appearances": 1
+      }
+    ],
+    "user_selector_references": [
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 0,
+        "track_appearances": 360,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "HAMZA.Set R"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 1,
+        "track_appearances": 117,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Prhan Kit"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 2,
+        "track_appearances": 216,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "LIVE Drums GM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 3,
+        "track_appearances": 63,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "ACA DRUM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 4,
+        "track_appearances": 31,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Sibinco Live Pa2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 5,
+        "track_appearances": 331,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Sibinco Live Pa2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 6,
+        "track_appearances": 247,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Sibinco Live Pa2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 7,
+        "track_appearances": 34,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Sibinco Live Pa3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 8,
+        "track_appearances": 26,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Sibinco Live Pa3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 9,
+        "track_appearances": 29,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "NOVI DRUM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 10,
+        "track_appearances": 35,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Dinamix.Set"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 11,
+        "track_appearances": 15,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Arabia 4X"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 12,
+        "track_appearances": 29,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "ALADJUZ"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 13,
+        "track_appearances": 84,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Juzni Vetar @MeL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 14,
+        "track_appearances": 21,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "LIVE! Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 15,
+        "track_appearances": 267,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy.set"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 16,
+        "track_appearances": 6,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 17,
+        "track_appearances": 32,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy.set"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 18,
+        "track_appearances": 31,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy.set3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 19,
+        "track_appearances": 35,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy.set2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 20,
+        "track_appearances": 21,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 21,
+        "track_appearances": 40,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy.set"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 22,
+        "track_appearances": 11,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy.set"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 23,
+        "track_appearances": 12,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "E DUR SOPRAN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 24,
+        "track_appearances": 2,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "A MOL SOPRAN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 25,
+        "track_appearances": 8,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "G MOL SOPRAN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 26,
+        "track_appearances": 22,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "D MOL SOPRAN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 27,
+        "track_appearances": 7,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 28,
+        "track_appearances": 252,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "HAMZA.Set 2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 29,
+        "track_appearances": 151,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 30,
+        "track_appearances": 14,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 31,
+        "track_appearances": 12,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 32,
+        "track_appearances": 46,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Aku*Fus2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 33,
+        "track_appearances": 39,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "ZIKI +%NEV>CAK"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 34,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Univers+ BARBANI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 35,
+        "track_appearances": 13,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 36,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 37,
+        "track_appearances": 89,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 38,
+        "track_appearances": 13,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 39,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "New DrumKit"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 40,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 41,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 43,
+        "track_appearances": 27,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "*DIJAMANT-JEZZ*"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 44,
+        "track_appearances": 6,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 45,
+        "track_appearances": 22,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 46,
+        "track_appearances": 13,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Sobe,Kit"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 47,
+        "track_appearances": 13,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 48,
+        "track_appearances": 24,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 49,
+        "track_appearances": 2,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 50,
+        "track_appearances": 2,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 51,
+        "track_appearances": 9,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 52,
+        "track_appearances": 23,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "*Muha+bong*"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 53,
+        "track_appearances": 5,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "*Muha*bn.2*"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 54,
+        "track_appearances": 28,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "*Muha*bong*"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 55,
+        "track_appearances": 9,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "HAMZA.Set R"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 56,
+        "track_appearances": 67,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 57,
+        "track_appearances": 61,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 58,
+        "track_appearances": 8,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 59,
+        "track_appearances": 44,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 60,
+        "track_appearances": 9,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy*DRUM Pa3X"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 61,
+        "track_appearances": 16,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Hammy*DRUM pa3X"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 62,
+        "track_appearances": 73,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "LoopDRUM 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 63,
+        "track_appearances": 35,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Z E Z"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 0,
+        "track_appearances": 86,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SUKI MOSS M3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 1,
+        "track_appearances": 133,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "loop ori2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 2,
+        "track_appearances": 67,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "loop ori1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 3,
+        "track_appearances": 23,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Strat Matija"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 4,
+        "track_appearances": 12,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TRUBIC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 5,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Hammy Trinity V3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 6,
+        "track_appearances": 91,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Virtual guitar"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 7,
+        "track_appearances": 38,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 8,
+        "track_appearances": 25,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Les Paul 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 9,
+        "track_appearances": 21,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "kanyn real"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 10,
+        "track_appearances": 77,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "KAVAL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 11,
+        "track_appearances": 39,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 12,
+        "track_appearances": 182,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Sax Alexov"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 13,
+        "track_appearances": 12,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SX MOJ"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 15,
+        "track_appearances": 33,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Sax Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 16,
+        "track_appearances": 27,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 17,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DALAPE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 18,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "PESKO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 19,
+        "track_appearances": 13,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Nylon Guitar DNC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 20,
+        "track_appearances": 19,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VIOLINA SRB"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 21,
+        "track_appearances": 43,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TALLAVA MOSS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 22,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DRAJF"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 23,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ZETA SH"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 24,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SAKSNASER"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 25,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SALEAS!miko"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 26,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VIOLA MIDE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 27,
+        "track_appearances": 15,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "JV Flauta"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 28,
+        "track_appearances": 12,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SAZ Turski"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 29,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "BAS V50"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 30,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SAX \"1984\""
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 31,
+        "track_appearances": 14,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "OUD Turski"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 32,
+        "track_appearances": 23,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Sasi !"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 33,
+        "track_appearances": 37,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "FUTA LEAD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 34,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Clarinet T3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 35,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "MATIJA LEAD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 36,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 37,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 38,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 39,
+        "track_appearances": 59,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "MIZHA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 40,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VAHDE1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 41,
+        "track_appearances": 8,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VAHDE2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 42,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "RUMBA1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 43,
+        "track_appearances": 19,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "R SA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 44,
+        "track_appearances": 7,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ORIJ4"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 45,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ORI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 46,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ORI2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 47,
+        "track_appearances": 15,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "BEGIN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 48,
+        "track_appearances": 8,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "BEGIN2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 49,
+        "track_appearances": 8,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "REGE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 50,
+        "track_appearances": 65,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "MECKA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 51,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "BEGIN IM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 52,
+        "track_appearances": 10,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "78"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 53,
+        "track_appearances": 10,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "782"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 54,
+        "track_appearances": 15,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "784"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 55,
+        "track_appearances": 13,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "981"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 56,
+        "track_appearances": 122,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "PickROLAND"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 57,
+        "track_appearances": 46,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ACA M3 SAX MOSS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 58,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DISKO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 59,
+        "track_appearances": 96,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "RUMBA 3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 60,
+        "track_appearances": 89,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SASA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 61,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "983"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 62,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "RUMBA 4"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 63,
+        "track_appearances": 12,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 64,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 65,
+        "track_appearances": 24,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TRITON XTRM PORT"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 66,
+        "track_appearances": 10,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DALL\"L\"K\"JV"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 67,
+        "track_appearances": 14,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Break-Turski-Ra"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 68,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SPIROS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 69,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "WOW"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 70,
+        "track_appearances": 13,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 71,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 72,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "EXTREME CIGULKA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 73,
+        "track_appearances": 8,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 74,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 75,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 76,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 77,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 78,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 79,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 80,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 81,
+        "track_appearances": 22,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 83,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 84,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 85,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 86,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 88,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 89,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 90,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 93,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 96,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Accordeon Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 97,
+        "track_appearances": 24,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Pikolo Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 98,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Violin Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 99,
+        "track_appearances": 26,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Basson Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 100,
+        "track_appearances": 14,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "KLARINETSALEA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 101,
+        "track_appearances": 16,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Clarinet Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 102,
+        "track_appearances": 44,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Sopran Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 103,
+        "track_appearances": 22,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Organ Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 104,
+        "track_appearances": 57,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Harmonium Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 105,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Musette Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 106,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Oboe Hammy"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 107,
+        "track_appearances": 12,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TRINYTI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 108,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TrinitiOro>AMZA<"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 110,
+        "track_appearances": 22,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "AMZA SAX"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 111,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "loop za hamzu"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 112,
+        "track_appearances": 8,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Strings OS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 113,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Oh-Ah Voices"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 114,
+        "track_appearances": 20,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "KABINA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 115,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "JV SLIDE BAS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 118,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Truba TERC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 119,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Strings TERC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 120,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Hammy Albanija"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 121,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SAX OS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 122,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Kabina OS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 123,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "Kabina TERC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 124,
+        "track_appearances": 32,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "MECHKA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 125,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "SAX TERC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 126,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DARBURKA I"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 127,
+        "track_appearances": 49,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "KOKE*LOOP!"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 0,
+        "track_appearances": 213,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Ricken bass"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 1,
+        "track_appearances": 44,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "CORTAN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 2,
+        "track_appearances": 134,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Hamy kontra"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 3,
+        "track_appearances": 18,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Hammy Turska 3gt"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 4,
+        "track_appearances": 202,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Hammy Bas"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 5,
+        "track_appearances": 68,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Hamy kontra V"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 6,
+        "track_appearances": 106,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Hammy Kontra"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 7,
+        "track_appearances": 150,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Ricken bass"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 8,
+        "track_appearances": 17,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Turski sthim ubi"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 9,
+        "track_appearances": 12,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Hammy Turska gi2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 10,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KONTRA CORTAN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 11,
+        "track_appearances": 12,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KONTRA XP 30"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 12,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KONTRA 11"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 13,
+        "track_appearances": 15,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KONTRA V50"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 14,
+        "track_appearances": 5,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "DX DEKI ZENA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 16,
+        "track_appearances": 6,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KONTRA JOCA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 17,
+        "track_appearances": 3,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "NEKAJ NOVEL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 18,
+        "track_appearances": 4,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KLAVIR V50"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 19,
+        "track_appearances": 20,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "BAKI KONTRA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 20,
+        "track_appearances": 23,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Dalibor BAS HIT"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 22,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "SH 2000 VIO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 24,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "PARAPONIARI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 26,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Krecar bas"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 29,
+        "track_appearances": 7,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 30,
+        "track_appearances": 19,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Dalibor BAS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 31,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 34,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 36,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 37,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "TRITON-NIKOLA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 38,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 39,
+        "track_appearances": 25,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 44,
+        "track_appearances": 16,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 45,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 46,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 47,
+        "track_appearances": 28,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 48,
+        "track_appearances": 19,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 49,
+        "track_appearances": 26,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 50,
+        "track_appearances": 6,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 52,
+        "track_appearances": 24,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 53,
+        "track_appearances": 8,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 54,
+        "track_appearances": 71,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 55,
+        "track_appearances": 22,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 56,
+        "track_appearances": 49,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 57,
+        "track_appearances": 66,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 58,
+        "track_appearances": 59,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 59,
+        "track_appearances": 15,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 61,
+        "track_appearances": 93,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 62,
+        "track_appearances": 3,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 63,
+        "track_appearances": 24,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 64,
+        "track_appearances": 36,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "HAMZA SUTKA ZURL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 67,
+        "track_appearances": 7,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AMZA SAX M3-2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 68,
+        "track_appearances": 20,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "HAMZA IMPRO NOIS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 69,
+        "track_appearances": 37,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Klarinet Turski"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 70,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Z1 Sax      @MeL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 71,
+        "track_appearances": 91,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AREL PHAZER"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 72,
+        "track_appearances": 7,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AMZA SAX M3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 73,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Violi KORG M3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 75,
+        "track_appearances": 5,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AMZA Specialno"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 77,
+        "track_appearances": 20,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "KLARINET D MOL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 80,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 82,
+        "track_appearances": 3,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "CIGULKAPORTAMENT"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 84,
+        "track_appearances": 16,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 87,
+        "track_appearances": 6,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 89,
+        "track_appearances": 38,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 92,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Nedim Moss sax"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 94,
+        "track_appearances": 3,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "VA7 cigulka"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 96,
+        "track_appearances": 12,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "PERKUSIA DOBRA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 100,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 102,
+        "track_appearances": 5,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Gajde Mica"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 103,
+        "track_appearances": 5,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 105,
+        "track_appearances": 23,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 107,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "TIFI VIOLIN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 108,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "VASVI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 110,
+        "track_appearances": 33,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AX}15OO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 112,
+        "track_appearances": 42,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "SHEVKET"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 113,
+        "track_appearances": 13,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "SHEFCET"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 115,
+        "track_appearances": 19,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Tifi & Amza 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 116,
+        "track_appearances": 15,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Amza Moss-Nikola"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 117,
+        "track_appearances": 10,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "TRITON KLARINETE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 118,
+        "track_appearances": 4,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "BUGAR>TREMOL"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 119,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AMZA SAX"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 120,
+        "track_appearances": 9,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "EXP Vlins&Celli"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 121,
+        "track_appearances": 5,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "CASIO CZ1O1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 122,
+        "track_appearances": 28,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "ALT-SAX"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 123,
+        "track_appearances": 60,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "AMZA SAX"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 124,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "TRINITY V3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 125,
+        "track_appearances": 29,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "FEETA    19"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 126,
+        "track_appearances": 12,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "TIFI EXTREM 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 127,
+        "track_appearances": 48,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "<:><:><:><:><:>"
+        ],
+        "candidate_state": "unique"
+      }
+    ],
+    "user_track_appearances": 7936,
+    "unmatched_user_track_appearances": 1503,
+    "pcg_catalogs": {
+      "USER01.PCG": {
+        "file": "Hammy.SET/SOUND/USER01.PCG",
+        "bank_ids": {
+          "04.09": 98
+        },
+        "slots": null,
+        "colliding_program_numbers": {},
+        "catalog_entries": 98
+      },
+      "USER02.PCG": {
+        "file": "Hammy.SET/SOUND/USER02.PCG",
+        "bank_ids": {
+          "04.0A": 75
+        },
+        "slots": null,
+        "colliding_program_numbers": {},
+        "catalog_entries": 75
+      },
+      "USERDK.PCG": {
+        "file": "Hammy.SET/SOUND/USERDK.PCG",
+        "bank_ids": {
+          "04.0B": 40
+        },
+        "slots": null,
+        "colliding_program_numbers": {},
+        "catalog_entries": 40
+      }
+    },
+    "style_errors": [],
+    "caution": "Tentative STY selector -> USER PCG filename/PC association. Does NOT prove program waveform/KMP/PCM closure, source-model or OS compatibility, nor BKP restore."
+  },
+  {
+    "label": "Pa1x BABAJA 2011 bosna.SET.rar",
+    "style_count": 96,
+    "style_element_count": 828,
+    "track_record_count": 6624,
+    "unique_selectors": 320,
+    "bank_usage": [
+      {
+        "msb": 121,
+        "lsb": 0,
+        "track_appearances": 1328
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "track_appearances": 1042
+      },
+      {
+        "msb": 120,
+        "lsb": 0,
+        "track_appearances": 814
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "track_appearances": 755
+      },
+      {
+        "msb": 121,
+        "lsb": 2,
+        "track_appearances": 637
+      },
+      {
+        "msb": 121,
+        "lsb": 1,
+        "track_appearances": 510
+      },
+      {
+        "msb": 121,
+        "lsb": 5,
+        "track_appearances": 304
+      },
+      {
+        "msb": 121,
+        "lsb": 4,
+        "track_appearances": 244
+      },
+      {
+        "msb": 121,
+        "lsb": 3,
+        "track_appearances": 144
+      },
+      {
+        "msb": 121,
+        "lsb": 7,
+        "track_appearances": 137
+      },
+      {
+        "msb": 121,
+        "lsb": 6,
+        "track_appearances": 128
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "track_appearances": 95
+      },
+      {
+        "msb": 121,
+        "lsb": 10,
+        "track_appearances": 94
+      },
+      {
+        "msb": 121,
+        "lsb": 8,
+        "track_appearances": 78
+      },
+      {
+        "msb": 0,
+        "lsb": 0,
+        "track_appearances": 40
+      },
+      {
+        "msb": 121,
+        "lsb": 13,
+        "track_appearances": 38
+      },
+      {
+        "msb": 121,
+        "lsb": 11,
+        "track_appearances": 38
+      },
+      {
+        "msb": 121,
+        "lsb": 12,
+        "track_appearances": 35
+      },
+      {
+        "msb": 121,
+        "lsb": 18,
+        "track_appearances": 24
+      },
+      {
+        "msb": 121,
+        "lsb": 15,
+        "track_appearances": 24
+      },
+      {
+        "msb": 121,
+        "lsb": 23,
+        "track_appearances": 20
+      },
+      {
+        "msb": 121,
+        "lsb": 20,
+        "track_appearances": 18
+      },
+      {
+        "msb": 121,
+        "lsb": 9,
+        "track_appearances": 14
+      },
+      {
+        "msb": 121,
+        "lsb": 25,
+        "track_appearances": 12
+      },
+      {
+        "msb": 121,
+        "lsb": 16,
+        "track_appearances": 12
+      },
+      {
+        "msb": 121,
+        "lsb": 17,
+        "track_appearances": 12
+      },
+      {
+        "msb": 121,
+        "lsb": 19,
+        "track_appearances": 11
+      },
+      {
+        "msb": 121,
+        "lsb": 68,
+        "track_appearances": 6
+      },
+      {
+        "msb": 121,
+        "lsb": 21,
+        "track_appearances": 3
+      },
+      {
+        "msb": 121,
+        "lsb": 28,
+        "track_appearances": 2
+      },
+      {
+        "msb": 121,
+        "lsb": 27,
+        "track_appearances": 1
+      },
+      {
+        "msb": 121,
+        "lsb": 32,
+        "track_appearances": 1
+      },
+      {
+        "msb": 121,
+        "lsb": 26,
+        "track_appearances": 1
+      },
+      {
+        "msb": 120,
+        "lsb": 68,
+        "track_appearances": 1
+      },
+      {
+        "msb": 121,
+        "lsb": 14,
+        "track_appearances": 1
+      }
+    ],
+    "user_selector_references": [
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 0,
+        "track_appearances": 176,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "J.V  KIT EDOO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 1,
+        "track_appearances": 145,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "TARABUKE J.v"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 2,
+        "track_appearances": 13,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Darbuka Menu"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 3,
+        "track_appearances": 20,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "EDO RALE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 4,
+        "track_appearances": 18,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Rale"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 5,
+        "track_appearances": 26,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "NOVI EDO ESTAM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 6,
+        "track_appearances": 23,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "ADO DRUMSRS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 7,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "NOVI CEDO DRM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 8,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "PERICA NOGA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 9,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "JUZNI VETAR"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 12,
+        "track_appearances": 2,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "TARAB,loop neki"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 16,
+        "track_appearances": 43,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "SEKIB KANTE F#"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 17,
+        "track_appearances": 32,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "ALJO KIT"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 18,
+        "track_appearances": 12,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "OSA drum 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 22,
+        "track_appearances": 3,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "SAMPANJAC"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 23,
+        "track_appearances": 9,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "House Kit 2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 28,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "DISKO PERICA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 30,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "RUMBA DARBUKA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 38,
+        "track_appearances": 67,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Ketron drums RUM"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 39,
+        "track_appearances": 21,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Juzni Vetar"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 41,
+        "track_appearances": 7,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "DISKO LUPOVI 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 43,
+        "track_appearances": 12,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "TU TUKOMPLET"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 44,
+        "track_appearances": 12,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "J.V  KIT EDOO3"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 45,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "SURLA:SAMP"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 46,
+        "track_appearances": 6,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "SAMPLER?"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 52,
+        "track_appearances": 3,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "StandardKANTE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 56,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "DARE+CACI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 57,
+        "track_appearances": 30,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "ADO DRUMS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 60,
+        "track_appearances": 22,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "NOVI EDOOOO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 62,
+        "track_appearances": 31,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "J.V  KIT EDOO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 63,
+        "track_appearances": 3,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [
+          "Arabian Kit SAMP"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 0,
+        "track_appearances": 142,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "PICK BASS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 1,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ZIZY.git. DR<EDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 2,
+        "track_appearances": 14,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TAMBURE"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 3,
+        "track_appearances": 27,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DULE GIT"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 4,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "TRUBA EDO PRATNJ"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 6,
+        "track_appearances": 30,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "PICK BASS 2"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 7,
+        "track_appearances": 110,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "KONTRA NEW E>G"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 9,
+        "track_appearances": 35,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "bergin tarabuk"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 10,
+        "track_appearances": 45,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "begin var.kultu"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 11,
+        "track_appearances": 120,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "GRAND EDO BASS"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 12,
+        "track_appearances": 128,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "begin fill 1 SU"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 15,
+        "track_appearances": 85,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "PRATNJA STRING"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 17,
+        "track_appearances": 13,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "BONGOSI NOVI"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 21,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "saban begin OK"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 23,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "PL CIGANSTURA"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 28,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "fill 2 beat -,."
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 29,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "beat var 4 SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 30,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "beat var 3 comp"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 31,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "beat var 1 SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 32,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 1 ponovo -"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 33,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 2 rumba nog"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 34,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 3 rumba SUD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 35,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 4 jo j jj j"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 36,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "fill 1,.,SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 37,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "fil 2 uredu sud"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 38,
+        "track_appearances": 10,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "CIGANNNN"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 39,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 1 BEGIN SUD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 40,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "sa sa  fill 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 41,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "sa sa var 3 tar"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 42,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "sa sa var CKCK"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 43,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "sa sa var 1 SUD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 44,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "fil 2 ok SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 45,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VAR 3 DISKO."
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 46,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VAR 2 DISKO. ok"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 47,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "VAR 1 DISKO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 49,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "rock fill1 SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 50,
+        "track_appearances": 22,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "rock open fus S"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 51,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "rock var1,.,SUD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 54,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "HAMZA  SVAD"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 55,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "HAMZA  LEGATO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 57,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 58,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "prelaz 7 8.SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 59,
+        "track_appearances": 5,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 3 7.8 sudo"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 60,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "7.8 ok var 2,.,"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 61,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "7.8 ok VAR 1"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 62,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "alija bongosi"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 63,
+        "track_appearances": 13,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "MODERNA LUP"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 72,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 4 tah tarab"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 73,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 2 TAH SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 74,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "ponovo var 1 ta"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 75,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "fill 1.TAH Sudo"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 78,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "bongosi virtual"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 81,
+        "track_appearances": 9,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "fill 2 ludorija"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 82,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "prelaz balada S"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 90,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "prelaz 9....8"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 96,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 2 balada S"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 97,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 1 balada S"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 99,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 4 SUDO rumb"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 104,
+        "track_appearances": 45,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 3 TAH.K"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 112,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "9.8  fill -SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 114,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 9.8 tarabSU"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 115,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 2 9.8 virbl"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 116,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "var 1 9.8..sudo"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 117,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "DXX BLOCK"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 118,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "JV-Funk Gt."
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 122,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "JV-Nylon+Steel"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 123,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "JV-Bass Slide"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 124,
+        "track_appearances": 66,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "JV-Picked Bass"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 126,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "prelaz 6.8 SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 127,
+        "track_appearances": 4,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [
+          "6.8  var 1 SUDO"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 0,
+        "track_appearances": 4,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "FERUS CLARINET"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 3,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "SAWWW"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 13,
+        "track_appearances": 6,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "E-6"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 53,
+        "track_appearances": 11,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Jazz Guitar"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 55,
+        "track_appearances": 14,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Harmonica"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 56,
+        "track_appearances": 19,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "Steam Sweeps"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 57,
+        "track_appearances": 12,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [
+          "EuphoricTrancer"
+        ],
+        "candidate_state": "unique"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 66,
+        "track_appearances": 15,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 91,
+        "track_appearances": 12,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      }
+    ],
+    "user_track_appearances": 1892,
+    "unmatched_user_track_appearances": 28,
+    "pcg_catalogs": {
+      "USERDK.PCG": {
+        "file": "Pa1x BABAJA 2011 bosna.SET/SOUND/USERDK.PCG",
+        "bank_ids": {
+          "04.0B": 64
+        },
+        "slots": null,
+        "colliding_program_numbers": {},
+        "catalog_entries": 64
+      },
+      "USER02.PCG": {
+        "file": "Pa1x BABAJA 2011 bosna.SET/SOUND/USER02.PCG",
+        "bank_ids": {
+          "04.0A": 101
+        },
+        "slots": null,
+        "colliding_program_numbers": {},
+        "catalog_entries": 101
+      },
+      "USER01.PCG": {
+        "file": "Pa1x BABAJA 2011 bosna.SET/SOUND/USER01.PCG",
+        "bank_ids": {
+          "04.09": 122
+        },
+        "slots": null,
+        "colliding_program_numbers": {},
+        "catalog_entries": 122
+      }
+    },
+    "style_errors": [],
+    "caution": "Tentative STY selector -> USER PCG filename/PC association. Does NOT prove program waveform/KMP/PCM closure, source-model or OS compatibility, nor BKP restore."
+  },
+  {
+    "label": "USER01.STY standalone",
+    "style_count": 40,
+    "style_element_count": 600,
+    "track_record_count": 4800,
+    "unique_selectors": 119,
+    "bank_usage": [
+      {
+        "msb": 121,
+        "lsb": 64,
+        "track_appearances": 1464
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "track_appearances": 943
+      },
+      {
+        "msb": 121,
+        "lsb": 5,
+        "track_appearances": 468
+      },
+      {
+        "msb": 121,
+        "lsb": 3,
+        "track_appearances": 342
+      },
+      {
+        "msb": 120,
+        "lsb": 0,
+        "track_appearances": 334
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "track_appearances": 263
+      },
+      {
+        "msb": 121,
+        "lsb": 9,
+        "track_appearances": 208
+      },
+      {
+        "msb": 121,
+        "lsb": 16,
+        "track_appearances": 151
+      },
+      {
+        "msb": 121,
+        "lsb": 21,
+        "track_appearances": 149
+      },
+      {
+        "msb": 121,
+        "lsb": 27,
+        "track_appearances": 144
+      },
+      {
+        "msb": 121,
+        "lsb": 69,
+        "track_appearances": 60
+      },
+      {
+        "msb": 121,
+        "lsb": 24,
+        "track_appearances": 52
+      },
+      {
+        "msb": 121,
+        "lsb": 67,
+        "track_appearances": 45
+      },
+      {
+        "msb": 121,
+        "lsb": 6,
+        "track_appearances": 37
+      },
+      {
+        "msb": 121,
+        "lsb": 66,
+        "track_appearances": 24
+      },
+      {
+        "msb": 120,
+        "lsb": 66,
+        "track_appearances": 20
+      },
+      {
+        "msb": 121,
+        "lsb": 2,
+        "track_appearances": 16
+      },
+      {
+        "msb": 121,
+        "lsb": 20,
+        "track_appearances": 12
+      },
+      {
+        "msb": 121,
+        "lsb": 18,
+        "track_appearances": 11
+      },
+      {
+        "msb": 121,
+        "lsb": 23,
+        "track_appearances": 10
+      },
+      {
+        "msb": 121,
+        "lsb": 8,
+        "track_appearances": 10
+      },
+      {
+        "msb": 121,
+        "lsb": 0,
+        "track_appearances": 9
+      },
+      {
+        "msb": 121,
+        "lsb": 29,
+        "track_appearances": 7
+      },
+      {
+        "msb": 121,
+        "lsb": 1,
+        "track_appearances": 6
+      },
+      {
+        "msb": 121,
+        "lsb": 10,
+        "track_appearances": 4
+      },
+      {
+        "msb": 121,
+        "lsb": 14,
+        "track_appearances": 3
+      },
+      {
+        "msb": 121,
+        "lsb": 31,
+        "track_appearances": 2
+      },
+      {
+        "msb": 121,
+        "lsb": 7,
+        "track_appearances": 2
+      },
+      {
+        "msb": 121,
+        "lsb": 4,
+        "track_appearances": 2
+      },
+      {
+        "msb": 121,
+        "lsb": 13,
+        "track_appearances": 1
+      },
+      {
+        "msb": 121,
+        "lsb": 11,
+        "track_appearances": 1
+      }
+    ],
+    "user_selector_references": [
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 4,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 11,
+        "track_appearances": 1,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 13,
+        "track_appearances": 321,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 15,
+        "track_appearances": 2,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 34,
+        "track_appearances": 3,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 35,
+        "track_appearances": 57,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 36,
+        "track_appearances": 48,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 48,
+        "track_appearances": 4,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 61,
+        "track_appearances": 6,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 119,
+        "track_appearances": 58,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 121,
+        "track_appearances": 6,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 123,
+        "track_appearances": 425,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 125,
+        "track_appearances": 9,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 120,
+        "lsb": 64,
+        "pc": 127,
+        "track_appearances": 2,
+        "pcg_file": "USERDK.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 2,
+        "track_appearances": 7,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 5,
+        "track_appearances": 448,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 9,
+        "track_appearances": 3,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 11,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 12,
+        "track_appearances": 10,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 15,
+        "track_appearances": 6,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 18,
+        "track_appearances": 7,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 19,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 21,
+        "track_appearances": 315,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 23,
+        "track_appearances": 151,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 26,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 27,
+        "track_appearances": 101,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 33,
+        "track_appearances": 79,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 35,
+        "track_appearances": 1,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 36,
+        "track_appearances": 30,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 38,
+        "track_appearances": 258,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 52,
+        "track_appearances": 11,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 54,
+        "track_appearances": 8,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 108,
+        "track_appearances": 2,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 64,
+        "pc": 127,
+        "track_appearances": 23,
+        "pcg_file": "USER01.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 3,
+        "track_appearances": 3,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 25,
+        "track_appearances": 1,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 32,
+        "track_appearances": 9,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 43,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 59,
+        "track_appearances": 20,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 64,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 68,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 69,
+        "track_appearances": 201,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 104,
+        "track_appearances": 2,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 119,
+        "track_appearances": 4,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      },
+      {
+        "msb": 121,
+        "lsb": 65,
+        "pc": 121,
+        "track_appearances": 17,
+        "pcg_file": "USER02.PCG",
+        "pcg_record_names": [],
+        "candidate_state": "not_in_available_pcg"
+      }
+    ],
+    "user_track_appearances": 2670,
+    "unmatched_user_track_appearances": 2670,
+    "pcg_catalogs": {},
+    "style_errors": [],
+    "caution": "Tentative STY selector -> USER PCG filename/PC association. Does NOT prove program waveform/KMP/PCM closure, source-model or OS compatibility, nor BKP restore."
+  }
+]

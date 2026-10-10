@@ -1,0 +1,47 @@
+KorgPaManager 1.1.1 COMPLETE OFFLINE
+====================================
+
+WINDOWS 64-BIT (8.1 / 10 / 11)
+
+1. Raspakuj CIJELI ZIP u obican folder, npr. Desktop\KorgPaManager.
+   Nemoj pokretati program direktno iz otvorenog ZIP prozora.
+
+2. Dvoklik na:
+
+       KorgPaManager.bat
+
+3. Pri prvom pokretanju paket ce sam pripremiti privatni Python + Tkinter
+   runtime u folderu runtime\python. Internet i administratorska prava nisu
+   potrebni. Sljedeca pokretanja su direktna.
+
+4. Ako zelis odmah provjeriti ekran i funkcije na malom sigurnom MIDI fajlu,
+   dvoklik na:
+
+       OPEN_DEMO.bat
+
+Program prije svakog pokretanja radi kratku internu provjeru: Tkinter, Mido,
+stvarni MIDI edit, validated Save As i ocuvanje izvornog SHA-256 hasha.
+Rezultat je u logs\last-self-test.json. Log instalacije je u
+logs\python-install.log. Za vidljivu provjeru bez otvaranja editora pokreni
+CHECK_KorgPaManager.bat.
+
+VAZNO
+
+- Open MIDI otvara .mid/.midi fajl.
+- Sve izmjene ostaju u memoriji dok ne izaberes Save edited copy as...
+- Program odbija snimanje preko otvorenog originala.
+- Program uredjuje Standard MIDI File, a ne native Korg STY/PCG/SET format.
+
+LINUX / macOS
+
+Potreban je sistemski Python 3.10+ sa Tkinterom. Pokreni:
+
+    ./run.sh
+
+Mido 1.3.3 je vec u ovom paketu i ne instalira se sa interneta.
+
+IZVORNI KOD I LICENCA
+
+Sav aplikacijski source je ukljucen. KorgPaManager je pod MIT licencom u
+LICENSE. Licence i porijeklo ukljucenih Mido/CPython komponenti nalaze se u
+third_party folderu.

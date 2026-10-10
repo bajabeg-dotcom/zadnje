@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "description": "Kanonicalni KORG PA modeli: redoslijed, RAM, import kod (OpenSound SUB), posebnosti.",
+    "status_legend": {
+      "VERIFIED": "izmjerljivo i reproducibilno (offset/duzina/ponasanje u fajlu)",
+      "HIGH": "dokaz postoji, iskljucivost ne",
+      "UNKNOWN": "nema uzorka/dokaza"
+    },
+    "sources": [
+      "uploads/KORG_PA_MODEL_LOGIC.md §1 (kanonski redoslijed, Tabela A/B)",
+      "uploads/PA_MODEL_REQUIREMENTS.md §2.1 (RAM tabela 0x0024DFDC-0x0024E1B4)",
+      "uploads/PA_MODEL_REQUIREMENTS.md §2.2 (OpenSound SUB offseti)"
+    ]
+  },
+  "canonical_order": {
+    "status": "VERIFIED",
+    "evidence": "KORG_PA_MODEL_LOGIC.md §1: dvije strukturno razlicite tabele (A @616 B korak, B @128 B korak) navode istih 10 modela identicnim redoslijedom; A == B -> True",
+    "note": "Numericke vrijednosti enuma (PA80=0 ... Pa5X=9) su HIGH, ne VERIFIED: niz 'Public Enum' ne postoji u fajlu, a barem jedan clan ima eksplicitnu vrijednost ('reen = 3' @0x00045768)",
+    "models": [
+      { "ordinal": 0, "name": "PA80",   "table_a": "0x0020E905", "table_b": "0x00045970", "case": "ALL-CAPS" },
+      { "ordinal": 1, "name": "PA1X",   "table_a": "0x0020EB6D", "table_b": "0x000458F0", "case": "ALL-CAPS" },
+      { "ordinal": 2, "name": "PA2X",   "table_a": "0x0020EDD5", "table_b": "0x00045870", "case": "ALL-CAPS" },
+      { "ordinal": 3, "name": "Pa3X",   "table_a": "0x0020F03D", "table_b": "0x000457F0", "case": "MixedCase" },
+      { "ordinal": 4, "name": "PA500",  "table_a": "0x0020F2A5", "table_b": "0x00045770", "case": "ALL-CAPS" },
+      { "ordinal": 5, "name": "Pa600",  "table_a": "0x0020F50D", "table_b": "0x000456F0", "case": "MixedCase" },
+      { "ordinal": 6, "name": "Pa900",  "table_a": "0x0020F775", "table_b": "0x00045670", "case": "MixedCase" },
+      { "ordinal": 7, "name": "Pa4X",   "table_a": "0x00211105", "table_b": "0x00045320", "case": "MixedCase" },
+      { "ordinal": 8, "name": "PA1000", "table_a": "0x002114B5", "table_b": "0x00045230", "case": "ALL-CAPS" },
+      { "ordinal": 9, "name": "Pa5X",   "table_a": "0x002137AD", "table_b": "0x00044C28", "case": "MixedCase" }
+    ],
+    "structural_finding": {
+      "status": "VERIFIED",
+      "evidence": "Koraci izmedju susjednih zapisa: Tabela A = 616 x6 | 6544 944 8952 ; Tabela B delta = 0x80 x6 | 0x3D0 0xF0 0x608",
+      "conclusion": "Prvih 7 modela je u neprekinutom bloku konstantnog koraka u obje tabele; Pa4X, PA1000 i Pa5X su na nepravilnim razmacima -> originalna enumeracija je imala 7 modela, ova 3 su dodana naknadno"
+    }
+  },
+  "ram": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §2.1, cijela tabela na offsetima 0x0024DFDC-0x0024E1B4",
+    "unit": "MB",
+    "entries": [
+      { "size_mb": 8,   "models": ["PA80"] },
+      { "size_mb": 16,  "models": ["PA80"] },
+      { "size_mb": 32,  "models": ["PA1X", "PA300"] },
+      { "size_mb": 64,  "models": ["PA800"] },
+      { "size_mb": 96,  "models": ["PA600"] },
+      { "size_mb": 128, "models": ["PA2X", "Pa3X", "PA700"] },
+      { "size_mb": 192, "models": ["PA900"] },
+      { "size_mb": 256, "models": [], "note": "prazan unos u tabeli -> UNKNOWN kome pripada" },
+      { "size_mb": 400, "models": ["Pa4X"] },
+      { "size_mb": 480, "models": ["PA1000"] },
+      { "size_mb": 1536, "models": ["Pa4X"], "variant": "OS Next", "evidence_offset": "0x0024E180" },
+      { "size_mb": 4096, "models": ["Pa5X"], "evidence_offset": "0x0024E1B4" }
+    ]
+  },
+  "import_layer": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §2.2 / PA_MANAGER_RULES.md §0.5 — devet PAxx OpenSound SUB potprograma",
+    "entries": [
+      { "models": ["PA80"],           "sub": "0x002DE3EC", "shared": false, "note": "najstariji sloj; 'PA80 Sample ' @0x002CDD94" },
+      { "models": ["PA1X"],           "sub": "0x002DE468", "shared": false, "note": "PA1X / PA1X Pro / PA1X Pro Elite @0x00242C54" },
+      { "models": ["PA2X"],           "sub": "0x002DE4F0", "shared": false },
+      { "models": ["Pa3X"],           "sub": "0x002DE650", "shared": false, "note": "vlastita provjera verzije stila @0x00255DF8" },
+      { "models": ["PA500", "PA588"], "sub": "0x002DE680", "shared": true },
+      { "models": ["PA300", "PA600"], "sub": "0x002DE754", "shared": true, "note": "modelska zastavica isPA300 @0x00256DFC" },
+      { "models": ["PA900"],          "sub": "0x002DE7D8", "shared": false },
+      { "models": ["Pa4X"],           "sub": "0x002E07A8", "shared": false, "note": "4XSTYSequenceConvert @0x00255048; MG zakljucan @0x002CD87C" },
+      { "models": ["PA700", "PA1000"],"sub": "0x002E08FC", "shared": true },
+      { "models": ["Pa5X"],           "sub": null,         "shared": false, "note": "ODBIJEN za SOUND import: 'PA5X Sounds have been detected and will not be loaded.' @0x002DD968" }
+    ],
+    "key_finding": {
+      "status": "VERIFIED",
+      "conclusion": "PA800 i PA588 nemaju vlastiti OpenSound SUB iako imaju RAM unos / pojavljuju se u grupiranjima -> tretiraju se kao varijante, ne samostalni formati"
+    }
+  },
+  "variants": [
+    {
+      "name": "PA588",
+      "evidence_offset": "0x00242B44, 0x002DE68C",
+      "status": "HIGH",
+      "meaning": "Manager varijanta koja dijeli SOUND handler klasu KORG_PA_MANAGER.PA_OS_SOUND_PA500 sa PA500",
+      "evidence": "Drive pcg-conversion-followup.json: factory branch 0x26a8590, flag 0x2f07382; modeli PA500 / PA588",
+      "note": "Dijeljenje klase ne dokazuje identicne bajtove ili potpunu kompatibilnost."
+    },
+    {
+      "name": "PA3X Le",
+      "evidence_offset": "0x00242B44",
+      "status": "HIGH",
+      "meaning": "Manager varijanta koja dijeli SOUND handler klasu KORG_PA_MANAGER.PA_OS_SOUND_PA3X sa PA3X",
+      "evidence": "Drive pcg-conversion-followup.json: factory branch 0x26a824a, flag 0x2f0737a; modeli PA3X / PA3X Le",
+      "note": "Dijeljenje klase ne dokazuje identicne bajtove ili potpunu kompatibilnost."
+    },
+    { "name": "PA1X Pro",  "evidence_offset": "0x00242C54",            "status": "VERIFIED" },
+    { "name": "PA1X Pro Elite", "evidence_offset": "0x00242C54",       "status": "VERIFIED" },
+    { "name": "PA4X OS Next", "evidence_offset": "0x0024E180",         "status": "VERIFIED" }
+  ],
+  "osc_limit": {
+    "status": "UNKNOWN",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §2.3 — cetiri niza postoje ali mapiranje na modele NIJE dokazivo iz ovog fajla",
+    "candidates": [
+      { "value": 4,  "string_offset": "0x0024F354", "text": "4 OSC Limit" },
+      { "value": 5,  "string_offset": "0x0024F370", "text": "5 OSC Limit" },
+      { "value": 16, "string_offset": "0x0024F38C", "text": "16 OSC Limit" },
+      { "value": 24, "string_offset": "0x0024F3AC", "text": "24 OSC Limit" }
+    ],
+    "disproof": "Iza svakog niza stoji duzina SLJEDECEG niza, ne identifikator modela; u rasponu 0x0024F200-0x0024F500 nema nijednog imena modela",
+    "would_resolve": "po jedan .PCG s PA80 i s PA5X",
+    "rule": "alat UVIJEK vraca UNKNOWN za check_osc_limit; ne pogadja"
+  },
+  "hierarchy": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §2.4",
+    "families": [
+      { "offset": "0x0024BCD8", "text": "PA900 - 600 - 300", "members": ["PA900", "PA600", "PA300"] },
+      { "offset": "0x0024BD00", "text": "PA2X - 800 - 500",  "members": ["PA2X", "PA800", "PA500"] },
+      { "offset": "0x0024BD28", "text": "PA1X - PA80",       "members": ["PA1X", "PA80"], "note": "temelj" }
+    ]
+  }
+}

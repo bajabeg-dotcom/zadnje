@@ -1,0 +1,39 @@
+STA JE NOVO -- KorgAnalyzer v2.4.0 / PA800 MIDI Optimizer 1.1.0
+=============================================================
+
+1) KEY RANGE JE SADA PRAVILO PO TIPU INSTRUMENTA
+   - 23 tipa imaju svoj opseg (klavir A0-C8, bas E1-G4, gitara E2-E6, ...)
+   - bubnjevi, sintisajzer, FX i nepoznato NE tvrde opseg (nema laznih konflikata)
+   - redoslijed: tvoje pravilo > izmjereni profil zvuka > pravilo po tipu
+   - provjeri:   python -m pa800_midi key-range
+   - promijeni:  python -m pa800_midi optimize "pjesma.mid" --key-range "guitar=D2-E6"
+                 python -m pa800_midi optimize "pjesma.mid" --key-range-file moja.json
+                 python -m pa800_midi optimize "pjesma.mid" --key-range-strict
+   - Key Range ostaje HARD LIMIT: program prijavi KEY_RANGE_CONFLICT i NE dira notu
+
+2) TVOJ GOLD KORPUS JE IZMJEREN (830 pjesama)
+   - izvor: AUTO_SELECTED_GOLD.zip sa tvog Drive-a (C:\Users\Baja\Desktop\Midi Bazaa)
+   - 817 .mid + 13 .kar, 0 neuspjelih, ~15 miliona nota
+   - mjeri po roli: velocity (medijan, 10-90%), gate, gustoca
+   - mjeri po tipu instrumenta: sta tvoje pjesme STVARNO sviraju
+   - iz toga se pravilo opsega siri samo gdje je dokaz jasan:
+     pokrivenost 98% nota + barem 3 pjesme -> npr. bas E1-G4 postaje D1-B4
+   - sve sto je prosireno pise u izvjestaju i vidi se u "key-range" (*)
+
+3) CIJELI KORPUS U ZIPU
+   - PA800_GOLD_CORPUS_830.zip  (830 fajla + GOLD_INDEX.json + README)
+   - PA800_GOLD_CORPUS_830.zip.sha256
+   - originali se nikad ne mijenjaju; zip je za arhivu i za drugu masinu
+
+4) NOVO U KOMANDAMA
+   - key-range            -- tabela opsega + GOLD dokaz
+   - index gold --limit N -- 0 ili bez --limit = svi fajlovi
+   - --key-range / --key-range-file / --key-range-strict  (analyze, plan,
+     optimize, batch)
+   - POKRENI_PA800_MIDI.bat: stavka 8 = pravila opsega, a u optimizaciji te
+     pita i za tvoje Key Range pravilo
+
+STO NIJE DIRANO (i nikad nece)
+   - note-on tick i pitch su sveti: nema quantize/humanize/swing/snap/transpose
+   - original se ne prepisuje; izlaz ide u workspace/ sa SHA-256 i izvjestajem
+   - nema izmisljanja dokaza: bolje UNKNOWN nego pogresan Pa800 zvuk

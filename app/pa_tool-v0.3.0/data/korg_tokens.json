@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "description": "KORG kontejner tokeni i magic brojevi — osnova za container.py.",
+    "sources": [
+      "RE_RUN_2026-10-06.md (SET uzorak, 42 resursna fajla)",
+      "RE_ZATVARANJE_2026-10-06.md §12 (E12 Korg Pa Manager _dyn_dump.bin)",
+      "RE_ZATVARANJE_2026-10-06.md §13 (E13 Pa5X paket)",
+      "2.exe_pa_analysis/IZVESTRPOPRAVKA (7 kontejnera u Pa Manageru, 6x delta=0)"
+    ]
+  },
+  "container_magic": {
+    "value_hex": "01 00 01 14",
+    "status": "VERIFIED",
+    "evidence": "Potvrdjeno na 42 resursna fajla u samples/NEWNAME_SET, na 7 kontejnera unutar Korg Pa Managera (2.exe) i na USER01.PCG (288 B)",
+    "layout": [
+      { "offset": "0..3", "field": "magic", "value": "01 00 01 14" },
+      { "offset": "+4", "field": "payload_length", "type": "u32 big-endian", "expected": "file_size - 8", "status": "VERIFIED na 6/7 kontejnera iz Pa Managera (delta=0)" },
+      { "offset": "+8", "field": "verzija/flagovi", "note": "02 00 00 18 00 00 00 0C 0B 00 00 ... — neprotumaceno" },
+      { "offset": "+23", "field": "resource header", "value": "KORF" }
+    ],
+    "known_exceptions": [
+      { "resource": "FAC_ROM_KMP", "size": 421364, "declared": 421355, "delta": -1, "status": "NEPOTVRDENO", "note": "delta != 0; rep iza KEND (5 B)" },
+      { "resource": "FAC_ROM_PCG", "size": 684380, "declared": 684370, "delta": -2, "status": "NEPOTVRDENO", "note": "delta != 0; rep iza KEND (6 B)" }
+    ]
+  },
+  "resource_tokens": [
+    { "token": "KORF", "status": "VERIFIED", "role": "pocetak resource headera", "first_at": "+23", "evidence": "42/42 u NEWNAME_SET, 7x u Pa Manager dumpu" },
+    { "token": "KBEG", "status": "VERIFIED", "role": "indeks/pocetak resource lanca", "evidence": "NEWNAME_SET + E12" },
+    { "token": "KEND", "status": "VERIFIED", "role": "terminator resource lanca; ocekivan blizu len-8", "evidence": "NEWNAME_SET: KEND @ len-8; Pa Manager kontejneri: isto" }
+  ],
+  "compression_magics": [
+    { "token": "OC20", "status": "VERIFIED da postoji", "role": "kompresovani payload", "note": "kandidat, nepotvrdjen format" },
+    { "token": "OC31", "status": "VERIFIED da postoji", "role": "kompresovani payload", "evidence": "SETUP.GBL, RAM.KMP, USER01.PCG, USERDK.PCG; NEW_* kontejneri 4-6x" },
+    { "token": "OC32", "status": "VERIFIED da postoji", "role": "kompresovani payload", "evidence": "FAC_ROM_PCG: 1323x; FILE0003.BKP 0x7e6ca" }
+  ],
+  "set_structure": {
+    "status": "VERIFIED",
+    "evidence": "RE_RUN §Dodatni uzorak + PA_MODEL_REQUIREMENTS.md §1.2",
+    "finding": ".SET je FOLDER, ne jedan binarni fajl",
+    "sample_categories": ["GLOBAL", "MULTISMP", "PCM", "SOUND"],
+    "sample_resource_count": 42,
+    "evidence_path": "samples/NEWNAME_SET_inventory.json"
+  },
+  "kst_identity": {
+    "status": "VERIFIED",
+    "evidence": "RE_ZATVARANJE §13 + lokalni nalaz E:/Pa5X_UNPACKED omega_sys/FactoryBackup/User.KST",
+    "finding": ".KST je FOLDER sa kontejnerima i .stg/.pdc/.ksc/.MTP fajlovima; isti genericki KORG kontejner 01 00 01 14",
+    "real_structure": {
+      "path": "omega_sys/FactoryBackup/User.KST",
+      "top_level": ["MATRIXPRESET", "MAXXAUDIOPRESET", "MIDIPRESET", "QTPRESET", "SETTINGS", "SONGBOOK"],
+      "file_types": [".MTP", ".MXP", ".MPR", ".QTP", ".ksc", ".GBL", ".SBD", ".SBL"]
+    },
+    "pa5x_factory": {
+      "stg_count": 770,
+      "evidence": "E:/Pa5X_UNPACKED/omega_sys/omega_sys/STARTUP/ALL/STYLE/FACTORY/**/*.STG"
+    }
+  },
+  "metadir_schema": {
+    "status": "VERIFIED — NOVO, zatvoreno lokalnim dokazom 2026-10-06",
+    "previous_status": "UNKNOWN (PA_MODEL_REQUIREMENTS.md §4: 'shema metadir.json — potreban jedan .SET folder')",
+    "evidence": "50 metadir.json fajlova u E:/Pa5X_UNPACKED/omega_sys/omega_sys/STARTUP/ALL/** , velicine 143-7602 B",
+    "schema": {
+      "subdirs": "lista podfoldera: [{dir, id?}] — koristi se za grupne kategorije (FACTORY/LOCAL/USER)",
+      "files": "lista fajlova: [{file, icon?}] — koristi se za listu unutar kategorije",
+      "defaultFileIcon": "opciono: string, ime ikone koja se koristi kad zapis nema svoj 'icon'"
+    },
+    "examples": [
+      {
+        "path": "STARTUP/ALL/STYLE/metadir.json",
+        "size": 143,
+        "content": { "subdirs": [ { "dir": "FACTORY", "id": "Fty" }, { "dir": "LOCAL", "id": "Loc" }, { "dir": "USER", "id": "Usr" } ] }
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/FACTORY/metadir.json",
+        "size": 354,
+        "content_note": "samo 'subdirs' sa 13 zanrova: Pop, Classic Pop, Ballad, Dance, Ballroom, Rock, Country, Latin, Latin Dance, Jazz, Funk & Blues, Movie & Show, World"
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/FACTORY/Ballad/metadir.json",
+        "size": 3753,
+        "content_note": "defaultFileIcon + files[] sa 70 zapisa; primjer { 'file':'Twilight Ballad.stg', 'icon':'sknIcoStyle_Ballad3' }"
+      },
+      {
+        "path": "STARTUP/ALL/PAD/FACTORY/Acoustic Guitar/metadir.json",
+        "size": 2320,
+        "content_note": "defaultFileIcon='sknExtPAD_L' + files[] sa 54 .pdc zapisa"
+      },
+      {
+        "path": "STARTUP/ALL/KEYBOARDSET/FACTORY/Piano/metadir.json",
+        "size": 3605,
+        "content_note": "defaultFileIcon='sknIcoSND_Piano1' + files[] sa 56 .ksc zapisa; ikone kao sknIcoSND_*"
+      },
+      {
+        "path": "STARTUP/ALL/CHORDSEQUENCE/FACTORY/Jazz/metadir.json",
+        "size": 1967,
+        "content_note": "files[] sa 52 .csc zapisa (Jazz standards); BEZ defaultFileIcon"
+      }
+    ],
+    "categories_with_metadir": ["STYLE", "PAD", "KEYBOARDSET", "CHORDSEQUENCE"],
+    "categories_without_metadir": ["SETTINGS", "PCMIMAGE", "SYSTEM", "MATRIXPRESET", "AUDIOPLUGINHOST", "DEMOSONG", "LANG"],
+    "file_extensions_by_category": {
+      "STYLE": [".stg"],
+      "PAD": [".pdc"],
+      "KEYBOARDSET": [".ksc"],
+      "CHORDSEQUENCE": [".csc"],
+      "SETTINGS": [".ksc", ".GBL"],
+      "SONGBOOK": [".SBD", ".SBL"]
+    },
+    "icon_naming_convention": {
+      "status": "VERIFIED da postoji",
+      "patterns": ["sknIcoStyle_*", "sknIcoSND_*", "sknExtPAD_*"],
+      "note": "ime ikone je referenca na skin resurs; znacenje pojedinacne ikone nije potvrdjeno"
+    },
+    "percent_encoding": {
+      "status": "VERIFIED",
+      "finding": "U imenima fajlova '/' je zapisan kao '%2F'",
+      "examples": ["6%2F8 Ballad.stg -> 6/8 Ballad.stg", "3%2F4 Jazz Ballad.stg", "Perfect Ballad 4%2F4.stg"],
+      "rule": "parser mora dekodirati %2F pri prikazu, a enkodirati pri upisu"
+    }
+  },
+  "pcm_image": {
+    "path": "STARTUP/ALL/PCMIMAGE",
+    "files": ["Banks.cfg"],
+    "size": 421,
+    "status": "VERIFIED da postoji / format UNKNOWN"
+  },
+  "system_globals": {
+    "path": "STARTUP/ALL/SYSTEM",
+    "files": ["SYSTEM.GBL"],
+    "size": 221,
+    "status": "VERIFIED da postoji / format UNKNOWN"
+  },
+  "settings_globals": {
+    "path": "STARTUP/ALL/SETTINGS",
+    "files": ["My Setting.ksc", "SETUP.GBL"],
+    "status": "VERIFIED da postoje"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "decoders": [
+    {"name":"COMP16","status":"PLACEHOLDER_NOT_IMPLEMENTED","algorithm":"UNKNOWN"},
+    {"name":"LFO-PKG","status":"PLACEHOLDER_NOT_IMPLEMENTED","algorithm":"UNKNOWN"},
+    {"name":"style","status":"PLACEHOLDER_NOT_IMPLEMENTED","algorithm":"UNKNOWN"},
+    {"name":"sound","status":"PLACEHOLDER_NOT_IMPLEMENTED","algorithm":"UNKNOWN"},
+    {"name":"PCM","status":"PLACEHOLDER_NOT_IMPLEMENTED","algorithm":"UNKNOWN"}
+  ]
+}

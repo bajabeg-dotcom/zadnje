@@ -1,0 +1,144 @@
+test_bundled_codec_drives_generic_oc_command_path (tests.test_native_integration.NativeIntegrationTests.test_bundled_codec_drives_generic_oc_command_path) ... ok
+test_native_bank_cli (tests.test_native_integration.NativeIntegrationTests.test_native_bank_cli) ... ok
+test_native_sound_cli (tests.test_native_integration.NativeIntegrationTests.test_native_sound_cli) ... ok
+test_research_path_guard (tests.test_native_integration.NativeIntegrationTests.test_research_path_guard) ... ok
+test_health_and_status_routes (tests.test_native_integration.NativeWebSmokeTests.test_health_and_status_routes) ... 
+[native bank (BANK01.PRF)]  status=VERIFIED  decision=PASS
+  - decision: PASS  (VERIFIED)  evidence: bounded OC20/root/type-05/FE/KBEG-KEND validation
+  - kind: Performance  (VERIFIED)
+  - envelope: OC20  (VERIFIED)
+  - source_sha256: 683c3814cc4ddeb83864a139e42a13d420ad418dc15cd30d3d3100cac5f03a40  (VERIFIED)
+  - bytes: 5179  (VERIFIED)
+  - decoded_bytes: 8438  (VERIFIED)
+  - pages: 1  (VERIFIED)
+  - resources: 15  (VERIFIED)
+  - types: {"09": 15}  (VERIFIED)
+  - resource: #1 Grand Piano eXp  (VERIFIED)  evidence: Struktura/CRC validirani u softveru; izlaz za instrument nije certificiran.
+121.  0.  0  AcousticPiano GM
+1 match(es); showing 1 of 1,003 proven bindings
+[web] "GET /api/health HTTP/1.1" 200 -
+[web] "GET /api/status HTTP/1.1" 200 -
+ok
+test_static_ui_is_served (tests.test_native_integration.NativeWebSmokeTests.test_static_ui_is_served) ... [web] "GET / HTTP/1.1" 200 -
+[web] "GET /app.js HTTP/1.1" 200 -
+ok
+test_codec_roundtrip_and_checksum (tests.test_pa800_native.CorpusTests.test_codec_roundtrip_and_checksum) ... ok
+test_corrupt_index_rejected_and_original_preserved (tests.test_pa800_native.CorpusTests.test_corrupt_index_rejected_and_original_preserved) ... ok
+test_corrupt_oc20_page_checksum_rejected (tests.test_pa800_native.CorpusTests.test_corrupt_oc20_page_checksum_rejected) ... ok
+test_demo_audit (tests.test_pa800_native.CorpusTests.test_demo_audit) ... ok
+test_factory_catalog_exact_selectors (tests.test_pa800_native.CorpusTests.test_factory_catalog_exact_selectors) ... ok
+test_full_factory_corpus (tests.test_pa800_native.CorpusTests.test_full_factory_corpus) ... skipped 'Set PA800_FACTORY_CORPUS for full-archive audit'
+test_pcg_multpage (tests.test_pa800_native.CorpusTests.test_pcg_multpage) ... ok
+test_perf_pad_and_global (tests.test_pa800_native.CorpusTests.test_perf_pad_and_global) ... ok
+test_real_set_corpus_and_sparse_style_bitmap (tests.test_pa800_native.CorpusTests.test_real_set_corpus_and_sparse_style_bitmap) ... skipped 'Set PA800_NATIVE_SET_ZIP for real native corpus'
+test_style_bank_and_true_inner_patterns (tests.test_pa800_native.CorpusTests.test_style_bank_and_true_inner_patterns) ... ok
+test_upload_zip_and_path_traversal (tests.test_pa800_native.CorpusTests.test_upload_zip_and_path_traversal) ... ok
+test_zip_manifest_covers_unparsed_pcm_and_flags_bkp (tests.test_pa800_native.CorpusTests.test_zip_manifest_covers_unparsed_pcm_and_flags_bkp) ... ok
+test_conversions (tests.test_pa_tool.TestCliSmoke.test_conversions) ... ok
+test_convert_assets (tests.test_pa_tool.TestCliSmoke.test_convert_assets) ... ok
+test_convert_matrix (tests.test_pa_tool.TestCliSmoke.test_convert_matrix) ... ok
+test_convert_refusal_exit_code (tests.test_pa_tool.TestCliSmoke.test_convert_refusal_exit_code) ... ok
+test_doctor (tests.test_pa_tool.TestCliSmoke.test_doctor) ... ok
+test_manager (tests.test_pa_tool.TestCliSmoke.test_manager) ... ok
+test_models (tests.test_pa_tool.TestCliSmoke.test_models) ... ok
+test_oc_decode (tests.test_pa_tool.TestCliSmoke.test_oc_decode) ... skipped 'KMP resource missing'
+test_pcg (tests.test_pa_tool.TestCliSmoke.test_pcg) ... ok
+test_status (tests.test_pa_tool.TestCliSmoke.test_status) ... ok
+test_high_entropy_container_is_flagged_as_compressed (tests.test_pa_tool.TestCompressionOffsets.test_high_entropy_container_is_flagged_as_compressed) ... skipped 'KMP resource missing'
+test_scan_reports_first_offsets (tests.test_pa_tool.TestCompressionOffsets.test_scan_reports_first_offsets) ... ok
+test_balanced_chain_accepts_proper_pairs (tests.test_pa_tool.TestContainer.test_balanced_chain_accepts_proper_pairs) ... ok
+test_balanced_chain_rejects_orphan_kend (tests.test_pa_tool.TestContainer.test_balanced_chain_rejects_orphan_kend) ... ok
+test_chain_and_compression (tests.test_pa_tool.TestContainer.test_chain_and_compression) ... ok
+test_non_container_is_not_claimed (tests.test_pa_tool.TestContainer.test_non_container_is_not_claimed) ... ok
+test_real_pcg_is_a_container (tests.test_pa_tool.TestContainer.test_real_pcg_is_a_container) ... ok
+test_split_payload_keeps_trailing_bytes (tests.test_pa_tool.TestContainer.test_split_payload_keeps_trailing_bytes) ... ok
+test_split_payload_without_declaration_returns_everything (tests.test_pa_tool.TestContainer.test_split_payload_without_declaration_returns_everything) ... ok
+test_copy_helper_refuses_to_write_over_the_source (tests.test_pa_tool.TestConvert.test_copy_helper_refuses_to_write_over_the_source) ... ok
+test_copy_helper_writes_a_new_path_only (tests.test_pa_tool.TestConvert.test_copy_helper_writes_a_new_path_only) ... ok
+test_factory_rom_is_refused_before_acting (tests.test_pa_tool.TestConvert.test_factory_rom_is_refused_before_acting) ... ok
+test_in_place_conversion_is_refused (tests.test_pa_tool.TestConvert.test_in_place_conversion_is_refused) ... ok
+test_kst_to_set_does_not_exist_and_is_blocked (tests.test_pa_tool.TestConvert.test_kst_to_set_does_not_exist_and_is_blocked) ... ok
+test_locked_style_is_refused (tests.test_pa_tool.TestConvert.test_locked_style_is_refused) ... ok
+test_matrix_matches_the_documented_directions (tests.test_pa_tool.TestConvert.test_matrix_matches_the_documented_directions) ... ok
+test_mg_direction_is_verified_and_reversible (tests.test_pa_tool.TestConvert.test_mg_direction_is_verified_and_reversible) ... ok
+test_pa5x_sound_import_is_refused (tests.test_pa_tool.TestConvert.test_pa5x_sound_import_is_refused) ... ok
+test_set_to_kst_is_planned_but_marked_unproven (tests.test_pa_tool.TestConvert.test_set_to_kst_is_planned_but_marked_unproven) ... ok
+test_env_override_is_probed_before_defaults (tests.test_pa_tool.TestConvertAssets.test_env_override_is_probed_before_defaults) ... ok
+test_fingerprint_a_real_pa4x_style (tests.test_pa_tool.TestConvertAssets.test_fingerprint_a_real_pa4x_style) ... skipped 'no style files'
+test_fingerprint_missing_file_reports_error (tests.test_pa_tool.TestConvertAssets.test_fingerprint_missing_file_reports_error) ... ok
+test_pa4x_family_uses_the_64_byte_name_table (tests.test_pa_tool.TestConvertAssets.test_pa4x_family_uses_the_64_byte_name_table) ... skipped 'setconvert families not reachable'
+test_paths_resolve (tests.test_pa_tool.TestConvertAssets.test_paths_resolve) ... skipped 'setconvert / pa800_native assets not reachable'
+test_setconvert_loads_with_the_missing_encoder_shimmed (tests.test_pa_tool.TestConvertAssets.test_setconvert_loads_with_the_missing_encoder_shimmed) ... skipped 'setconvert assets not reachable'
+test_six_sty_families_are_exposed (tests.test_pa_tool.TestConvertAssets.test_six_sty_families_are_exposed) ... skipped 'setconvert families not reachable'
+test_all_data_files_load_and_are_valid_json (tests.test_pa_tool.TestDataLayer.test_all_data_files_load_and_are_valid_json) ... ok
+test_canonical_order_matches_documented_table (tests.test_pa_tool.TestDataLayer.test_canonical_order_matches_documented_table) ... ok
+test_container_magic_is_verified_bytes (tests.test_pa_tool.TestDataLayer.test_container_magic_is_verified_bytes) ... ok
+test_osc_limit_is_candidates_only (tests.test_pa_tool.TestDataLayer.test_osc_limit_is_candidates_only) ... ok
+test_pa3x_le_variant_uses_pa3x_sound_handler (tests.test_pa_tool.TestDataLayer.test_pa3x_le_variant_uses_pa3x_sound_handler) ... ok
+test_pa4x_base_ram_not_the_os_next_variant (tests.test_pa_tool.TestDataLayer.test_pa4x_base_ram_not_the_os_next_variant) ... ok
+test_pa588_variant_uses_pa500_sound_handler (tests.test_pa_tool.TestDataLayer.test_pa588_variant_uses_pa500_sound_handler) ... ok
+test_pa800_has_no_own_sub (tests.test_pa_tool.TestDataLayer.test_pa800_has_no_own_sub) ... ok
+test_missing_path_is_unknown_not_an_exception (tests.test_pa_tool.TestDetect.test_missing_path_is_unknown_not_an_exception) ... ok
+test_pcg_detected_as_container_kind (tests.test_pa_tool.TestDetect.test_pcg_detected_as_container_kind) ... ok
+test_percent_name_roundtrip (tests.test_pa_tool.TestDetect.test_percent_name_roundtrip) ... ok
+test_set_folder_detected (tests.test_pa_tool.TestDetect.test_set_folder_detected) ... skipped 'sample missing'
+test_set_model_stays_unknown (tests.test_pa_tool.TestDetect.test_set_model_stays_unknown) ... skipped 'sample missing'
+test_detect_and_inventory_do_not_touch_the_sample (tests.test_pa_tool.TestInputImmutability.test_detect_and_inventory_do_not_touch_the_sample) ... skipped 'sample missing'
+test_articulation_suffixes_present (tests.test_pa_tool.TestManagerDrumTable.test_articulation_suffixes_present)
+p / mf / f are the velocity articulations of one drum. ... ok
+test_drum_table_is_verified (tests.test_pa_tool.TestManagerDrumTable.test_drum_table_is_verified) ... ok
+test_drum_table_layout (tests.test_pa_tool.TestManagerDrumTable.test_drum_table_layout) ... ok
+test_drum_table_record_count (tests.test_pa_tool.TestManagerDrumTable.test_drum_table_record_count) ... ok
+test_find_drum_name (tests.test_pa_tool.TestManagerDrumTable.test_find_drum_name) ... ok
+test_oc32_payload_decodes_to_the_declared_size (tests.test_pa_tool.TestManagerDrumTable.test_oc32_payload_decodes_to_the_declared_size) ... ok
+test_oc32_xor_check_byte_matches (tests.test_pa_tool.TestManagerDrumTable.test_oc32_xor_check_byte_matches) ... ok
+test_oc_decode_method_documented (tests.test_pa_tool.TestManagerDrumTable.test_oc_decode_method_documented) ... ok
+test_real_drum_articulation_names_present (tests.test_pa_tool.TestManagerDrumTable.test_real_drum_articulation_names_present)
+Names that come from the 40-byte table itself (not the sample region). ... ok
+test_sample_region_filter_removes_compressed_noise (tests.test_pa_tool.TestManagerDrumTable.test_sample_region_filter_removes_compressed_noise)
+Raw ASCII runs contain compressed-stream junk such as '1iDv'. ... ok
+test_sample_region_names_extracted (tests.test_pa_tool.TestManagerDrumTable.test_sample_region_names_extracted)
+The separate sample region holds names like 'BD Natural1 mf'. ... ok
+test_unnamed_slots_are_kept_not_dropped (tests.test_pa_tool.TestManagerDrumTable.test_unnamed_slots_are_kept_not_dropped) ... ok
+test_container_templates_are_real_containers (tests.test_pa_tool.TestManagerImport.test_container_templates_are_real_containers) ... ok
+test_embedded_module_layout_matches_v5_stream_family (tests.test_pa_tool.TestManagerImport.test_embedded_module_layout_matches_v5_stream_family)
+Same module family as PE1/PE2/PE3, but not the same bytes. ... ok
+test_embedded_modules_are_the_three_pe_kinds (tests.test_pa_tool.TestManagerImport.test_embedded_modules_are_the_three_pe_kinds) ... ok
+test_find_factory_name (tests.test_pa_tool.TestManagerImport.test_find_factory_name) ... ok
+test_known_factory_names_are_exact (tests.test_pa_tool.TestManagerImport.test_known_factory_names_are_exact) ... ok
+test_name_table_layout_is_structured_not_regex (tests.test_pa_tool.TestManagerImport.test_name_table_layout_is_structured_not_regex) ... ok
+test_name_table_sections_are_sequential (tests.test_pa_tool.TestManagerImport.test_name_table_sections_are_sequential) ... ok
+test_packer_is_pecompact_with_evidence (tests.test_pa_tool.TestManagerImport.test_packer_is_pecompact_with_evidence) ... ok
+test_percent_and_punctuation_names_survive (tests.test_pa_tool.TestManagerImport.test_percent_and_punctuation_names_survive) ... ok
+test_regex_junk_is_absent (tests.test_pa_tool.TestManagerImport.test_regex_junk_is_absent)
+The naive regex produced 50 junk tokens; the structured parse must not. ... ok
+test_resource_inventory_totals (tests.test_pa_tool.TestManagerImport.test_resource_inventory_totals) ... ok
+test_the_two_factory_rom_containers_are_present_and_recovered (tests.test_pa_tool.TestManagerImport.test_the_two_factory_rom_containers_are_present_and_recovered) ... ok
+test_decode_reports_missing_codec_gracefully (tests.test_pa_tool.TestOcDecode.test_decode_reports_missing_codec_gracefully)
+A plausible header with no codec available reports it, never crashes. ... ok
+test_decode_reports_out_of_range_declared_size (tests.test_pa_tool.TestOcDecode.test_decode_reports_out_of_range_declared_size) ... ok
+test_kmp_oc32_decodes_with_matching_xor (tests.test_pa_tool.TestOcDecode.test_kmp_oc32_decodes_with_matching_xor) ... skipped 'KMP resource missing'
+test_pa_korf_dialect_uses_verified_signature (tests.test_pa_tool.TestPcgDialect.test_pa_korf_dialect_uses_verified_signature) ... ok
+test_pcg_chunk_meanings_are_format_specific (tests.test_pa_tool.TestPcgDialect.test_pcg_chunk_meanings_are_format_specific) ... ok
+test_real_evidence_hashes_are_recorded (tests.test_pa_tool.TestPcgDialect.test_real_evidence_hashes_are_recorded) ... ok
+test_workstation_pcg1_dialect_is_not_confused_with_pa (tests.test_pa_tool.TestPcgDialect.test_workstation_pcg1_dialect_is_not_confused_with_pa) ... ok
+test_inventory_counts_match_disk (tests.test_pa_tool.TestSetFolder.test_inventory_counts_match_disk) ... skipped 'sample missing'
+test_metadir_decodes_percent_names (tests.test_pa_tool.TestSetFolder.test_metadir_decodes_percent_names) ... skipped 'Pa5X sample missing'
+test_metadir_parser_reports_schema (tests.test_pa_tool.TestSetFolder.test_metadir_parser_reports_schema) ... skipped 'Pa5X sample missing'
+test_decision_falls_back_to_status (tests.test_pa_tool.TestStatusDiscipline.test_decision_falls_back_to_status) ... ok
+test_decision_reads_explicit_verdict (tests.test_pa_tool.TestStatusDiscipline.test_decision_reads_explicit_verdict) ... ok
+test_finding_keeps_evidence (tests.test_pa_tool.TestStatusDiscipline.test_finding_keeps_evidence) ... ok
+test_result_status_is_worst (tests.test_pa_tool.TestStatusDiscipline.test_result_status_is_worst) ... ok
+test_canonical_sample_format_flags_deviation (tests.test_pa_tool.TestValidate.test_canonical_sample_format_flags_deviation) ... ok
+test_container_check_passes_on_real_sample (tests.test_pa_tool.TestValidate.test_container_check_passes_on_real_sample) ... ok
+test_factory_rom_is_refused (tests.test_pa_tool.TestValidate.test_factory_rom_is_refused) ... ok
+test_hard_limits_detects_excess (tests.test_pa_tool.TestValidate.test_hard_limits_detects_excess) ... ok
+test_locked_style_is_refused (tests.test_pa_tool.TestValidate.test_locked_style_is_refused) ... ok
+test_osc_limit_is_always_unknown (tests.test_pa_tool.TestValidate.test_osc_limit_is_always_unknown) ... ok
+test_pa5x_sound_import_is_refused (tests.test_pa_tool.TestValidate.test_pa5x_sound_import_is_refused) ... ok
+test_ram_fit_and_overflow (tests.test_pa_tool.TestValidate.test_ram_fit_and_overflow) ... ok
+
+----------------------------------------------------------------------
+Ran 114 tests in 5.942s
+
+OK (skipped=16)

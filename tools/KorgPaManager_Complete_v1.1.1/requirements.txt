@@ -1,0 +1,2 @@
+# No external runtime packages are required.
+# Mido 1.3.3 is bundled under its MIT license in ./mido.

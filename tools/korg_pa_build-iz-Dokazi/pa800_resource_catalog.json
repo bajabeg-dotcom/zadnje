@@ -1,0 +1,1573 @@
+{
+  "source": "/home/z/my-project/korg-pa/pa800_os/reconstructed_files",
+  "files": [
+    {
+      "file": "file_000_T14_off000b8d84.bin",
+      "size": 4260321,
+      "kind": "drum_kit",
+      "resource_name": null
+    },
+    {
+      "file": "file_001_SET_off004ba722.bin",
+      "size": 59459,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_002_SET_off004c8fe8.bin",
+      "size": 268016,
+      "kind": "drum_kit",
+      "resource_name": null
+    },
+    {
+      "file": "file_003_SET_off0050a75b.bin",
+      "size": 76251,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_004_SET_off0051d1b9.bin",
+      "size": 71373,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_005_SET_off0052e909.bin",
+      "size": 72260,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_006_SET_off005403d0.bin",
+      "size": 61875,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_007_SET_off0054f606.bin",
+      "size": 74093,
+      "kind": "drum_kit",
+      "resource_name": null
+    },
+    {
+      "file": "file_008_SET_off00561847.bin",
+      "size": 76568,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_009_SET_off005743c4.bin",
+      "size": 64908,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_010_SET_off00583b18.bin",
+      "size": 1592,
+      "kind": "unknown",
+      "resource_name": "HSystemPalette@"
+    },
+    {
+      "file": "file_011_T1e_off005889f1.bin",
+      "size": 85,
+      "kind": "unknown",
+      "resource_name": "Nederlands"
+    },
+    {
+      "file": "file_012_T1e_off00588aa5.bin",
+      "size": 78,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_013_T1e_off00588b52.bin",
+      "size": 84,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_014_T1e_off00588c05.bin",
+      "size": 84,
+      "kind": "unknown",
+      "resource_name": "Deutsch"
+    },
+    {
+      "file": "file_015_T1e_off00588cb8.bin",
+      "size": 81,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_016_T1e_off00588d68.bin",
+      "size": 76,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_017_T1e_off00588e13.bin",
+      "size": 84,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_018_SET_off00588efa.bin",
+      "size": 31202,
+      "kind": "unknown",
+      "resource_name": "0DDWBMangledPCM"
+    },
+    {
+      "file": "file_019_SET_off00590943.bin",
+      "size": 2627,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_020_SET_off005913eb.bin",
+      "size": 1230,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_021_SET_off00591947.bin",
+      "size": 1804,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_022_SET_off005920ba.bin",
+      "size": 2397,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_023_SET_off00592aa7.bin",
+      "size": 258328,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_024_SET_off005d1c48.bin",
+      "size": 1724,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_025_SET_off005d2366.bin",
+      "size": 1612,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_026_T40_off005d2a13.bin",
+      "size": 871,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_027_SET_off005d2ddc.bin",
+      "size": 899,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_028_SET_off005d31c1.bin",
+      "size": 918,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_029_SET_off005d35b9.bin",
+      "size": 1207,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_030_SET_off005d3ad2.bin",
+      "size": 510,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_031_SET_off005d3d32.bin",
+      "size": 1258,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_032_SET_off005d427e.bin",
+      "size": 1347,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_033_SET_off005d4823.bin",
+      "size": 1296,
+      "kind": "unknown",
+      "resource_name": "Engin'"
+    },
+    {
+      "file": "file_034_SET_off005d4d95.bin",
+      "size": 6385,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_035_SET_off005d66e8.bin",
+      "size": 10684,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_036_SET_off005d9106.bin",
+      "size": 8721,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_037_SET_off005db379.bin",
+      "size": 4996,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_038_SET_off005dc75f.bin",
+      "size": 13154,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_039_SET_off005dfb23.bin",
+      "size": 14002,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_040_SET_off005e3237.bin",
+      "size": 4519,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_041_SET_off005e4440.bin",
+      "size": 11240,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_042_SET_off005e708a.bin",
+      "size": 5509,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_043_SET_off005e8671.bin",
+      "size": 4098,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_044_SET_off005e972b.bin",
+      "size": 5139,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_045_SET_off005eaba4.bin",
+      "size": 5678,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_046_SET_off005ec238.bin",
+      "size": 3774,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_047_SET_off005ed15c.bin",
+      "size": 5054,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_048_SET_off005ee580.bin",
+      "size": 9716,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_049_SET_off005efaad.bin",
+      "size": 4295,
+      "kind": "unknown",
+      "resource_name": "Full '"
+    },
+    {
+      "file": "file_050_SET_off005f0bda.bin",
+      "size": 6005,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_051_SET_off005f23b5.bin",
+      "size": 5414,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_052_SET_off005f3941.bin",
+      "size": 4718,
+      "kind": "unknown",
+      "resource_name": "Flugel"
+    },
+    {
+      "file": "file_053_SET_off005f4c15.bin",
+      "size": 4080,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_054_SET_off005f5c6b.bin",
+      "size": 5042,
+      "kind": "unknown",
+      "resource_name": "Kenny Soprano"
+    },
+    {
+      "file": "file_055_SET_off005f7083.bin",
+      "size": 5857,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_056_SET_off005f87ca.bin",
+      "size": 5318,
+      "kind": "unknown",
+      "resource_name": "Pa800-"
+    },
+    {
+      "file": "file_057_SET_off005f9cf6.bin",
+      "size": 5743,
+      "kind": "unknown",
+      "resource_name": "Synth An.'"
+    },
+    {
+      "file": "file_058_SET_off005fb3cb.bin",
+      "size": 1531,
+      "kind": "unknown",
+      "resource_name": "xFinger Bass DNC"
+    },
+    {
+      "file": "file_059_SET_off005fba2c.bin",
+      "size": 934,
+      "kind": "unknown",
+      "resource_name": "Arabia'"
+    },
+    {
+      "file": "file_060_SET_off005fbe38.bin",
+      "size": 5542,
+      "kind": "unknown",
+      "resource_name": "Blue."
+    },
+    {
+      "file": "file_061_SET_off005fd444.bin",
+      "size": 4999,
+      "kind": "unknown",
+      "resource_name": "Entert.Organ1"
+    },
+    {
+      "file": "file_062_SET_off005fe831.bin",
+      "size": 2820,
+      "kind": "unknown",
+      "resource_name": "Hawaiian '"
+    },
+    {
+      "file": "file_063_SET_off005ff39b.bin",
+      "size": 1956,
+      "kind": "unknown",
+      "resource_name": "AutoSplit Ensem."
+    },
+    {
+      "file": "file_064_SET_off005ffc14.bin",
+      "size": 27273,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_065_SET_off0060670f.bin",
+      "size": 56889,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_066_SET_off0060d89e.bin",
+      "size": 27818,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_067_SET_off006145ba.bin",
+      "size": 28282,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_068_SET_off0061b4a6.bin",
+      "size": 26165,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_069_SET_off00621b4d.bin",
+      "size": 36183,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_070_SET_off0062a0f7.bin",
+      "size": 1965,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_071_SET_off0062a932.bin",
+      "size": 12745,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_072_SET_off0062db5c.bin",
+      "size": 263682,
+      "kind": "pcg_or_kmp",
+      "resource_name": "Wide"
+    },
+    {
+      "file": "file_073_SET_off0066e1eb.bin",
+      "size": 253064,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_074_SET_off006abed7.bin",
+      "size": 254942,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_075_SET_off006ea319.bin",
+      "size": 380336,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_076_SET_off0074712d.bin",
+      "size": 393356,
+      "kind": "sty_bank",
+      "resource_name": null
+    },
+    {
+      "file": "file_077_SET_off007a721d.bin",
+      "size": 383847,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_078_SET_off00804de8.bin",
+      "size": 378460,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_079_SET_off008614a8.bin",
+      "size": 532232,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_080_SET_off008e3414.bin",
+      "size": 206711,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_081_SET_off00915bef.bin",
+      "size": 355675,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_082_SET_off0096c9ae.bin",
+      "size": 446486,
+      "kind": "sty_bank",
+      "resource_name": null
+    },
+    {
+      "file": "file_083_SET_off009d9a28.bin",
+      "size": 481865,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_084_SET_off00a4f4d5.bin",
+      "size": 435857,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_085_SET_off00ab9bca.bin",
+      "size": 519648,
+      "kind": "sty_bank",
+      "resource_name": null
+    },
+    {
+      "file": "file_086_SET_off00b38a0e.bin",
+      "size": 190759,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_087_SET_off00b67399.bin",
+      "size": 404839,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_088_SET_off00bca164.bin",
+      "size": 307309,
+      "kind": "pcg_or_kmp",
+      "resource_name": "UnpluggedBallad1"
+    },
+    {
+      "file": "file_089_SET_off00c15235.bin",
+      "size": 322185,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_090_SET_off00c63d22.bin",
+      "size": 483442,
+      "kind": "pcg_or_kmp",
+      "resource_name": null
+    },
+    {
+      "file": "file_091_SET_off00cd9e26.bin",
+      "size": 1849,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_092_SET_off00cdf360.bin",
+      "size": 2026,
+      "kind": "unknown",
+      "resource_name": null
+    },
+    {
+      "file": "file_093_SET_off00cdfbb1.bin",
+      "size": 661,
+      "kind": "unknown",
+      "resource_name": "TASSetup"
+    }
+  ],
+  "instruments": [
+    {
+      "file": "file_072_SET_off0062db5c.bin",
+      "master_name": "Wide",
+      "program_count": 13,
+      "programs": [
+        {
+          "name": "RX DEMO",
+          "offset": 196,
+          "category": "Other"
+        },
+        {
+          "name": "Honky-T",
+          "offset": 399,
+          "category": "Other"
+        },
+        {
+          "name": "Detuned EP",
+          "offset": 439,
+          "category": "Other"
+        },
+        {
+          "name": "EP1 Veloc.sw",
+          "offset": 459,
+          "category": "Other"
+        },
+        {
+          "name": "Bell",
+          "offset": 732,
+          "category": "Bell"
+        },
+        {
+          "name": "Phase",
+          "offset": 830,
+          "category": "Other"
+        },
+        {
+          "name": "Snap",
+          "offset": 1141,
+          "category": "Other"
+        },
+        {
+          "name": "Bossa",
+          "offset": 3181,
+          "category": "Other"
+        },
+        {
+          "name": "Reso",
+          "offset": 5639,
+          "category": "Other"
+        },
+        {
+          "name": "Pitch",
+          "offset": 7436,
+          "category": "Other"
+        },
+        {
+          "name": "Tambou",
+          "offset": 11747,
+          "category": "Other"
+        },
+        {
+          "name": "Stop",
+          "offset": 12813,
+          "category": "Other"
+        },
+        {
+          "name": "ShakuhachieT",
+          "offset": 154044,
+          "category": "Other"
+        }
+      ],
+      "size": 263682
+    },
+    {
+      "file": "file_073_SET_off0066e1eb.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 253064
+    },
+    {
+      "file": "file_074_SET_off006abed7.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 254942
+    },
+    {
+      "file": "file_075_SET_off006ea319.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 380336
+    },
+    {
+      "file": "file_077_SET_off007a721d.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 383847
+    },
+    {
+      "file": "file_078_SET_off00804de8.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 378460
+    },
+    {
+      "file": "file_079_SET_off008614a8.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 532232
+    },
+    {
+      "file": "file_081_SET_off00915bef.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 355675
+    },
+    {
+      "file": "file_083_SET_off009d9a28.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 481865
+    },
+    {
+      "file": "file_087_SET_off00b67399.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 404839
+    },
+    {
+      "file": "file_088_SET_off00bca164.bin",
+      "master_name": "UnpluggedBallad1",
+      "program_count": 0,
+      "programs": [],
+      "size": 307309
+    },
+    {
+      "file": "file_089_SET_off00c15235.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 322185
+    },
+    {
+      "file": "file_090_SET_off00c63d22.bin",
+      "master_name": null,
+      "program_count": 0,
+      "programs": [],
+      "size": 483442
+    }
+  ],
+  "drum_kits": [
+    {
+      "file": "file_000_T14_off000b8d84.bin",
+      "master_name": null,
+      "has_drum_kit_marker": true,
+      "sample_references": [
+        {
+          "name": "Succ",
+          "offset": 180
+        },
+        {
+          "name": "Dummy",
+          "offset": 23636
+        },
+        {
+          "name": "Already",
+          "offset": 48886
+        },
+        {
+          "name": "Flus",
+          "offset": 51818
+        },
+        {
+          "name": "RESE",
+          "offset": 3749741
+        },
+        {
+          "name": "Book",
+          "offset": 4200972
+        }
+      ],
+      "size": 4260321
+    },
+    {
+      "file": "file_002_SET_off004c8fe8.bin",
+      "master_name": null,
+      "has_drum_kit_marker": true,
+      "sample_references": [
+        {
+          "name": "Dialog",
+          "offset": 75
+        },
+        {
+          "name": "skMessages",
+          "offset": 93
+        },
+        {
+          "name": "Event",
+          "offset": 130
+        },
+        {
+          "name": "Generic",
+          "offset": 178
+        },
+        {
+          "name": "JukeBoxRT",
+          "offset": 218
+        },
+        {
+          "name": "LicenseManCer",
+          "offset": 253
+        },
+        {
+          "name": "MasterTransp",
+          "offset": 286
+        },
+        {
+          "name": "PopupMenu",
+          "offset": 355
+        },
+        {
+          "name": "TimeSign",
+          "offset": 462
+        },
+        {
+          "name": "utePlay",
+          "offset": 916
+        },
+        {
+          "name": "TSMicro",
+          "offset": 1133
+        },
+        {
+          "name": "Search",
+          "offset": 1714
+        },
+        {
+          "name": "Interfac",
+          "offset": 2114
+        },
+        {
+          "name": "Lock",
+          "offset": 2130
+        },
+        {
+          "name": "Save",
+          "offset": 2734
+        },
+        {
+          "name": "Advan",
+          "offset": 8052
+        },
+        {
+          "name": "ongOnSQ1A",
+          "offset": 8904
+        },
+        {
+          "name": "hold",
+          "offset": 167714
+        },
+        {
+          "name": "semi-paE8",
+          "offset": 200654
+        }
+      ],
+      "size": 268016
+    },
+    {
+      "file": "file_007_SET_off0054f606.bin",
+      "master_name": null,
+      "has_drum_kit_marker": true,
+      "sample_references": [
+        {
+          "name": "Book",
+          "offset": 110
+        }
+      ],
+      "size": 74093
+    }
+  ],
+  "styles": [
+    {
+      "file": "file_076_SET_off0074712d.bin",
+      "master_name": null,
+      "style_count": 48,
+      "styles": [
+        {
+          "name": "Easy Listening",
+          "offset": 19
+        },
+        {
+          "name": "Slow Band",
+          "offset": 42
+        },
+        {
+          "name": "Jump",
+          "offset": 67
+        },
+        {
+          "name": "Waltz",
+          "offset": 143
+        },
+        {
+          "name": "Operetta",
+          "offset": 295
+        },
+        {
+          "name": "TwIL",
+          "offset": 403
+        },
+        {
+          "name": "Jive",
+          "offset": 418
+        },
+        {
+          "name": "Gdfm",
+          "offset": 9098
+        },
+        {
+          "name": "Qu84",
+          "offset": 11986
+        },
+        {
+          "name": "AjSm",
+          "offset": 12675
+        },
+        {
+          "name": "LX.Y",
+          "offset": 30487
+        },
+        {
+          "name": "QDa0",
+          "offset": 54563
+        },
+        {
+          "name": "OA-'",
+          "offset": 69349
+        },
+        {
+          "name": "HDB0",
+          "offset": 76050
+        },
+        {
+          "name": "BxVj",
+          "offset": 99528
+        },
+        {
+          "name": "TG9T",
+          "offset": 110230
+        },
+        {
+          "name": "KT9O",
+          "offset": 112574
+        },
+        {
+          "name": "A5CP",
+          "offset": 112963
+        },
+        {
+          "name": "GEMV",
+          "offset": 122398
+        },
+        {
+          "name": "KH-K",
+          "offset": 123882
+        },
+        {
+          "name": "OC31",
+          "offset": 163290
+        },
+        {
+          "name": "GtuG0",
+          "offset": 209661
+        },
+        {
+          "name": "CpET",
+          "offset": 211535
+        },
+        {
+          "name": "Ck PeA",
+          "offset": 220177
+        },
+        {
+          "name": "XA4_",
+          "offset": 223575
+        },
+        {
+          "name": "BxHM2",
+          "offset": 253162
+        },
+        {
+          "name": "QKCh",
+          "offset": 267951
+        },
+        {
+          "name": "I6D ",
+          "offset": 269332
+        },
+        {
+          "name": "I2AU0",
+          "offset": 269350
+        },
+        {
+          "name": "MOBYL",
+          "offset": 284243
+        },
+        {
+          "name": "DTrP",
+          "offset": 287038
+        },
+        {
+          "name": "LAuL",
+          "offset": 291615
+        },
+        {
+          "name": "G-9g",
+          "offset": 302461
+        },
+        {
+          "name": "IBgy",
+          "offset": 302518
+        },
+        {
+          "name": "PtgH",
+          "offset": 302778
+        },
+        {
+          "name": "KeA.",
+          "offset": 303163
+        },
+        {
+          "name": "NLKM",
+          "offset": 316858
+        },
+        {
+          "name": "M2 .",
+          "offset": 335468
+        },
+        {
+          "name": "ANqEN",
+          "offset": 344060
+        },
+        {
+          "name": "IqTR5",
+          "offset": 351680
+        },
+        {
+          "name": "JBARB",
+          "offset": 370210
+        },
+        {
+          "name": "FMF R",
+          "offset": 375715
+        },
+        {
+          "name": "Nylon Guitarc0N",
+          "offset": 376224
+        },
+        {
+          "name": "BZkh",
+          "offset": 376984
+        },
+        {
+          "name": "OEDkS",
+          "offset": 380625
+        },
+        {
+          "name": "TTceh",
+          "offset": 383567
+        },
+        {
+          "name": "Honky-T",
+          "offset": 391142
+        },
+        {
+          "name": "KBEG",
+          "offset": 393104
+        }
+      ],
+      "size": 393356
+    },
+    {
+      "file": "file_082_SET_off0096c9ae.bin",
+      "master_name": null,
+      "style_count": 49,
+      "styles": [
+        {
+          "name": "Hawaiian",
+          "offset": 19
+        },
+        {
+          "name": "Flamenco 4/4",
+          "offset": 37
+        },
+        {
+          "name": "Mexican Waltz",
+          "offset": 86
+        },
+        {
+          "name": "Celtic Dream",
+          "offset": 107
+        },
+        {
+          "name": "Ballad",
+          "offset": 140
+        },
+        {
+          "name": "Scottish Reel",
+          "offset": 154
+        },
+        {
+          "name": "Minuett",
+          "offset": 207
+        },
+        {
+          "name": "Baroque",
+          "offset": 223
+        },
+        {
+          "name": "Orleans",
+          "offset": 287
+        },
+        {
+          "name": "Mariachi",
+          "offset": 377
+        },
+        {
+          "name": "Halay",
+          "offset": 463
+        },
+        {
+          "name": "EHu5",
+          "offset": 33021
+        },
+        {
+          "name": "HB-HPZ",
+          "offset": 51012
+        },
+        {
+          "name": "GamE",
+          "offset": 63104
+        },
+        {
+          "name": "CmWfeW",
+          "offset": 109049
+        },
+        {
+          "name": "GFeV",
+          "offset": 109187
+        },
+        {
+          "name": "H&fUT'",
+          "offset": 109688
+        },
+        {
+          "name": "Dm-D8",
+          "offset": 118287
+        },
+        {
+          "name": "AB5A",
+          "offset": 138194
+        },
+        {
+          "name": "LbmC",
+          "offset": 142936
+        },
+        {
+          "name": "EP_EP/",
+          "offset": 149130
+        },
+        {
+          "name": "Tg-/",
+          "offset": 153230
+        },
+        {
+          "name": "BQ-XD",
+          "offset": 156519
+        },
+        {
+          "name": "ElZkD",
+          "offset": 162798
+        },
+        {
+          "name": "B5V8",
+          "offset": 192029
+        },
+        {
+          "name": "FJqQ",
+          "offset": 194643
+        },
+        {
+          "name": "AyESQQ",
+          "offset": 198659
+        },
+        {
+          "name": "T&oH",
+          "offset": 204670
+        },
+        {
+          "name": "ALJAG",
+          "offset": 227659
+        },
+        {
+          "name": "HTgx",
+          "offset": 230291
+        },
+        {
+          "name": "DxCa",
+          "offset": 235500
+        },
+        {
+          "name": "Gq7AM",
+          "offset": 236571
+        },
+        {
+          "name": "OFMG",
+          "offset": 238228
+        },
+        {
+          "name": "AG C",
+          "offset": 240389
+        },
+        {
+          "name": "CRuHRuCP1",
+          "offset": 257249
+        },
+        {
+          "name": "GiH D",
+          "offset": 257315
+        },
+        {
+          "name": "YxB0",
+          "offset": 258940
+        },
+        {
+          "name": "A KZ",
+          "offset": 261043
+        },
+        {
+          "name": "M2bMBb",
+          "offset": 265706
+        },
+        {
+          "name": "AdKiLKiK",
+          "offset": 276816
+        },
+        {
+          "name": "B.iO",
+          "offset": 276918
+        },
+        {
+          "name": "FydbX",
+          "offset": 315238
+        },
+        {
+          "name": "UDEF",
+          "offset": 316781
+        },
+        {
+          "name": "B&x9EB",
+          "offset": 427190
+        },
+        {
+          "name": "DHKH",
+          "offset": 427520
+        },
+        {
+          "name": "Trombone V.",
+          "offset": 429723
+        },
+        {
+          "name": "LW1Z",
+          "offset": 432081
+        },
+        {
+          "name": "DHKf",
+          "offset": 434480
+        },
+        {
+          "name": "Honky-T",
+          "offset": 437855
+        }
+      ],
+      "size": 446486
+    },
+    {
+      "file": "file_085_SET_off00ab9bca.bin",
+      "master_name": null,
+      "style_count": 51,
+      "styles": [
+        {
+          "name": "Bigger Band",
+          "offset": 19
+        },
+        {
+          "name": "Medium ",
+          "offset": 40
+        },
+        {
+          "name": "Jazz Club",
+          "offset": 112
+        },
+        {
+          "name": "BeBop",
+          "offset": 131
+        },
+        {
+          "name": "Django",
+          "offset": 220
+        },
+        {
+          "name": "Blues",
+          "offset": 269
+        },
+        {
+          "name": "CharlFbon",
+          "offset": 442
+        },
+        {
+          "name": "LCUH",
+          "offset": 13454
+        },
+        {
+          "name": "Q5GDi",
+          "offset": 18798
+        },
+        {
+          "name": "T-NT-B",
+          "offset": 69603
+        },
+        {
+          "name": "Fxqh",
+          "offset": 84213
+        },
+        {
+          "name": "RB9J",
+          "offset": 94374
+        },
+        {
+          "name": "YGEAH",
+          "offset": 98668
+        },
+        {
+          "name": "B6P9",
+          "offset": 110341
+        },
+        {
+          "name": "C0Vhx",
+          "offset": 113863
+        },
+        {
+          "name": "IEOJ-I",
+          "offset": 163458
+        },
+        {
+          "name": "QDBJ",
+          "offset": 183205
+        },
+        {
+          "name": "WtqW1",
+          "offset": 200433
+        },
+        {
+          "name": "E8AJ",
+          "offset": 202198
+        },
+        {
+          "name": "MGmJ",
+          "offset": 208486
+        },
+        {
+          "name": "S0Mq",
+          "offset": 233372
+        },
+        {
+          "name": "UFchC-1",
+          "offset": 240225
+        },
+        {
+          "name": "AA0_M",
+          "offset": 246650
+        },
+        {
+          "name": "Y7KY",
+          "offset": 256154
+        },
+        {
+          "name": "UAUU",
+          "offset": 286653
+        },
+        {
+          "name": "M0lM",
+          "offset": 287885
+        },
+        {
+          "name": "A8TM7FB",
+          "offset": 289122
+        },
+        {
+          "name": "FGYD",
+          "offset": 294191
+        },
+        {
+          "name": "MAYL",
+          "offset": 300530
+        },
+        {
+          "name": "FLbx",
+          "offset": 300907
+        },
+        {
+          "name": "Tcy0",
+          "offset": 310629
+        },
+        {
+          "name": "UZyC",
+          "offset": 318267
+        },
+        {
+          "name": "ITV/",
+          "offset": 323643
+        },
+        {
+          "name": "BQ7Ad",
+          "offset": 369489
+        },
+        {
+          "name": "E'PE' 9",
+          "offset": 370987
+        },
+        {
+          "name": "EHPEH5",
+          "offset": 371043
+        },
+        {
+          "name": "BlbH",
+          "offset": 376918
+        },
+        {
+          "name": "W97&",
+          "offset": 386145
+        },
+        {
+          "name": "TBuE",
+          "offset": 399057
+        },
+        {
+          "name": "Rh'&",
+          "offset": 420637
+        },
+        {
+          "name": "IGTIG8",
+          "offset": 422389
+        },
+        {
+          "name": "Cm2Bk",
+          "offset": 508170
+        },
+        {
+          "name": "TG&H",
+          "offset": 509534
+        },
+        {
+          "name": "Perc&i",
+          "offset": 509598
+        },
+        {
+          "name": "ArJA",
+          "offset": 513923
+        },
+        {
+          "name": "DHKU",
+          "offset": 514005
+        },
+        {
+          "name": "DjP9",
+          "offset": 514280
+        },
+        {
+          "name": "Wo1a8",
+          "offset": 515033
+        },
+        {
+          "name": "Harmonica",
+          "offset": 515534
+        },
+        {
+          "name": "FWVP",
+          "offset": 517739
+        },
+        {
+          "name": "Honky T",
+          "offset": 519330
+        }
+      ],
+      "size": 519648
+    }
+  ],
+  "pads": [],
+  "multisamples": [
+    {
+      "file": "file_072_SET_off0062db5c.bin",
+      "master_name": "Wide",
+      "variants": [
+        {
+          "name": "Wide",
+          "offset": 48
+        }
+      ],
+      "size": 263682
+    },
+    {
+      "file": "file_073_SET_off0066e1eb.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 253064
+    },
+    {
+      "file": "file_074_SET_off006abed7.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 254942
+    },
+    {
+      "file": "file_075_SET_off006ea319.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 380336
+    },
+    {
+      "file": "file_077_SET_off007a721d.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 383847
+    },
+    {
+      "file": "file_078_SET_off00804de8.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 378460
+    },
+    {
+      "file": "file_079_SET_off008614a8.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 532232
+    },
+    {
+      "file": "file_081_SET_off00915bef.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 355675
+    },
+    {
+      "file": "file_083_SET_off009d9a28.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 481865
+    },
+    {
+      "file": "file_087_SET_off00b67399.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 404839
+    },
+    {
+      "file": "file_088_SET_off00bca164.bin",
+      "master_name": "UnpluggedBallad1",
+      "variants": [],
+      "size": 307309
+    },
+    {
+      "file": "file_089_SET_off00c15235.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 322185
+    },
+    {
+      "file": "file_090_SET_off00c63d22.bin",
+      "master_name": null,
+      "variants": [],
+      "size": 483442
+    }
+  ],
+  "gui_resources": [],
+  "summary": {
+    "total_files": 94,
+    "instruments_files": 13,
+    "drum_kit_files": 3,
+    "sty_files": 3,
+    "gui_resource_files": 0,
+    "multisample_files": 13,
+    "total_programs": 13,
+    "total_styles": 148
+  }
+}

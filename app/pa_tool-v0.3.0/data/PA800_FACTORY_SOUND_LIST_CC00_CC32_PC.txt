@@ -1,0 +1,1009 @@
+KORG PA800 FACTORY SOUND LIST — Name + CC00 + CC32 + PC
+Program Change numbering: 0-127
+Unique sound bindings: 1003
+
+Name                                      CC00  CC32   PC
+------------------------------------------------------------
+AcousticPiano GM                           121     0    0
+Ac. Piano Wide                             121     1    0
+Ac. Piano Dark                             121     2    0
+Grand Piano                                121     3    0
+Classic Piano                              121     4    0
+Jazz Piano                                 121     5    0
+Piano & Vibes                              121     6    0
+Piano & Strings                            121     7    0
+Rock Piano                                 121     8    0
+Grand&MovingPad                            121     9    0
+Grand Piano RX                             121    10    0
+Grand RX DEMO                              121    11    0
+Bright Piano GM                            121     0    1
+Bright PianoWide                           121     1    1
+Piano Pad 1                                121     2    1
+Piano Pad 2                                121     3    1
+Piano & Pad                                121     4    1
+Bright Piano RX                            121     5    1
+E.Grand Piano GM                           121     0    2
+E. Grand Wide                              121     1    2
+M1 Piano                                   121     2    2
+90's Piano                                 121     3    2
+2000's Piano                               121     4    2
+Chorus Piano                               121     5    2
+Piano Layers                               121     6    2
+Grand&FM Stack                             121     7    2
+Honky-Tonk GM                              121     0    3
+Honky Wide                                 121     1    3
+E. Piano 1 GM                              121     0    4
+Detuned EP 1                               121     1    4
+EP1 Veloc.sw                               121     2    4
+60's E. Piano                              121     3    4
+Vintage EP                                 121     4    4
+Pro Dyno EP                                121     5    4
+Pro Stage EP                               121     6    4
+Studio EP                                  121     7    4
+R&B E. Piano                               121     8    4
+Thin E. Piano                              121     9    4
+Dyno Tine EP 1                             121    10    4
+Club E. Piano                              121    11    4
+Classic Wurly 2                            121    12    4
+Soft Wurly                                 121    13    4
+Hard Wurly                                 121    14    4
+Vel. Wurly                                 121    15    4
+Tremolo Wurly                              121    16    4
+Classic Wurly 1                            121    17    4
+Tine E.Piano RX                            121    18    4
+Tine E.Piano                               121    19    4
+Suit E.Piano 1                             121    20    4
+Suit E.Piano 2                             121    21    4
+Dyno Tine EP 2                             121    22    4
+Bell E. Piano 1                            121    23    4
+Bell E. Piano 2                            121    24    4
+EP+Damper1 DNC                             121    25    4
+EP+Damper2 DNC                             121    26    4
+E. Piano 2 GM                              121     0    5
+Detuned EP 2                               121     1    5
+EP2 Veloc.sw                               121     2    5
+EP Legend                                  121     3    5
+EP Phase                                   121     4    5
+Syn Piano X                                121     5    5
+Stereo Dig. EP                             121     6    5
+Classic Dig. EP                            121     7    5
+Hybrid EP                                  121     8    5
+Classic Tines                              121     9    5
+Phantom Tine                               121    10    5
+Sweeping EP                                121    12    5
+White Pad EP                               121    13    5
+Dig. E. Piano                              121    14    5
+FM Pad E.P.                                121    15    5
+FM Stack E.P.                              121    16    5
+Harpsichord GM                             121     0    6
+Harpsi Wide                                121     2    6
+Harpsi KeyOff RX                           121     3    6
+Harpsi Korg                                121     4    6
+Harpsi 16' RX                              121     5    6
+Clav GM                                    121     0    7
+Pulse Clav                                 121     1    7
+Clav Wah RX                                121     2    7
+Clav Snap                                  121     3    7
+Sticky Clav                                121     4    7
+Clav RX                                    121     5    7
+Synth Clav RX                              121     6    7
+Celesta GM                                 121     0    8
+Glockenspiel GM                            121     0    9
+Sistro                                     121     1    9
+Music Box GM                               121     0   10
+Jungle Kit                                   0    10   11
+Vibraphone 1 GM                            121     0   11
+Vibrap. Wide                               121     1   11
+Vibraphone 2                               121     2   11
+Vibraphone 3                               121     3   11
+Marimba GM                                 121     0   12
+Marimba Wide                               121     1   12
+Monkey Skuls                               121     3   12
+Log Drum                                   121     4   12
+Mallet Clock                               121     5   12
+Balaphon                                   121     6   12
+Xylophone GM                               121     0   13
+Tubular Bell GM                            121     0   14
+Church Bell 1                              121     1   14
+Church Bell 2                              121     3   14
+Dulcimer GM                                121     0   15
+Santur                                     121     1   15
+Drawbars Org. GM                           121     0   16
+Det.DrawbarsOrg.                           121     1   16
+It. 60's Organ                             121     2   16
+Drawbar Org. 2                             121     3   16
+Organ Low 1 V.                             121     4   16
+Dark Organ 2 V.                            121     5   16
+BX3 Full V.                                121     6   16
+Dark Organ 1 V.                            121     7   16
+Jazz Organ                                 121     8   16
+Gospel Organ                               121     9   16
+BX3 Rock 1 V.                              121    10   16
+VOX Legend                                 121    11   16
+Arabian Organ                              121    12   16
+Gospel Organ V.                            121    13   16
+Drawbars Organ                             121    14   16
+Organ Low 2 V.                             121    15   16
+Organ Mid V.                               121    16   16
+Organ Hi V.                                121    17   16
+Drawbars Fast V.                           121    18   16
+Drawbars Slow V.                           121    19   16
+BX3 Jazz V.                                121    20   16
+BX3 Gospel V.                              121    21   16
+Theatre Organ 1                            121    22   16
+Theatre Organ 2                            121    23   16
+Theatre Organ 3                            121    24   16
+Theatre Organ 4                            121    25   16
+Tibia                                      121    26   16
+Tibia 16/8/4'                              121    27   16
+Tibia & Vox                                121    28   16
+Post Horn Trem.                            121    29   16
+Big Theatre Org.                           121    30   16
+Tibia & Kinura                             121    31   16
+Tibia Vox Glock                            121    32   16
+Perc. Organ GM                             121     0   17
+Det. Perc. Organ                           121     1   17
+Perc. Organ 2                              121     2   17
+Old Wheels                                 121     3   17
+Organ Low Pc. V.                           121     4   17
+M1 Organ                                   121     5   17
+Techno Org.Bass                            121     6   17
+BX3 Short Decay                            121     7   17
+Rotary Organ                               121     8   17
+Perc. Organ 4 V.                           121     9   17
+Perc. Organ 3                              121    10   17
+Perc. Organ 5 V.                           121    11   17
+Rock Organ GM                              121     0   18
+BX3 Rock 2 V.                              121     1   18
+Killer B                                   121     2   18
+Dirty B                                    121     3   18
+Classic Click                              121     4   18
+BX3 Rock 3 V.                              121     5   18
+Super BX Perc.                             121     6   18
+Dirty Jazz Organ                           121     7   18
+Perc.Short Decay                           121     8   18
+BX3 Jazz Pc. V.                            121     9   18
+Jimmy Organ V.                             121    10   18
+Rock Organ 2                               121    11   18
+BX3 Rock 4 V.                              121    12   18
+Jimmy Organ DNC                            121    13   18
+Church Organ GM                            121     0   19
+Church Oct. Mix                            121     1   19
+Detuned Church                             121     2   19
+Pipe Mixture                               121     3   19
+Church Pipes                               121     4   19
+Full Pipes                                 121     5   19
+Pipe Tutti 1                               121     6   19
+Positive Organ                             121     7   19
+Pipe Tutti 2                               121     8   19
+Pipe Tutti 3                               121     9   19
+Pipe Tutti 4                               121    10   19
+Reed Organ GM                              121     0   20
+Puff Organ                                 121     1   20
+Small Pipe                                 121     2   20
+Flauto Pipes                               121     3   20
+Pipe Flute 1                               121     4   20
+Pipe Flute 2                               121     5   20
+Accordion GM                               121     0   21
+Accordion 2                                121     1   21
+Akordeon                                   121     2   21
+Musette 1                                  121     3   21
+Musette 2                                  121     4   21
+Musette Clar.                              121     5   21
+Fisa 16,8'                                 121     6   21
+Fisa 16,4'                                 121     7   21
+Fisa Master                                121     8   21
+Cassotto                                   121     9   21
+Arabic Accordion                           121    10   21
+Sweet Musette                              121    11   21
+Cassotto 16'                               121    12   21
+Cassotto Or.Tune                           121    13   21
+Cassotto NorTune                           121    14   21
+Detune Accordion                           121    15   21
+2 Voices Musette                           121    16   21
+3 Voices Musette                           121    17   21
+French Musette                             121    18   21
+Acc.Clarinet OT                            121    19   21
+Acc. Clarinet NT                           121    20   21
+Acc. Piccolo OT                            121    21   21
+Acc. Piccolo NT                            121    22   21
+Master Accordion                           121    23   21
+Accordion 3                                121    24   21
+Steirisch.Akk.1                            121    25   21
+Steirisch.Akk.2                            121    26   21
+Steirisch.Akk.3                            121    27   21
+Steirisch.Akk.4                            121    28   21
+Harmonica GM                               121     0   22
+Sweet Harmonica                            121     1   22
+Harmonica 2                                121     2   22
+Harmonica AT 1                             121     3   22
+Harmonica AT 2                             121     4   22
+Harmonica DNC                              121     5   22
+Tango Accord. GM                           121     0   23
+Fisa Tango!                                121     1   23
+Accordion 16,8'                            121     2   23
+Accordion16,8,4'                           121     3   23
+Acc.16,8' & Bass                           121     4   23
+Accordion Bass                             121     5   23
+Acc.Voice Change                           121     6   23
+Accordion 16,4'                            121     7   23
+Acc.16,8,4' Plus                           121     8   23
+Acc. & Acc. Bass                           121     9   23
+Tango Accordion2                           121    10   23
+Nylon Guitar GM                            121     0   24
+Ukulele                                    121     1   24
+Nylon Key Off                              121     2   24
+Nylon Guitar 3                             121     3   24
+Nylon Bossa                                121     4   24
+Ac.Guitar KeyOff                           121     5   24
+Spanish Guitar                             121     6   24
+Guitar Strings                             121     7   24
+Nylon Gtr Pro1                             121     8   24
+Brazilian Guitar                           121     9   24
+Nylon Vel. Harm.                           121    10   24
+Nylon Gtr Pro2                             121    11   24
+Nylon Gtr RX1                              121    12   24
+Nylon Gtr RX2                              121    13   24
+Nylon Slide Pro                            121    14   24
+Nylon Guitar 2                             121    15   24
+RealNylon Gtr ST                           121    16   24
+Real Nylon Gtr                             121    17   24
+Nylon Guitar DNC                           121    18   24
+Natural Nylon DNC                          121    19   24
+Steel Guitar GM                            121     0   25
+12 Strings Gtr                             121     1   25
+Mandolin                                   121     2   25
+Steel & Body                               121     3   25
+Steel Guitar 2                             121     4   25
+Steel 12 String                            121     5   25
+Hackbrett                                  121     6   25
+Finger Key Off                             121     7   25
+Finger Tips                                121     8   25
+Steel Folk Gtr                             121     9   25
+Mandolin Key Off                           121    10   25
+Mandolin Trem.                             121    11   25
+Reso. Guitar                               121    12   25
+Steel Slide Pro1                           121    13   25
+Steel Slide Pro2                           121    14   25
+Steel Guitar RX1                           121    15   25
+Steel Guitar RX2                           121    16   25
+12 Strings Pro                             121    17   25
+12 Strings RX                              121    18   25
+Steel Guitar Pro                           121    19   25
+Steel Guitar 3                             121    20   25
+Pop Steel Gtr 1                            121    21   25
+Pop Steel Gtr 2                            121    22   25
+Pop Steel Slide                            121    23   25
+Pop SteelGtr RX1                           121    24   25
+Pop SteelGtr RX2                           121    25   25
+Mandolin Ens. 1                            121    26   25
+Mandolin Ens. 2                            121    27   25
+RealSteel Gtr ST                           121    28   25
+RealFolk Gtr ST1                           121    29   25
+RealFolk Gtr ST2                           121    30   25
+Real Steel Gtr                             121    31   25
+Real Folk Gtr                              121    32   25
+Real 12 Strings                            121    33   25
+RealFolk Gtr DNC                           121    34   25
+Steel Gtr DNC                              121    35   25
+Jazz Guitar GM                             121     0   26
+Pedal Steel Gtr1                           121     1   26
+Club Jazz Gtr 1                            121     2   26
+Club Jazz Gtr 2                            121     3   26
+Pedal Steel Gtr2                           121     4   26
+Soft Jazz Guitar                           121     5   26
+JazzGtr SlidePro                           121     6   26
+Jazz Guitar DNC                            121     7   26
+Clean Guitar GM                            121     0   27
+Det. Clean Gtr                             121     1   27
+Mid Tone Gtr                               121     2   27
+Chorus Guitar                              121     3   27
+Vintage S.2                                121     4   27
+Proces.E.Guitar                            121     5   27
+Single Coil                                121     6   27
+New Stra.Guitar                            121     7   27
+Guitarish                                  121     8   27
+L&R E.Guitar 1                             121     9   27
+L&R E.Guitar 2                             121    10   27
+Country Nu                                 121    11   27
+Funky Wah RX                               121    12   27
+Clean Gtr Pro1                             121    13   27
+Single Coil Pro                            121    14   27
+Clean Gtr Pro2                             121    15   27
+Stra. Vel. Pro                             121    16   27
+Stra. Gtr Slide                            121    17   27
+Chorus Gtr Pro                             121    18   27
+Vintage S.1                                121    19   27
+Clean Guitar 2                             121    20   27
+Solid Guitar                               121    21   27
+Clean Jazz 1                               121    22   27
+Clean Jazz 2                               121    23   27
+'54 E. Guitar                              121    24   27
+Clean Guitar 3                             121    25   27
+Tel. Midddle                               121    26   27
+Tel. Bridge                                121    27   27
+Real El. Gtr ST1                           121    28   27
+Real El.Gtr ST2                            121    29   27
+Real El. Guitar1                           121    30   27
+Real El. Guitar2                           121    31   27
+House Kit 2                                  0    27   28
+Muted Guitar GM                            121     0   28
+Funky Cut Gtr                              121     1   28
+Mute Vel. Gtr                              121     2   28
+Jazz Man                                   121     3   28
+R&R Guitar                                 121     4   28
+Stra. Chime                                121     5   28
+Clean Mute Gtr                             121     6   28
+Rhythm E.Guitar                            121     7   28
+Clean Funk                                 121     8   28
+Disto Mute                                 121     9   28
+Clean Funk RX1                             121    10   28
+Clean Funk RX2                             121    11   28
+Funk Stein RX1                             121    12   28
+Funk Stein RX2                             121    13   28
+Clean Guitar RX1                           121    14   28
+Clean Guitar RX2                           121    15   28
+Clean Guitar RX3                           121    16   28
+Clean Guitar RX4                           121    17   28
+Clean Guitar RX5                           121    18   28
+Muted Guitar 2                             121    19   28
+Clean Guitar RX6                           121    20   28
+5th Mute Gtr                               121    21   28
+Overdrive Gtr GM                           121     0   29
+Guitar Pinch                               121     1   29
+Soft Overdrive                             121     2   29
+Crunch Gtr DNC                             121     3   29
+Distortion GtrGM                           121     0   30
+Feedback Guitar                            121     1   30
+Dist.Rhytmic Gtr                           121     2   30
+Joystick Gtr Y-                            121     3   30
+Power Chords                               121     4   30
+Mute Monster                               121     5   30
+Wet Dist. Guitar                           121     6   30
+Solo Dist.Guitar                           121     7   30
+Stereo Dist.Gtr                            121     8   30
+Dist. Guitar RX1                           121     9   30
+Dist. Guitar RX2                           121    10   30
+Dist. Clean Gtr                            121    11   30
+Dist. Steel Gtr                            121    12   30
+Gtr Harmonic GM                            121     0   31
+Guitar Feedback                            121     1   31
+E.Gtr Harmonics                            121     2   31
+Acoustic Bass GM                           121     0   32
+Ac. Bass Buzz                              121     1   32
+Bass & Ride 2                              121     2   32
+Acous. Bass Pro1                           121     3   32
+Acous. Bass Pro2                           121     4   32
+DarkWoody A.Bass                           121     5   32
+Bass & Ride 1                              121     6   32
+Acous. Bass RX                             121     7   32
+Acoustic Bass 2                            121     8   32
+Jazz Bass                                  121     9   32
+Organ Pedal 1                              121    10   32
+Organ Pedal 2                              121    11   32
+Finger Bass GM                             121     0   33
+Finger Slap 2                              121     1   33
+Finger E.Bass1                             121     2   33
+Finger E.Bass2                             121     3   33
+Finger E.Bass3                             121     4   33
+Stick Bass                                 121     5   33
+Finger Bass 2                              121     6   33
+Finger Bass 3                              121     7   33
+Chorus Fing.Bass                           121     8   33
+Bright Finger B.                           121     9   33
+Finger Bass 4                              121    10   33
+More mid! Bass                             121    11   33
+Finger Slap 1                              121    12   33
+Finger Bass RX                             121    13   33
+FingerB.& Guitar                           121    14   33
+Finger Bass 5                              121    15   33
+Finger Bass DNC                            121    16   33
+Picked E.Bass GM                           121     0   34
+Picked E.Bass 2                            121     1   34
+Picked E.Bass 3                            121     2   34
+Stein Bass                                 121     3   34
+Bass & Guitar                              121     4   34
+Bass Mute                                  121     5   34
+Bass&Gtr Double                            121     6   34
+Pick Bass 1                                121     7   34
+Pick Bass 2                                121     8   34
+Ticktacing Bass                            121     9   34
+Picked Bass RX                             121    10   34
+Picked E.Bass 4                            121    11   34
+Fretless Bass GM                           121     0   35
+Fretless Bass 2                            121     1   35
+Fretless Bass 3                            121     2   35
+Sweet Fretless                             121     3   35
+Dark R&B Bass1                             121     4   35
+Dark R&B Bass2                             121     5   35
+Woofer Pusher B.                           121     6   35
+Fretless Bass 4                            121     7   35
+Slap Bass 1 GM                             121     0   36
+Super Bass 1                               121     1   36
+Super Bass 2                               121     2   36
+FunkSlap Bass RX                           121     3   36
+SlapFing Bass RX                           121     4   36
+SlapPick Bass RX                           121     5   36
+Slap Bass 3                                121     6   36
+Slap Bass 2 GM                             121     0   37
+Thumb Bass                                 121     1   37
+Dyna Bass                                  121     2   37
+Dyna Slap Bass                             121     3   37
+Chorus Slap Bass                           121     4   37
+The Other Slap                             121     5   37
+Slap Bass 4                                121     6   37
+Slap Bass 5                                121     7   37
+Synth Bass 1 GM                            121     0   38
+Syn Bass Warm                              121     1   38
+Syn Bass Reso                              121     2   38
+Clav Bass                                  121     3   38
+Hammer                                     121     4   38
+30303 Bass                                 121     5   38
+30303 Square                               121     6   38
+Bass Square                                121     7   38
+Syn Bass Res                               121     8   38
+Digi Bass 1                                121     9   38
+Digi Bass 2                                121    10   38
+Digi Bass 3                                121    11   38
+Blind as a Bat                             121    12   38
+Jungle Bass                                121    13   38
+Auto Pilot 1                               121    14   38
+Hybrid Bass                                121    15   38
+Dr. Octave                                 121    16   38
+Drive Bass                                 121    17   38
+Synth Bass 3                               121    18   38
+Synth Bass 2 GM                            121     0   39
+Attack Bass                                121     1   39
+Rubber Bass                                121     2   39
+Attack Pulse                               121     3   39
+Euro Bass                                  121     4   39
+Jungle Rez                                 121     5   39
+Nasty Bass                                 121     6   39
+Phat Bass                                  121     7   39
+Poinker Bass                               121     8   39
+Synth Bass 80ish                           121     9   39
+Autofilter Bass                            121    10   39
+Monofilter Bass                            121    11   39
+Reso Bass                                  121    12   39
+Auto Pilot 2                               121    13   39
+Bass4 Da Phunk                             121    14   39
+Synth Bass 4                               121    15   39
+Violin GM                                  121     0   40
+Slow Att.Violin                            121     1   40
+Violin Expr. 1                             121     2   40
+Slow Violin                                121     3   40
+Violin Expr. 2                             121     4   40
+Viola GM                                   121     0   41
+Viola Expr.                                121     1   41
+Violin & Viola                             121     2   41
+Cello GM                                   121     0   42
+Contrabass GM                              121     0   43
+Tremolo Str. GM                            121     0   44
+Pizzicato Str.GM                           121     0   45
+Pizz. Ensemble                             121     1   45
+Pizz. Section                              121     2   45
+Double Strings                             121     3   45
+Harp GM                                    121     0   46
+Yang Chin                                  121     1   46
+Timpani GM                                 121     0   47
+Strings Ens.1 GM                           121     0   48
+Strings & Brass                            121     1   48
+60's Strings                               121     2   48
+Stereo Strings                             121     3   48
+Legato Strings                             121     4   48
+i3 Strings                                 121     5   48
+N Strings                                  121     6   48
+Arco Strings                               121     7   48
+Octave Strings                             121     8   48
+Strings Quartet                            121     9   48
+Symphonic Bows                             121    10   48
+Ensemble & Solo                            121    11   48
+Chamber Strings                            121    12   48
+Arabic Strings                             121    13   48
+Orchestra Tutti1                           121    14   48
+Strings & Horns                            121    15   48
+Orch. & Oboe 1                             121    16   48
+Orch. & Oboe 2                             121    17   48
+Strings & Glock.                           121    18   48
+Orchestra Tutti2                           121    19   48
+Orchestra&Flute                            121    20   48
+Strings Ens. 3                             121    21   48
+Strings Ens. RX                            121    22   48
+Concert Str.RX                             121    23   48
+Strings Ens.2 GM                           121     0   49
+Sweeper Strings                            121     1   49
+Full Strings                               121     2   49
+Strings Ens. 4                             121     3   49
+Spiccato Strings                           121     4   49
+Movie Strings 1                            121     5   49
+Movie Strings 2                            121     6   49
+Movie Str.1 DNC                            121     7   49
+Movie Str.2 DNC                            121     8   49
+Synth Strings1GM                           121     0   50
+Synth Strings 3                            121     1   50
+Analog Strings 2                           121     2   50
+Analog Velve                               121     3   50
+Odissey                                    121     4   50
+Analog Strings 1                           121     5   50
+Synth Strings 4                            121     6   50
+Synth Strings2GM                           121     0   51
+Synth Strings 5                            121     1   51
+Choir Aahs GM                              121     0   52
+Choir Aahs 2                               121     1   52
+Ooh Voices                                 121     2   52
+Ooh Slow Voice                             121     3   52
+Take Voices 1                              121     4   52
+Take Voices 2                              121     5   52
+Ooh Choir                                  121     6   52
+Aah Choir                                  121     7   52
+Wuuh Choir                                 121     8   52
+Oh-Ah Voices                               121     9   52
+Slow Choir                                 121    10   52
+Grand Choir                                121    11   52
+Choir Light                                121    12   52
+Strings Choir                              121    13   52
+Femal&Male Scat                            121    14   52
+Femal Scat                                 121    15   52
+Male Scat                                  121    16   52
+Scat V.& Bass1                             121    17   52
+Scat V.& Bass2                             121    18   52
+Scat Voices RX                             121    19   52
+Scat Voices DNC                            121    20   52
+Voice Oohs GM                              121     0   53
+Humming                                    121     1   53
+Doolally                                   121     2   53
+Airways                                    121     3   53
+Synth Voice GM                             121     0   54
+Analog Voice                               121     1   54
+Vocalesque                                 121     2   54
+Vocalscape                                 121     3   54
+Classic Vox                                121     4   54
+Dream Voice                                121     5   54
+Synth Voices 2                             121     6   54
+Orchestra Hit GM                           121     0   55
+Bass Hit Plus                              121     1   55
+6th Hit                                    121     2   55
+Euro Hit                                   121     3   55
+Brass Impact                               121     4   55
+Hit in India                               121     5   55
+Wild Arp                                   121     6   55
+Flip Blip                                  121     7   55
+Netherland Hit                             121     8   55
+Trumpet GM                                 121     0   56
+Dark Trumpet                               121     1   56
+Trumpet Overb.                             121     2   56
+Mono Trumpet                               121     3   56
+Trumpet Expr.2                             121     4   56
+Trumpet Pitch                              121     5   56
+Dual Trumpets                              121     6   56
+Flugel Horn                                121     7   56
+Warm Flugel                                121     8   56
+BeBop Cornet                               121     9   56
+Trumpet Pro 1                              121    10   56
+Trumpet Pro 2                              121    11   56
+Sweet FlugelHorn                           121    12   56
+Flugel Horn Pro                            121    13   56
+Trumpet 2                                  121    14   56
+Trumpet Expr.1                             121    15   56
+Trumpet Pro 3                              121    16   56
+Alp Trumpet                                121    17   56
+Trumpet Shake Y+                           121    18   56
+Concert Trumpet                            121    19   56
+Concert Trp.Pro                            121    20   56
+Cornet Expr.                               121    21   56
+Cornet Pro 1                               121    22   56
+Cornet Pro 2                               121    23   56
+Trumpet DNC                                121    24   56
+Cornet DNC                                 121    25   56
+Trombone GM                                121     0   57
+Trombone 2                                 121     1   57
+Bright Trombone                            121     2   57
+Hard Trombone                              121     3   57
+Soft Trombone                              121     4   57
+Pitch Trombone                             121     5   57
+Trombone Expr. 1                           121     6   57
+Trombone Expr. 2                           121     7   57
+Trombone Vel. 1                            121     8   57
+Trombone Vel. 2                            121     9   57
+Trombone Vel. 3                            121    10   57
+Trombone Pro Vel                           121    11   57
+Trombone 3                                 121    12   57
+Trombone DNC                               121    13   57
+Tuba GM                                    121     0   58
+Oberkr. Tuba                               121     1   58
+Tuba Gold                                  121     2   58
+Dynabone                                   121     3   58
+Ob.Tuba & E.Bass 1                         121     4   58
+Ob.Tuba & E.Bass 2                         121     5   58
+Mute Trumpet GM                            121     0   59
+Mute Trumpet 2                             121     1   59
+Wah Trumpet                                121     2   59
+Mute Ensemble 1                            121     3   59
+Mute Ensemble 2                            121     4   59
+French Horn GM                             121     0   60
+French Horn 2                              121     1   60
+French Section                             121     2   60
+Classic Horns                              121     3   60
+Horns & Ensemble                           121     4   60
+Brass Section GM                           121     0   61
+Brass Section 2                            121     1   61
+Tight Brass 3                              121     2   61
+Glen & Friends                             121     3   61
+Big Band Brass 2                           121     4   61
+Sax & Brass                                121     5   61
+Glen & Boys                                121     6   61
+Trpts & Brass                              121     7   61
+Attack Brass                               121     8   61
+Trumpet Ens.                               121     9   61
+Trombone Ens.                              121    10   61
+Trombones                                  121    11   61
+Tight Brass 4                              121    12   61
+Fat Brass                                  121    13   61
+Dyna Brass 1                               121    14   61
+Brass Expr.                                121    15   61
+Brass & Sax                                121    16   61
+Film Brass                                 121    17   61
+Brass Slow                                 121    18   61
+Fanfare                                    121    19   61
+Movie Brass                                121    20   61
+Power Brass                                121    21   61
+Dyna Brass 2                               121    22   61
+Sforzato Brass                             121    23   61
+Double Brass                               121    24   61
+Brass Hit                                  121    25   61
+Brass Fall                                 121    26   61
+Tight Brass 1                              121    27   61
+Tight Brass Pro                            121    28   61
+Tight Brass 2                              121    29   61
+Brass of Power                             121    30   61
+Brass Section 3                            121    31   61
+Big Band Brass 1                           121    32   61
+Big BandShake Y+                           121    33   61
+Trpts &Trombs                              121    34   61
+Trumpet Ens1 Y+                            121    35   61
+Trumpet Ens2 Y+                            121    36   61
+Synth Brass 1GM                            121     0   62
+Synth Brass 3                              121     1   62
+Analog Brass 1                             121     2   62
+Jump Brass                                 121     3   62
+Electrik Brass                             121     4   62
+Synth Brass 5                              121     5   62
+Synth Brass 2GM                            121     0   63
+Synth Brass 4                              121     1   63
+Analog Brass 2                             121     2   63
+Brass Pad                                  121     3   63
+Big Panner                                 121     4   63
+Synth Brass 6                              121     5   63
+Soprano Sax GM                             121     0   64
+Sweet Soprano 3                            121     1   64
+Soprano Pro                                121     2   64
+Sweet Soprano 1                            121     3   64
+Sweet Soprano 2                            121     4   64
+Alto Sax GM                                121     0   65
+Alto Breath                                121     1   65
+Sax Ensemble                               121     2   65
+Breathy Alto Sax                           121     3   65
+Alto Sax Growl                             121     4   65
+Sweet Alto Sax 1                           121     5   65
+Sweet Alto Sax 2                           121     6   65
+Soft Alto Sax                              121     7   65
+Alto Sax Pro                               121     8   65
+Alto Sax Expr.                             121     9   65
+Alto Sax RX                                121    10   65
+Cool Sax Ens.                              121    11   65
+Alto Sax DNC                               121    12   65
+Tenor Sax GM                               121     0   66
+Tenor Sax Noise1                           121     1   66
+Soft Tenor                                 121     2   66
+Tenor Breath                               121     3   66
+Tenor Growl                                121     4   66
+Folk Sax                                   121     5   66
+Tenor Sax Noise2                           121     6   66
+Tenor Sax Expr.1                           121     7   66
+Tenor Sax Expr.2                           121     8   66
+Jazz Tenor 1                               121     9   66
+Jazz Tenor 2                               121    10   66
+Reed of Power                              121    11   66
+Tenor Sax DNC                              121    12   66
+Baritone Sax GM                            121     0   67
+Baritone Growl                             121     1   67
+Breathy Baritone                           121     2   67
+Baritone Sax Pro                           121     3   67
+Baritone Sax 2                             121     4   67
+Oboe GM                                    121     0   68
+Double Reed                                121     1   68
+English Horn GM                            121     0   69
+English Horn 2                             121     1   69
+Bassoon GM                                 121     0   70
+Clarinet GM                                121     0   71
+Jazz Clarinet                              121     1   71
+Clarinet G                                 121     2   71
+Section Winds 1                            121     3   71
+Section Winds 2                            121     4   71
+Clarinet Ens.                              121     5   71
+Woodwinds                                  121     6   71
+Folk Clarinet                              121     7   71
+Clarinet Pro 1                             121     8   71
+Clarinet Pro 2                             121     9   71
+Reeds & Saxes                              121    10   71
+Klarnet 1                                  121    11   71
+Klarnet 2                                  121    12   71
+Clarinet DNC                               121    13   71
+Piccolo GM                                 121     0   72
+Small Orchestra                            121     1   72
+Nay                                        121     2   72
+Flute GM                                   121     0   73
+Jazz Flute Expr.                           121     1   73
+Flute Switch                               121     2   73
+Flute Dyn. 5th                             121     3   73
+Flute Frullato                             121     4   73
+Orchestra Flute                            121     5   73
+Flute Muted                                121     6   73
+Wooden Flute                               121     7   73
+Bambu Flute                                121     8   73
+Flute 2                                    121     9   73
+Jazz Flute RX                              121    10   73
+Flute DNC                                  121    11   73
+Recorder GM                                121     0   74
+Recorder 2                                 121     1   74
+Pan Flute GM                               121     0   75
+Kawala                                     121     1   75
+Blown Bottle GM                            121     0   76
+Shakuhachi GM                              121     0   77
+Old Shakuhachi                             121     1   77
+Shakuhachi 2                               121     2   77
+Whistle GM                                 121     0   78
+Whistle 2                                  121     1   78
+Whistle Breathe                            121     2   78
+Whistle RX1                                121     3   78
+Whistle RX2                                121     4   78
+Whistle DNC                                121     5   78
+Ocarina GM                                 121     0   79
+Lead Square GM                             121     0   80
+Lead Square 2                              121     1   80
+Lead Sine                                  121     2   80
+Old Portamento                             121     3   80
+Dance Lead                                 121     4   80
+Wave Lead                                  121     5   80
+Sine Wave                                  121     6   80
+Analog Lead                                121     7   80
+Old & Analog                               121     8   80
+Gliding Square                             121     9   80
+Sine Switch                                121    10   80
+Square Rez                                 121    11   80
+Port Whine                                 121    12   80
+2VCO Planet Lead                           121    13   80
+Lead Saw GM                                121     0   81
+Lead Saw 2                                 121     1   81
+Lead Saw Pulse                             121     2   81
+Lead Double Saw                            121     3   81
+Seq. Analog                                121     4   81
+Power Saw                                  121     5   81
+Octo Lead                                  121     6   81
+Seq Lead                                   121     7   81
+Phat Saw Lead                              121     8   81
+Glide Lead                                 121     9   81
+Fire Wave                                  121    10   81
+Rezbo                                      121    11   81
+Synth Pianoid                              121    12   81
+Calliope GM                                121     0   82
+Chiff GM                                   121     0   83
+Charang GM                                 121     0   84
+Wire Lead                                  121     1   84
+Synchro City                               121     2   84
+Sync Kron                                  121     3   84
+Metallic Rez                               121     4   84
+Brian Sync                                 121     5   84
+Arp Twins                                  121     6   84
+LoFi Ethnic                                121     7   84
+Voice Lead GM                              121     0   85
+Ether Voices                               121     1   85
+Cyber Choir                                121     2   85
+Fifths Lead GM                             121     0   86
+Crimson 5ths                               121     1   86
+Bass & Lead GM                             121     0   87
+Soft Wrl                                   121     1   87
+Electro Lead                               121     2   87
+Rich Lead                                  121     3   87
+Thin Analog Lead                           121     4   87
+Express. Lead                              121     5   87
+HipHop Lead                                121     6   87
+Square Bass                                121     7   87
+Big & Raw                                  121     8   87
+Cat Lead                                   121     9   87
+OB Lead                                    121    10   87
+A Leadload                                 121    11   87
+New Age Pad GM                             121     0   88
+Virtual Traveler                           121     1   88
+Arp Angeles                                121     2   88
+Warm Pad GM                                121     0   89
+Sine Pad                                   121     1   89
+Master Pad                                 121     2   89
+Power Synth                                121     3   89
+The Pad                                    121     4   89
+Money Pad                                  121     5   89
+Dark Pad                                   121     6   89
+Freedom Pad                                121     7   89
+Analog Pad 1                               121     8   89
+Analog Pad 2                               121     9   89
+Analog Pad 3                               121    10   89
+Vintage Pad                                121    11   89
+OB Pad                                     121    12   89
+Dark Anna                                  121    13   89
+Symphonic Ens.                             121    14   89
+Polysynth GM                               121     0   90
+Reso Sweep                                 121     1   90
+Sky Watcher                                121     2   90
+Synth Sweeper                              121     3   90
+Super Sweep                                121     4   90
+Wave Sweep                                 121     5   90
+Cross Sweep                                121     6   90
+Digital PolySix                            121     7   90
+Noisy Stabb                                121     8   90
+Mega Synth                                 121     9   90
+Tecno Phonic                               121    10   90
+Farluce                                    121    11   90
+Big Sweep Stab                             121    12   90
+Korgmatose                                 121    13   90
+Choir Pad GM                               121     0   91
+Itopia Pad                                 121     1   91
+Fresh Air 1                                121     2   91
+Heaven                                     121     3   91
+Pop Synth Pad 1                            121     4   91
+Future Pad                                 121     5   91
+Tsunami Wave                               121     6   91
+Fresh Breath                               121     7   91
+Ravelian Pad                               121     8   91
+Full Vox Pad                               121     9   91
+Dance ReMix                                121    10   91
+Fresh Air 2                                121    11   91
+Pop Synth Pad 2                            121    12   91
+Bowed Glass GM                             121     0   92
+Metallic Pad GM                            121     0   93
+Cosmic                                     121     1   93
+80's Pop Synth                             121     2   93
+Halo Pad GM                                121     0   94
+Sweep Pad GM                               121     0   95
+Astral Dream                               121     1   95
+Meditate                                   121     2   95
+Dark Element                               121     3   95
+Mellow Pad                                 121     4   95
+Cinema Pad                                 121     5   95
+Reoccuring Astra                           121     6   95
+Vintage Sweep                              121     7   95
+You Decide                                 121     8   95
+Ice Rain GM                                121     0   96
+Motion Ocean                               121     1   96
+Caribbean                                  121     2   96
+Wave Cycle DNC                             121     3   96
+Soundtrack GM                              121     0   97
+Air Clouds                                 121     1   97
+Reso Down                                  121     2   97
+Tinklin Pad                                121     3   97
+Pods In Pad                                121     4   97
+Noble Pad                                  121     5   97
+Rave                                       121     6   97
+Elastick Pad                               121     7   97
+Crystal GM                                 121     0   98
+Synth Mallet                               121     1   98
+Vs Bell Boy                                121     2   98
+Krystal Bell                               121     3   98
+Digi Bell                                  121     4   98
+Moving Bell                                121     5   98
+Bell Pad                                   121     6   98
+Bell Choir                                 121     7   98
+Atmosphere GM                              121     0   99
+Brightness GM                              121     0  100
+Lonely Spin                                121     1  100
+Synth Ghostly                              121     2  100
+Goblins GM                                 121     0  101
+Motion Raver                               121     1  101
+Digi Ice Pad                               121     2  101
+VCF Modulation                             121     3  101
+Echo Drops GM                              121     0  102
+Echo Bell                                  121     1  102
+Echo Pan                                   121     2  102
+Band Passed                                121     3  102
+Pan Reso                                   121     4  102
+Moon Cycles                                121     5  102
+Star Theme GM                              121     0  103
+Sitar GM                                   121     0  104
+Sitar 2                                    121     1  104
+Sitar Tambou                               121     2  104
+Indian Stars                               121     3  104
+Indian Frets                               121     4  104
+Bouzouki                                   121     5  104
+Tambra                                     121     6  104
+Sitar Sitar                                121     7  104
+Banjo GM                                   121     0  105
+Banjo Key Off                              121     1  105
+Oud 2                                      121     2  105
+Jaw Harp                                   121     3  105
+Banjo RX                                   121     4  105
+Oud 1                                      121     5  105
+Shamisen GM                                121     0  106
+Koto GM                                    121     0  107
+Taisho Koto                                121     1  107
+Kanoun 2                                   121     2  107
+Kanoun Trem. 2                             121     3  107
+Kanoun Mix                                 121     4  107
+Kanoun 1                                   121     5  107
+Kanoun Trem. 1                             121     6  107
+Ac. Baglama 1                              121     7  107
+Ac. Baglama 2                              121     8  107
+Ac. Baglama Grp.                           121     9  107
+Kalimba GM                                 121     0  108
+Kalimba 2                                  121     1  108
+Bag Pipes GM                               121     0  109
+War Pipes                                  121     1  109
+Uillean BagPipes                           121     2  109
+HighlandBagPipes                           121     3  109
+Fiddle GM                                  121     0  110
+Shanai GM                                  121     0  111
+Zurna 2                                    121     1  111
+Hichiriki                                  121     2  111
+Zurna 1                                    121     3  111
+Tinkle Bell GM                             121     0  112
+Gamelan                                    121     1  112
+Bali Gamelan                               121     2  112
+Garbage Mall                               121     3  112
+Agogo GM                                   121     0  113
+Steel Drums GM                             121     0  114
+Warm Steel                                 121     1  114
+Woodblock GM                               121     0  115
+Castanets                                  121     1  115
+Taiko Drum GM                              121     0  116
+Concert BassDrum                           121     1  116
+Melodic Tom GM                             121     0  117
+Melodic Tom 2                              121     1  117
+Reverse Tom                                121     2  117
+Synth Drum GM                              121     0  118
+Rhythm Box Tom                             121     1  118
+Electric Drum                              121     2  118
+Reverse Snare                              121     3  118
+Reverse CymbalGM                           121     0  119
+Dragon Gong                                121     1  119
+Reverse Cymbal 2                           121     2  119
+Gtr FretNoise GM                           121     0  120
+Guitar Cut Noise                           121     1  120
+Ac. Bass String                            121     2  120
+Vox Wah Chick RX                           121     3  120
+Breath Noise GM                            121     0  121
+Flute Click                                121     1  121
+Seashore GM                                121     0  122
+Rain                                       121     1  122
+Thunder                                    121     2  122
+Wind                                       121     3  122
+Stream                                     121     4  122
+Bubble                                     121     5  122
+Bird Tweet GM                              121     0  123
+Dog                                        121     1  123
+Horse Gallop                               121     2  123
+Bird Tweet 2                               121     3  123
+Telephone GM                               121     0  124
+Telephone 2                                121     1  124
+Door Creak                                 121     2  124
+Door                                       121     3  124
+Scratch                                    121     4  124
+Wind Chime                                 121     5  124
+Helicopter GM                              121     0  125
+Car Engine                                 121     1  125
+Car Stop                                   121     2  125
+Car Pass                                   121     3  125
+Car Crash                                  121     4  125
+Siren                                      121     5  125
+Train                                      121     6  125
+Jet Plane                                  121     7  125
+Starship                                   121     8  125
+Burst Noise                                121     9  125
+Applause GM                                121     0  126
+Laughing                                   121     1  126
+Screaming                                  121     2  126
+Punch                                      121     3  126
+Heart Beat                                 121     4  126
+Footsteps                                  121     5  126
+Stadium                                    121     6  126
+Gun Shot GM                                121     0  127
+Machine Gun                                121     1  127
+Laser Gun                                  121     2  127
+Explosion                                  121     3  127

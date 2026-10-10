@@ -1,0 +1,1 @@
+"""Auto-discovered Korg decoder slots."""

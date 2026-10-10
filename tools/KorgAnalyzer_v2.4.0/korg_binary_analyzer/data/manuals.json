@@ -1,0 +1,2783 @@
+{
+ "schema": "korg-analyzer-manuals/1",
+ "note": "Official manufacturer download links only. Nothing here is re-hosted.",
+ "products": {
+  "Pa1X": {
+   "brand": "Korg",
+   "family": "Pa1X",
+   "generation": "2003",
+   "container_era": "BKP backup (fb-record) + OC20/OC31/OC32 + CBarc + XOR",
+   "product_page": "https://www.korg.com/us/support/download/product/1/184/",
+   "docs": [
+    {
+     "doc": "Easy Start Guide",
+     "size": "442.0KB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/56c540b3cec0ba5c51bad0cd3564aa14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/184/2208/",
+     "filename": "Pa1X_PA1XPro_EasyStart.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/184/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa1X Pro": {
+   "brand": "Korg",
+   "family": "Pa1X",
+   "generation": "2003",
+   "container_era": "BKP backup (fb-record) + OC20/OC31/OC32 + CBarc + XOR",
+   "product_page": "https://www.korg.com/us/support/download/product/1/185/",
+   "docs": [
+    {
+     "doc": "Easy Start Guide",
+     "size": "442.0KB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/4111b41741be99f3386674676ad6fadb.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/185/2210/",
+     "filename": "Pa1X_PA1XPro_EasyStart.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/185/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa1X Pro Elite": {
+   "brand": "Korg",
+   "family": "Pa1X",
+   "generation": "2003",
+   "container_era": "BKP backup (fb-record) + OC20/OC31/OC32 + CBarc + XOR",
+   "product_page": "https://www.korg.com/us/support/download/product/1/255/",
+   "docs": [
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/255/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa2X Pro": {
+   "brand": "Korg",
+   "family": "Pa2X",
+   "generation": "2008",
+   "container_era": "same resource layer as Pa1X",
+   "product_page": "https://www.korg.com/us/support/download/product/1/186/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "23.1MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/72acb3ecba4261eb6ed208d332f70698.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/186/2212/",
+     "filename": "Pa2X-201UM-ENG.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Advanced Edit / Reference",
+     "size": "4.4MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/74f4a94b3c0cbe12e4965e983393d74b.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/186/2216/",
+     "filename": "Pa2X-201AE-ENG.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/186/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa3X": {
+   "brand": "Korg",
+   "family": "Pa3X",
+   "generation": "2011",
+   "container_era": "pkg/upd installer wrapping OC20 pages, same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/0/307/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "70.4MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/ec94dfe0663623a3f7d95fef9ff99e82.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/307/2225/",
+     "filename": "Pa3X_UM_v100_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Advanced Edit / Reference",
+     "size": "13.8MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/f305489ac5ac1cf2c78b78a90eaa3201.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/307/2229/",
+     "filename": "Pa3X_AE_Manual_v100_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/307/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/307/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa3X MUSIKANT": {
+   "brand": "Korg",
+   "family": "Pa3X",
+   "generation": "2011",
+   "container_era": "pkg/upd installer wrapping OC20 pages, same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/1/297/",
+   "docs": [
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/297/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/297/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa3X Le": {
+   "brand": "Korg",
+   "family": "Pa3X",
+   "generation": "2013",
+   "container_era": "pkg/upd installer wrapping OC20 pages, same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/0/366/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "53.0MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/969e655b6ba238c2949e108e0543630d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/366/2236/",
+     "filename": "Pa3XLe_User_Manual_v1.1_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "28.7MB",
+     "date": "2016.03.17",
+     "direct": "https://cdn.korg.com/us/support/download/files/b1e403573a42114b1b45c7c6cca7e004.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/366/2953/",
+     "filename": "Pa3XLe_Quick_Guide_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/366/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/366/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa3X Le MUSIKANT": {
+   "brand": "Korg",
+   "family": "Pa3X",
+   "generation": "2013",
+   "container_era": "pkg/upd installer wrapping OC20 pages, same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/1/298/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "53.0MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/969e655b6ba238c2949e108e0543630d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/298/2236/",
+     "filename": "Pa3XLe_User_Manual_v1.1_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/298/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/298/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa600": {
+   "brand": "Korg",
+   "family": "Pa600",
+   "generation": "2012",
+   "container_era": "pkg/upd with a 16-byte MD5 header and zlib per blob, same resources",
+   "product_page": "https://www.korg.com/us/support/download/product/0/90/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "50.6MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/b2857c13e138edfcc07a714df6499145.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/90/1945/",
+     "filename": "Pa600_User_Manual_v2.1_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/90/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "25.3MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/3b5090db94307ca19ba68eb6e8a348ce.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/90/1944/",
+     "filename": "Pa600_Quick_Guide_v110_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/90/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: Battery Addendum",
+     "size": "97.9KB",
+     "date": "2019.09.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/7632c627240d8fb8293578141187f848.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/90/4375/",
+     "filename": "Pa_Series_Battery_Addendum.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa600QT": {
+   "brand": "Korg",
+   "family": "Pa600",
+   "generation": "2012",
+   "container_era": "pkg/upd with a 16-byte MD5 header and zlib per blob, same resources",
+   "product_page": "https://www.korg.com/us/support/download/product/0/305/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "50.6MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/b2857c13e138edfcc07a714df6499145.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/305/1945/",
+     "filename": "Pa600_User_Manual_v2.1_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "748.9KB",
+     "date": "2016.03.16",
+     "direct": "https://cdn.korg.com/us/support/download/files/53225a2e8d935ac14038613f6d8a0d81.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/305/2261/",
+     "filename": "Pa600QT_MR_Addendum_All_languages.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/305/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "25.3MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/3b5090db94307ca19ba68eb6e8a348ce.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/305/1944/",
+     "filename": "Pa600_Quick_Guide_v110_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/305/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: Battery Addendum",
+     "size": "97.9KB",
+     "date": "2019.09.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/7632c627240d8fb8293578141187f848.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/305/4375/",
+     "filename": "Pa_Series_Battery_Addendum.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa600 MUSIKANT": {
+   "brand": "Korg",
+   "family": "Pa600",
+   "generation": "2012",
+   "container_era": "pkg/upd with a 16-byte MD5 header and zlib per blob, same resources",
+   "product_page": "https://www.korg.com/us/support/download/product/1/299/",
+   "docs": [
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/299/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa800": {
+   "brand": "Korg",
+   "family": "Pa800",
+   "generation": "2007",
+   "container_era": "same resource layer as Pa1X",
+   "product_page": "https://www.korg.com/us/support/download/product/1/193/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "22.3MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/1c1da327a641547b3863b6e06da095b9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/193/2268/",
+     "filename": "Pa800-201UM-ENG.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Advanced Edit / Reference",
+     "size": "4.2MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/4ec419fed5c2247621b42ec46ddfc18d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/193/1859/",
+     "filename": "Pa800_AE_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Easy Start Guide",
+     "size": "248.5KB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/cdbd5a419c6654f9001169b7506d5374.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/193/2273/",
+     "filename": "Pa800_EasyStart.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/193/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa900": {
+   "brand": "Korg",
+   "family": "Pa900",
+   "generation": "2013",
+   "container_era": "same as Pa600",
+   "product_page": "https://www.korg.com/us/support/download/product/0/89/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "40.7MB",
+     "date": "2018.04.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/d159819b26ac688992a5dba187c1ae40.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/89/3846/",
+     "filename": "Pa900_User_Manual_v1.3_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "22.8MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/0486b71af6b990b00e5ff589059ed891.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/89/1969/",
+     "filename": "Pa900_QG_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/89/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa900 MUSIKANT": {
+   "brand": "Korg",
+   "family": "Pa900",
+   "generation": "2013",
+   "container_era": "same as Pa600",
+   "product_page": "https://www.korg.com/us/support/download/product/1/301/",
+   "docs": [
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/301/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa900 TK": {
+   "brand": "Korg",
+   "family": "Pa900",
+   "generation": "2013",
+   "container_era": "same as Pa600",
+   "product_page": "https://www.korg.com/us/support/download/product/1/302/",
+   "docs": [
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/302/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa4X": {
+   "brand": "Korg",
+   "family": "Pa4X",
+   "generation": "2015",
+   "container_era": "lfo-pkg installer (Blowfish CBC family key), same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/0/516/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "29.4MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/4cae61c2c57753ee750584e7d3692d38.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/2572/",
+     "filename": "Pa4X_User_Manual_v31_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "3.0MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/35ef67f512daf49e36d571c0c34b89bc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/4245/",
+     "filename": "Pa4X_New_Features_v3.1.0_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "9.8MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/eb09719303d80a59482d0aa16cd09da9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/2549/",
+     "filename": "Pa4X_Quick_Guide_v31_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: HDIK-3 HD Kit",
+     "size": "267.4KB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/a8860101bed03bcb8629ee563630cd3a.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/2581/",
+     "filename": "HDIK3_EFGIS1.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/516/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa4X ORIENTAL": {
+   "brand": "Korg",
+   "family": "Pa4X",
+   "generation": "2015",
+   "container_era": "lfo-pkg installer (Blowfish CBC family key), same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/0/572/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "29.4MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/4cae61c2c57753ee750584e7d3692d38.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/2572/",
+     "filename": "Pa4X_User_Manual_v31_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "350.2KB",
+     "date": "2019.05.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/c17f472ad95eb9e2ff953281be994208.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/2959/",
+     "filename": "Pa4X_ORIENTAL_Addendum.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "3.0MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/35ef67f512daf49e36d571c0c34b89bc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/4245/",
+     "filename": "Pa4X_New_Features_v3.1.0_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "9.8MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/eb09719303d80a59482d0aa16cd09da9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/2549/",
+     "filename": "Pa4X_Quick_Guide_v31_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: HDIK-3 HD Kit",
+     "size": "267.4KB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/a8860101bed03bcb8629ee563630cd3a.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/2581/",
+     "filename": "HDIK3_EFGIS1.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/572/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa4X MUSIKANT": {
+   "brand": "Korg",
+   "family": "Pa4X",
+   "generation": "2015",
+   "container_era": "lfo-pkg installer (Blowfish CBC family key), same OC31/OC32 payloads",
+   "product_page": "https://www.korg.com/us/support/download/product/1/286/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "29.4MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/4cae61c2c57753ee750584e7d3692d38.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/286/2572/",
+     "filename": "Pa4X_User_Manual_v31_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "3.0MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/35ef67f512daf49e36d571c0c34b89bc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/286/4245/",
+     "filename": "Pa4X_New_Features_v3.1.0_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "9.8MB",
+     "date": "2019.07.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/eb09719303d80a59482d0aa16cd09da9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/286/2549/",
+     "filename": "Pa4X_Quick_Guide_v31_E.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/286/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: HDIK-3 HD Kit",
+     "size": "267.4KB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/a8860101bed03bcb8629ee563630cd3a.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/286/2581/",
+     "filename": "HDIK3_EFGIS1.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Accessory: PaAS Speaker",
+     "size": "3.9MB",
+     "date": "2015.10.21",
+     "direct": "https://cdn.korg.com/us/support/download/files/016e5a213336a74f7fa0e28f606807ec.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/286/2580/",
+     "filename": "PaAS_OM_EFGIS1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa700": {
+   "brand": "Korg",
+   "family": "Pa700",
+   "generation": "2017",
+   "container_era": "same as Pa4X",
+   "product_page": "https://www.korg.com/us/support/download/product/0/756/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "30.9MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/776cfdc9e45cca1008d93915608191db.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/756/4262/",
+     "filename": "Pa700_User_Manual_v1.5_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "404.5KB",
+     "date": "2020.02.14",
+     "direct": "https://cdn.korg.com/us/support/download/files/d6c7fb2fc7fd9f2626e725ae29e940e1.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/756/4256/",
+     "filename": "Pa700_New_Features_v1.5.1_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/756/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "7.4MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/3aaa19b85012e2ed2ad68eb73649b1c8.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/756/3660/",
+     "filename": "Pa700_Quick_Guide_v1.5_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/756/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: Battery Addendum",
+     "size": "97.9KB",
+     "date": "2019.09.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/7632c627240d8fb8293578141187f848.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/756/4375/",
+     "filename": "Pa_Series_Battery_Addendum.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa700 ORIENTAL": {
+   "brand": "Korg",
+   "family": "Pa700",
+   "generation": "2017",
+   "container_era": "same as Pa4X",
+   "product_page": "https://www.korg.com/us/support/download/product/0/759/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "30.9MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/776cfdc9e45cca1008d93915608191db.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/759/4262/",
+     "filename": "Pa700_User_Manual_v1.5_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "404.5KB",
+     "date": "2020.02.14",
+     "direct": "https://cdn.korg.com/us/support/download/files/d6c7fb2fc7fd9f2626e725ae29e940e1.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/759/4256/",
+     "filename": "Pa700_New_Features_v1.5.1_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/759/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "7.4MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/3aaa19b85012e2ed2ad68eb73649b1c8.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/759/3660/",
+     "filename": "Pa700_Quick_Guide_v1.5_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/759/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: Battery Addendum",
+     "size": "97.9KB",
+     "date": "2019.09.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/7632c627240d8fb8293578141187f848.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/759/4375/",
+     "filename": "Pa_Series_Battery_Addendum.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa700 RD": {
+   "brand": "Korg",
+   "family": "Pa700",
+   "generation": "2017",
+   "container_era": "same as Pa4X",
+   "product_page": "https://www.korg.com/us/support/download/product/0/834/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "30.9MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/776cfdc9e45cca1008d93915608191db.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/834/4262/",
+     "filename": "Pa700_User_Manual_v1.5_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "404.5KB",
+     "date": "2020.02.14",
+     "direct": "https://cdn.korg.com/us/support/download/files/d6c7fb2fc7fd9f2626e725ae29e940e1.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/834/4256/",
+     "filename": "Pa700_New_Features_v1.5.1_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/834/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "7.4MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/3aaa19b85012e2ed2ad68eb73649b1c8.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/834/3660/",
+     "filename": "Pa700_Quick_Guide_v1.5_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/834/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: Battery Addendum",
+     "size": "97.9KB",
+     "date": "2019.09.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/7632c627240d8fb8293578141187f848.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/834/4375/",
+     "filename": "Pa_Series_Battery_Addendum.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa1000": {
+   "brand": "Korg",
+   "family": "Pa1000",
+   "generation": "2017",
+   "container_era": "same as Pa4X",
+   "product_page": "https://www.korg.com/us/support/download/product/0/758/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "32.3MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/a08a3129a01fbf6193cecc389a784b72.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/758/3652/",
+     "filename": "Pa1000_User_Manual_v1.5_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "182.5KB",
+     "date": "2020.02.14",
+     "direct": "https://cdn.korg.com/us/support/download/files/ed214948be659e25b74383807a25e5ae.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/758/4246/",
+     "filename": "Pa1000_New_Features_v1.5.2_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/758/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "8.3MB",
+     "date": "2025.11.06",
+     "direct": "https://cdn.korg.com/us/support/download/files/5c23e9db861e1f360aa78bfc21e7ca86.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/758/3653/",
+     "filename": "Pa1000_Quick_Guide_v1.5_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "2.0MB",
+     "date": "2018.12.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/20b607617e322a14fc423f843c9e9275.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/758/4182/",
+     "filename": "SongBook_Editor_v3.0_User_Guide_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Accessory: Battery Addendum",
+     "size": "97.9KB",
+     "date": "2019.09.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/7632c627240d8fb8293578141187f848.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/758/4375/",
+     "filename": "Pa_Series_Battery_Addendum.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa5X": {
+   "brand": "Korg",
+   "family": "Pa5X",
+   "generation": "2022",
+   "container_era": "new-generation container, PA-manager tooling",
+   "product_page": "https://www.korg.com/us/support/download/product/0/895/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "78.4MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/d2891a08eb12569f4f978cdf239972cc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/895/5309/",
+     "filename": "Pa5X_User_Manual_v1.4_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "15.8MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/69f13112591895c3222b45805422b393.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/895/5481/",
+     "filename": "Pa5X_New_Features_v1.4.2_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Performance Guide",
+     "size": "35.2MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/635d99946db42fe6496f4a84823c61b9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/895/5302/",
+     "filename": "Pa5X_Performance_Guide_v1.4.2_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "13.3MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/20fcc68f1e0bc04702ad28db6482f4b9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/895/5300/",
+     "filename": "Pa5X_Quick_Guide_v142_EFGISC.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa5X ORIENTAL": {
+   "brand": "Korg",
+   "family": "Pa5X",
+   "generation": "2022",
+   "container_era": "new-generation container, PA-manager tooling",
+   "product_page": "https://www.korg.com/us/support/download/product/0/958/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "78.4MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/d2891a08eb12569f4f978cdf239972cc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/958/5309/",
+     "filename": "Pa5X_User_Manual_v1.4_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "862.5KB",
+     "date": "2024.10.29",
+     "direct": "https://cdn.korg.com/us/support/download/files/31537887ebde20e2db6578940bbaba10.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/958/5321/",
+     "filename": "Pa5X_ORIENTAL_Addendum_(A4).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "15.8MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/69f13112591895c3222b45805422b393.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/958/5481/",
+     "filename": "Pa5X_New_Features_v1.4.2_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Performance Guide",
+     "size": "35.2MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/635d99946db42fe6496f4a84823c61b9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/958/5302/",
+     "filename": "Pa5X_Performance_Guide_v1.4.2_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "13.3MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/20fcc68f1e0bc04702ad28db6482f4b9.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/958/5300/",
+     "filename": "Pa5X_Quick_Guide_v142_EFGISC.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa5X MUSIKANT": {
+   "brand": "Korg",
+   "family": "Pa5X",
+   "generation": "2022",
+   "container_era": "new-generation container, PA-manager tooling",
+   "product_page": "https://www.korg.com/us/support/download/product/1/448/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "78.4MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/d2891a08eb12569f4f978cdf239972cc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/448/5309/",
+     "filename": "Pa5X_User_Manual_v1.4_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "15.8MB",
+     "date": "2025.11.25",
+     "direct": "https://cdn.korg.com/us/support/download/files/69f13112591895c3222b45805422b393.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/448/5481/",
+     "filename": "Pa5X_New_Features_v1.4.2_(English).pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa300": {
+   "brand": "Korg",
+   "family": "Pa300",
+   "generation": "2013",
+   "container_era": "same as Pa600",
+   "product_page": "https://www.korg.com/us/support/download/product/0/359/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "38.1MB",
+     "date": "2018.04.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/6812a8e0c12bfdde1e3d50aff00f4e1d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/359/1986/",
+     "filename": "Pa300_User_Manual_v2.1_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Pa Series Comparison Chart",
+     "size": "3.3MB",
+     "date": "2021.03.05",
+     "direct": "https://cdn.korg.com/us/support/download/files/dfb70fce8ae3654634717b71e90f7e14.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/359/4732/",
+     "filename": "pa_chart.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "21.5MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/cc8f840bde924259df8fd6654a7f0efc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/359/1985/",
+     "filename": "Pa300_Quick_Guide_v2.0_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/359/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa300 Serbia Edition": {
+   "brand": "Korg",
+   "family": "Pa300",
+   "generation": "2013",
+   "container_era": "same as Pa600",
+   "product_page": "https://www.korg.com/us/support/download/product/1/294/",
+   "docs": [
+    {
+     "doc": "User Manual",
+     "size": "38.1MB",
+     "date": "2018.04.10",
+     "direct": "https://cdn.korg.com/us/support/download/files/6812a8e0c12bfdde1e3d50aff00f4e1d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/294/1986/",
+     "filename": "Pa300_User_Manual_v2.1_(English).pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Quick Guide",
+     "size": "21.5MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/cc8f840bde924259df8fd6654a7f0efc.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/294/1985/",
+     "filename": "Pa300_Quick_Guide_v2.0_(English).pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/294/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa500": {
+   "brand": "Korg",
+   "family": "Pa500",
+   "generation": "2008",
+   "container_era": "same resource layer as Pa1X",
+   "product_page": "https://www.korg.com/us/support/download/product/1/188/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "18.1MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/7bd0e948d3834dea4af786e6222ed373.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/188/2237/",
+     "filename": "Pa500-110UM-ENG.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Advanced Edit / Reference",
+     "size": "3.4MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/b3c2d7b18c46273484b8cd583814f013.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/188/1857/",
+     "filename": "Pa500_AE_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/188/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa500 ORIENTAL": {
+   "brand": "Korg",
+   "family": "Pa500",
+   "generation": "2008",
+   "container_era": "same resource layer as Pa1X",
+   "product_page": "https://www.korg.com/us/support/download/product/1/189/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "18.1MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/7bd0e948d3834dea4af786e6222ed373.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/189/2237/",
+     "filename": "Pa500-110UM-ENG.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Data List",
+     "size": "192.4KB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/2f99d3e173b4c13069d470c82be15482.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/189/2243/",
+     "filename": "Pa500ORT-FactoryData.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": "86.6KB",
+     "date": "2015.07.20",
+     "direct": "https://cdn.korg.com/us/support/download/files/ecf3466e69df63906ef42383068017e8.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/189/2517/",
+     "filename": "Pa500-ORT-Addendum-v119-ENG.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/189/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa588": {
+   "brand": "Korg",
+   "family": "Pa500",
+   "generation": "2008",
+   "container_era": "same resource layer as Pa1X",
+   "product_page": "https://www.korg.com/us/support/download/product/1/190/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "18.3MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/800e2f5d690467fdc1ca9f3249833faa.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/190/1869/",
+     "filename": "Pa588_OM_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Advanced Edit / Reference",
+     "size": "3.5MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/24de46661f740babd7c67813bbe274cf.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/190/1858/",
+     "filename": "Pa588_AE_E.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Data List",
+     "size": "1.9MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/69b0a268d8d5c8d6f8fbfacae9a49d5b.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/190/2253/",
+     "filename": "Pa588-100DL-ENG.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "SongBook Editor Guide",
+     "size": "1.7MB",
+     "date": "2019.03.07",
+     "direct": "https://cdn.korg.com/us/support/download/files/e468d7f71f523bbd89ef43ee2c51e15d.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/190/2989/",
+     "filename": "KORG_SongBook_Editor_UserGuide_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa50": {
+   "brand": "Korg",
+   "family": "Pa80",
+   "generation": "2000",
+   "container_era": "pre-OC era, DISK/INDX update files",
+   "product_page": "https://www.korg.com/us/support/download/product/1/187/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "14.3MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/057cb29c4a1319dfc82d77715febc129.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/187/1747/",
+     "filename": "Pa50_OM_E1.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa50SD": {
+   "brand": "Korg",
+   "family": "Pa80",
+   "generation": "2000",
+   "container_era": "pre-OC era, DISK/INDX update files",
+   "product_page": "https://www.korg.com/us/support/download/product/0/312/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "14.6MB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/3863b4b79031a61bc36d87451c37a1dd.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/0/312/1870/",
+     "filename": "Pa50SD_OM_E.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "Pa60": {
+   "brand": "Korg",
+   "family": "Pa80",
+   "generation": "2000",
+   "container_era": "pre-OC era, DISK/INDX update files",
+   "product_page": "https://www.korg.com/us/support/download/product/1/191/",
+   "docs": [
+    {
+     "doc": "Easy Start Guide",
+     "size": "368.2KB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/8a2df9bf5e17dde9c20db184eab68130.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/191/2257/",
+     "filename": "Pa60_EasyStart.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Pa80": {
+   "brand": "Korg",
+   "family": "Pa80",
+   "generation": "2000",
+   "container_era": "pre-OC era, DISK/INDX update files",
+   "product_page": "https://www.korg.com/us/support/download/product/1/192/",
+   "docs": [
+    {
+     "doc": "Easy Start Guide",
+     "size": "436.8KB",
+     "date": "2015.06.01",
+     "direct": "https://cdn.korg.com/us/support/download/files/9b8fa06fcebc6c6eea5921929ba72c04.pdf",
+     "page": "https://www.korg.com/us/support/download/manual/1/192/2266/",
+     "filename": "Pa80_EasyStart.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Genos2": {
+   "brand": "Yamaha",
+   "family": "Genos2",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "9.1MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2318564/Genos2_owners_manual_En_D0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "Genos2_owners_manual_En_D0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "9.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/1/2318561/Genos2_reference_manual_En_C0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "Genos2_reference_manual_En_C0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "282KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1179086/audio_phraser_en_ig_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "audio_phraser_en_ig_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "1.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/1179085/audio_phraser_en_om_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "audio_phraser_en_om_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "5.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2179884/MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "212KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/2928633/MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MegaEnhancer",
+     "size": "568KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/1587194/mega_enhancer_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "mega_enhancer_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos2/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Genos": {
+   "brand": "Yamaha",
+   "family": "Genos",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "9.2MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/1130977/genos_en_om_h0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "genos_en_om_h0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "2.2MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/1131013/genos_en_dl_f0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "genos_en_dl_f0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Data List",
+     "size": "18KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/1298642/GenosV2Pack_DataList.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "GenosV2Pack_DataList.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Easy Upgrade Guide",
+     "size": null,
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/brochure/0/1267110/genos_easy_upgrade_guide_en.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "genos_easy_upgrade_guide_en.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Firmware Installation Guide",
+     "size": "148KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1135486/genos_en_fi_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "genos_en_fi_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "MIDI Song File Editing",
+     "size": null,
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/brochure/4/1272554/genos_midi_song_file_editing_en.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "genos_midi_song_file_editing_en.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Pack Conversion Guide",
+     "size": "18KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/1/1124921/Tyros5PackConversionForGenos.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "Tyros5PackConversionForGenos.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "9.9MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/1131007/genos_en_rm_h0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "genos_en_rm_h0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "282KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1179086/audio_phraser_en_ig_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "audio_phraser_en_ig_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "1.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/1179085/audio_phraser_en_om_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "audio_phraser_en_om_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "5.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2179884/MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "212KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/2928633/MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MegaEnhancer",
+     "size": "568KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/1587194/mega_enhancer_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "mega_enhancer_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/genos/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "Tyros5": {
+   "brand": "Yamaha",
+   "family": "Tyros5",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/tyros5/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "8.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/330612/tyros5_en_om_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/tyros5/downloads.html",
+     "filename": "tyros5_en_om_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "795KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/959965/tyros5_en_dl_d0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/tyros5/downloads.html",
+     "filename": "tyros5_en_dl_d0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "11.2MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/330627/tyros5_en_rm_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/tyros5/downloads.html",
+     "filename": "tyros5_en_rm_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/tyros5/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/tyros5/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-SX900": {
+   "brand": "Yamaha",
+   "family": "PSR-SX900",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "8MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/1/1279261/psrsx900_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "psrsx900_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "1011KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/1279213/psrsx900_sx700_en_dl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "psrsx900_sx700_en_dl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Firmware Installation Guide",
+     "size": "67KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1279066/psr-sx900_en_fi_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "psr-sx900_en_fi_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pre-installed Expansion Contents List",
+     "size": "73KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/1279214/psrsx900_sx700_en_de_fr_es_precl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "psrsx900_sx700_en_de_fr_es_precl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "8.6MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/1279207/psrsx900_en_rm_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "psrsx900_en_rm_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "282KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1179086/audio_phraser_en_ig_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "audio_phraser_en_ig_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "1.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/1179085/audio_phraser_en_om_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "audio_phraser_en_om_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "5.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2179884/MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "212KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/2928633/MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-SX700": {
+   "brand": "Yamaha",
+   "family": "PSR-SX700",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "8MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/1/1279261/psrsx900_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "psrsx900_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "1011KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/1279213/psrsx900_sx700_en_dl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "psrsx900_sx700_en_dl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Firmware Installation Guide",
+     "size": "66KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/1279068/psr-sx700_en_fi_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "psr-sx700_en_fi_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Pre-installed Expansion Contents List",
+     "size": "73KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/1279214/psrsx900_sx700_en_de_fr_es_precl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "psrsx900_sx700_en_de_fr_es_precl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "8.6MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/1279207/psrsx900_en_rm_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "psrsx900_en_rm_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "5.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2179884/MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "212KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/2928633/MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx700/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-SX600": {
+   "brand": "Yamaha",
+   "family": "PSR-SX600",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "4.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/1346183/PSR-SX600_owners_manual_En_D0_web.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "PSR-SX600_owners_manual_En_D0_web.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "688KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/1346928/psrsx600_en_dl_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "psrsx600_en_dl_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "4.6MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/1/1346911/PSR-SX600_reference_manual_En_C0_web.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "PSR-SX600_reference_manual_En_C0_web.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "5.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2179884/MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "212KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/2928633/MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx600/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-S975": {
+   "brand": "Yamaha",
+   "family": "PSR-S975",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "8.1MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1153346/psrs975_s775_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "psrs975_s775_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "975KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1153396/psrs975_s775_en_dl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "psrs975_s775_en_dl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "9.9MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/1153387/psrs975_s775_en_rm_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "psrs975_s775_en_rm_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "282KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1179086/audio_phraser_en_ig_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "audio_phraser_en_ig_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Audio Phraser",
+     "size": "1.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/1179085/audio_phraser_en_om_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "audio_phraser_en_om_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s975/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-S775": {
+   "brand": "Yamaha",
+   "family": "PSR-S775",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s775/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "8.1MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1153346/psrs975_s775_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s775/downloads.html",
+     "filename": "psrs975_s775_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "975KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1153396/psrs975_s775_en_dl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s775/downloads.html",
+     "filename": "psrs975_s775_en_dl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "9.9MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/7/1153387/psrs975_s775_en_rm_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s775/downloads.html",
+     "filename": "psrs975_s775_en_rm_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s775/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s775/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-S970": {
+   "brand": "Yamaha",
+   "family": "PSR-S970",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "10.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/437565/psrs970_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+     "filename": "psrs970_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "1002KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/9/437559/psrs970_en_dl_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+     "filename": "psrs970_en_dl_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Firmware Installation Guide",
+     "size": "163KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/789598/PSR-S970S770A3000_Firmware_Installation_EN.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+     "filename": "PSR-S970S770A3000_Firmware_Installation_EN.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "12.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/437562/psrs970_en_rm_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+     "filename": "psrs970_en_rm_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s970/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-S770": {
+   "brand": "Yamaha",
+   "family": "PSR-S770",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "10.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/5/437565/psrs970_en_om_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+     "filename": "psrs970_en_om_b0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "1002KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/9/437559/psrs970_en_dl_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+     "filename": "psrs970_en_dl_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Firmware Installation Guide",
+     "size": "163KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/789598/PSR-S970S770A3000_Firmware_Installation_EN.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+     "filename": "PSR-S970S770A3000_Firmware_Installation_EN.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "12.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/437562/psrs970_en_rm_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+     "filename": "psrs970_en_rm_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-s770/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-A5000": {
+   "brand": "Yamaha",
+   "family": "PSR-A5000",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/1386548/psra5000_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+     "filename": "psra5000_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "2.6MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/1/1386551/psra5000_reference_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+     "filename": "psra5000_reference_manual_En_B0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "5.7MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/2179884/MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+     "filename": "MIDI_Song_to_Style_owners_manual_En_B0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: MIDI Song to Style",
+     "size": "212KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/2928633/MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+     "filename": "MIDI_song_to_style_v120_SM_En_A0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a5000/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-A3000": {
+   "brand": "Yamaha",
+   "family": "PSR-A3000",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a3000/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "12.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/455590/psra3000_en_om_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a3000/downloads.html",
+     "filename": "psra3000_en_om_a0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "944KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/467418/psra3000_en_dl_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a3000/downloads.html",
+     "filename": "psra3000_en_dl_a0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Firmware Installation Guide",
+     "size": "163KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/789598/PSR-S970S770A3000_Firmware_Installation_EN.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a3000/downloads.html",
+     "filename": "PSR-S970S770A3000_Firmware_Installation_EN.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "53KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/0/2179970/Yamaha_expansion_manager_IG_En_L0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a3000/downloads.html",
+     "filename": "Yamaha_expansion_manager_IG_En_L0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Software: Yamaha Expansion Manager",
+     "size": "1.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/2/2179972/Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-a3000/downloads.html",
+     "filename": "Yamaha_Expansion_Manager_v2100_OM_En_L1.pdf",
+     "depth": "guide"
+    }
+   ]
+  },
+  "PSR-I500": {
+   "brand": "Yamaha",
+   "family": "PSR-I500",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-i500/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "5.2MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/6/1257786/PSR-I500_en_om_c0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-i500/downloads.html",
+     "filename": "PSR-I500_en_om_c0.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "3.4MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/1255528/psri500_en_dl_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-i500/downloads.html",
+     "filename": "psri500_en_dl_b0.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "PSR-EW425": {
+   "brand": "Yamaha",
+   "family": "PSR-EW425",
+   "generation": "",
+   "container_era": "Yamaha uses .STY/.MID/.PRS files (not Korg containers)",
+   "product_page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-ew425/downloads.html",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": "3.5MB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/8/1543938/psre473_en_om_a1.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-ew425/downloads.html",
+     "filename": "psre473_en_om_a1.pdf",
+     "depth": "guide"
+    },
+    {
+     "doc": "Data List",
+     "size": "425KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/4/1544204/psre473_en_fr_es_de_ja_dl_b0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-ew425/downloads.html",
+     "filename": "psre473_en_fr_es_de_ja_dl_b0.pdf",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": "545KB",
+     "date": null,
+     "direct": "https://usa.yamaha.com/files/download/other_assets/3/1544203/psre473_en_rm_a0.pdf",
+     "page": "https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-ew425/downloads.html",
+     "filename": "psre473_en_rm_a0.pdf",
+     "depth": "reference"
+    }
+   ]
+  },
+  "E-A7": {
+   "brand": "Roland",
+   "family": "E-A7",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-A7_eng04_W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+     "filename": "E-A7_eng04_W.pdf",
+     "source_title": "E-A7 Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "Reference Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-A7_r_e01W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+     "filename": "E-A7_r_e01W.pdf",
+     "source_title": "E-A7 Reference Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "MIDI Implementation",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-A7_MIDI_Implementation_e01_W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+     "filename": "E-A7_MIDI_Implementation_e01_W.pdf",
+     "source_title": "E-A7 MIDI Implementation",
+     "depth": "reference"
+    },
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-A7_ver2_eng01_W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+     "filename": "E-A7_ver2_eng01_W.pdf",
+     "source_title": "E-A7 Ver.2 Supplementary Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "Style / Tone List",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-A7_Style_Tone_List_e05_W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+     "filename": "E-A7_Style_Tone_List_e05_W.pdf",
+     "source_title": "E-A7 Style List / Tone List",
+     "depth": "reference"
+    },
+    {
+     "doc": "Waveform / Patch List",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-A7_Waveform_List_e02_W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-a7/owners_manuals/",
+     "filename": "E-A7_Waveform_List_e02_W.pdf",
+     "source_title": "E-A7 Waveform List",
+     "depth": "reference"
+    }
+   ]
+  },
+  "BK-5": {
+   "brand": "Roland",
+   "family": "BK-5",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/bk-5/owners_manuals/",
+   "docs": [
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-5_AddendumV105_e1.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-5/owners_manuals/",
+     "filename": "BK-5_AddendumV105_e1.pdf",
+     "source_title": "Addendum",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-5_7_One_Touch_Memory.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-5/owners_manuals/",
+     "filename": "BK-5_7_One_Touch_Memory.pdf",
+     "source_title": "Addendum",
+     "depth": "reference"
+    },
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-5_e4.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-5/owners_manuals/",
+     "filename": "BK-5_e4.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "MIDI Implementation",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-5_MIDI_e1.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-5/owners_manuals/",
+     "filename": "BK-5_MIDI_e1.pdf",
+     "source_title": "MIDI Implementation",
+     "depth": "reference"
+    }
+   ]
+  },
+  "BK-3": {
+   "brand": "Roland",
+   "family": "BK-3",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/bk-3/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-3_eng06_W.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-3/owners_manuals/",
+     "filename": "BK-3_eng06_W.pdf",
+     "source_title": "BK-3 Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "Waveform / Patch List",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-3_PA.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-3/owners_manuals/",
+     "filename": "BK-3_PA.pdf",
+     "source_title": "Patch List",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-3_v104_addendum.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-3/owners_manuals/",
+     "filename": "BK-3_v104_addendum.pdf",
+     "source_title": "Addendum",
+     "depth": "reference"
+    }
+   ]
+  },
+  "BK-7M": {
+   "brand": "Roland",
+   "family": "BK-7M",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/bk-7m/owners_manuals/",
+   "docs": [
+    {
+     "doc": "MIDI Implementation",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-7m_MI.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-7m/owners_manuals/",
+     "filename": "BK-7m_MI.pdf",
+     "source_title": "MIDI Implementation",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-7m_V106_Addendum.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-7m/owners_manuals/",
+     "filename": "BK-7m_V106_Addendum.pdf",
+     "source_title": "Addendum",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-5_7_One_Touch_Memory.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-7m/owners_manuals/",
+     "filename": "BK-5_7_One_Touch_Memory.pdf",
+     "source_title": "Addendum",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-7m_v105_AD.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-7m/owners_manuals/",
+     "filename": "BK-7m_v105_AD.pdf",
+     "source_title": "Addendum",
+     "depth": "reference"
+    },
+    {
+     "doc": "Style / Tone List",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/BK-7mStyleList.pdf",
+     "page": "https://www.roland.com/global/support/by_product/bk-7m/owners_manuals/",
+     "filename": "BK-7mStyleList.pdf",
+     "source_title": "Patch/Performance List",
+     "depth": "reference"
+    }
+   ]
+  },
+  "G-70": {
+   "brand": "Roland",
+   "family": "G-70",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/g-70/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/G-70_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/g-70/owners_manuals/",
+     "filename": "G-70_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/G-70_OM_OS2.pdf",
+     "page": "https://www.roland.com/global/support/by_product/g-70/owners_manuals/",
+     "filename": "G-70_OM_OS2.pdf",
+     "source_title": "Version 2 Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "MIDI Implementation",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/G-70_MI.pdf",
+     "page": "https://www.roland.com/global/support/by_product/g-70/owners_manuals/",
+     "filename": "G-70_MI.pdf",
+     "source_title": "MIDI Implementation",
+     "depth": "reference"
+    },
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/G-70_PR.pdf",
+     "page": "https://www.roland.com/global/support/by_product/g-70/owners_manuals/",
+     "filename": "G-70_PR.pdf",
+     "source_title": "Parameter List",
+     "depth": "reference"
+    },
+    {
+     "doc": "OS Update / Addendum",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/G-70_Addendum_v2-3.pdf",
+     "page": "https://www.roland.com/global/support/by_product/g-70/owners_manuals/",
+     "filename": "G-70_Addendum_v2-3.pdf",
+     "source_title": "Version 3 Manual",
+     "depth": "reference"
+    }
+   ]
+  },
+  "PRELUDE": {
+   "brand": "Roland",
+   "family": "PRELUDE",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/prelude/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/Prelude_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/prelude/owners_manuals/",
+     "filename": "Prelude_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/Prelude_V2_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/prelude/owners_manuals/",
+     "filename": "Prelude_V2_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "Style / Tone List",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/Prelude_stylelistL_OS2.pdf",
+     "page": "https://www.roland.com/global/support/by_product/prelude/owners_manuals/",
+     "filename": "Prelude_stylelistL_OS2.pdf",
+     "source_title": "Patch/Performance List",
+     "depth": "reference"
+    },
+    {
+     "doc": "MIDI Implementation",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/Prelude_MI.pdf",
+     "page": "https://www.roland.com/global/support/by_product/prelude/owners_manuals/",
+     "filename": "Prelude_MI.pdf",
+     "source_title": "MIDI Implementation",
+     "depth": "reference"
+    }
+   ]
+  },
+  "E-09": {
+   "brand": "Roland",
+   "family": "E-09",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/e-09/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/E-09_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/e-09/owners_manuals/",
+     "filename": "E-09_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    }
+   ]
+  },
+  "EM-55": {
+   "brand": "Roland",
+   "family": "EM-55",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/em-55/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/EM-55_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/em-55/owners_manuals/",
+     "filename": "EM-55_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    }
+   ]
+  },
+  "VA-7": {
+   "brand": "Roland",
+   "family": "VA-7",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/va-7/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/VA-7_5_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/va-7/owners_manuals/",
+     "filename": "VA-7_5_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    }
+   ]
+  },
+  "VA-76": {
+   "brand": "Roland",
+   "family": "VA-76",
+   "generation": "",
+   "container_era": "Roland uses .STL/.UPG format on these models",
+   "product_page": "https://www.roland.com/global/support/by_product/va-76/owners_manuals/",
+   "docs": [
+    {
+     "doc": "Owner's Manual",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/VA-76_OM.pdf",
+     "page": "https://www.roland.com/global/support/by_product/va-76/owners_manuals/",
+     "filename": "VA-76_OM.pdf",
+     "source_title": "Owner's Manual",
+     "depth": "reference"
+    },
+    {
+     "doc": "MIDI Implementation",
+     "size": null,
+     "date": null,
+     "direct": "https://static.roland.com/assets/media/pdf/VA-76_MI.pdf",
+     "page": "https://www.roland.com/global/support/by_product/va-76/owners_manuals/",
+     "filename": "VA-76_MI.pdf",
+     "source_title": "MIDI Implementation",
+     "depth": "reference"
+    }
+   ]
+  }
+ }
+}
