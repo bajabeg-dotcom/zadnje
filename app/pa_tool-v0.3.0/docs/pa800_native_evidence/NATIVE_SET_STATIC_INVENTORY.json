@@ -1,0 +1,5867 @@
+{
+  "purpose": "Forensic static inventory, not PA800 OS2.02 native conversion",
+  "sources": [
+    {
+      "archive": "Hammy.SET.zip",
+      "archive_bytes": 52046618,
+      "archive_sha256": "ba8e1399b37b84e1ebcaa9ea517bf0276eee70e64a84d7b9d2958b990afe63f8",
+      "files": 149,
+      "expanded_bytes": 61308160,
+      "extensions": {
+        ".gbl": 1,
+        ".kmp": 1,
+        ".pad": 10,
+        ".pcg": 3,
+        ".pcm": 99,
+        ".prf": 20,
+        ".sbd": 2,
+        ".sty": 12,
+        ".voc": 1
+      },
+      "encrypted_files": 0,
+      "unsafe_paths": [],
+      "file_manifest": [
+        {
+          "path": "Hammy.SET/GLOBAL/SETUP.GBL",
+          "bytes": 4298,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/GLOBAL/VPPRESET.VOC",
+          "bytes": 24458,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/MULTISMP/RAM.KMP",
+          "bytes": 93269,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER01.PAD",
+          "bytes": 12790,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER02.PAD",
+          "bytes": 2737,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER03.PAD",
+          "bytes": 6875,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER04.PAD",
+          "bytes": 1116,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER05.PAD",
+          "bytes": 1767,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER06.PAD",
+          "bytes": 7508,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER07.PAD",
+          "bytes": 11729,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER08.PAD",
+          "bytes": 25877,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER09.PAD",
+          "bytes": 60624,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PAD/USER10.PAD",
+          "bytes": 14398,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM01.PCM",
+          "bytes": 552972,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM02.PCM",
+          "bytes": 510126,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM03.PCM",
+          "bytes": 510372,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM04.PCM",
+          "bytes": 507364,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM05.PCM",
+          "bytes": 600638,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM06.PCM",
+          "bytes": 677944,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM07.PCM",
+          "bytes": 504188,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM08.PCM",
+          "bytes": 630024,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM09.PCM",
+          "bytes": 514448,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM10.PCM",
+          "bytes": 507698,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM11.PCM",
+          "bytes": 714750,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM12.PCM",
+          "bytes": 508070,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM13.PCM",
+          "bytes": 685988,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM14.PCM",
+          "bytes": 628650,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM15.PCM",
+          "bytes": 509344,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM16.PCM",
+          "bytes": 508234,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM17.PCM",
+          "bytes": 509578,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM18.PCM",
+          "bytes": 506032,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM19.PCM",
+          "bytes": 504464,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM20.PCM",
+          "bytes": 508980,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM21.PCM",
+          "bytes": 581322,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM22.PCM",
+          "bytes": 557376,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM23.PCM",
+          "bytes": 504920,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM24.PCM",
+          "bytes": 532532,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM25.PCM",
+          "bytes": 660718,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM26.PCM",
+          "bytes": 627404,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM27.PCM",
+          "bytes": 508374,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM28.PCM",
+          "bytes": 649580,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM29.PCM",
+          "bytes": 543840,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM30.PCM",
+          "bytes": 651640,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM31.PCM",
+          "bytes": 507290,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM32.PCM",
+          "bytes": 547920,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM33.PCM",
+          "bytes": 972512,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM34.PCM",
+          "bytes": 507746,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM35.PCM",
+          "bytes": 510646,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM36.PCM",
+          "bytes": 608860,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM37.PCM",
+          "bytes": 513764,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM38.PCM",
+          "bytes": 512918,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM39.PCM",
+          "bytes": 611172,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM40.PCM",
+          "bytes": 598790,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM41.PCM",
+          "bytes": 694626,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM42.PCM",
+          "bytes": 623980,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM43.PCM",
+          "bytes": 566324,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM44.PCM",
+          "bytes": 509602,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM45.PCM",
+          "bytes": 569612,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM46.PCM",
+          "bytes": 504040,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM47.PCM",
+          "bytes": 503518,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM48.PCM",
+          "bytes": 684236,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM49.PCM",
+          "bytes": 586034,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM50.PCM",
+          "bytes": 773182,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM51.PCM",
+          "bytes": 647860,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM52.PCM",
+          "bytes": 585956,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM53.PCM",
+          "bytes": 557700,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM54.PCM",
+          "bytes": 700040,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM55.PCM",
+          "bytes": 651082,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM56.PCM",
+          "bytes": 550154,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM57.PCM",
+          "bytes": 512136,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM58.PCM",
+          "bytes": 510954,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM59.PCM",
+          "bytes": 639076,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM60.PCM",
+          "bytes": 555738,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM61.PCM",
+          "bytes": 624836,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM62.PCM",
+          "bytes": 517684,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM63.PCM",
+          "bytes": 509156,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM64.PCM",
+          "bytes": 672110,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM65.PCM",
+          "bytes": 523330,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM66.PCM",
+          "bytes": 636662,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM67.PCM",
+          "bytes": 637036,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM68.PCM",
+          "bytes": 512524,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM69.PCM",
+          "bytes": 512116,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM70.PCM",
+          "bytes": 543860,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM71.PCM",
+          "bytes": 513652,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM72.PCM",
+          "bytes": 710608,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM73.PCM",
+          "bytes": 504786,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM74.PCM",
+          "bytes": 692586,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM75.PCM",
+          "bytes": 624788,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM76.PCM",
+          "bytes": 676960,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM77.PCM",
+          "bytes": 627354,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM78.PCM",
+          "bytes": 540874,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM79.PCM",
+          "bytes": 534932,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM80.PCM",
+          "bytes": 552428,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM81.PCM",
+          "bytes": 510906,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM82.PCM",
+          "bytes": 511802,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM83.PCM",
+          "bytes": 639044,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM84.PCM",
+          "bytes": 684976,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM85.PCM",
+          "bytes": 509842,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM86.PCM",
+          "bytes": 541888,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM87.PCM",
+          "bytes": 532664,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM88.PCM",
+          "bytes": 548974,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM89.PCM",
+          "bytes": 629974,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM90.PCM",
+          "bytes": 508390,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM91.PCM",
+          "bytes": 506468,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM92.PCM",
+          "bytes": 510000,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM93.PCM",
+          "bytes": 581196,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM94.PCM",
+          "bytes": 504352,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM95.PCM",
+          "bytes": 639100,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM96.PCM",
+          "bytes": 515588,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM97.PCM",
+          "bytes": 547492,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM98.PCM",
+          "bytes": 585660,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM99.PCM",
+          "bytes": 576310,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK01.PRF",
+          "bytes": 8493,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK02.PRF",
+          "bytes": 8570,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK03.PRF",
+          "bytes": 8506,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK04.PRF",
+          "bytes": 8338,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK05.PRF",
+          "bytes": 8883,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK06.PRF",
+          "bytes": 8319,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK07.PRF",
+          "bytes": 8839,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK08.PRF",
+          "bytes": 8693,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK09.PRF",
+          "bytes": 8522,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK10.PRF",
+          "bytes": 8540,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK11.PRF",
+          "bytes": 8013,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK12.PRF",
+          "bytes": 6092,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK13.PRF",
+          "bytes": 8573,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK14.PRF",
+          "bytes": 7904,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK15.PRF",
+          "bytes": 8202,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK16.PRF",
+          "bytes": 8064,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK17.PRF",
+          "bytes": 7987,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK18.PRF",
+          "bytes": 8305,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK19.PRF",
+          "bytes": 8326,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK20.PRF",
+          "bytes": 8261,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/SONGBOOK/SONGDB.SBD/BANK01.SBD",
+          "bytes": 33362,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/SONGBOOK/SONGDB.SBD/BANK02.SBD",
+          "bytes": 1967,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/SOUND/USER01.PCG",
+          "bytes": 26384,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/SOUND/USER02.PCG",
+          "bytes": 22529,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/SOUND/USERDK.PCG",
+          "bytes": 78403,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE01.STY",
+          "bytes": 132326,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE02.STY",
+          "bytes": 150872,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE03.STY",
+          "bytes": 215330,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE04.STY",
+          "bytes": 208347,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE05.STY",
+          "bytes": 249888,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE06.STY",
+          "bytes": 233135,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE07.STY",
+          "bytes": 690973,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE08.STY",
+          "bytes": 297594,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE09.STY",
+          "bytes": 330549,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE10.STY",
+          "bytes": 415288,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/USER01.STY",
+          "bytes": 382967,
+          "encrypted": false
+        },
+        {
+          "path": "Hammy.SET/STYLE/USER02.STY",
+          "bytes": 417424,
+          "encrypted": false
+        }
+      ],
+      "inspected": [
+        {
+          "path": "Hammy.SET/GLOBAL/SETUP.GBL",
+          "size": 4298,
+          "sha256": "c838f995484acfa92af7190c8ceaad927802056958a90989b84c7849e388eb0a",
+          "magic": "01 00 01 14 00 00 10 c2",
+          "envelope": "RAW",
+          "resources": 35,
+          "types": {
+            "0A": 35
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_0A": 35
+          },
+          "decoded_sizes": {
+            "335": 1,
+            "72": 1,
+            "14": 2,
+            "20": 1,
+            "258": 1,
+            "1374": 1,
+            "9": 2,
+            "51": 10,
+            "367": 1,
+            "1388": 1,
+            "25": 1,
+            "33": 1,
+            "83": 1,
+            "148": 1,
+            "218": 1,
+            "190": 1,
+            "104": 1,
+            "39": 6,
+            "4931": 1
+          },
+          "codecs": {
+            "OC31": 7,
+            "RAW": 28
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/MULTISMP/RAM.KMP",
+          "size": 93269,
+          "sha256": "f2112460c66d8be4eda9167c2f975f26cdd0cabaabf66ac9858f8196bbb6ff7c",
+          "magic": "01 00 01 14 00 01 6c 4d",
+          "envelope": "RAW",
+          "resources": 1,
+          "types": {
+            "11": 1
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_11": 1
+          },
+          "decoded_sizes": {
+            "253574": 1
+          },
+          "codecs": {
+            "OC31": 1
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PCM/RAM01.PCM",
+          "size": 552972,
+          "sha256": "4fd2b4b5f213b4fdd3f5cadc701077d6e3de0d55ae913217072577d77dc72a78",
+          "magic": "01 00 01 14 00 08 70 04",
+          "envelope": "RAW",
+          "resources": 12,
+          "types": {
+            "12": 12
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_12": 12
+          },
+          "decoded_sizes": {
+            "10092": 1,
+            "19854": 1,
+            "21130": 1,
+            "15918": 1,
+            "4582": 1,
+            "102814": 1,
+            "19822": 1,
+            "42900": 1,
+            "137804": 1,
+            "118336": 1,
+            "18648": 1,
+            "40580": 1
+          },
+          "codecs": {
+            "RAW": 12
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK01.PRF",
+          "size": 8493,
+          "sha256": "92cb179789615283ff6362cf202fbcebd694f64110b5b9bd439c4a8df36f72a1",
+          "magic": "01 00 01 14 00 00 21 25",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK02.PRF",
+          "size": 8570,
+          "sha256": "c00dfff51fa9e148c4c718c670732e6ce13cc53e179da866094d2f14bdf7a5e9",
+          "magic": "01 00 01 14 00 00 21 72",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK03.PRF",
+          "size": 8506,
+          "sha256": "f1030b806d6e4a28f7126be2db9082ca821be0828ef16f9319a14739d5e98a35",
+          "magic": "01 00 01 14 00 00 21 32",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK04.PRF",
+          "size": 8338,
+          "sha256": "7e03e8d9b964649b75b902a0df77b3d38923c0a10b1c9590bf1555859064d08a",
+          "magic": "01 00 01 14 00 00 20 8a",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK05.PRF",
+          "size": 8883,
+          "sha256": "bbba303b92107f50b23704b35f3e9c55885b6816bb60ef27ee9fb56853fcc5b1",
+          "magic": "01 00 01 14 00 00 22 ab",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK06.PRF",
+          "size": 8319,
+          "sha256": "d28661211e9d9e4ed05f31ada200b4a17912f9dadb46a1ae821121da9dcee648",
+          "magic": "01 00 01 14 00 00 20 77",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 15,
+            "1109": 1
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK07.PRF",
+          "size": 8839,
+          "sha256": "ca8f2055b2588b9959e78dbaf1cbb897b39158cac3d13df0bcef27fa8f00c35e",
+          "magic": "01 00 01 14 00 00 22 7f",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK08.PRF",
+          "size": 8693,
+          "sha256": "5c57b05b5e3b23c48160b5797462401f596a653b36e51ac452f62ebbb0cbf94b",
+          "magic": "01 00 01 14 00 00 21 ed",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK09.PRF",
+          "size": 8522,
+          "sha256": "6f194b73203430921ecaf2b061238d0332fcffd9e27f981230ac8c906c2d5334",
+          "magic": "01 00 01 14 00 00 21 42",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK10.PRF",
+          "size": 8540,
+          "sha256": "1a2b0e445c07483266440891505d4b850082ff78e5de599c90ac9b603afeb43f",
+          "magic": "01 00 01 14 00 00 21 54",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK11.PRF",
+          "size": 8013,
+          "sha256": "4f78f5ef8e506f6d697287caeea9252f95e4ba8ab951d8a092918d1571560291",
+          "magic": "01 00 01 14 00 00 1f 45",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK12.PRF",
+          "size": 6092,
+          "sha256": "7c1bda531fa3caed2b8217c82a0f1e93d426562f5fe68dcce226ac17bf947660",
+          "magic": "01 00 01 14 00 00 17 c4",
+          "envelope": "RAW",
+          "resources": 12,
+          "types": {
+            "09": 12
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 12
+          },
+          "decoded_sizes": {
+            "1301": 12
+          },
+          "codecs": {
+            "OC31": 12
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK13.PRF",
+          "size": 8573,
+          "sha256": "959aa08db3ed799a0f1dc183defa7de9dd0f73855e499b13bb47c42c9db22f86",
+          "magic": "01 00 01 14 00 00 21 75",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK14.PRF",
+          "size": 7904,
+          "sha256": "1410acce518abd0f135f88f19fa3dab17a11b12f40ef07da2ac4b59952a406e9",
+          "magic": "01 00 01 14 00 00 1e d8",
+          "envelope": "RAW",
+          "resources": 14,
+          "types": {
+            "09": 14
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 14
+          },
+          "decoded_sizes": {
+            "1301": 14
+          },
+          "codecs": {
+            "OC31": 14
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK15.PRF",
+          "size": 8202,
+          "sha256": "9f0568b931c78880709f952d4df15ac59eb2cd5b26bfb10b3881900cb4e4a027",
+          "magic": "01 00 01 14 00 00 20 02",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 14,
+            "681": 2
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK16.PRF",
+          "size": 8064,
+          "sha256": "c35d04a7846a30f12e1d35f91f05e74d8274ef3470d67057b0dee473c75c23a9",
+          "magic": "01 00 01 14 00 00 1f 78",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK17.PRF",
+          "size": 7987,
+          "sha256": "1194a66b12d717d7d0df007f34a7ad802c27b273e2b7eee6ec0a8a18b42f500d",
+          "magic": "01 00 01 14 00 00 1f 2b",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK18.PRF",
+          "size": 8305,
+          "sha256": "cb0adad3fcedf843a64f66386b5acddef8dc411e8412dfa5456d1d7f0a852d6a",
+          "magic": "01 00 01 14 00 00 20 69",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK19.PRF",
+          "size": 8326,
+          "sha256": "f31595f72b434f1d8162ec9ea80c6291d6b39d47b12eb53bda1a0ad6aa0e8452",
+          "magic": "01 00 01 14 00 00 20 7e",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 14,
+            "1069": 2
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/PERFORM/BANK20.PRF",
+          "size": 8261,
+          "sha256": "14812ce94497407fe177bfd88dd79c2d3b21dade7dcef879aafe26070c1a63ae",
+          "magic": "01 00 01 14 00 00 20 3d",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1301": 16
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/SOUND/USER01.PCG",
+          "size": 26384,
+          "sha256": "63d47aee8d11d946e17ded1f9443ffe44d3b2932700efd2aef4b79113b97e9f9",
+          "magic": "01 00 01 14 00 00 67 08",
+          "envelope": "RAW",
+          "resources": 98,
+          "types": {
+            "10": 98
+          },
+          "index_valid": true,
+          "inner_families": {
+            "program_0005_type_10": 98
+          },
+          "decoded_sizes": {
+            "723": 42,
+            "1081": 2,
+            "365": 23,
+            "902": 12,
+            "544": 16,
+            "1260": 2,
+            "3050": 1
+          },
+          "codecs": {
+            "OC31": 98
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/SOUND/USER02.PCG",
+          "size": 22529,
+          "sha256": "6719dfa63638879db4dfd8cfcf08531fd3f9c686af071621c740d18d0938ac17",
+          "magic": "01 00 01 14 00 00 57 f9",
+          "envelope": "RAW",
+          "resources": 75,
+          "types": {
+            "10": 75
+          },
+          "index_valid": true,
+          "inner_families": {
+            "program_0005_type_10": 75
+          },
+          "decoded_sizes": {
+            "1081": 12,
+            "365": 29,
+            "544": 18,
+            "902": 3,
+            "723": 11,
+            "1260": 1,
+            "891": 1
+          },
+          "codecs": {
+            "OC31": 75
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/SOUND/USERDK.PCG",
+          "size": 78403,
+          "sha256": "24455792e023d22cc01dbe41fb274ce22752f27897b544d6238fa61966c0e75b",
+          "magic": "01 00 01 14 00 01 32 3b",
+          "envelope": "RAW",
+          "resources": 40,
+          "types": {
+            "10": 36,
+            "07": 4
+          },
+          "index_valid": true,
+          "inner_families": {
+            "program_0002_type_10": 4,
+            "program_0005_type_10": 32,
+            "type_07": 4
+          },
+          "decoded_sizes": {
+            "6171": 4,
+            "5991": 2,
+            "5911": 3,
+            "5226": 5,
+            "4322": 4,
+            "5231": 11,
+            "5246": 1,
+            "5531": 1,
+            "7471": 1,
+            "5731": 1,
+            "5511": 1,
+            "6251": 1,
+            "6211": 1,
+            "5851": 2,
+            "6071": 1,
+            "5791": 1
+          },
+          "codecs": {
+            "OC31": 40
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE01.STY",
+          "size": 132326,
+          "sha256": "1a8db630555e83d93bc8c3ab72c2ea0c3aef5192ba357531bbd008c66686eb3d",
+          "magic": "01 00 01 14 00 02 04 de",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01010000_elements_1": 1,
+            "inner_01010000_elements_7": 1,
+            "inner_01020000_elements_12": 1,
+            "inner_01020000_elements_9": 1,
+            "inner_01040000_elements_10": 7,
+            "inner_01040000_elements_11": 2,
+            "inner_01040000_elements_4": 3,
+            "inner_01040000_elements_5": 3,
+            "inner_01040000_elements_6": 2,
+            "inner_01040000_elements_7": 4,
+            "inner_01040000_elements_8": 3,
+            "inner_01040000_elements_9": 4,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "4707": 1,
+            "2873": 13,
+            "843": 1,
+            "1301": 3,
+            "12668": 1,
+            "6413": 1,
+            "7662": 1,
+            "7812": 1,
+            "15473": 1,
+            "2539": 1,
+            "7218": 1,
+            "2372": 4,
+            "15910": 1,
+            "1825": 4,
+            "6784": 1,
+            "16995": 1,
+            "14171": 1,
+            "6480": 1,
+            "16201": 1,
+            "2349": 4,
+            "15326": 1,
+            "13932": 1,
+            "4164": 1,
+            "18140": 1,
+            "10873": 1,
+            "4257": 1,
+            "9766": 1,
+            "11597": 1,
+            "6135": 1,
+            "3823": 1,
+            "2015": 1,
+            "9894": 1,
+            "10092": 1,
+            "4108": 1,
+            "17828": 1,
+            "2706": 2,
+            "58588": 1,
+            "12112": 1,
+            "3196": 1,
+            "14682": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE02.STY",
+          "size": 150872,
+          "sha256": "fbaaa52c37243290be321b27e6660cf9f3e591c2766d78f445b2b818ca4253fa",
+          "magic": "01 00 01 14 00 02 4d 50",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01010000_elements_3": 4,
+            "inner_01010000_elements_5": 1,
+            "inner_01010000_elements_7": 3,
+            "inner_01010000_elements_8": 1,
+            "inner_01020000_elements_7": 2,
+            "inner_01020000_elements_9": 2,
+            "inner_01040000_elements_10": 7,
+            "inner_01040000_elements_3": 1,
+            "inner_01040000_elements_4": 4,
+            "inner_01040000_elements_5": 1,
+            "inner_01040000_elements_6": 3,
+            "inner_01040000_elements_7": 2,
+            "inner_01040000_elements_9": 1,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "2849": 1,
+            "2349": 9,
+            "3105": 1,
+            "2873": 13,
+            "4431": 1,
+            "10250": 1,
+            "10793": 1,
+            "3824": 1,
+            "2402": 1,
+            "2581": 1,
+            "3051": 1,
+            "6272": 1,
+            "19072": 1,
+            "2372": 2,
+            "4682": 1,
+            "7539": 1,
+            "1825": 1,
+            "7618": 1,
+            "26825": 1,
+            "17707": 1,
+            "2706": 4,
+            "6258": 1,
+            "27388": 1,
+            "2539": 2,
+            "15204": 1,
+            "7910": 1,
+            "18121": 1,
+            "16754": 1,
+            "1301": 1,
+            "13331": 1,
+            "15915": 1,
+            "17960": 1,
+            "26976": 1,
+            "9188": 1,
+            "11051": 1,
+            "7856": 1,
+            "8266": 1,
+            "20336": 1,
+            "15167": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE03.STY",
+          "size": 215330,
+          "sha256": "6d59c19effd8cfd79e27b3224701239b183d2b55d8b5e34d81700145cd07b117",
+          "magic": "01 00 01 14 00 03 49 1a",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_10": 2,
+            "inner_01000000_elements_8": 2,
+            "inner_01020000_elements_10": 3,
+            "inner_01020000_elements_6": 1,
+            "inner_01020000_elements_7": 1,
+            "inner_01020000_elements_8": 1,
+            "inner_01040000_elements_10": 12,
+            "inner_01040000_elements_4": 3,
+            "inner_01040000_elements_6": 4,
+            "inner_01040000_elements_7": 1,
+            "inner_01040000_elements_9": 2,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "7734": 1,
+            "1825": 3,
+            "51553": 1,
+            "2539": 6,
+            "26825": 1,
+            "2349": 2,
+            "63460": 1,
+            "2372": 12,
+            "13331": 1,
+            "2873": 4,
+            "37334": 1,
+            "8778": 1,
+            "11569": 1,
+            "6787": 1,
+            "5975": 1,
+            "19864": 1,
+            "8061": 1,
+            "1301": 2,
+            "10438": 1,
+            "10362": 1,
+            "57635": 1,
+            "12708": 1,
+            "16795": 1,
+            "13853": 1,
+            "5316": 1,
+            "18630": 1,
+            "14023": 1,
+            "33051": 1,
+            "33446": 1,
+            "21733": 1,
+            "17981": 1,
+            "5913": 1,
+            "17707": 1,
+            "2706": 3,
+            "26174": 1,
+            "27388": 1,
+            "15204": 1,
+            "14928": 1,
+            "5621": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE04.STY",
+          "size": 208347,
+          "sha256": "e422bf50a5142a76ff8a1c918fe3a7a07aac96cd8b43a984e630bb9e40e1fd49",
+          "magic": "01 00 01 14 00 03 2d d3",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_10": 1,
+            "inner_01020000_elements_10": 1,
+            "inner_01020000_elements_11": 1,
+            "inner_01020000_elements_3": 1,
+            "inner_01020000_elements_5": 2,
+            "inner_01020000_elements_8": 1,
+            "inner_01040000_elements_10": 5,
+            "inner_01040000_elements_11": 2,
+            "inner_01040000_elements_12": 1,
+            "inner_01040000_elements_13": 1,
+            "inner_01040000_elements_4": 1,
+            "inner_01040000_elements_5": 3,
+            "inner_01040000_elements_6": 3,
+            "inner_01040000_elements_7": 3,
+            "inner_01040000_elements_8": 3,
+            "inner_01040000_elements_9": 3,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "17862": 1,
+            "2349": 8,
+            "15338": 1,
+            "10081": 1,
+            "21912": 1,
+            "2873": 7,
+            "15572": 1,
+            "2706": 7,
+            "6516": 1,
+            "1825": 3,
+            "6571": 1,
+            "8598": 1,
+            "37131": 1,
+            "9794": 1,
+            "1663": 1,
+            "11358": 1,
+            "7337": 1,
+            "6815": 1,
+            "2539": 3,
+            "71546": 1,
+            "20617": 1,
+            "18266": 1,
+            "2372": 4,
+            "25556": 1,
+            "25964": 1,
+            "15174": 1,
+            "12781": 1,
+            "15724": 1,
+            "13918": 1,
+            "10244": 1,
+            "15518": 1,
+            "6483": 1,
+            "37334": 1,
+            "51553": 1,
+            "12005": 1,
+            "11569": 1,
+            "44838": 1,
+            "10257": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE05.STY",
+          "size": 249888,
+          "sha256": "4d4f9a56f8c38942283d7b860df801b45b068a1420f42eb7dac29a644b5625cf",
+          "magic": "01 00 01 14 00 03 d0 18",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01020000_elements_13": 8,
+            "inner_01040000_elements_10": 1,
+            "inner_01040000_elements_11": 4,
+            "inner_01040000_elements_12": 2,
+            "inner_01040000_elements_13": 7,
+            "inner_01040000_elements_4": 1,
+            "inner_01040000_elements_5": 1,
+            "inner_01040000_elements_7": 3,
+            "inner_01040000_elements_8": 2,
+            "inner_01040000_elements_9": 3,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "20563": 1,
+            "2873": 24,
+            "12992": 1,
+            "1301": 1,
+            "33654": 1,
+            "18797": 1,
+            "32376": 1,
+            "9120": 1,
+            "32019": 1,
+            "23916": 1,
+            "26950": 1,
+            "31906": 1,
+            "22963": 1,
+            "34123": 1,
+            "43167": 1,
+            "56564": 1,
+            "37131": 1,
+            "2349": 1,
+            "22632": 1,
+            "31667": 1,
+            "31896": 1,
+            "23728": 1,
+            "53078": 1,
+            "46516": 1,
+            "2372": 2,
+            "36412": 1,
+            "27597": 1,
+            "1825": 1,
+            "32285": 1,
+            "30819": 1,
+            "8888": 1,
+            "2706": 2,
+            "40321": 1,
+            "20617": 1,
+            "2585": 1,
+            "1658": 1,
+            "31622": 1,
+            "34407": 1,
+            "14233": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE06.STY",
+          "size": 233135,
+          "sha256": "5313ebe16a5bc6d0a0ed12eef8f3c207274cd4ea84f7fb84b6f1526912a2cd4c",
+          "magic": "01 00 01 14 00 03 8e a7",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_10": 1,
+            "inner_01010000_elements_11": 1,
+            "inner_01020000_elements_12": 1,
+            "inner_01020000_elements_13": 4,
+            "inner_01020000_elements_6": 1,
+            "inner_01040000_elements_10": 5,
+            "inner_01040000_elements_12": 3,
+            "inner_01040000_elements_13": 6,
+            "inner_01040000_elements_4": 2,
+            "inner_01040000_elements_6": 2,
+            "inner_01040000_elements_7": 4,
+            "inner_01040000_elements_8": 2,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "43621": 1,
+            "2873": 15,
+            "41801": 1,
+            "3498": 1,
+            "1301": 6,
+            "44509": 1,
+            "12433": 1,
+            "2372": 2,
+            "12761": 1,
+            "9461": 1,
+            "1658": 1,
+            "23120": 1,
+            "7852": 1,
+            "1825": 3,
+            "19726": 1,
+            "20585": 1,
+            "26442": 1,
+            "48905": 1,
+            "36452": 1,
+            "17771": 1,
+            "32272": 1,
+            "31783": 1,
+            "52989": 1,
+            "42959": 1,
+            "2393": 3,
+            "14827": 1,
+            "14251": 1,
+            "22614": 1,
+            "18622": 1,
+            "22312": 1,
+            "23407": 1,
+            "7714": 1,
+            "2349": 1,
+            "15225": 1,
+            "13365": 1,
+            "4838": 1,
+            "19204": 1,
+            "2539": 1,
+            "25259": 1,
+            "17851": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE07.STY",
+          "size": 690973,
+          "sha256": "f5e358885d6f351a49d15ca79a01f98ee6630f505ebcc908b0e6e33f7ff2cfea",
+          "magic": "01 00 01 14 00 0a 8b 15",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01010000_elements_6": 1,
+            "inner_01020000_elements_10": 1,
+            "inner_01020000_elements_12": 1,
+            "inner_01020000_elements_13": 2,
+            "inner_01020000_elements_7": 1,
+            "inner_01020000_elements_8": 2,
+            "inner_01020000_elements_9": 1,
+            "inner_01040000_elements_10": 5,
+            "inner_01040000_elements_12": 1,
+            "inner_01040000_elements_13": 2,
+            "inner_01040000_elements_3": 1,
+            "inner_01040000_elements_6": 1,
+            "inner_01040000_elements_7": 5,
+            "inner_01040000_elements_8": 2,
+            "inner_01040000_elements_9": 6,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "16449": 1,
+            "1825": 4,
+            "18917": 1,
+            "2873": 14,
+            "5902": 1,
+            "1301": 7,
+            "19369": 1,
+            "43125": 1,
+            "7345": 1,
+            "2393": 2,
+            "29615": 1,
+            "31298": 1,
+            "2372": 1,
+            "10478": 1,
+            "49764": 1,
+            "87168": 1,
+            "62405": 1,
+            "124273": 1,
+            "29631": 1,
+            "65186": 1,
+            "50038": 1,
+            "11794": 1,
+            "28295": 1,
+            "30282": 1,
+            "57587": 1,
+            "64801": 1,
+            "2921": 1,
+            "104088": 1,
+            "166451": 1,
+            "2349": 1,
+            "23429": 1,
+            "1109": 2,
+            "46940": 1,
+            "60289": 1,
+            "15323": 1,
+            "27035": 1,
+            "28191": 1,
+            "14781": 1,
+            "44826": 1,
+            "42621": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE08.STY",
+          "size": 297594,
+          "sha256": "3151587af5b2d4daf0a02f47e5a25007facdd70dbc21a080a2648beda82e3bde",
+          "magic": "01 00 01 14 00 04 8a 72",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_4": 1,
+            "inner_01010000_elements_12": 1,
+            "inner_01020000_elements_8": 1,
+            "inner_01040000_elements_1": 1,
+            "inner_01040000_elements_10": 12,
+            "inner_01040000_elements_13": 1,
+            "inner_01040000_elements_3": 1,
+            "inner_01040000_elements_4": 1,
+            "inner_01040000_elements_6": 7,
+            "inner_01040000_elements_7": 1,
+            "inner_01040000_elements_8": 5,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "23598": 1,
+            "11876": 1,
+            "11676": 1,
+            "14172": 1,
+            "2372": 14,
+            "2706": 3,
+            "1301": 2,
+            "34046": 1,
+            "56669": 1,
+            "33051": 1,
+            "83347": 1,
+            "15968": 1,
+            "54757": 1,
+            "14990": 1,
+            "35625": 1,
+            "2873": 4,
+            "972": 1,
+            "2349": 2,
+            "20931": 1,
+            "23620": 1,
+            "200803": 1,
+            "1825": 4,
+            "19913": 1,
+            "9811": 1,
+            "5805": 1,
+            "2539": 3,
+            "4496": 1,
+            "5619": 1,
+            "11441": 1,
+            "5751": 1,
+            "20978": 1,
+            "5135": 1,
+            "7608": 1,
+            "8646": 1,
+            "20111": 1,
+            "10142": 1,
+            "7811": 1,
+            "10636": 1,
+            "33446": 1
+          },
+          "codecs": {
+            "OC31": 62,
+            "RAW": 1,
+            "OC32": 1
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE09.STY",
+          "size": 330549,
+          "sha256": "4761f92cabc87a875394ac27168fcad143a9d04bbff8ebeb8fc144612892aadd",
+          "magic": "01 00 01 14 00 05 0b 2d",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_10": 1,
+            "inner_01020000_elements_13": 1,
+            "inner_01040000_elements_10": 7,
+            "inner_01040000_elements_11": 6,
+            "inner_01040000_elements_13": 1,
+            "inner_01040000_elements_3": 1,
+            "inner_01040000_elements_4": 2,
+            "inner_01040000_elements_5": 3,
+            "inner_01040000_elements_6": 4,
+            "inner_01040000_elements_7": 2,
+            "inner_01040000_elements_8": 2,
+            "inner_01040000_elements_9": 2,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "6555": 1,
+            "1301": 9,
+            "9494": 1,
+            "2873": 17,
+            "34741": 1,
+            "16642": 1,
+            "2539": 1,
+            "23688": 1,
+            "130340": 1,
+            "2706": 1,
+            "46266": 1,
+            "2372": 3,
+            "5845": 1,
+            "27743": 1,
+            "7573": 1,
+            "10783": 1,
+            "1825": 1,
+            "23293": 1,
+            "18618": 1,
+            "29223": 1,
+            "8092": 1,
+            "16756": 1,
+            "11036": 1,
+            "9698": 1,
+            "7809": 1,
+            "7160": 1,
+            "22899": 2,
+            "20109": 1,
+            "27434": 1,
+            "25697": 1,
+            "27389": 1,
+            "19834": 1,
+            "15032": 1,
+            "23228": 1,
+            "20111": 1,
+            "17483": 1,
+            "13481": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/FAVORITE10.STY",
+          "size": 415288,
+          "sha256": "731f0d867d9ffb2d8ca785ad0ba163c78d56566ca67c6abddaeea484957cc3cc",
+          "magic": "01 00 01 14 00 06 56 30",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_7": 1,
+            "inner_01000000_elements_8": 1,
+            "inner_01020000_elements_10": 2,
+            "inner_01020000_elements_11": 1,
+            "inner_01020000_elements_9": 1,
+            "inner_01040000_elements_1": 1,
+            "inner_01040000_elements_10": 1,
+            "inner_01040000_elements_11": 1,
+            "inner_01040000_elements_12": 1,
+            "inner_01040000_elements_4": 2,
+            "inner_01040000_elements_5": 2,
+            "inner_01040000_elements_6": 1,
+            "inner_01040000_elements_7": 7,
+            "inner_01040000_elements_8": 4,
+            "inner_01040000_elements_9": 6,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "16855": 1,
+            "1301": 15,
+            "12738": 1,
+            "12215": 1,
+            "12083": 1,
+            "14200": 1,
+            "10424": 1,
+            "16696": 1,
+            "17648": 1,
+            "16057": 1,
+            "14009": 1,
+            "14370": 1,
+            "24705": 1,
+            "2873": 5,
+            "11352": 1,
+            "12164": 1,
+            "30995": 1,
+            "1825": 3,
+            "9182": 1,
+            "2706": 1,
+            "13267": 1,
+            "29240": 1,
+            "2372": 6,
+            "11571": 1,
+            "12993": 1,
+            "2349": 1,
+            "2291": 1,
+            "16863": 1,
+            "44679": 1,
+            "111974": 1,
+            "1658": 1,
+            "63188": 1,
+            "46334": 1,
+            "32238": 1,
+            "34554": 1,
+            "20765": 1,
+            "27456": 1,
+            "10996": 1,
+            "36335": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/USER01.STY",
+          "size": 382967,
+          "sha256": "1f53beafd2be8165549f84f18d685d692f5f864c6ff9b00a0cd95307435c7415",
+          "magic": "01 00 01 14 00 05 d7 ef",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01040000_elements_10": 6,
+            "inner_01040000_elements_11": 2,
+            "inner_01040000_elements_12": 5,
+            "inner_01040000_elements_13": 2,
+            "inner_01040000_elements_3": 1,
+            "inner_01040000_elements_7": 6,
+            "inner_01040000_elements_8": 5,
+            "inner_01040000_elements_9": 5,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "22086": 1,
+            "1301": 26,
+            "25710": 1,
+            "31802": 1,
+            "33018": 1,
+            "37482": 1,
+            "22401": 1,
+            "13346": 1,
+            "19932": 1,
+            "23542": 1,
+            "9898": 1,
+            "22261": 1,
+            "25324": 1,
+            "29924": 1,
+            "41483": 1,
+            "10610": 1,
+            "27409": 1,
+            "64801": 1,
+            "2921": 1,
+            "14818": 1,
+            "20471": 1,
+            "47820": 1,
+            "15330": 1,
+            "2873": 3,
+            "54062": 1,
+            "1825": 2,
+            "14696": 1,
+            "23813": 1,
+            "6497": 1,
+            "80007": 1,
+            "104088": 1,
+            "18778": 1,
+            "10093": 1,
+            "21400": 1,
+            "12798": 1,
+            "57156": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Hammy.SET/STYLE/USER02.STY",
+          "size": 417424,
+          "sha256": "264dd1104d2da9cf1e8e070e6671df516a6b6044bb4d1cbab8898c5cec878b67",
+          "magic": "01 00 01 14 00 06 5e 88",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_7": 2,
+            "inner_01010000_elements_6": 1,
+            "inner_01020000_elements_6": 1,
+            "inner_01040000_elements_1": 4,
+            "inner_01040000_elements_10": 6,
+            "inner_01040000_elements_11": 4,
+            "inner_01040000_elements_12": 5,
+            "inner_01040000_elements_13": 1,
+            "inner_01040000_elements_4": 1,
+            "inner_01040000_elements_5": 1,
+            "inner_01040000_elements_6": 1,
+            "inner_01040000_elements_7": 1,
+            "inner_01040000_elements_8": 3,
+            "inner_01040000_elements_9": 1,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "45756": 1,
+            "2873": 10,
+            "6393": 1,
+            "2372": 6,
+            "7434": 1,
+            "2015": 1,
+            "10065": 1,
+            "19892": 1,
+            "1301": 12,
+            "18241": 1,
+            "36321": 1,
+            "17200": 1,
+            "16171": 1,
+            "12863": 1,
+            "8025": 1,
+            "10505": 1,
+            "2539": 1,
+            "10066": 1,
+            "37187": 1,
+            "27254": 1,
+            "6138": 1,
+            "3509": 1,
+            "62451": 1,
+            "71877": 1,
+            "15889": 1,
+            "10333": 1,
+            "54409": 1,
+            "51240": 1,
+            "31783": 1,
+            "29514": 1,
+            "972": 1,
+            "3077": 1,
+            "8393": 1,
+            "3771": 1,
+            "1825": 2,
+            "200802": 1,
+            "5466": 1,
+            "11945": 1
+          },
+          "codecs": {
+            "OC31": 61,
+            "RAW": 3
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        }
+      ]
+    },
+    {
+      "archive": "Pa1x BABAJA 2011 bosna.SET.rar",
+      "archive_bytes": 22616179,
+      "archive_sha256": "73719157cbbeb85f38a325c81609ffc6ecbbfe895bb61328a89e68c511b7db07",
+      "files": 140,
+      "expanded_bytes": 34831962,
+      "extensions": {
+        ".gbl": 1,
+        ".kmp": 1,
+        ".pad": 10,
+        ".pcg": 3,
+        ".pcm": 99,
+        ".prf": 20,
+        ".sbd": 1,
+        ".sbl": 1,
+        ".sty": 3,
+        ".voc": 1
+      },
+      "encrypted_files": 0,
+      "unsafe_paths": [],
+      "file_manifest": [
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM20.PCM",
+          "bytes": 324924,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM69.PCM",
+          "bytes": 319494,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM38.PCM",
+          "bytes": 324286,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM87.PCM",
+          "bytes": 320422,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM07.PCM",
+          "bytes": 325184,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM56.PCM",
+          "bytes": 335728,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM25.PCM",
+          "bytes": 345918,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM74.PCM",
+          "bytes": 339432,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM43.PCM",
+          "bytes": 405040,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM92.PCM",
+          "bytes": 350310,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM12.PCM",
+          "bytes": 326586,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM61.PCM",
+          "bytes": 331086,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM30.PCM",
+          "bytes": 378368,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM79.PCM",
+          "bytes": 324930,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM48.PCM",
+          "bytes": 342108,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM97.PCM",
+          "bytes": 349150,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM17.PCM",
+          "bytes": 326994,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM66.PCM",
+          "bytes": 334456,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM35.PCM",
+          "bytes": 429766,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM84.PCM",
+          "bytes": 330758,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM04.PCM",
+          "bytes": 323252,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM53.PCM",
+          "bytes": 321810,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM22.PCM",
+          "bytes": 328414,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM71.PCM",
+          "bytes": 349276,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM40.PCM",
+          "bytes": 357168,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM89.PCM",
+          "bytes": 331558,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM09.PCM",
+          "bytes": 321828,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM58.PCM",
+          "bytes": 326330,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM27.PCM",
+          "bytes": 352996,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM76.PCM",
+          "bytes": 333214,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM45.PCM",
+          "bytes": 327544,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM94.PCM",
+          "bytes": 327662,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM14.PCM",
+          "bytes": 327366,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM63.PCM",
+          "bytes": 328780,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM32.PCM",
+          "bytes": 321552,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM81.PCM",
+          "bytes": 324934,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM01.PCM",
+          "bytes": 323088,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM50.PCM",
+          "bytes": 334028,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM99.PCM",
+          "bytes": 319712,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM19.PCM",
+          "bytes": 328260,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM68.PCM",
+          "bytes": 322508,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM37.PCM",
+          "bytes": 332576,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM86.PCM",
+          "bytes": 320984,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM06.PCM",
+          "bytes": 378576,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM55.PCM",
+          "bytes": 329468,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM24.PCM",
+          "bytes": 329706,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM73.PCM",
+          "bytes": 325078,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM42.PCM",
+          "bytes": 343706,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM91.PCM",
+          "bytes": 321264,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM11.PCM",
+          "bytes": 323930,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM60.PCM",
+          "bytes": 325182,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM29.PCM",
+          "bytes": 326314,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM78.PCM",
+          "bytes": 322076,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM47.PCM",
+          "bytes": 330614,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM96.PCM",
+          "bytes": 320998,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM16.PCM",
+          "bytes": 331198,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM65.PCM",
+          "bytes": 334128,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM34.PCM",
+          "bytes": 329424,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM83.PCM",
+          "bytes": 580504,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM03.PCM",
+          "bytes": 354598,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM52.PCM",
+          "bytes": 328014,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM21.PCM",
+          "bytes": 324056,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM70.PCM",
+          "bytes": 350834,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM39.PCM",
+          "bytes": 329294,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM88.PCM",
+          "bytes": 326938,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM08.PCM",
+          "bytes": 322038,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM57.PCM",
+          "bytes": 552260,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM26.PCM",
+          "bytes": 329156,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM75.PCM",
+          "bytes": 336560,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM44.PCM",
+          "bytes": 324988,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM93.PCM",
+          "bytes": 320834,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM13.PCM",
+          "bytes": 356266,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM62.PCM",
+          "bytes": 342610,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM31.PCM",
+          "bytes": 353376,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM80.PCM",
+          "bytes": 322906,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM49.PCM",
+          "bytes": 330538,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM98.PCM",
+          "bytes": 327188,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM18.PCM",
+          "bytes": 323950,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM67.PCM",
+          "bytes": 322670,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM36.PCM",
+          "bytes": 319384,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM85.PCM",
+          "bytes": 349628,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM05.PCM",
+          "bytes": 329766,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM54.PCM",
+          "bytes": 335910,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM23.PCM",
+          "bytes": 326478,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM72.PCM",
+          "bytes": 351500,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM41.PCM",
+          "bytes": 333756,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM90.PCM",
+          "bytes": 329808,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM10.PCM",
+          "bytes": 332122,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM59.PCM",
+          "bytes": 333576,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM28.PCM",
+          "bytes": 341036,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM77.PCM",
+          "bytes": 331922,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM46.PCM",
+          "bytes": 328174,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM95.PCM",
+          "bytes": 323010,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM15.PCM",
+          "bytes": 344688,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM64.PCM",
+          "bytes": 321938,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM33.PCM",
+          "bytes": 329922,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM82.PCM",
+          "bytes": 505834,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM02.PCM",
+          "bytes": 326294,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM51.PCM",
+          "bytes": 322318,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK06.PRF",
+          "bytes": 3079,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK11.PRF",
+          "bytes": 3239,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK16.PRF",
+          "bytes": 3086,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK03.PRF",
+          "bytes": 2739,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK08.PRF",
+          "bytes": 3633,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK13.PRF",
+          "bytes": 3644,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK18.PRF",
+          "bytes": 8106,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK05.PRF",
+          "bytes": 3219,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK10.PRF",
+          "bytes": 3427,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK15.PRF",
+          "bytes": 3543,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK02.PRF",
+          "bytes": 3576,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK20.PRF",
+          "bytes": 4693,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK07.PRF",
+          "bytes": 5162,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK12.PRF",
+          "bytes": 3571,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK17.PRF",
+          "bytes": 2947,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK04.PRF",
+          "bytes": 4982,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK09.PRF",
+          "bytes": 3549,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK14.PRF",
+          "bytes": 3220,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK01.PRF",
+          "bytes": 4192,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK19.PRF",
+          "bytes": 7845,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SONGBOOK/LISTDB.SBL",
+          "bytes": 348,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SONGBOOK/SONGDB.SBD/BANK01.SBD",
+          "bytes": 1625,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/STYLE/USER02.STY",
+          "bytes": 198157,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/STYLE/USER01.STY",
+          "bytes": 230329,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/STYLE/USER03.STY",
+          "bytes": 266004,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER07.PAD",
+          "bytes": 3586,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER04.PAD",
+          "bytes": 1116,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER09.PAD",
+          "bytes": 963,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER01.PAD",
+          "bytes": 11247,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER06.PAD",
+          "bytes": 10953,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER03.PAD",
+          "bytes": 6084,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER08.PAD",
+          "bytes": 3599,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER05.PAD",
+          "bytes": 882,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER10.PAD",
+          "bytes": 243,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PAD/USER02.PAD",
+          "bytes": 1948,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SOUND/USERDK.PCG",
+          "bytes": 134926,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SOUND/USER02.PCG",
+          "bytes": 33805,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SOUND/USER01.PCG",
+          "bytes": 42822,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/GLOBAL/VPPRESET.VOC",
+          "bytes": 20272,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/GLOBAL/SETUP.GBL",
+          "bytes": 3441,
+          "encrypted": false
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/MULTISMP/RAM.KMP",
+          "bytes": 80076,
+          "encrypted": false
+        }
+      ],
+      "inspected": [
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PCM/RAM01.PCM",
+          "size": 323088,
+          "sha256": "32e28f9538958371e36376565b864b45a027816122998767ee74740ea19c22c3",
+          "magic": "01 00 01 14 00 04 ee 08",
+          "envelope": "RAW",
+          "resources": 23,
+          "types": {
+            "07": 23
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_07": 23
+          },
+          "decoded_sizes": {
+            "3168": 1,
+            "10858": 1,
+            "12070": 1,
+            "13146": 1,
+            "13948": 1,
+            "11910": 1,
+            "13870": 1,
+            "14162": 1,
+            "13576": 1,
+            "12574": 1,
+            "13864": 1,
+            "13820": 1,
+            "13998": 1,
+            "13332": 1,
+            "22572": 1,
+            "12194": 1,
+            "9814": 1,
+            "18852": 1,
+            "13910": 1,
+            "39404": 1,
+            "11720": 1,
+            "12662": 1,
+            "6776": 1
+          },
+          "codecs": {
+            "RAW": 23
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK06.PRF",
+          "size": 3079,
+          "sha256": "ba28adcb9953d59a5829623421f464a271944094cc3ec453b17744067048e8a5",
+          "magic": "01 00 01 14 00 00 0b ff",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "681": 7,
+            "1069": 1
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK11.PRF",
+          "size": 3239,
+          "sha256": "2479ea956a6ce6e06278ae5240ace1cb86c8423a605974449923a25fa964113c",
+          "magic": "01 00 01 14 00 00 0c 9f",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1109": 1,
+            "681": 6,
+            "1069": 1
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK16.PRF",
+          "size": 3086,
+          "sha256": "f151d23f24a6032074eee41f699576647f6bb1a1624a396ddc1d75d5b34ab2c9",
+          "magic": "01 00 01 14 00 00 0c 06",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1069": 1,
+            "681": 7
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK03.PRF",
+          "size": 2739,
+          "sha256": "a727eae6616c0c415a995dc333d9c400651559b157bcb77142854810f7091084",
+          "magic": "01 00 01 14 00 00 0a ab",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "681": 8
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK08.PRF",
+          "size": 3633,
+          "sha256": "f318be4be3bcf5716cde0415d3bcb1a0d258933803be6dee55f45c62afd55791",
+          "magic": "01 00 01 14 00 00 0e 29",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1109": 4,
+            "681": 4
+          },
+          "codecs": {
+            "OC31": 4,
+            "OC32": 4
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK13.PRF",
+          "size": 3644,
+          "sha256": "2328b2f2a85405baa1d6eb5d7a5a12c987a0079c15d7cfcaa189aaa95502d972",
+          "magic": "01 00 01 14 00 00 0e 34",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1069": 2,
+            "681": 6
+          },
+          "codecs": {
+            "OC31": 7,
+            "RAW": 1
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK18.PRF",
+          "size": 8106,
+          "sha256": "a493e3adb9b5b9eb63731f585a0dfca8b5506999ff366a9f6c2ca2cbc1958c59",
+          "magic": "01 00 01 14 00 00 1f a2",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1109": 5,
+            "1069": 11
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK05.PRF",
+          "size": 3219,
+          "sha256": "c3194b6ce9383a280c34d5be5149b47deae8c1763b66802e0fadc9e41ac403c0",
+          "magic": "01 00 01 14 00 00 0c 8b",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "681": 7,
+            "1109": 1
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK10.PRF",
+          "size": 3427,
+          "sha256": "842ebb4766a7ba0be9b0f6349f7102de31fee575cf3e8679ec410886ee5bcd3c",
+          "magic": "01 00 01 14 00 00 0d 5b",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1109": 1,
+            "681": 5,
+            "1069": 2
+          },
+          "codecs": {
+            "OC31": 4,
+            "OC32": 4
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK15.PRF",
+          "size": 3543,
+          "sha256": "564873fae23cb795493d46ace03cc517da5b24adee9ceb1bcf0fc186955d4622",
+          "magic": "01 00 01 14 00 00 0d cf",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1069": 1,
+            "681": 7
+          },
+          "codecs": {
+            "OC31": 6,
+            "RAW": 2
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK02.PRF",
+          "size": 3576,
+          "sha256": "345eaee8c1b347a03d0a39d458f5267654702ea4742d94679113bbf56f7900f3",
+          "magic": "01 00 01 14 00 00 0d f0",
+          "envelope": "RAW",
+          "resources": 9,
+          "types": {
+            "09": 9
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 9
+          },
+          "decoded_sizes": {
+            "1301": 1,
+            "681": 6,
+            "1069": 1,
+            "1109": 1
+          },
+          "codecs": {
+            "OC31": 9
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK20.PRF",
+          "size": 4693,
+          "sha256": "ddea095b999a7fa3404dfd4ce50ed6f6e1e38e80101a83affb5903a1ac69ddef",
+          "magic": "01 00 01 14 00 00 12 4d",
+          "envelope": "RAW",
+          "resources": 9,
+          "types": {
+            "09": 9
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 9
+          },
+          "decoded_sizes": {
+            "1109": 6,
+            "1069": 3
+          },
+          "codecs": {
+            "OC31": 9
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK07.PRF",
+          "size": 5162,
+          "sha256": "b53ff6deda5f3473f566ae176f3945ba0cb28b2c90fb1f21dd8ad1b1359e03eb",
+          "magic": "01 00 01 14 00 00 14 22",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "681": 7,
+            "727": 1
+          },
+          "codecs": {
+            "OC31": 2,
+            "RAW": 6
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK12.PRF",
+          "size": 3571,
+          "sha256": "f20ac38e257d6ab7ef23083f76e067a5cf0db2d8c2a36930fef7316aad2eb6fc",
+          "magic": "01 00 01 14 00 00 0d eb",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1069": 8
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK17.PRF",
+          "size": 2947,
+          "sha256": "bad5551aa390b9ea42dd631667caeb6924dd63b30b2d0a582d7222ad64b994df",
+          "magic": "01 00 01 14 00 00 0b 7b",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1109": 1,
+            "681": 7
+          },
+          "codecs": {
+            "OC31": 8
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK04.PRF",
+          "size": 4982,
+          "sha256": "dd1d6e58ea9317d74832ececc30ef818074064f1f54a5d7ffae625b5683e356a",
+          "magic": "01 00 01 14 00 00 13 6e",
+          "envelope": "RAW",
+          "resources": 10,
+          "types": {
+            "09": 10
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 10
+          },
+          "decoded_sizes": {
+            "1109": 9,
+            "1069": 1
+          },
+          "codecs": {
+            "OC31": 10
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK09.PRF",
+          "size": 3549,
+          "sha256": "f5e2d22c80c7a3d170a82298d212172df9431fde42a00126c6e8583707580a89",
+          "magic": "01 00 01 14 00 00 0d d5",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "1109": 5,
+            "681": 3
+          },
+          "codecs": {
+            "OC31": 5,
+            "OC32": 3
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK14.PRF",
+          "size": 3220,
+          "sha256": "e774cee1703fb85def49f18aa0967b4bf7504e171f01b37fd4c0783d8c277b92",
+          "magic": "01 00 01 14 00 00 0c 8c",
+          "envelope": "RAW",
+          "resources": 8,
+          "types": {
+            "09": 8
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 8
+          },
+          "decoded_sizes": {
+            "681": 8
+          },
+          "codecs": {
+            "OC31": 7,
+            "RAW": 1
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK01.PRF",
+          "size": 4192,
+          "sha256": "77f9c0893e051c6862384358f59294791c79890192cc3b0339889d2e5bb8e077",
+          "magic": "01 00 01 14 00 00 10 58",
+          "envelope": "RAW",
+          "resources": 9,
+          "types": {
+            "09": 9
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 9
+          },
+          "decoded_sizes": {
+            "1109": 4,
+            "681": 3,
+            "1069": 2
+          },
+          "codecs": {
+            "OC31": 9
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/PERFORM/BANK19.PRF",
+          "size": 7845,
+          "sha256": "8e5e40c21de73dfaa41aefcef68389685faff1ab0a44035a61ecb334f2e545c5",
+          "magic": "01 00 01 14 00 00 1e 9d",
+          "envelope": "RAW",
+          "resources": 16,
+          "types": {
+            "09": 16
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_09": 16
+          },
+          "decoded_sizes": {
+            "1109": 9,
+            "1069": 7
+          },
+          "codecs": {
+            "OC31": 16
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/STYLE/USER02.STY",
+          "size": 198157,
+          "sha256": "40963a3d9f8aa3a2194b29d956e988f3ac6b47982dee91d779048c7e5f4081fc",
+          "magic": "01 00 01 14 00 03 06 05",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_7": 1,
+            "inner_01010000_elements_10": 1,
+            "inner_01010000_elements_7": 1,
+            "inner_01010000_elements_8": 1,
+            "inner_01020000_elements_10": 5,
+            "inner_01020000_elements_11": 2,
+            "inner_01020000_elements_12": 1,
+            "inner_01020000_elements_3": 1,
+            "inner_01020000_elements_4": 2,
+            "inner_01020000_elements_5": 2,
+            "inner_01020000_elements_6": 2,
+            "inner_01020000_elements_7": 4,
+            "inner_01020000_elements_8": 4,
+            "inner_01020000_elements_9": 5,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "7019": 1,
+            "17029": 1,
+            "9987": 1,
+            "19113": 1,
+            "18990": 1,
+            "8526": 1,
+            "40202": 1,
+            "12072": 1,
+            "42988": 1,
+            "7323": 1,
+            "17895": 1,
+            "16015": 2,
+            "23256": 1,
+            "14185": 1,
+            "10910": 1,
+            "1965": 6,
+            "1892": 6,
+            "2059": 1,
+            "2393": 4,
+            "2439": 1,
+            "1109": 12,
+            "1537": 1,
+            "10194": 1,
+            "19019": 1,
+            "8920": 1,
+            "7730": 1,
+            "4362": 1,
+            "1631": 1,
+            "13605": 1,
+            "12316": 1,
+            "2490": 1,
+            "5611": 1,
+            "7575": 1,
+            "6410": 1,
+            "12617": 1,
+            "15897": 1,
+            "9819": 1,
+            "6220": 1,
+            "21629": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/STYLE/USER01.STY",
+          "size": 230329,
+          "sha256": "5cdb05116240da81fc4d83ab35abb8019fa69cc0178bfe3e588c25bad6cdd79f",
+          "magic": "01 00 01 14 00 03 83 b1",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_10": 2,
+            "inner_01000000_elements_6": 1,
+            "inner_01020000_elements_10": 3,
+            "inner_01020000_elements_11": 3,
+            "inner_01020000_elements_12": 6,
+            "inner_01020000_elements_6": 3,
+            "inner_01020000_elements_7": 2,
+            "inner_01020000_elements_8": 4,
+            "inner_01020000_elements_9": 7,
+            "inner_01040000_elements_12": 1,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "48483": 1,
+            "21772": 1,
+            "14615": 1,
+            "7321": 1,
+            "24716": 1,
+            "13218": 1,
+            "3701": 1,
+            "22156": 1,
+            "9037": 1,
+            "6972": 1,
+            "7019": 1,
+            "11571": 1,
+            "31964": 1,
+            "8266": 1,
+            "4397": 1,
+            "35096": 1,
+            "1892": 12,
+            "2393": 8,
+            "1965": 5,
+            "2059": 4,
+            "11888": 1,
+            "19081": 1,
+            "7196": 1,
+            "1537": 1,
+            "16863": 1,
+            "13001": 1,
+            "32428": 1,
+            "27847": 1,
+            "4379": 1,
+            "37570": 1,
+            "39783": 1,
+            "2372": 1,
+            "12064": 1,
+            "21154": 1,
+            "2873": 1,
+            "28898": 1,
+            "62609": 1,
+            "19869": 1,
+            "28792": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/STYLE/USER03.STY",
+          "size": 266004,
+          "sha256": "13c33c61ffa1a3debc2c9a59a47b474490128969e817cd99e4846bc01e3023e6",
+          "magic": "01 00 01 14 00 04 0f 0c",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "06": 32,
+            "09": 32
+          },
+          "index_valid": true,
+          "inner_families": {
+            "inner_01000000_elements_6": 2,
+            "inner_01010000_elements_10": 2,
+            "inner_01010000_elements_11": 1,
+            "inner_01010000_elements_12": 1,
+            "inner_01010000_elements_8": 2,
+            "inner_01020000_elements_10": 4,
+            "inner_01020000_elements_11": 3,
+            "inner_01020000_elements_12": 1,
+            "inner_01020000_elements_5": 2,
+            "inner_01020000_elements_6": 3,
+            "inner_01020000_elements_7": 3,
+            "inner_01020000_elements_8": 3,
+            "inner_01020000_elements_9": 5,
+            "type_09": 32
+          },
+          "decoded_sizes": {
+            "14185": 1,
+            "10303": 1,
+            "15619": 1,
+            "7607": 1,
+            "6339": 1,
+            "7029": 1,
+            "4763": 1,
+            "36381": 1,
+            "14232": 1,
+            "16259": 1,
+            "31898": 1,
+            "17864": 1,
+            "6877": 1,
+            "8930": 1,
+            "31538": 1,
+            "14456": 1,
+            "1537": 2,
+            "1109": 5,
+            "2393": 5,
+            "1798": 2,
+            "1965": 1,
+            "1370": 2,
+            "1892": 14,
+            "31462": 1,
+            "22029": 1,
+            "10127": 1,
+            "19794": 1,
+            "9101": 1,
+            "22013": 1,
+            "27043": 1,
+            "34586": 1,
+            "2015": 1,
+            "34211": 1,
+            "16142": 1,
+            "36325": 1,
+            "6128": 1,
+            "11051": 1,
+            "7856": 1,
+            "4333": 1,
+            "19209": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SOUND/USERDK.PCG",
+          "size": 134926,
+          "sha256": "d97d80e0d2c8db2209cc004de13d51255e6b67ffec3b9df47906b89332b256b2",
+          "magic": "01 00 01 14 00 02 0f 06",
+          "envelope": "RAW",
+          "resources": 64,
+          "types": {
+            "10": 40,
+            "07": 24
+          },
+          "index_valid": true,
+          "inner_families": {
+            "program_0002_type_10": 40,
+            "type_07": 24
+          },
+          "decoded_sizes": {
+            "5926": 1,
+            "5123": 8,
+            "5226": 15,
+            "5506": 1,
+            "5286": 1,
+            "5846": 1,
+            "6066": 5,
+            "5806": 2,
+            "6203": 14,
+            "5886": 1,
+            "5283": 1,
+            "6246": 1,
+            "5183": 1,
+            "6306": 7,
+            "6046": 2,
+            "5586": 1,
+            "5326": 1,
+            "5866": 1
+          },
+          "codecs": {
+            "OC31": 64
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SOUND/USER02.PCG",
+          "size": 33805,
+          "sha256": "522f5e36bb2bc2b47c1d983f76030066f17f9374b43a997c29df8753346bf628",
+          "magic": "01 00 01 14 00 00 84 05",
+          "envelope": "RAW",
+          "resources": 101,
+          "types": {
+            "07": 97,
+            "10": 4
+          },
+          "index_valid": true,
+          "inner_families": {
+            "program_0002_type_10": 4,
+            "type_07": 97
+          },
+          "decoded_sizes": {
+            "257": 19,
+            "682": 7,
+            "378": 7,
+            "437": 54,
+            "797": 2,
+            "226": 5,
+            "420": 1,
+            "248": 1,
+            "360": 4,
+            "530": 1
+          },
+          "codecs": {
+            "RAW": 43,
+            "OC31": 58
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/SOUND/USER01.PCG",
+          "size": 42822,
+          "sha256": "d35771f8513e7dab50b41ed803c21d869f4819d5ca219abb68b0e6b7448d8b85",
+          "magic": "01 00 01 14 00 00 a7 3e",
+          "envelope": "RAW",
+          "resources": 122,
+          "types": {
+            "10": 122
+          },
+          "index_valid": true,
+          "inner_families": {
+            "program_0002_type_10": 122
+          },
+          "decoded_sizes": {
+            "360": 16,
+            "537": 11,
+            "891": 63,
+            "714": 6,
+            "1068": 2,
+            "1245": 20,
+            "1599": 4
+          },
+          "codecs": {
+            "OC31": 121,
+            "RAW": 1
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/GLOBAL/SETUP.GBL",
+          "size": 3441,
+          "sha256": "3629c4274b6ffc701907e146aac4862ce4ab4280d14d9d69814ea88beb95ff2c",
+          "magic": "01 00 01 14 00 00 0d 69",
+          "envelope": "RAW",
+          "resources": 30,
+          "types": {
+            "0A": 30
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_0A": 30
+          },
+          "decoded_sizes": {
+            "307": 1,
+            "20": 1,
+            "62": 1,
+            "25": 1,
+            "28": 1,
+            "9": 1,
+            "51": 13,
+            "1374": 1,
+            "72": 1,
+            "13": 1,
+            "1388": 1,
+            "212": 1,
+            "14": 1,
+            "148": 1,
+            "239": 1,
+            "190": 1,
+            "39": 1,
+            "81": 1
+          },
+          "codecs": {
+            "OC31": 5,
+            "RAW": 25
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        },
+        {
+          "path": "Pa1x BABAJA 2011 bosna.SET/MULTISMP/RAM.KMP",
+          "size": 80076,
+          "sha256": "4c3d089233e279a8a6c3924204aa633e714d9b8d20eeac597c8a57b458481d05",
+          "magic": "01 00 01 14 00 01 38 c4",
+          "envelope": "RAW",
+          "resources": 1,
+          "types": {
+            "07": 1
+          },
+          "index_valid": true,
+          "inner_families": {
+            "type_07": 1
+          },
+          "decoded_sizes": {
+            "158185": 1
+          },
+          "codecs": {
+            "OC31": 1
+          },
+          "decode_errors": [],
+          "decode_error_count": 0
+        }
+      ]
+    },
+    {
+      "archive": "Pa1x Redbull Novoboki Greek.SET.rar",
+      "archive_bytes": 17630673,
+      "archive_sha256": "bef840b5fd1bfd65aea5ee8395516d82dc2ff989222a2ea528720cd1a2c2cf2e",
+      "files": 56,
+      "expanded_bytes": 27673623,
+      "extensions": {
+        ".gbl": 1,
+        ".kmp": 1,
+        ".pad": 1,
+        ".pcg": 3,
+        ".pcm": 26,
+        ".prf": 20,
+        ".sty": 3,
+        ".voc": 1
+      },
+      "encrypted_files": 56,
+      "unsafe_paths": [],
+      "file_manifest": [
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/GLOBAL/SETUP.GBL",
+          "bytes": 2474,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/GLOBAL/VPPRESET.VOC",
+          "bytes": 20312,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/MULTISMP/RAM.KMP",
+          "bytes": 21312,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PAD/USER01.PAD",
+          "bytes": 1226,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM01.PCM",
+          "bytes": 2739140,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM02.PCM",
+          "bytes": 956912,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM03.PCM",
+          "bytes": 940886,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM04.PCM",
+          "bytes": 640024,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM05.PCM",
+          "bytes": 573384,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM06.PCM",
+          "bytes": 1154400,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM07.PCM",
+          "bytes": 1004376,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM08.PCM",
+          "bytes": 209370,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM09.PCM",
+          "bytes": 1262474,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM10.PCM",
+          "bytes": 470738,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM11.PCM",
+          "bytes": 89800,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM12.PCM",
+          "bytes": 991176,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM13.PCM",
+          "bytes": 1583794,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM14.PCM",
+          "bytes": 937166,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM15.PCM",
+          "bytes": 807584,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM16.PCM",
+          "bytes": 1265390,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM17.PCM",
+          "bytes": 2207202,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM18.PCM",
+          "bytes": 1705984,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM19.PCM",
+          "bytes": 550338,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM20.PCM",
+          "bytes": 842332,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM21.PCM",
+          "bytes": 2285228,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM22.PCM",
+          "bytes": 1420000,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM23.PCM",
+          "bytes": 1284806,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM24.PCM",
+          "bytes": 17980,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM25.PCM",
+          "bytes": 296312,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PCM/RAM26.PCM",
+          "bytes": 438854,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK01.PRF",
+          "bytes": 7382,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK02.PRF",
+          "bytes": 6165,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK03.PRF",
+          "bytes": 4715,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK04.PRF",
+          "bytes": 6968,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK05.PRF",
+          "bytes": 4333,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK06.PRF",
+          "bytes": 3789,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK07.PRF",
+          "bytes": 2894,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK08.PRF",
+          "bytes": 4953,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK09.PRF",
+          "bytes": 5796,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK10.PRF",
+          "bytes": 5796,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK11.PRF",
+          "bytes": 3210,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK12.PRF",
+          "bytes": 3279,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK13.PRF",
+          "bytes": 2806,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK14.PRF",
+          "bytes": 2888,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK15.PRF",
+          "bytes": 2884,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK16.PRF",
+          "bytes": 2902,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK17.PRF",
+          "bytes": 780,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK18.PRF",
+          "bytes": 3005,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK19.PRF",
+          "bytes": 2837,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/PERFORM/BANK20.PRF",
+          "bytes": 1534,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/SOUND/USER01.PCG",
+          "bytes": 38750,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/SOUND/USER02.PCG",
+          "bytes": 21898,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/SOUND/USERDK.PCG",
+          "bytes": 62385,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/STYLE/USER01.STY",
+          "bytes": 267367,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/STYLE/USER02.STY",
+          "bytes": 310327,
+          "encrypted": true
+        },
+        {
+          "path": "Pa1x Redbull Novoboki Greek.SET/STYLE/USER03.STY",
+          "bytes": 173006,
+          "encrypted": true
+        }
+      ],
+      "inspected": []
+    }
+  ],
+  "direct_sty": {
+    "path": "USER01.STY",
+    "size": 749993,
+    "sha256": "6140829f4c8ba8d23f329fbac3905f852017c8f1f7d47025a451b24e0f56d12a",
+    "magic": "01 00 01 14 00 0b 71 a1",
+    "envelope": "RAW",
+    "resources": 80,
+    "types": {
+      "06": 40,
+      "09": 40
+    },
+    "index_valid": true,
+    "inner_families": {
+      "inner_01050000_elements_15": 40,
+      "type_09": 40
+    },
+    "decoded_sizes": {
+      "89578": 1,
+      "32763": 1,
+      "32539": 1,
+      "32228": 1,
+      "13949": 1,
+      "18344": 1,
+      "27119": 1,
+      "11523": 1,
+      "14018": 1,
+      "17601": 1,
+      "49035": 1,
+      "28105": 1,
+      "33459": 1,
+      "48644": 1,
+      "113790": 1,
+      "64350": 1,
+      "44777": 1,
+      "118182": 1,
+      "107127": 1,
+      "88051": 1,
+      "214254": 1,
+      "55669": 1,
+      "96718": 1,
+      "119521": 1,
+      "30400": 1,
+      "30839": 1,
+      "33622": 1,
+      "62246": 1,
+      "107021": 1,
+      "49190": 1,
+      "23894": 1,
+      "40306": 1,
+      "35439": 1,
+      "34609": 1,
+      "25701": 1,
+      "188075": 1,
+      "20343": 1,
+      "16722": 1,
+      "47820": 1,
+      "39721": 1,
+      "9403": 40
+    },
+    "codecs": {
+      "OC31": 80
+    },
+    "decode_errors": [],
+    "decode_error_count": 0
+  },
+  "factory_reference": {
+    "archive": "pa800_pkg_extracted.zip",
+    "version_status": "Drive filename does not certify OS version",
+    "files": [
+      {
+        "path": "STARTUP/ALL/DRAWBARS/DDWB.KMP",
+        "size": 1270,
+        "sha256": "21de145b5a85d48bf6847f87d3fdf2ff442949ac51a11c1f71ebdddfae6fec3c",
+        "magic": "4f 43 32 30 ca 0e 00 00",
+        "envelope": "OC20",
+        "resources": 1,
+        "types": {
+          "07": 1
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_07": 1
+        },
+        "decoded_sizes": {
+          "3690": 1
+        },
+        "codecs": {
+          "RAW": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/MULTISMP/ROM.KMP",
+        "size": 258368,
+        "sha256": "e20fadd7d4f0cf2ecdee7b08d189c5fb1ff6e374f04ff01956ab911a7c382440",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 1,
+        "types": {
+          "11": 1
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_11": 1
+        },
+        "decoded_sizes": {
+          "657508": 1
+        },
+        "codecs": {
+          "RAW": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK01.PRF",
+        "size": 5179,
+        "sha256": "683c3814cc4ddeb83864a139e42a13d420ad418dc15cd30d3d3100cac5f03a40",
+        "magic": "4f 43 32 30 f6 20 00 00",
+        "envelope": "OC20",
+        "resources": 15,
+        "types": {
+          "09": 15
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 15
+        },
+        "decoded_sizes": {
+          "1301": 15
+        },
+        "codecs": {
+          "OC31": 5,
+          "OC32": 10
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK02.PRF",
+        "size": 5718,
+        "sha256": "b68f3c5f1d475c2665ff03a1985b9c22438397450165bf0311d4cf76bdd332f8",
+        "magic": "4f 43 32 30 36 24 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK03.PRF",
+        "size": 3814,
+        "sha256": "aa93fe05548119e00e0547e57a10af3ffa9e4d46610cdaef71f5f9f3b64c8dd3",
+        "magic": "4f 43 32 30 0d 18 00 00",
+        "envelope": "OC20",
+        "resources": 11,
+        "types": {
+          "09": 11
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 11
+        },
+        "decoded_sizes": {
+          "1301": 11
+        },
+        "codecs": {
+          "OC32": 9,
+          "OC31": 2
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK04.PRF",
+        "size": 5094,
+        "sha256": "a62d7253367a1d939ab4da8d44d296c6962ecb724beccaab286a90e77445fdf3",
+        "magic": "4f 43 32 30 95 23 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK05.PRF",
+        "size": 5359,
+        "sha256": "032d83a4734bb6472857e5b99344074c769853a9937cae73758a7f6031207d3a",
+        "magic": "4f 43 32 30 40 23 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK06.PRF",
+        "size": 4335,
+        "sha256": "ffb2c74eaff6ecebc77408df1a5225b277b460a680097a02a89935d3ce1d4347",
+        "magic": "4f 43 32 30 ad 1a 00 00",
+        "envelope": "OC20",
+        "resources": 12,
+        "types": {
+          "09": 12
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 12
+        },
+        "decoded_sizes": {
+          "1347": 11,
+          "1301": 1
+        },
+        "codecs": {
+          "OC32": 10,
+          "OC31": 2
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK07.PRF",
+        "size": 6045,
+        "sha256": "1b3e271df67a20a313fed01ddbcec1db4c83597632220c5027d605fb4f15e844",
+        "magic": "4f 43 32 30 6b 24 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK08.PRF",
+        "size": 5454,
+        "sha256": "89fe0f9add3f67585bc9482cde97adfe51084296e3e002dcb05c53d2a01065f8",
+        "magic": "4f 43 32 30 fc 22 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK09.PRF",
+        "size": 4758,
+        "sha256": "4136abdf8973278e466e931072d732051a27ba31b78dbbb11636de61ab2243a8",
+        "magic": "4f 43 32 30 ee 22 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK10.PRF",
+        "size": 4120,
+        "sha256": "40280a3bd6a55a326abce74ba60f8c46864245d5d0f157dcc194735e775600eb",
+        "magic": "4f 43 32 30 85 17 00 00",
+        "envelope": "OC20",
+        "resources": 11,
+        "types": {
+          "09": 11
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 11
+        },
+        "decoded_sizes": {
+          "1301": 11
+        },
+        "codecs": {
+          "OC32": 10,
+          "OC31": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK11.PRF",
+        "size": 5082,
+        "sha256": "a58a3dea25187a8fcc6053be2f7e78e20ceb02fa0d33534c764332650009ea2f",
+        "magic": "4f 43 32 30 8a 22 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK12.PRF",
+        "size": 5897,
+        "sha256": "6895522ce2633929e66fdf83fbe39033072002790bc324d846a3938b93290b2c",
+        "magic": "4f 43 32 30 83 23 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK13.PRF",
+        "size": 5358,
+        "sha256": "e1951026b0d36a248f75a6bf1b3137b3b395bdf9cdbb569e89aa6d587fc531a0",
+        "magic": "4f 43 32 30 8d 21 00 00",
+        "envelope": "OC20",
+        "resources": 15,
+        "types": {
+          "09": 15
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 15
+        },
+        "decoded_sizes": {
+          "1301": 15
+        },
+        "codecs": {
+          "OC31": 15
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK14.PRF",
+        "size": 5783,
+        "sha256": "e882f5b4f4eb1f7e4c6c613ce51cbbafb1dcdbb8cc3970ad7c51695cc67c4113",
+        "magic": "4f 43 32 30 fa 20 00 00",
+        "envelope": "OC20",
+        "resources": 15,
+        "types": {
+          "09": 15
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 15
+        },
+        "decoded_sizes": {
+          "1301": 15
+        },
+        "codecs": {
+          "OC32": 14,
+          "OC31": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK15.PRF",
+        "size": 1571,
+        "sha256": "c05647787e94e28b31cd1f4bd526738a07a35a397921547449da339b8aa59159",
+        "magic": "4f 43 32 30 00 0b 00 00",
+        "envelope": "OC20",
+        "resources": 5,
+        "types": {
+          "09": 5
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 5
+        },
+        "decoded_sizes": {
+          "1301": 5
+        },
+        "codecs": {
+          "OC31": 5
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK16.PRF",
+        "size": 974,
+        "sha256": "486ccee9c48d9228038030f7503a786f412bfc26bb38d1b417290e89c69ce8e6",
+        "magic": "4f 43 32 30 b3 0f 00 00",
+        "envelope": "OC20",
+        "resources": 8,
+        "types": {
+          "09": 8
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 8
+        },
+        "decoded_sizes": {
+          "1069": 8
+        },
+        "codecs": {
+          "OC32": 8
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK17.PRF",
+        "size": 5582,
+        "sha256": "86d5f6c8eeeab1bff3f67468ec31717700ab25310621877fd8f7134e934280e7",
+        "magic": "4f 43 32 30 1b 23 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1301": 16
+        },
+        "codecs": {
+          "OC31": 16
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK18.PRF",
+        "size": 5039,
+        "sha256": "43b160d37557f8a8dbe796e2bca3a9f829820117d8997f04ba1cce41e93caabb",
+        "magic": "4f 43 32 30 fd 23 00 00",
+        "envelope": "OC20",
+        "resources": 16,
+        "types": {
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "1347": 11,
+          "1301": 5
+        },
+        "codecs": {
+          "OC32": 9,
+          "OC31": 7
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK19.PRF",
+        "size": 2860,
+        "sha256": "6942fc999427e739ce58811e73db7bcb836dcea01ef8d403f1d5027b9a9a7134",
+        "magic": "4f 43 32 30 71 0f 00 00",
+        "envelope": "OC20",
+        "resources": 7,
+        "types": {
+          "09": 7
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 7
+        },
+        "decoded_sizes": {
+          "1301": 7
+        },
+        "codecs": {
+          "OC31": 2,
+          "OC32": 5
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/PERFORM/BANK20.PRF",
+        "size": 1996,
+        "sha256": "648226349749e12fc1bd65c70e13b1887da5ec1dd5de42d4ef39feaccc17cf19",
+        "magic": "4f 43 32 30 6e 0a 00 00",
+        "envelope": "OC20",
+        "resources": 5,
+        "types": {
+          "09": 5
+        },
+        "index_valid": true,
+        "inner_families": {
+          "type_09": 5
+        },
+        "decoded_sizes": {
+          "1301": 5
+        },
+        "codecs": {
+          "OC32": 4,
+          "OC31": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/SOUND/ROM.PCG",
+        "size": 263722,
+        "sha256": "b1f08ab776e81366b3532b32abac8633a6c9e03aa80fec909c1f47db7439de64",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 1071,
+        "types": {
+          "10": 1071
+        },
+        "index_valid": true,
+        "inner_families": {
+          "program_0005_type_10": 1071
+        },
+        "decoded_sizes": {
+          "1618": 12,
+          "544": 562,
+          "1260": 12,
+          "723": 119,
+          "902": 48,
+          "2155": 4,
+          "2871": 5,
+          "1976": 3,
+          "365": 191,
+          "1081": 40,
+          "3050": 4,
+          "2334": 2,
+          "2692": 1,
+          "1797": 3,
+          "1439": 1,
+          "4207": 31,
+          "4255": 3,
+          "4231": 2,
+          "4507": 1,
+          "4219": 4,
+          "4855": 1,
+          "4375": 2,
+          "4351": 1,
+          "4747": 1,
+          "4843": 1,
+          "4795": 1,
+          "4879": 1,
+          "4423": 2,
+          "4759": 1,
+          "4639": 1,
+          "4591": 2,
+          "4495": 2,
+          "4783": 1,
+          "4435": 1,
+          "4303": 1,
+          "4327": 1,
+          "4315": 1,
+          "4279": 1,
+          "5095": 1
+        },
+        "codecs": {
+          "OC32": 1051,
+          "OC31": 18,
+          "RAW": 2
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK01.STY",
+        "size": 253104,
+        "sha256": "70ad3fc561337ba331665a3fce473d7699baab067de6f9f3ee292d608239ab73",
+        "magic": "4f 43 32 30 ea f1 03 00",
+        "envelope": "OC20",
+        "resources": 36,
+        "types": {
+          "06": 18,
+          "09": 18
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 6,
+          "inner_01040000_elements_13": 12,
+          "type_09": 18
+        },
+        "decoded_sizes": {
+          "49561": 1,
+          "2873": 18,
+          "42471": 1,
+          "47735": 1,
+          "35026": 1,
+          "33962": 1,
+          "39974": 1,
+          "18886": 1,
+          "53686": 1,
+          "29273": 1,
+          "45261": 1,
+          "39056": 1,
+          "26576": 1,
+          "50307": 1,
+          "27657": 1,
+          "19446": 1,
+          "30575": 1,
+          "46145": 1,
+          "20465": 1
+        },
+        "codecs": {
+          "OC31": 36
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK02.STY",
+        "size": 254982,
+        "sha256": "052589e66d5ab944862cdc03b2582a90cdb37933d2615c9d3e031d5f790bc011",
+        "magic": "4f 43 32 30 31 fa 03 00",
+        "envelope": "OC20",
+        "resources": 38,
+        "types": {
+          "06": 19,
+          "09": 19
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 15,
+          "inner_01040000_elements_13": 4,
+          "type_09": 19
+        },
+        "decoded_sizes": {
+          "40153": 1,
+          "2873": 19,
+          "36902": 1,
+          "53110": 1,
+          "33994": 1,
+          "30714": 1,
+          "38206": 1,
+          "38328": 1,
+          "22110": 1,
+          "19489": 1,
+          "30631": 1,
+          "22296": 1,
+          "26973": 1,
+          "139680": 1,
+          "61300": 1,
+          "31498": 1,
+          "26197": 1,
+          "47383": 1,
+          "37436": 1,
+          "49048": 1
+        },
+        "codecs": {
+          "OC31": 38
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK03.STY",
+        "size": 380376,
+        "sha256": "3e7d0340dd4bf43d49e597c31aa0448efe2ef142fe7bee0a7f26dcfa2fc558ba",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 48,
+        "types": {
+          "06": 24,
+          "09": 24
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 7,
+          "inner_01040000_elements_13": 17,
+          "type_09": 24
+        },
+        "decoded_sizes": {
+          "31351": 1,
+          "2873": 21,
+          "32974": 1,
+          "77268": 1,
+          "37852": 1,
+          "30068": 1,
+          "48642": 1,
+          "86325": 1,
+          "17179": 1,
+          "85958": 1,
+          "105441": 1,
+          "24224": 1,
+          "74401": 1,
+          "2919": 3,
+          "33401": 1,
+          "29837": 1,
+          "22225": 1,
+          "51835": 1,
+          "29055": 1,
+          "20537": 1,
+          "41850": 1,
+          "74321": 1,
+          "21031": 1,
+          "38627": 1,
+          "19580": 1,
+          "45878": 1
+        },
+        "codecs": {
+          "OC31": 48
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK04.STY",
+        "size": 393396,
+        "sha256": "7024780061efa132ba44c2bcef7bb224697c4dea97cc3a161b0aa0ddba719331",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 58,
+        "types": {
+          "06": 29,
+          "09": 29
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 23,
+          "inner_01040000_elements_13": 6,
+          "type_09": 29
+        },
+        "decoded_sizes": {
+          "53247": 1,
+          "49914": 1,
+          "91411": 1,
+          "34785": 1,
+          "42083": 1,
+          "24863": 1,
+          "38276": 1,
+          "26345": 1,
+          "33630": 1,
+          "28970": 1,
+          "26475": 1,
+          "34880": 1,
+          "34129": 1,
+          "37480": 1,
+          "34110": 1,
+          "25744": 1,
+          "46522": 1,
+          "19081": 1,
+          "15834": 1,
+          "19161": 1,
+          "30828": 1,
+          "22753": 1,
+          "20550": 1,
+          "31823": 1,
+          "28261": 1,
+          "39089": 1,
+          "57453": 1,
+          "39438": 1,
+          "24000": 1,
+          "2873": 25,
+          "2919": 3,
+          "2971": 1
+        },
+        "codecs": {
+          "OC31": 57,
+          "OC32": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK05.STY",
+        "size": 383887,
+        "sha256": "5befdab7425c3f90a641785c8728bc72e808a74a3f65d57d9de89a7edb4c2948",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 52,
+        "types": {
+          "06": 26,
+          "09": 26
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 22,
+          "inner_01040000_elements_13": 4,
+          "type_09": 26
+        },
+        "decoded_sizes": {
+          "110096": 1,
+          "2873": 25,
+          "145826": 1,
+          "33841": 1,
+          "103641": 1,
+          "60491": 1,
+          "2919": 1,
+          "77173": 1,
+          "41803": 1,
+          "57992": 1,
+          "82052": 1,
+          "57158": 1,
+          "57393": 1,
+          "17398": 1,
+          "64360": 1,
+          "23736": 1,
+          "22550": 1,
+          "30578": 1,
+          "35560": 1,
+          "30006": 1,
+          "34926": 1,
+          "56319": 1,
+          "37424": 1,
+          "42535": 1,
+          "31343": 1,
+          "26583": 1,
+          "22940": 1,
+          "24854": 1
+        },
+        "codecs": {
+          "OC31": 52
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK06.STY",
+        "size": 378500,
+        "sha256": "5b2f9032e5a5679f51a52d052b9d9ecb4b5270997c5bfc2bf470fd5a6e2807db",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 54,
+        "types": {
+          "06": 27,
+          "09": 27
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 24,
+          "inner_01040000_elements_13": 3,
+          "type_09": 27
+        },
+        "decoded_sizes": {
+          "47014": 1,
+          "2873": 18,
+          "35441": 1,
+          "36409": 1,
+          "42147": 1,
+          "2919": 5,
+          "31150": 1,
+          "50875": 1,
+          "38699": 1,
+          "42988": 1,
+          "29121": 1,
+          "32852": 1,
+          "63944": 1,
+          "20751": 1,
+          "47565": 1,
+          "2945": 3,
+          "37569": 1,
+          "38054": 1,
+          "40611": 1,
+          "25335": 1,
+          "30328": 1,
+          "22056": 1,
+          "19538": 1,
+          "46984": 1,
+          "30934": 1,
+          "102428": 1,
+          "17757": 1,
+          "41161": 1,
+          "37050": 1,
+          "2971": 1,
+          "33469": 1
+        },
+        "codecs": {
+          "OC31": 54
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK07.STY",
+        "size": 532272,
+        "sha256": "42698e6dd369d7f5535aca845d44c421550f7d40ceec4dc3e174571d05ad2344",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 44,
+        "types": {
+          "06": 22,
+          "09": 22
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 14,
+          "inner_01040000_elements_13": 8,
+          "type_09": 22
+        },
+        "decoded_sizes": {
+          "101613": 1,
+          "2873": 20,
+          "124834": 1,
+          "69152": 1,
+          "64204": 1,
+          "55474": 1,
+          "42166": 1,
+          "63221": 1,
+          "75747": 1,
+          "63924": 1,
+          "59875": 1,
+          "67447": 1,
+          "48217": 1,
+          "2945": 1,
+          "82796": 1,
+          "164558": 1,
+          "88188": 1,
+          "82688": 1,
+          "32358": 1,
+          "20300": 1,
+          "33130": 1,
+          "2919": 1,
+          "40899": 1,
+          "39052": 1,
+          "42867": 1
+        },
+        "codecs": {
+          "OC31": 44
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK08.STY",
+        "size": 206751,
+        "sha256": "e22e643ddaf17809425b7da12866c7fb54a1a9c7c022350f21e1685352f596a7",
+        "magic": "4f 43 32 30 12 49 03 00",
+        "envelope": "OC20",
+        "resources": 32,
+        "types": {
+          "06": 16,
+          "09": 16
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 14,
+          "inner_01040000_elements_13": 2,
+          "type_09": 16
+        },
+        "decoded_sizes": {
+          "40744": 1,
+          "51164": 1,
+          "27842": 1,
+          "30337": 1,
+          "21779": 1,
+          "24941": 1,
+          "26247": 1,
+          "48833": 1,
+          "45467": 1,
+          "83483": 1,
+          "52238": 1,
+          "51818": 1,
+          "27774": 1,
+          "37549": 1,
+          "40649": 1,
+          "49993": 1,
+          "2919": 1,
+          "2873": 15
+        },
+        "codecs": {
+          "OC31": 29,
+          "OC32": 3
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK09.STY",
+        "size": 355715,
+        "sha256": "203ed0aeaac1f61c81bc3f73075325249199d5feeaef4e288848254a8ca3b243",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 64,
+        "types": {
+          "06": 32,
+          "09": 32
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 32,
+          "type_09": 32
+        },
+        "decoded_sizes": {
+          "50957": 1,
+          "2873": 15,
+          "28739": 1,
+          "2919": 2,
+          "33403": 1,
+          "49416": 1,
+          "32278": 1,
+          "2997": 15,
+          "63400": 1,
+          "35741": 1,
+          "30692": 1,
+          "34939": 1,
+          "39195": 1,
+          "37669": 1,
+          "45516": 1,
+          "26687": 1,
+          "41224": 1,
+          "26947": 1,
+          "24030": 1,
+          "46936": 1,
+          "34309": 1,
+          "49902": 1,
+          "38370": 1,
+          "23146": 1,
+          "25859": 1,
+          "25746": 1,
+          "29587": 1,
+          "42392": 1,
+          "34863": 1,
+          "25574": 1,
+          "34897": 1,
+          "30447": 1,
+          "37687": 1,
+          "48970": 1,
+          "20674": 1
+        },
+        "codecs": {
+          "OC31": 64
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK10.STY",
+        "size": 446526,
+        "sha256": "1c02727e5c0aa563cc3284618aad66c34facef80d9629ab6773a923887faab3f",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 64,
+        "types": {
+          "06": 32,
+          "09": 32
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 29,
+          "inner_01040000_elements_13": 3,
+          "type_09": 32
+        },
+        "decoded_sizes": {
+          "67650": 1,
+          "33957": 1,
+          "17840": 1,
+          "45593": 1,
+          "40264": 1,
+          "20618": 1,
+          "56064": 1,
+          "17620": 1,
+          "42536": 1,
+          "22245": 1,
+          "31546": 1,
+          "31852": 1,
+          "30552": 1,
+          "26902": 1,
+          "33443": 1,
+          "17312": 1,
+          "61210": 1,
+          "55060": 1,
+          "15550": 1,
+          "20464": 1,
+          "63574": 1,
+          "43996": 1,
+          "22202": 1,
+          "40368": 1,
+          "47660": 1,
+          "36132": 1,
+          "36588": 1,
+          "54707": 1,
+          "27325": 1,
+          "29535": 1,
+          "40011": 1,
+          "42949": 1,
+          "2873": 30,
+          "2919": 2
+        },
+        "codecs": {
+          "OC31": 60,
+          "OC32": 4
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK11.STY",
+        "size": 481905,
+        "sha256": "f04dad610016fc01c25b51bb23d060cdffff6bbb6575fb894a9654c0268cb831",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 56,
+        "types": {
+          "06": 28,
+          "09": 28
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 24,
+          "inner_01040000_elements_13": 4,
+          "type_09": 28
+        },
+        "decoded_sizes": {
+          "44608": 1,
+          "2919": 6,
+          "34067": 1,
+          "2873": 21,
+          "51942": 1,
+          "61639": 1,
+          "73846": 1,
+          "68154": 1,
+          "34015": 1,
+          "41982": 1,
+          "80693": 1,
+          "57074": 1,
+          "2997": 1,
+          "30986": 1,
+          "35247": 1,
+          "35308": 1,
+          "57685": 1,
+          "23466": 1,
+          "25714": 1,
+          "27223": 1,
+          "41092": 1,
+          "34244": 1,
+          "56977": 1,
+          "44263": 1,
+          "35794": 1,
+          "40853": 1,
+          "67042": 1,
+          "28980": 1,
+          "36386": 1,
+          "14486": 1,
+          "21656": 1
+        },
+        "codecs": {
+          "OC31": 56
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK12.STY",
+        "size": 435897,
+        "sha256": "2d44c1dcb9333cf407247c324974cb98abf8a920407317f05ade312746b3155c",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 52,
+        "types": {
+          "06": 26,
+          "09": 26
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 23,
+          "inner_01040000_elements_13": 3,
+          "type_09": 26
+        },
+        "decoded_sizes": {
+          "62470": 1,
+          "23414": 1,
+          "68536": 1,
+          "109058": 1,
+          "42028": 1,
+          "84063": 1,
+          "58174": 1,
+          "48195": 1,
+          "78649": 1,
+          "44351": 1,
+          "33242": 1,
+          "33310": 1,
+          "43328": 1,
+          "64370": 1,
+          "56156": 1,
+          "26934": 1,
+          "37906": 1,
+          "36370": 1,
+          "30084": 1,
+          "28840": 1,
+          "20736": 1,
+          "20195": 1,
+          "36287": 1,
+          "83820": 1,
+          "33581": 1,
+          "24150": 1,
+          "2873": 20,
+          "2919": 4,
+          "2945": 2
+        },
+        "codecs": {
+          "OC31": 52
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK13.STY",
+        "size": 519688,
+        "sha256": "95856afad563353af4bb93fd123c2a049ef3ecba5c5bad9e01e79a958c7c8a83",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 60,
+        "types": {
+          "06": 30,
+          "09": 30
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 25,
+          "inner_01040000_elements_13": 5,
+          "type_09": 30
+        },
+        "decoded_sizes": {
+          "89451": 1,
+          "39037": 1,
+          "21546": 1,
+          "30235": 1,
+          "33575": 1,
+          "36206": 1,
+          "35578": 1,
+          "58886": 1,
+          "48694": 1,
+          "16383": 1,
+          "40869": 1,
+          "18708": 1,
+          "43360": 1,
+          "50595": 1,
+          "26267": 1,
+          "29172": 1,
+          "31806": 1,
+          "39073": 1,
+          "38767": 1,
+          "62299": 1,
+          "27461": 1,
+          "36700": 1,
+          "19787": 1,
+          "31822": 1,
+          "40995": 1,
+          "40548": 1,
+          "31205": 1,
+          "27578": 1,
+          "43854": 1,
+          "33870": 1,
+          "2873": 24,
+          "2919": 4,
+          "2945": 1,
+          "2997": 1
+        },
+        "codecs": {
+          "OC31": 59,
+          "OC32": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK14.STY",
+        "size": 190799,
+        "sha256": "149f2c5fddc8f249997d659a80c50da25097196c6b36de46c7148cb23f2cf6d6",
+        "magic": "4f 43 32 30 9f 11 03 00",
+        "envelope": "OC20",
+        "resources": 36,
+        "types": {
+          "06": 18,
+          "09": 18
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 18,
+          "type_09": 18
+        },
+        "decoded_sizes": {
+          "59077": 1,
+          "51554": 1,
+          "54448": 1,
+          "32642": 1,
+          "16836": 1,
+          "21067": 1,
+          "15874": 1,
+          "24915": 1,
+          "25853": 1,
+          "32658": 1,
+          "13173": 1,
+          "15465": 1,
+          "27241": 1,
+          "28127": 1,
+          "40501": 1,
+          "17361": 1,
+          "61137": 1,
+          "31236": 1,
+          "2945": 1,
+          "2873": 16,
+          "2997": 1
+        },
+        "codecs": {
+          "OC31": 35,
+          "OC32": 1
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK15.STY",
+        "size": 404879,
+        "sha256": "4caa7065998761b940139b9cfbf5edff9d942b9077f5bb27a16c1e7f1a106518",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 42,
+        "types": {
+          "06": 21,
+          "09": 21
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 20,
+          "inner_01040000_elements_13": 1,
+          "type_09": 21
+        },
+        "decoded_sizes": {
+          "36900": 1,
+          "2873": 18,
+          "23684": 1,
+          "23502": 1,
+          "2919": 2,
+          "43384": 1,
+          "77595": 1,
+          "50410": 1,
+          "24275": 1,
+          "63682": 1,
+          "2945": 1,
+          "36430": 1,
+          "75480": 1,
+          "73980": 1,
+          "59552": 1,
+          "55444": 1,
+          "44210": 1,
+          "22461": 1,
+          "24301": 1,
+          "22164": 1,
+          "31525": 1,
+          "34093": 1,
+          "35829": 1,
+          "69522": 1
+        },
+        "codecs": {
+          "OC31": 42
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK16.STY",
+        "size": 307349,
+        "sha256": "bdf720dcd72ced6fa7d2c7815e4dde8ff2220745d9319be7790f21aa1c41d74b",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 40,
+        "types": {
+          "06": 20,
+          "09": 20
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 16,
+          "inner_01040000_elements_13": 4,
+          "type_09": 20
+        },
+        "decoded_sizes": {
+          "59462": 1,
+          "2873": 17,
+          "84548": 1,
+          "2919": 3,
+          "29463": 1,
+          "55626": 1,
+          "38888": 1,
+          "22526": 1,
+          "52845": 1,
+          "18977": 1,
+          "24930": 1,
+          "31727": 1,
+          "29798": 1,
+          "25210": 1,
+          "41386": 1,
+          "43526": 1,
+          "102169": 1,
+          "63099": 1,
+          "26752": 1,
+          "32448": 1,
+          "22272": 1,
+          "20690": 1
+        },
+        "codecs": {
+          "OC31": 40
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/BANK17.STY",
+        "size": 322225,
+        "sha256": "94c8bb4c21ff36eb0ae7d64fc50d7bc4b4234c8e130bffab5c10a09cda0712a7",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 42,
+        "types": {
+          "06": 21,
+          "09": 21
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01020000_elements_13": 18,
+          "inner_01040000_elements_13": 3,
+          "type_09": 21
+        },
+        "decoded_sizes": {
+          "25644": 1,
+          "2873": 19,
+          "36579": 1,
+          "33887": 1,
+          "56662": 1,
+          "48506": 1,
+          "35231": 1,
+          "38947": 1,
+          "67774": 1,
+          "59110": 1,
+          "74178": 1,
+          "30507": 1,
+          "58632": 1,
+          "34306": 1,
+          "48951": 1,
+          "79492": 1,
+          "38542": 1,
+          "66054": 1,
+          "2919": 2,
+          "68098": 1,
+          "43345": 1,
+          "48865": 1,
+          "31621": 1
+        },
+        "codecs": {
+          "OC31": 42
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      },
+      {
+        "path": "STARTUP/ALL/STYLE/USER01.sty",
+        "size": 483482,
+        "sha256": "1a21b8abfef897fb36a54e150e47de550c0e529cc59b2e5039cdefaa5ad96e29",
+        "magic": "4f 43 32 30 00 00 04 00",
+        "envelope": "OC20",
+        "resources": 52,
+        "types": {
+          "06": 26,
+          "09": 26
+        },
+        "index_valid": true,
+        "inner_families": {
+          "inner_01040000_elements_13": 26,
+          "type_09": 26
+        },
+        "decoded_sizes": {
+          "40306": 1,
+          "2873": 26,
+          "56500": 1,
+          "98680": 1,
+          "102504": 1,
+          "127123": 1,
+          "74154": 1,
+          "58941": 1,
+          "80030": 1,
+          "55010": 1,
+          "55440": 1,
+          "35760": 1,
+          "92698": 1,
+          "62811": 1,
+          "61089": 1,
+          "41842": 1,
+          "50366": 1,
+          "42284": 1,
+          "64773": 1,
+          "55517": 1,
+          "39780": 1,
+          "184829": 1,
+          "150145": 1,
+          "102879": 1,
+          "43732": 1,
+          "238084": 1,
+          "39373": 1
+        },
+        "codecs": {
+          "OC31": 52
+        },
+        "decode_errors": [],
+        "decode_error_count": 0
+      }
+    ],
+    "map_paths": [
+      "STARTUP/ALL/SOUND/PRGMAPS.TBL"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {"term":"KORG","category":"KORG","source":"Lexical indicator only; not format documentation","status":"CANDIDATE","confidence":0.35},
+  {"term":"PA800","category":"KORG_MODEL","source":"Lexical indicator only; model-specific format not established","status":"CANDIDATE","confidence":0.35},
+  {"term":"PA3X","category":"KORG_MODEL","source":"Lexical indicator only; model-specific format not established","status":"CANDIDATE","confidence":0.35},
+  {"term":"PA4X","category":"KORG_MODEL","source":"Lexical indicator only; model-specific format not established","status":"CANDIDATE","confidence":0.35},
+  {"term":"PA5X","category":"KORG_MODEL","source":"Lexical indicator only; model-specific format not established","status":"CANDIDATE","confidence":0.35},
+  {"term":"COMP16","category":"COMPRESSION","source":"Lexical indicator only; algorithm unknown","status":"CANDIDATE","confidence":0.35},
+  {"term":"LFO-PKG","category":"LFO","source":"Lexical indicator only; structure unknown","status":"CANDIDATE","confidence":0.35},
+  {"term":"KEYSTREAM","category":"TRANSFORM","source":"Lexical indicator only; cryptographic role unknown","status":"CANDIDATE","confidence":0.3}
+]

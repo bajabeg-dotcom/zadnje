@@ -1,0 +1,128 @@
+{
+  "product": "BAJA MUSIC PA800 MANAGER",
+  "version": "0.2-native-set-forensics",
+  "mode": "READ_ONLY",
+  "generated": "2026-09-25",
+  "files": [
+    {
+      "path": "HARDVER_TEST.md",
+      "bytes": 4075,
+      "sha256": "784fd983a98e4682accbbba5225611aeb70a07e7f73a17233e48f544b2bae4e5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5220,
+      "sha256": "22dcbc1cfca8e93b566f2724e69d170cea09ac124db3bfb527d488cad77ef688"
+    },
+    {
+      "path": "core/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "core/codec.py",
+      "bytes": 8067,
+      "sha256": "c55d3ec3c09e1bcdb0064e6e226301fe06c18cacd0f32002f1a96687c07352c4"
+    },
+    {
+      "path": "core/format.py",
+      "bytes": 19929,
+      "sha256": "38a8bfa8ed7c73d19bfbad2a9cc047f52a8079bf64cd637557c30b84fff6a1f9"
+    },
+    {
+      "path": "core/set_graph.py",
+      "bytes": 5258,
+      "sha256": "09e4237c9b75b3616eea12b1d5f09be60ff85801082b614a977d7fccb07b4bde"
+    },
+    {
+      "path": "core/sounds.py",
+      "bytes": 1340,
+      "sha256": "6e26f24d020eb90456990563c305f36e681e9f0a9c6d585cba75ddce446aae47"
+    },
+    {
+      "path": "data/PA800_FACTORY_SOUND_LIST_CC00_CC32_PC.txt",
+      "bytes": 58412,
+      "sha256": "8859878a888a6fbad2b17f6e6c630d7a0155f49aba5739963b4d716a0dc99996"
+    },
+    {
+      "path": "fixtures/BANK01.PRF",
+      "bytes": 5179,
+      "sha256": "683c3814cc4ddeb83864a139e42a13d420ad418dc15cd30d3d3100cac5f03a40"
+    },
+    {
+      "path": "fixtures/BANK01.STY",
+      "bytes": 253104,
+      "sha256": "70ad3fc561337ba331665a3fce473d7699baab067de6f9f3ee292d608239ab73"
+    },
+    {
+      "path": "fixtures/Bank01.pad",
+      "bytes": 1764,
+      "sha256": "4ac89051752b28617c49c66d99ccd4165ca31a16fc74b44793fb9a170bbe5b47"
+    },
+    {
+      "path": "fixtures/PRGMAPS.TBL",
+      "bytes": 12785,
+      "sha256": "9f635c77db3464ee6365e781556ded0d6f5ea4288c69d905cde52375bc67a204"
+    },
+    {
+      "path": "fixtures/ROM.PCG",
+      "bytes": 263722,
+      "sha256": "b1f08ab776e81366b3532b32abac8633a6c9e03aa80fec909c1f47db7439de64"
+    },
+    {
+      "path": "fixtures/SETUP.GBL",
+      "bytes": 1844,
+      "sha256": "949cf595dca5379f043af5e24b2a5f5a66308342c24d4f3428644a633de39491"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 36028,
+      "sha256": "859e79fb7d14b6076faa791b1713c756917db4c78c4c5cf6d21119163b0778d1"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 3282,
+      "sha256": "54e7d5f200443b7af6c64fd207b8ff183ab692a0f7ad45b3cfd578ac2ac6a42d"
+    },
+    {
+      "path": "public/style.css",
+      "bytes": 20870,
+      "sha256": "07ebbd31e1ce9192a527a1c7a1a8498cf066be55bda6b993e874737f0fc2cfa7"
+    },
+    {
+      "path": "research/native_set_audit/NATIVE_SET_STATIC_INVENTORY.json",
+      "bytes": 154832,
+      "sha256": "520d02a8b4d55d3456109a7d3e6f892e96f8f773c44a6ebf7814cc33ca423b4a"
+    },
+    {
+      "path": "research/native_set_audit/REPORT.md",
+      "bytes": 11480,
+      "sha256": "fbde8191524bc356e34dac90f74610b8250c6e4c7e76f8c511ad451644e01b6f"
+    },
+    {
+      "path": "research/native_set_audit/STYLE_TO_USER_PCG_CANDIDATES.json",
+      "bytes": 113429,
+      "sha256": "df00add7268ea516f70f549f91bc33eb60d12b25e65f97d69abbe689fc0fa20c"
+    },
+    {
+      "path": "research/native_set_audit/audit_native_sets.py",
+      "bytes": 8630,
+      "sha256": "2aa12fe980da6e4a2bcbf2dc278a6bead4a820d48b898cf2aef2f6fb84c5dae9"
+    },
+    {
+      "path": "research/native_set_audit/style_selector_graph.py",
+      "bytes": 6526,
+      "sha256": "180358acbcf7a7e44b3b69c7b831f97be20b6a4510ca1b328a921b823d28ee0d"
+    },
+    {
+      "path": "server.py",
+      "bytes": 21199,
+      "sha256": "4af3bcc4b5d716425686e978a6915787f53d9e2fdd2c8215e4d9fc599632e092"
+    },
+    {
+      "path": "tests/test_pa800.py",
+      "bytes": 9014,
+      "sha256": "93274d53eb52519f29aff6e13d2c521c1f1db1f0213052b453074d22068a3b52"
+    }
+  ]
+}

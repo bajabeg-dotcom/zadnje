@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "korg-binary-forensic-analyzer"
+version = "2.3.0"
+description = "Read-only Korg Pa resource decoder, manual library and evidence-driven PA800 MIDI optimizer"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+korg-binary-analyzer = "korg_binary_analyzer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["korg_binary_analyzer*"]
+
+[tool.setuptools.package-data]
+korg_binary_analyzer = ["data/*.json"]

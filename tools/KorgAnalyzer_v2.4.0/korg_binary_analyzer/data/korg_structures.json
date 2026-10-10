@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0",
+  "structures": [],
+  "note": "Structure candidates are derived per-input and are never labelled as model-specific without evidence."
+}

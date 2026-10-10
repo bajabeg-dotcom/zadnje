@@ -1,0 +1,3926 @@
+{
+ "version": 1,
+ "source": "/home/user/ev/PA800_FACTORY_STYLES_PATTERNS_PADS_REFERENCE/factory_reference/STYLE",
+ "model": "Pa800",
+ "style_count": 435,
+ "sound_count": 88,
+ "drum_kit_count": 0,
+ "styles": [
+  {
+   "name": "Standard 8 Beat",
+   "bank": "BANK01",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "08f3755ed03fc0d1f2a58d621308b8ba9b9ba9b00fa94e355696629f459414bd",
+   "size": 49561
+  },
+  {
+   "name": "Standard 16 Beat",
+   "bank": "BANK01",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "7b718a4cc001ecb73fc5c1321bc7a73e85be16c9afc1e0c4376a0fa8b4f25b3e",
+   "size": 42471
+  },
+  {
+   "name": "Kool Beat",
+   "bank": "BANK01",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "14326cd1e46eb5e7464365f05ad7d9e0d3961676a68be0f42f5745f4616faf04",
+   "size": 47735
+  },
+  {
+   "name": "Guitar Beat",
+   "bank": "BANK01",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "f8f95b67de68fda1eff5431350941f06311fa8f2379126a6fdc4bab884ffd812",
+   "size": 35026
+  },
+  {
+   "name": "Easy Beat 1",
+   "bank": "BANK01",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "bec6736f91dafe8e13df7048c8fabe25538c921f7019f3653bdad6a2ad9459da",
+   "size": 33962
+  },
+  {
+   "name": "Easy Beat 2",
+   "bank": "BANK01",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ce0eba3144310c4f0807c53fdb2d85be1b8ae38c013ed790400fd29a54001be0",
+   "size": 39974
+  },
+  {
+   "name": "Real 8 Beat",
+   "bank": "BANK01",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8681bf601c60bb003afd0876a3a50ffe99b00dfc79103c02f83f2329ce38c5d1",
+   "size": 18886
+  },
+  {
+   "name": "Real 16 Beat",
+   "bank": "BANK01",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "cc48ed9157e0c8fef68fe54d5f240f8a24a263d561e8c4bcc17c136a2a9fde28",
+   "size": 53686
+  },
+  {
+   "name": "Soft 8 Beat",
+   "bank": "BANK01",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "4cd55bc7bbd0fa0872995695ef254a582bf8eb975560a4a69332fdce86bd89fa",
+   "size": 29273
+  },
+  {
+   "name": "Soft 16 Beat",
+   "bank": "BANK01",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "4e87f31b0a3c945e98d43b51c63c817992b38a7613b92dd33870215b3011df9a",
+   "size": 45261
+  },
+  {
+   "name": "Classic Beat",
+   "bank": "BANK01",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "731a9c6dae6e378077b3972f54c81a06f2f436bdc975a3517c97f589aa461e8c",
+   "size": 39056
+  },
+  {
+   "name": "Pop 16 Beat",
+   "bank": "BANK01",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "cfd1a487ae22448e9e1a6e6f771b4fa746d2b0bc281c637b68c9e578fb5073d9",
+   "size": 26576
+  },
+  {
+   "name": "Analog Beat 1",
+   "bank": "BANK01",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "a1ae0e92bca6eace627c920685eddcd15adf466c3c802a5818adfedc4eafa862",
+   "size": 50307
+  },
+  {
+   "name": "Analog Beat 2",
+   "bank": "BANK01",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "68464a5907018d6d37fc64a4113431ec30ea3b2d5c806da06c05f3fbf8d3942c",
+   "size": 27657
+  },
+  {
+   "name": "8 Beat Analog 1",
+   "bank": "BANK01",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8c33033a0eeaa20511734162dbfb26ff4c4d7710c32ea5cd505fb16a82d9494b",
+   "size": 19446
+  },
+  {
+   "name": "8 Beat Analog 2",
+   "bank": "BANK01",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "db261489e75f9cafb0058751b7c51b1b71577cd346156a55b64d7ec654b45a35",
+   "size": 30575
+  },
+  {
+   "name": "Modern Beat",
+   "bank": "BANK01",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "368da42f2fe9c158df8cd11f3bac4d718f2bfab69353747f01c43e5b8ef2f295",
+   "size": 46145
+  },
+  {
+   "name": "Half Beat",
+   "bank": "BANK01",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1b97d26670f1ee0274f9ed45fd968623acb45553807f48f78670847bd6ee7623",
+   "size": 20465
+  },
+  {
+   "name": "Guitar Pop",
+   "bank": "BANK02",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "6342aa62bfdbd70d642fa86b61a5047162f61d920dffa87fcc4bdbfc72c99a2b",
+   "size": 40153
+  },
+  {
+   "name": "Easy Pop 1",
+   "bank": "BANK02",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "636a42ca316bed864b29ef6ed54d79a0bc4e382690246fd96cac979a7c8fa4c4",
+   "size": 36902
+  },
+  {
+   "name": "Easy Pop 2",
+   "bank": "BANK02",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9a6fa31a110f3fbe9f050e25c8fb0aeeb939c77ff4aa77a0147e8c7862d50112",
+   "size": 53110
+  },
+  {
+   "name": "Pop Groove",
+   "bank": "BANK02",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "465715edceeaeedea81ac78bcf79ac8fa8e1e369a5c96ae85abdb40d3ef154b7",
+   "size": 33994
+  },
+  {
+   "name": "British Pop",
+   "bank": "BANK02",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "f2f737df431c42105cc3f7fedf2cfcaa5d4762278f9dd8aea3abd5a1de266c38",
+   "size": 30714
+  },
+  {
+   "name": "Pop Jazz",
+   "bank": "BANK02",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2c350e3830d68ef28dc02be856b8efc1560c06b6e79a12db10d519ebe3e92417",
+   "size": 38206
+  },
+  {
+   "name": "Slow Latin Pop",
+   "bank": "BANK02",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "21818dec9d8964a2436de2205db63d3354b25f27ca9877cac1b8443abff464ad",
+   "size": 38328
+  },
+  {
+   "name": "Pop Ballad",
+   "bank": "BANK02",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f8ac2e2aa6ef9aad3f4096861146129ef037511789b17b0513744e46a7751b32",
+   "size": 22110
+  },
+  {
+   "name": "Pop 6/8",
+   "bank": "BANK02",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f7739be61d7a9dd8f13c882e2e2145ce6d2af11907ed6aa43b9f398e6d88cb94",
+   "size": 19489
+  },
+  {
+   "name": "Slow Pop 6/8",
+   "bank": "BANK02",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6de0be7a2be931061d2ffa1146baa969fb71f1431e526bde266c5ec791a569df",
+   "size": 30631
+  },
+  {
+   "name": "Pop 12/8",
+   "bank": "BANK02",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4055393fee04eb02ac2cec969757379ab00e803f9518c475f2ea0522ce0ff36a",
+   "size": 22296
+  },
+  {
+   "name": "Pop Shuffle 1",
+   "bank": "BANK02",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "47f29306854a2ddbf852f8f8bf62072819f18c202b065501fdf51d2534d7293f",
+   "size": 26973
+  },
+  {
+   "name": "Pop Shuffle 2",
+   "bank": "BANK02",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7755c0b6885d9ee18926b7a85ed814a545947457591c25304d3201d45facdcf1",
+   "size": 139680
+  },
+  {
+   "name": "Pop Shuffle 3",
+   "bank": "BANK02",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "02bdd33a34d96211d8048515d1366138e3fa45221ac614ec816cf050265473c6",
+   "size": 61300
+  },
+  {
+   "name": "Pop Chart 1",
+   "bank": "BANK02",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2886a723d9c73d97f3b9c132ad9ce18d94e1314d80f3e755d7a71020e14c0af4",
+   "size": 31498
+  },
+  {
+   "name": "Pop Chart 2",
+   "bank": "BANK02",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "19536581838a8a0c1e61d92e54a8599e4e74f0ff785231ec944f6592aa939831",
+   "size": 26197
+  },
+  {
+   "name": "Pop Funk 1",
+   "bank": "BANK02",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e530c3b52a36bd1c10347452500c35aa517334a056c27bdd04dd8036fe29f715",
+   "size": 47383
+  },
+  {
+   "name": "Pop Funk 2",
+   "bank": "BANK02",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "dbee8aa2837edbb8d3b7d3a4312350a8f6ea40952d2db59c2ed4e4983b5bc01e",
+   "size": 37436
+  },
+  {
+   "name": "Fast Pop",
+   "bank": "BANK02",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "623782a7d19493e879e6a54cf0e78cdfffba41a765c60bbf2ff8eafda6584911",
+   "size": 49048
+  },
+  {
+   "name": "Modern Ballad",
+   "bank": "BANK03",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "2576dc98fa3f0c2d8966898afab56b1e09287668e074b06593a9b10365829d6b",
+   "size": 31351
+  },
+  {
+   "name": "Moonlight Ballad",
+   "bank": "BANK03",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "83410354d34a6fea3762d7880b89d9c7c8f529d88b0a7d87b910991ccddb7559",
+   "size": 32974
+  },
+  {
+   "name": "Soft Ballad",
+   "bank": "BANK03",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "f86174d7c8008caa0c1a0ef7613af3c70587aaf82d6b6177fd515c0121da3651",
+   "size": 77268
+  },
+  {
+   "name": "Funky Ballad",
+   "bank": "BANK03",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9b8be70c14ac69f754789f6d93c85c2b90118aa6283e7ef48b42a18185be3ec1",
+   "size": 37852
+  },
+  {
+   "name": "Guitar Ballad",
+   "bank": "BANK03",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "fd433a851d608862f2383357a928e7ae9dfa61790b3e64cf35866e6a332d668a",
+   "size": 30068
+  },
+  {
+   "name": "Easy Ballad",
+   "bank": "BANK03",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b9a473c59e626c4cfd421a4486eb9cefe4c1f90ec14518fd95bf0aae8b02b403",
+   "size": 48642
+  },
+  {
+   "name": "Organ Ballad",
+   "bank": "BANK03",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b8af19154a67f551ea776f00c784f7b303cefeccab21e9f9d136596ad25dc663",
+   "size": 86325
+  },
+  {
+   "name": "Blue Ballad",
+   "bank": "BANK03",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d5b2eade313d949b3a1d072e399cae3bd58f433386f66a1b76e124ca4e4a43d9",
+   "size": 17179
+  },
+  {
+   "name": "Folk Ballad 1",
+   "bank": "BANK03",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "aafc874d6b5c50e455dda23e964808d721179a5b06c34d4b8314aa7fc179272d",
+   "size": 85958
+  },
+  {
+   "name": "Folk Ballad 2",
+   "bank": "BANK03",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "e377be6893ef6285159c7c1530749f6d38e7fe8d8c8a991b547656ffedd1584a",
+   "size": 105441
+  },
+  {
+   "name": "Groove Ballad",
+   "bank": "BANK03",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "259c49c64ccffbe4d15ca454b24b3fea8c1592c2b0d29c3d806aabb272e291b2",
+   "size": 24224
+  },
+  {
+   "name": "Blues Ballad",
+   "bank": "BANK03",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "d84ea4da6ff8114bed59ccca226e6a62e4151658e5a7c95ed3c524503dc1a9ec",
+   "size": 74401
+  },
+  {
+   "name": "Analog Ballad 1",
+   "bank": "BANK03",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "4585a62b9d4abbc9d6ecb659864dfdcb72305e21fdf4f6245b04d55908af048b",
+   "size": 33401
+  },
+  {
+   "name": "Analog Ballad 2",
+   "bank": "BANK03",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1a5db04c01a0215a8adf8c42b9b9f4bef615ae11688f429c266bc81315cc9c94",
+   "size": 29837
+  },
+  {
+   "name": "Rock Ballad 1",
+   "bank": "BANK03",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "acb659fbdb75aabf50c92e7664de355d64d915ff7666b4abfc11528e215d1584",
+   "size": 22225
+  },
+  {
+   "name": "Rock Ballad 2",
+   "bank": "BANK03",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "e9d3f5f60146b2c1e5da51302ed19e0a7e49f576dada8546a247fa2b6fb40072",
+   "size": 51835
+  },
+  {
+   "name": "Slow 6/8",
+   "bank": "BANK03",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "6824fb931ade4ac7d38a7e7f1ca4a4989924cc40063631fb9b53b872a0416cf4",
+   "size": 29055
+  },
+  {
+   "name": "Ballad 6/8 1",
+   "bank": "BANK03",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "e569a6fe2b4466f5060ce30ffe507cca5c788383d0f8a027a478fe0ddb371a99",
+   "size": 20537
+  },
+  {
+   "name": "Ballad 6/8 2",
+   "bank": "BANK03",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1b69c5f5f8f7f26d851265f7df5778277043d5e75fd11437f9799bf8d7dd53d4",
+   "size": 41850
+  },
+  {
+   "name": "Medium 6/4",
+   "bank": "BANK03",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b8b8e8af2844dd31f0f880825c98c6bc4e4cf5b15915ffc97612a60c240b1042",
+   "size": 74321
+  },
+  {
+   "name": "Waltz Ballad",
+   "bank": "BANK03",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "e0ce3ac944f70ac8674815e40fdd1c93498a559acc56b27993e805ff9158f36a",
+   "size": 21031
+  },
+  {
+   "name": "Pop Hit Ballad",
+   "bank": "BANK03",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c45c70e02136a4ab5c128aeadb4aa13bc2b94ddd55b34a320d4d10a8dd52c5f0",
+   "size": 38627
+  },
+  {
+   "name": "Color Ballad",
+   "bank": "BANK03",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "273bb30d8de262e4084a683708cf082571780403a19e6e48734889ad3f488877",
+   "size": 19580
+  },
+  {
+   "name": "Oriental Ballad",
+   "bank": "BANK03",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "72338214df1bbc77929be14db7f08001c3d2e2845ec02f11d070b566f6f14b2c",
+   "size": 45878
+  },
+  {
+   "name": "Easy Listening",
+   "bank": "BANK04",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "be84bcca6258eae409fdd77be2d8d9b4da693475c5db50e5b5a563301b120e50",
+   "size": 53247
+  },
+  {
+   "name": "Slow Band",
+   "bank": "BANK04",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "451ec779d37811ebb03f42fe9c01e11b3c647ed2be2a57bfe48ea64035f91def",
+   "size": 49914
+  },
+  {
+   "name": "Big Band Jump",
+   "bank": "BANK04",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "620444c890a4afc39315cd8b554295bf656afe6c68756e369b9803ebdbb228cd",
+   "size": 91411
+  },
+  {
+   "name": "Big Band Fox",
+   "bank": "BANK04",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6000603d2b62fa0d5ae2bdaad7cf8b444650c83379683755b72aff79f63072c9",
+   "size": 34785
+  },
+  {
+   "name": "Big Band 40's",
+   "bank": "BANK04",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "00679faf65e2526c8690034d44a14910de66c0f03d42e94858961b2191a378ef",
+   "size": 42083
+  },
+  {
+   "name": "50's  Fox",
+   "bank": "BANK04",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "77d606a0aa0a689b66b26eddc1ed5b19d08bdd60c8263a45638e9cde484e13a3",
+   "size": 24863
+  },
+  {
+   "name": "Organ Foxtrot",
+   "bank": "BANK04",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2c63696b10a7a5214c444d8fa7db68faba795d2ab73995f663d7fb1d13f1c25d",
+   "size": 38276
+  },
+  {
+   "name": "Organ Waltz",
+   "bank": "BANK04",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b47147bbe66320baa5a91cefce1f89aac305f3bcb3605a8ab5eb9597f7fddc4a",
+   "size": 26345
+  },
+  {
+   "name": "Slow Waltz 1",
+   "bank": "BANK04",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "cc771a8f172c6d6a6ffa10e5fb08891921cd6cdc4d7a711b84422a04e91f489f",
+   "size": 33630
+  },
+  {
+   "name": "Slow Waltz 2",
+   "bank": "BANK04",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "bf73f3de369ba2a552057f23f715bfdacc36984bd64e3a9e1e36414d46179a05",
+   "size": 28970
+  },
+  {
+   "name": "Foxtrot 1",
+   "bank": "BANK04",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fc685c82d0370e37be099ceeacc190589954da9676d7aa5c9a8a6730224b9d5c",
+   "size": 26475
+  },
+  {
+   "name": "Foxtrot 2",
+   "bank": "BANK04",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "39f5613144228f17162b74a6818e6aa28658b619b9d02e3dae4da3a99773a94c",
+   "size": 34880
+  },
+  {
+   "name": "Fox Shuffle 1",
+   "bank": "BANK04",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "75dbc472f3e0db925fc906dc2910310bb9c87c01646cfa15c2ea77810bf21c37",
+   "size": 34129
+  },
+  {
+   "name": "Fox Shuffle 2",
+   "bank": "BANK04",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "2a41e22ea50302664a25545662e38cf37ba6c8833d26b600b5924d708298d18d",
+   "size": 37480
+  },
+  {
+   "name": "Quick Step 1",
+   "bank": "BANK04",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "583ab4f6aa91d7196e1354988a5e71b16f46280e5df7417527ae8566a9d23681",
+   "size": 34110
+  },
+  {
+   "name": "Quick Step 2",
+   "bank": "BANK04",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "a4240263c5a0878d9b54b2f3fd75ef7741e04c3deac79820a5d4c6aa8cd9877c",
+   "size": 25744
+  },
+  {
+   "name": "Slow Fox",
+   "bank": "BANK04",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "5b522675496720084de562471e5db4af11c22285dbc461aebd2873884e2b50ed",
+   "size": 46522
+  },
+  {
+   "name": "Italian Fox",
+   "bank": "BANK04",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1990aece3ef0540031327cb5b9995b306d9ec89fb2422ea516549859a674ac0a",
+   "size": 19081
+  },
+  {
+   "name": "Operetta",
+   "bank": "BANK04",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9b592e6ca2185b09cb5b8530d774c4406a791ed101137e289f28ace8e12c5a0e",
+   "size": 15834
+  },
+  {
+   "name": "Orchestral Tango",
+   "bank": "BANK04",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "07720bf3dc71f584f3cec17c137411fd75a63fc055a69e7ab26163d7ada5923a",
+   "size": 19161
+  },
+  {
+   "name": "English Tango",
+   "bank": "BANK04",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "01fb6cef600a89c1748f361c5528f73c462525ad5e2228c885610ad52132f6e6",
+   "size": 30828
+  },
+  {
+   "name": "Italian Tango 1",
+   "bank": "BANK04",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0c3e2a8cd0662eef805cb003e759ce911fe0f7cbf95011a2a0501c8fb132aa7a",
+   "size": 22753
+  },
+  {
+   "name": "Italian Tango 2",
+   "bank": "BANK04",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f06c9f9be5a16d3403f4ff5b9566eee97090ff805421e8487d3e555054a680d3",
+   "size": 20550
+  },
+  {
+   "name": "Argentina Tango",
+   "bank": "BANK04",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8266625de43e1c644d8580a5e6f66470dd9429164941f2e6f183736376db2b1e",
+   "size": 31823
+  },
+  {
+   "name": "Irish Fox",
+   "bank": "BANK04",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "304103a89b7669b0854cce613b605d1196d3bddd0147082d2a49187cf8912cc2",
+   "size": 28261
+  },
+  {
+   "name": "Twist",
+   "bank": "BANK04",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c5491b2b4a251d00be08ad218ddde172bcb577667403c53fb8ca914dcdffaeee",
+   "size": 39089
+  },
+  {
+   "name": "Jive",
+   "bank": "BANK04",
+   "slot": 26,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b574575434f821ed84c575cd14595e159e926305d1e51a93a2ba4f787d93b77c",
+   "size": 57453
+  },
+  {
+   "name": "Pasodoble",
+   "bank": "BANK04",
+   "slot": 27,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1a9319c14d367895ceceb1743cf3f7b67cdd9c3857ba41cd9b12008a0c7d42ca",
+   "size": 39438
+  },
+  {
+   "name": "Hully Gully",
+   "bank": "BANK04",
+   "slot": 28,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7bbe3ed5ef0b9d0e17cae9b48495bc478331142e58baba40047e87a40edba3f0",
+   "size": 24000
+  },
+  {
+   "name": "Club House",
+   "bank": "BANK05",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "80f90b13b848e586174c7a3255c68297c16128cd5bdc404c85e4601ed718fe7a",
+   "size": 110096
+  },
+  {
+   "name": "Euro Trance",
+   "bank": "BANK05",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2bd2592cfebf4f67e142b8539358d30f3796a81a5a9411f5ce9b44bdbbd47563",
+   "size": 145826
+  },
+  {
+   "name": "Fashion Funk",
+   "bank": "BANK05",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "57264beee40f9693e58157972bf11a5aa54ac74bcec5e4b4f25d1dc96695f4aa",
+   "size": 33841
+  },
+  {
+   "name": "Dance Fever",
+   "bank": "BANK05",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6178dcc792bf88eed069abb4e49bfc4215139c8a651af55755faf5d64988865b",
+   "size": 103641
+  },
+  {
+   "name": "Funky Disco",
+   "bank": "BANK05",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b2b91f6f80b1067b4046000d9088edf4687eb180fa6a4507339febb5bcfb5426",
+   "size": 60491
+  },
+  {
+   "name": "Barry Dance",
+   "bank": "BANK05",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "59c46eb152db77c7c86a5b81810e7b71d67a781c6206877dd041db5c707fb28b",
+   "size": 77173
+  },
+  {
+   "name": "Sister & Girl",
+   "bank": "BANK05",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0b99038e2918f039ef1e120d731a44743c9667e76e2180041dda6f9908d98d96",
+   "size": 41803
+  },
+  {
+   "name": "Philly Disco",
+   "bank": "BANK05",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "23079400c67747cdf613874d134ab7da5110e79d2eb245ef460ec85d3a28351e",
+   "size": 57992
+  },
+  {
+   "name": "Oriental Dance",
+   "bank": "BANK05",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "56d1d4708da0a0f1db6af43d846ad7785c3f7be285d41c4b4d922c90ec165729",
+   "size": 82052
+  },
+  {
+   "name": "Groove It Up",
+   "bank": "BANK05",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "959b27b05ebc0c4296bffb49a7b10c7a986ca57a45b280d2eb638e5d50e68131",
+   "size": 57158
+  },
+  {
+   "name": "60's Dance",
+   "bank": "BANK05",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0b2f856cd67dd7cf3f7a7daf47be77945f9b24931832aa2f5e31d02e8ddb33ef",
+   "size": 57393
+  },
+  {
+   "name": "70's Disco 1",
+   "bank": "BANK05",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4bb9a0442a4d8325308646abb7188700421168604eb5ab4494595834ec45652a",
+   "size": 17398
+  },
+  {
+   "name": "70's Disco 2",
+   "bank": "BANK05",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7565912db0e45abfe2fe749918eac6bf4151114c08d4384b9da9100f7a59b8d0",
+   "size": 64360
+  },
+  {
+   "name": "80's Dance",
+   "bank": "BANK05",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4438a63ba5026f765f77c711cc90309869727132e05f5e50f9e506bf732e90c3",
+   "size": 23736
+  },
+  {
+   "name": "Miami Disco",
+   "bank": "BANK05",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "5b47d1b4d2d02be9ab7c6fa5f7993b43cf520228b0df61eabe19aef42567e923",
+   "size": 22550
+  },
+  {
+   "name": "Love Disco",
+   "bank": "BANK05",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b858307d8e95197f9ad0e9b6a8b984301c7507a08bf70527f0abe96ef4cffb97",
+   "size": 30578
+  },
+  {
+   "name": "Dance Motown",
+   "bank": "BANK05",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4bfb81e7c9bd0dba123c6d84289539e35eda8cb5b8133f079f4647d001129e21",
+   "size": 35560
+  },
+  {
+   "name": "Soca Dance",
+   "bank": "BANK05",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3d68c49846a464a73d13227c7bd1a3ebceaa2a90dda679324709632915d9542c",
+   "size": 30006
+  },
+  {
+   "name": "Disco Gully",
+   "bank": "BANK05",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1b724dbd3b220467a3c01e06d1dbb162fc0019f0ff67a8eeaa50e96655791e27",
+   "size": 34926
+  },
+  {
+   "name": "Dance Mix",
+   "bank": "BANK05",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "81c4dde9504899cf90da15ce1a438c3de132814eeadef86ea562f1a32805f9e8",
+   "size": 56319
+  },
+  {
+   "name": "Disco Latin",
+   "bank": "BANK05",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "35b2498124a49e2498cb92ca9d876a141e3ba2288fb607d92e19344ed23cdb18",
+   "size": 37424
+  },
+  {
+   "name": "House Garage",
+   "bank": "BANK05",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f6c95790bd4127c016a389635b341b757ee711acda4c0cc48cb852d57a744cd5",
+   "size": 42535
+  },
+  {
+   "name": "House",
+   "bank": "BANK05",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "903a71cf2615770501befb844800f067f5db0ed391cc0f19ace151c68b0d44b6",
+   "size": 31343
+  },
+  {
+   "name": "Techno",
+   "bank": "BANK05",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "971d0cacaad27a22485a45a4d386777fe454d6c6b5831accc2db371aff3e2ffa",
+   "size": 26583
+  },
+  {
+   "name": "Rap",
+   "bank": "BANK05",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b2ee6c3aa25eb246e58c45b5e8a8821581c88237c28a42cc091ff67bcb842d20",
+   "size": 22940
+  },
+  {
+   "name": "HipHop",
+   "bank": "BANK05",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4257dd540526babf40ff57c952f4093e187c9da28944907257e09ed9c968544a",
+   "size": 24854
+  },
+  {
+   "name": "Pop Rock",
+   "bank": "BANK06",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d27e0dae31886f77266969f403a6287c1c48e3532c59f9dc134a920e2d7486e2",
+   "size": 47014
+  },
+  {
+   "name": "English Rock",
+   "bank": "BANK06",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f98fd9bc8c97c9d622a253e7a2bc793ec5c09bc0df78dcaf005ba16009051f93",
+   "size": 35441
+  },
+  {
+   "name": "Fire Rock",
+   "bank": "BANK06",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f7a7e2a4d186274b3e338f87404abbaa9e03e0ad65e2d5206492f6aad0d716cd",
+   "size": 36409
+  },
+  {
+   "name": "Hard Rock",
+   "bank": "BANK06",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c63f6002a5766cc265ff9cd4066ed619d075131c86f9208b09a065dab07acf59",
+   "size": 42147
+  },
+  {
+   "name": "Open Rock 1",
+   "bank": "BANK06",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f7f7bf7b8fd506f5a0009b4bbc1542fc946423c62b0829ca29172b66d61c93ee",
+   "size": 31150
+  },
+  {
+   "name": "Open Rock 2",
+   "bank": "BANK06",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "69968ad08952436a4e2f1b34b4b41ccd2257e1e3c8eaaae9cc276ce13822c380",
+   "size": 50875
+  },
+  {
+   "name": "Heavy Rock",
+   "bank": "BANK06",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "5da7eb5d1cfd44146754006a1dbd03162e44930066c97d2d257b0b1fc171caa7",
+   "size": 38699
+  },
+  {
+   "name": "Funky Rock",
+   "bank": "BANK06",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4925988410d08ad8f2bf6c84f61842e79282279cb555e865a6781c07820cacf7",
+   "size": 42988
+  },
+  {
+   "name": "Rock Oldie",
+   "bank": "BANK06",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f612ee096d24bb49a615561b9033580a06e1a294093f0a4e53d6cc56d0e189b5",
+   "size": 29121
+  },
+  {
+   "name": "Rock & Roll",
+   "bank": "BANK06",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b51f9dde15da8da3580747fe20d8843d49f7c79883d2f64b9b37d9bf31a1e5fa",
+   "size": 32852
+  },
+  {
+   "name": "South Shuffle",
+   "bank": "BANK06",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b214f6a889e49c667a0e300e04c6717e1591432669d3a031ca8358a63547b7ac",
+   "size": 63944
+  },
+  {
+   "name": "60's Rock",
+   "bank": "BANK06",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "19c278eb73cc92a96d0cf68bc85d39d52b35d364cdddf67c703fb2161230ff32",
+   "size": 20751
+  },
+  {
+   "name": "Surf Rock",
+   "bank": "BANK06",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "07a28a829a48b4a6c4d5141d8b6449ba5bae6948099c9851533009b2835c52e6",
+   "size": 47565
+  },
+  {
+   "name": "Latin Rock 1",
+   "bank": "BANK06",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7ed7bd5a963ef28d98bc8abbf87698aca13f1bc0640e5f359a6ef2c2ddd54418",
+   "size": 37569
+  },
+  {
+   "name": "Latin Rock 2",
+   "bank": "BANK06",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "f5d5f0a1119980bfdf1db01610bcbed399eea16a3898a806e6da3a8802a1d4c3",
+   "size": 38054
+  },
+  {
+   "name": "Slow Latin Rock",
+   "bank": "BANK06",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "5936377cf5f8d08c81b9f84b03e1eae3baabc03ade8990e9a2f60e072935c92c",
+   "size": 40611
+  },
+  {
+   "name": "Slow Rock 1",
+   "bank": "BANK06",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ef725ed18c32e6681dc1ff8d0b734e9f0b1728f96a2d17901ce708953e322eee",
+   "size": 25335
+  },
+  {
+   "name": "Slow Rock 2",
+   "bank": "BANK06",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f47e03126d23e5b52d5e8d0cdf8d4cb739ec31d66ba2cc57c1eca17f4637d0e6",
+   "size": 30328
+  },
+  {
+   "name": "60's Slow Rock",
+   "bank": "BANK06",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9b30733ced7b027e85f342ca84f20aa28b85419653c400ee010e0b86c85d9095",
+   "size": 22056
+  },
+  {
+   "name": "Rock 6/8",
+   "bank": "BANK06",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "bb40e82c8d5b7310b2432606252369cc615fe66abd7b7db70c8f191eefc45969",
+   "size": 19538
+  },
+  {
+   "name": "Steely Rock",
+   "bank": "BANK06",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9f2f90c38f413dd70dd3173b9af82d317fc55aaab15e60ad3e350696325360e9",
+   "size": 46984
+  },
+  {
+   "name": "Abbey Rock",
+   "bank": "BANK06",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0aaf6a4f7ee068602d79e40cb65b56a1cf371c0f5570a04ee7b9e0b613ad62e3",
+   "size": 30934
+  },
+  {
+   "name": "SouthStrait Rock",
+   "bank": "BANK06",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0d6f4bfcabcc9c7bc966da149c1131b5edfb3fb0494668f11424a56e29f360e4",
+   "size": 102428
+  },
+  {
+   "name": "Rock Beat",
+   "bank": "BANK06",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fb46ac50f5268088a91328e98e3b05de45de3f9e0877b16b6e265eb6294142cf",
+   "size": 17757
+  },
+  {
+   "name": "Rock Shuffle",
+   "bank": "BANK06",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "074dd89cb287091381374061be632a52844f268893f388ff395d7caf420edc34",
+   "size": 41161
+  },
+  {
+   "name": "Blues Shuffle",
+   "bank": "BANK06",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fc08b99875123fef4a5cdcd9d0c334485b5c6a00aa1cd51b802f0228ec3ebc3f",
+   "size": 37050
+  },
+  {
+   "name": "Light Rock",
+   "bank": "BANK06",
+   "slot": 26,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "354b8e83443464a5980dde337a46bc622d1d2318b53f13711bd03fcf76a2c277",
+   "size": 33469
+  },
+  {
+   "name": "Funk R&B",
+   "bank": "BANK07",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "2ed6569c48509fe37acb51816d2a97274ed8c42d1d3aae370245926ca70afbee",
+   "size": 101613
+  },
+  {
+   "name": "Kool Funk",
+   "bank": "BANK07",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a78f393df11c67c9ce86922bbab38bbf80da6fcd0ac97245c5791cec2614e40a",
+   "size": 124834
+  },
+  {
+   "name": "Al Funk",
+   "bank": "BANK07",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1787818500e56792880faed12b608e7675bd8592609a701eb77c132ce3c34a18",
+   "size": 69152
+  },
+  {
+   "name": "Elektrik Funk",
+   "bank": "BANK07",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7a01a8d7aef4cd82e19dc52346d3a231083d08b8f00fbb95ef6622f77538b416",
+   "size": 64204
+  },
+  {
+   "name": "Classic Funk",
+   "bank": "BANK07",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1a1da50ac11fe218767a19a1323697e8154000dbf3d970979d0b7e6fad175b72",
+   "size": 55474
+  },
+  {
+   "name": "Black Funk",
+   "bank": "BANK07",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "487350f1386ef0e71f93840e9b18e0ae674eefa73bd8e13831273cfc5e7dafaa",
+   "size": 42166
+  },
+  {
+   "name": "Talkin' Jazz",
+   "bank": "BANK07",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1bd9a5793e073fefa0742303ac8509378529e022f76e344203fddf2d294bc528",
+   "size": 63221
+  },
+  {
+   "name": "Funky Sisters",
+   "bank": "BANK07",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1d854e763fa915f94eb3b43e06e594c1775da550d74b05a9cc791d08e67dd92d",
+   "size": 75747
+  },
+  {
+   "name": "Rhythm & Blues",
+   "bank": "BANK07",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "2c97691f543bb082cc63148c2e14032a5d5aa71a2299659fe8357e40ce91fe97",
+   "size": 63924
+  },
+  {
+   "name": "Blues",
+   "bank": "BANK07",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "8a9fb4853c35393bb9ed788c6bf5a14ffaf73fb179424097419efb1195377dea",
+   "size": 59875
+  },
+  {
+   "name": "Soul",
+   "bank": "BANK07",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e635c70c58060c9dc6b697ce7aaf172f7176897ad3b142d19436c9d296b03faa",
+   "size": 67447
+  },
+  {
+   "name": "Gospel",
+   "bank": "BANK07",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2b4de2f560434d382773139915f0e7bf369fa383af6fea2d602a3bbf3f586a7c",
+   "size": 48217
+  },
+  {
+   "name": "Gospel Swing",
+   "bank": "BANK07",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2ad2c2cb29aaf62d27e5271095ea39cc412dc1ef09f09444f1c9d644021b5e4f",
+   "size": 82796
+  },
+  {
+   "name": "Gospel Shuffle",
+   "bank": "BANK07",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7bcad9677fbb8a46f36b4ea105042d603322a7521092dc0699ca9836bb6663a1",
+   "size": 164558
+  },
+  {
+   "name": "Modern Gospel 1",
+   "bank": "BANK07",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "52de97bca185312b7723dd3dcefb4ee2094d3bd021f34fdca4495c1ee5794455",
+   "size": 88188
+  },
+  {
+   "name": "Modern Gospel 2",
+   "bank": "BANK07",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "bd0168109f88d156388ff9b782222f746e45b54041dab642adbbcd2f5e36b9d3",
+   "size": 82688
+  },
+  {
+   "name": "Al Swing",
+   "bank": "BANK07",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d59fbace95a652e2549ddefce3bfecf21b7f83104f03cc92b6b3f78fe1dfdbba",
+   "size": 32358
+  },
+  {
+   "name": "Groove",
+   "bank": "BANK07",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f0e10f3f35806594f34da348decd40af1b5a8863f0a00d1603eb09133004cce5",
+   "size": 20300
+  },
+  {
+   "name": "Groove Funk",
+   "bank": "BANK07",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "af4f4075a7e231c56deb1042cbd758d6ab9a4a20268dabf6faf901a79bf7a687",
+   "size": 33130
+  },
+  {
+   "name": "Jazz Funk",
+   "bank": "BANK07",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "20ae72c6788057ad3ac526cd2e52a7557eab50d001872db9512773ab3e817fc2",
+   "size": 40899
+  },
+  {
+   "name": "Motown Shuffle 1",
+   "bank": "BANK07",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6956eb0ac43f9a77c2056392813b169e1270fc72bedc4ffb1266c7229d3fbe18",
+   "size": 39052
+  },
+  {
+   "name": "Motown Shuffle 2",
+   "bank": "BANK07",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7133e30794ff8055662a8c93b8bcd6bd17e0af9bd6c39b941f184415ecfd6231",
+   "size": 42867
+  },
+  {
+   "name": "Country Strum",
+   "bank": "BANK08",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ef349bb72e2c3988a4e7becfe2947543c03f61856c72505540dd6c64e7ceb316",
+   "size": 40744
+  },
+  {
+   "name": "Country QuikStep",
+   "bank": "BANK08",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "8230ca8db2ac775b73d2a75bad311c8ec33698fcc004481f6dd5aaf9a939c286",
+   "size": 51164
+  },
+  {
+   "name": "Country Beat 1",
+   "bank": "BANK08",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b697cdce6fb4709f081dc93a9c95aaac62e4b23101d5894b08eae8b79ebdec1a",
+   "size": 27842
+  },
+  {
+   "name": "Country Beat 2",
+   "bank": "BANK08",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "446fa284c155aeca2188f93aeb7ea236b77a147e6d2cda7cbb41bec11be37d28",
+   "size": 30337
+  },
+  {
+   "name": "Country Ballad 1",
+   "bank": "BANK08",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8cdeb2286d2b6cabfbedebe9c6cfa1979db971d61023523bbd121fa363695625",
+   "size": 21779
+  },
+  {
+   "name": "Country Ballad 2",
+   "bank": "BANK08",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "35c9ac0d9b8a034a229b9c831d67161441911f8f8b942e2ef72fc0436db1004f",
+   "size": 24941
+  },
+  {
+   "name": "Country 3/4",
+   "bank": "BANK08",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8702aa0cb01081eada7f47c864f3cdc10d2cb43d136e2f6523d22efbb597f647",
+   "size": 26247
+  },
+  {
+   "name": "Modern Country",
+   "bank": "BANK08",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "27876863b33f2228281bcd2e1578a45c8bd16f64215592ae7f119d34d12b3cfb",
+   "size": 48833
+  },
+  {
+   "name": "Country Pop",
+   "bank": "BANK08",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a307bb28acf23808f35176cf75cd33403a1fdda33e26569b8967ddfa1315ac37",
+   "size": 45467
+  },
+  {
+   "name": "Bar Country",
+   "bank": "BANK08",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "16c3b0e49526e5358426dbbbf708b3e13a8cc14d247eae54942ad257d28d8d4b",
+   "size": 83483
+  },
+  {
+   "name": "Bluegrass",
+   "bank": "BANK08",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fd7b81636e7cf5df782d106525673044fd3b042e9a7196cd10ca40fe7c793433",
+   "size": 52238
+  },
+  {
+   "name": "Country Boogie",
+   "bank": "BANK08",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9913fc0b78855e33def289810dc32eb958907c22b16aeda3d7ba86bbbc485e88",
+   "size": 51818
+  },
+  {
+   "name": "CountryShuffle 1",
+   "bank": "BANK08",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2bdb7b22a3d430416e94cc55cb365a113364422d805d69b2d3ac0e995d511882",
+   "size": 27774
+  },
+  {
+   "name": "CountryShuffle 2",
+   "bank": "BANK08",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d1dc96c942f511a9cd9c8253a2b9c60ffd5f610a6012125050313c588b4b64ba",
+   "size": 37549
+  },
+  {
+   "name": "Country 8 Beat",
+   "bank": "BANK08",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d1fbe90241ec30bdb70d65f20b8d2559650486f504f29c0e5ae75a2e95fd0c7e",
+   "size": 40649
+  },
+  {
+   "name": "Country 16 Beat",
+   "bank": "BANK08",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "86d0ed87ad63f9b20f594801a9fa01c4741619b938796dbcba911f1fb2b1234e",
+   "size": 49993
+  },
+  {
+   "name": "Oberkr. Waltz 1",
+   "bank": "BANK09",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "470f82daf2395861d5366067e3c4fde98e8388ab9e41f38ae0bee6671c6288ad",
+   "size": 50957
+  },
+  {
+   "name": "Oberkr. Waltz 2",
+   "bank": "BANK09",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f3307c18b8ec86dad46e10579e701a33ba803185a1ca787b6e84e71dc02a08cb",
+   "size": 28739
+  },
+  {
+   "name": "Oberkr. Polka 1",
+   "bank": "BANK09",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f434f93f8d6e88944a54b53de890b49840fd2b43937283416d42efa3f18cff45",
+   "size": 33403
+  },
+  {
+   "name": "Oberkr. Polka 2",
+   "bank": "BANK09",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4b1f86f2fb949a833eae0d5f482f5cf4ae01ede6aeddd09ba62ea5bd3d9eba12",
+   "size": 49416
+  },
+  {
+   "name": "Schlager Polka",
+   "bank": "BANK09",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "36495fa5faac48446855435ee680d4abfda9220a7c2f538f3a9873dada8501ff",
+   "size": 32278
+  },
+  {
+   "name": "Party Polka",
+   "bank": "BANK09",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "bcd78121917f75d335d0f777f5770f98f4a1c945c962b6a28e45959a0bd61b21",
+   "size": 63400
+  },
+  {
+   "name": "Alpen Ballade",
+   "bank": "BANK09",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9cb81fdbc8955f00e0f22351fac275b3d5f89dcf2064a76bebb1af67ffca3435",
+   "size": 35741
+  },
+  {
+   "name": "Polka Pop",
+   "bank": "BANK09",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "935e4146a66631a6bab054488022d81a02e7107afeb63d76d0b18742f83d9101",
+   "size": 30692
+  },
+  {
+   "name": "Bavarian Pop",
+   "bank": "BANK09",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d5e4fbf773a1c01bb6f0754320fd0d0242b3f799abf9ebc5c042a538539282d4",
+   "size": 34939
+  },
+  {
+   "name": "ClassicSchlager1",
+   "bank": "BANK09",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fba1bac3baea2637815ffc02e626738d1581e5a420ea9ab01d410b1d0817f9a9",
+   "size": 39195
+  },
+  {
+   "name": "ClassicSchlager2",
+   "bank": "BANK09",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ae9f1311056b686cf9342adf9bdce52cd93d75c26bc60a6a9135874c85061100",
+   "size": 37669
+  },
+  {
+   "name": "ClassicSchlager3",
+   "bank": "BANK09",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "556980321e038d98e4c02504c80ccc3a24ac2870f340afc309c1813f9e1a856d",
+   "size": 45516
+  },
+  {
+   "name": "Organ Evergreens",
+   "bank": "BANK09",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2f6fafb0da77af938df2e0fabe3ca52ea3c18f14ebb15fa8686555ed6c33b1a9",
+   "size": 26687
+  },
+  {
+   "name": "Schlager Rhumba",
+   "bank": "BANK09",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f8bae73ce696e8fcd15512c7ea046f65fecfc65a4e7b3a7ba640863ff82fad1e",
+   "size": 41224
+  },
+  {
+   "name": "SchlagerShuffle1",
+   "bank": "BANK09",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9464a3b73b94f4e892e22202d6d892deb74a42658df8a63e5b3b25f07a15d8db",
+   "size": 26947
+  },
+  {
+   "name": "SchlagerShuffle2",
+   "bank": "BANK09",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "74f6bf74be1fe78ed3429d87a09dccea26ca1eabcd66555e98bbd89a695518c0",
+   "size": 24030
+  },
+  {
+   "name": "Dance Schlager",
+   "bank": "BANK09",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "364cb52838a9f35e1a84340ba144e3ec6c653642e4c3b881dd313ed94b09fde6",
+   "size": 46936
+  },
+  {
+   "name": "Fox Schlager",
+   "bank": "BANK09",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0651810501fdc64b0d8fa599328e1ebe826e3f3dd13675ed42d298d8a1cccaa7",
+   "size": 34309
+  },
+  {
+   "name": "Medium Schlager",
+   "bank": "BANK09",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ba807d7710747c6289b4457efa0281d6ccf3fadb6df82946874c3c592229bc72",
+   "size": 49902
+  },
+  {
+   "name": "Disco Schlager",
+   "bank": "BANK09",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "834f5944291e3075538be1fb1e1c363a37cedbd8f64e2756c61f1705c78e7577",
+   "size": 38370
+  },
+  {
+   "name": "Pop Schlager",
+   "bank": "BANK09",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a86cabe734e740bf26a03c0a1ca0a7d4998ebd5917b17fbb4d5b74c904f1abec",
+   "size": 23146
+  },
+  {
+   "name": "Alpen Rock",
+   "bank": "BANK09",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "84542f3bb3b4f4dc5324a0d56e9474c0d37aca56cbdfb6ef638406f51d201ac3",
+   "size": 25859
+  },
+  {
+   "name": "Rock Schlager",
+   "bank": "BANK09",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "cf89a2021c2641ad91f9b03747e0fa291f0545abf6eee15250f8d5749c5b7c05",
+   "size": 25746
+  },
+  {
+   "name": "Volkst. Schlager",
+   "bank": "BANK09",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d2c2b8a340ce8d7a715c28417b9b1ab5726c8d800251cb2ac70c84627d5287f9",
+   "size": 29587
+  },
+  {
+   "name": "Country Schlager",
+   "bank": "BANK09",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ba7ffe8e501efb6879d31317c3243f648cbc90db2685770ff8fc62703ca2e4b2",
+   "size": 42392
+  },
+  {
+   "name": "Schlager 1",
+   "bank": "BANK09",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3fd3ac073c7148f1e9f427d8eee440f079936c9e10ac54ed7a5a5a2bf2897c54",
+   "size": 34863
+  },
+  {
+   "name": "Schlager 2",
+   "bank": "BANK09",
+   "slot": 26,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e893872c7f7794c1012a920f2a6a6febed6f2ef68aa3095871fdbd8e21f01787",
+   "size": 25574
+  },
+  {
+   "name": "Schlager 3",
+   "bank": "BANK09",
+   "slot": 27,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d50fcd7d1c516e031c5010c46b136b87845ab05fcba28233dedb1b54e31910a7",
+   "size": 34897
+  },
+  {
+   "name": "Schlager 4",
+   "bank": "BANK09",
+   "slot": 28,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0e5b1eec09be90c88b7b251c10ff816df1525e622d0fc2afdeefcd39cc6a4d30",
+   "size": 30447
+  },
+  {
+   "name": "Caribbean",
+   "bank": "BANK09",
+   "slot": 29,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4e83d9d130e3eaa1a81660ff0c95a049648e72d59826b38e1406d59f6c660250",
+   "size": 37687
+  },
+  {
+   "name": "Samba Medley",
+   "bank": "BANK09",
+   "slot": 30,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f736dc3614a11ae6348bb5f753f677a7f0808dd6b7d485cdcc5479ed4eb98d3a",
+   "size": 48970
+  },
+  {
+   "name": "Party Mix",
+   "bank": "BANK09",
+   "slot": 31,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "421e05a284d64c15875e96b7ecd188c0a3fce2deef6ce13075d6c2b45e2fa562",
+   "size": 20674
+  },
+  {
+   "name": "Hawaiian",
+   "bank": "BANK10",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "5951e50ecee92783e0e43de7e8ed2c91050f6563b8f8d501d2a7f39df799f711",
+   "size": 67650
+  },
+  {
+   "name": "Flamenco 4/4",
+   "bank": "BANK10",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "694b06e48231ee9cd768f6a86fb093f3ff816e0144270c698ef5f9c123432cec",
+   "size": 33957
+  },
+  {
+   "name": "Flamenco 3/4",
+   "bank": "BANK10",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "51e15cc8134d168297d78070e35befcc8db4bcfbd2b569ea8cada0e4aadba0f3",
+   "size": 17840
+  },
+  {
+   "name": "Banda 2/4",
+   "bank": "BANK10",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7cf48d92ba1df7cfea9fb3c1cacc847b97e2052ba1c025338742126c7973b126",
+   "size": 45593
+  },
+  {
+   "name": "Mexican Waltz",
+   "bank": "BANK10",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1098f6784dbc1b0f91cc2a3970c5d049a0192829fc13c1a675ea962985790f13",
+   "size": 40264
+  },
+  {
+   "name": "Celtic Dream",
+   "bank": "BANK10",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b2557d8c5e523507d8842ae65416d3d781324fa6fd53e29c802735d5633e44f5",
+   "size": 20618
+  },
+  {
+   "name": "Celtic Waltz",
+   "bank": "BANK10",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "12ba0c70ee599729ac4c5fcc17a39b1fdcd28b652387285ae736b2d09b494585",
+   "size": 56064
+  },
+  {
+   "name": "Celtic Ballad",
+   "bank": "BANK10",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3eee5ba66e51e9a44aabe405fa4da245f9fa8ef9f90aca16c699bfcef46329e9",
+   "size": 17620
+  },
+  {
+   "name": "Scottish Reel",
+   "bank": "BANK10",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7b69bd3e750ece14307b593b66dd532566cd444161f699ce7ac98088535456ac",
+   "size": 42536
+  },
+  {
+   "name": "Orchestral Waltz",
+   "bank": "BANK10",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9c356d791dc85c074b1eee6a24dc6e5a7e392179bb1d0a9d690e08aeb4839f0c",
+   "size": 22245
+  },
+  {
+   "name": "OrchestralBolero",
+   "bank": "BANK10",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "34cc5ce3dda98a951c4e257776613c8278fb5ac1dc6f944de805311952828e43",
+   "size": 31546
+  },
+  {
+   "name": "Minuetto",
+   "bank": "BANK10",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9ef5013b2fea3b92f7e21e39c1a5add6e5261221ac9e9800c93118740af41c8c",
+   "size": 31852
+  },
+  {
+   "name": "Baroque",
+   "bank": "BANK10",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2a85f9720bcb0db8a9f514b2028e9e9254e6d7ea49080a9e0b79bc4766b57e5a",
+   "size": 30552
+  },
+  {
+   "name": "New Age",
+   "bank": "BANK10",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "34470e357e11f16accfab61646f917eec1b16d8f167c94289bdef3a1d101412a",
+   "size": 26902
+  },
+  {
+   "name": "Tarantella",
+   "bank": "BANK10",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "873b37abbca8c406820e6aeecb5abe9a3578ae09c45c73f60724bfa302e9f1a8",
+   "size": 33443
+  },
+  {
+   "name": "Raspa",
+   "bank": "BANK10",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "99874cc3c161052ae88ac36d0cafbd821878d0a129dae60993ca6dc6abd9808d",
+   "size": 17312
+  },
+  {
+   "name": "Orleans",
+   "bank": "BANK10",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "43f0a5bb0fbfdc7a857f7af4d7075aa01f66525e12575b0e321ee2b18bebe4c1",
+   "size": 61210
+  },
+  {
+   "name": "Norteno",
+   "bank": "BANK10",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "5c4549be78d29ff2f4f348a3f7a24798ad71bccd8d18743f0b632e37811fec68",
+   "size": 55060
+  },
+  {
+   "name": "Quebradita",
+   "bank": "BANK10",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "871600d3930dbc9b3b0bee47d865dbd6077d43883d7a3c08b61c3c26b0df2ff5",
+   "size": 15550
+  },
+  {
+   "name": "Tejano",
+   "bank": "BANK10",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c39280f2ada574f3035f2d8c47afacbefa0f3510c13f400283bda29ebd1ade73",
+   "size": 20464
+  },
+  {
+   "name": "Cajun",
+   "bank": "BANK10",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c076fe5efc3a2f2602ba55ae697c4a36a4ac1e5b89ed2ab9aa1e65d6ef6b4ee4",
+   "size": 63574
+  },
+  {
+   "name": "Zydeco",
+   "bank": "BANK10",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9288c13bc5fd50d06a0eff667b122287db17540873d08970d6621dd08e5c05cc",
+   "size": 43996
+  },
+  {
+   "name": "Mariachi",
+   "bank": "BANK10",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4ec8e533d3a2e00b6004f73d930ac8d747639af72503dc7d41b85d828a36f3ff",
+   "size": 22202
+  },
+  {
+   "name": "Hora",
+   "bank": "BANK10",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "65858e55cce1fafc1973ef6b91be5e388c928e4ea121a4fac012553373331f4d",
+   "size": 40368
+  },
+  {
+   "name": "9/8",
+   "bank": "BANK10",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "38c1d0cff302404ec4a33c9bc83b8b09652ba870bd601e358b1537af37cc4b15",
+   "size": 47660
+  },
+  {
+   "name": "Vahde",
+   "bank": "BANK10",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a9c4d09c26e4814acd49d59f9f7c701d3db1e9f4bc3dc0fe4945330cf84c77f9",
+   "size": 36132
+  },
+  {
+   "name": "2/4Oyun",
+   "bank": "BANK10",
+   "slot": 26,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "51b3a2664db7588c4e199680473a7b8eaa72b7c510df258e1035734aca3d2340",
+   "size": 36588
+  },
+  {
+   "name": "Ciftetelli",
+   "bank": "BANK10",
+   "slot": 27,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3fe26c6de65ef35b2462b467b09ea64a9715aa4f30b07839bf35cc100ffe30e1",
+   "size": 54707
+  },
+  {
+   "name": "Halay",
+   "bank": "BANK10",
+   "slot": 28,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3d231a7fab15b63a53012bea2790adc4397db198cb4c41be5485ce56cada130b",
+   "size": 27325
+  },
+  {
+   "name": "5/8",
+   "bank": "BANK10",
+   "slot": 29,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f37a7d7c3702672012aab863a00a4552419555a500a04f375324661da6f84310",
+   "size": 29535
+  },
+  {
+   "name": "Oryantal",
+   "bank": "BANK10",
+   "slot": 30,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "5aed2b2de73102dc933f0caf00ebc9a79e4fc3a915d8dd72fe57fe99ba44056a",
+   "size": 40011
+  },
+  {
+   "name": "Turkish Pop",
+   "bank": "BANK10",
+   "slot": 31,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "673a250131587091b5a7e2292be47600170463fd6cd864a7e050287031003d9f",
+   "size": 42949
+  },
+  {
+   "name": "Guitar Bossa",
+   "bank": "BANK11",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "0559a39550dbc3627057b403a176fc7b37d655b7f108ab04fea5412705f8bf5a",
+   "size": 44608
+  },
+  {
+   "name": "Basic Bossa",
+   "bank": "BANK11",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "000d50a0423a86b9ec6f8ef1fd54dd00ef3dc8e80c28ceb1a894efd3fe550663",
+   "size": 34067
+  },
+  {
+   "name": "Cool Bossa",
+   "bank": "BANK11",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "5cb62f0a6fd72ff733f119c1298433ef07dd944ab78eea08806f0b8c31a2a8aa",
+   "size": 51942
+  },
+  {
+   "name": "Meditation Bossa",
+   "bank": "BANK11",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d38319471e9344c452e2084074f8b3caed29d6c9141105e242f35eac9ee49dcb",
+   "size": 61639
+  },
+  {
+   "name": "Fast Bossa 1",
+   "bank": "BANK11",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "84abdd80905904b73d94b7ab0fe6cf5b72f28bdf5f9c959a8ef955188f08d4d6",
+   "size": 73846
+  },
+  {
+   "name": "Fast Bossa 2",
+   "bank": "BANK11",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "49e160b07119e31dfbafe46ff8447826edaf9d1464d1d8d27dcf4e698a8446f7",
+   "size": 68154
+  },
+  {
+   "name": "Orch. Bossa1",
+   "bank": "BANK11",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "47a76b61fb87431aeb6017236d792024dda0bccf55faf89bfec28a02330930d1",
+   "size": 34015
+  },
+  {
+   "name": "Orch. Bossa2",
+   "bank": "BANK11",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "abd84cb19a4b08d2d9a80abc674f0926039e997313ff1e9a7a830e9d65440ef1",
+   "size": 41982
+  },
+  {
+   "name": "Modern Bossa",
+   "bank": "BANK11",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "124e37a525d0b113aad5e3398983e288a3a121a31e28a689eb4cc5715755a32f",
+   "size": 80693
+  },
+  {
+   "name": "Organ Bossa",
+   "bank": "BANK11",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2c57a1fd39e5660a6f1de153f5c2ceca04f1bccb50ad6dd9c889beb880efc1c6",
+   "size": 57074
+  },
+  {
+   "name": "Groove Bossa",
+   "bank": "BANK11",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f777641514309a03526675285543027644a932260597065797e12b4942bf0ddb",
+   "size": 30986
+  },
+  {
+   "name": "Natural Bossa",
+   "bank": "BANK11",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6f71b4dd110e4669b8c25f66e86437fc487dbae152143bb4ce6f8cc1c95c22cd",
+   "size": 35247
+  },
+  {
+   "name": "Cool Latin Jazz",
+   "bank": "BANK11",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e1d7f2b3a4a5a8322861d9996c3f4278a7c72c2d1972fc6e9905dbbb00179781",
+   "size": 35308
+  },
+  {
+   "name": "Cha Cha 1",
+   "bank": "BANK11",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1a2c69f7a70f69d3b5489925ea9fdc7ef87bf1ba05645b1ed97edbfba343264d",
+   "size": 57685
+  },
+  {
+   "name": "Cha Cha 2",
+   "bank": "BANK11",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "62fa0f4b10b637f67ead3ee1bedabe11b61adf9874bd84738b4a1b82f8d0c041",
+   "size": 23466
+  },
+  {
+   "name": "Cha Cha 3",
+   "bank": "BANK11",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6fbdb56c4d9da0868db5ed9b752a7d4952f813422a3870bd802cefe1610d17b1",
+   "size": 25714
+  },
+  {
+   "name": "Cuban Cha Cha",
+   "bank": "BANK11",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1959068769b638b8828ba663622698b74f9bd73e96922aa01861c15ada29c02f",
+   "size": 27223
+  },
+  {
+   "name": "Pop Cha Cha",
+   "bank": "BANK11",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "691420e9a5286804061386fd1ae19a105bee98da71dcde7f7e812e7aade4dc7b",
+   "size": 41092
+  },
+  {
+   "name": "Disco Cha Cha",
+   "bank": "BANK11",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "cb28075c804f9234d085529a578ff6ed000463e1d6e9b09c3f7ee2c6cca69892",
+   "size": 34244
+  },
+  {
+   "name": "Latin Big Band",
+   "bank": "BANK11",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0990ad0380b1dbef3c53065af5e57ef621eab270626d8bc64a38f1a56e7ea726",
+   "size": 56977
+  },
+  {
+   "name": "Latin Pop",
+   "bank": "BANK11",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "821b5d5b375b8d07d623ccb617d05afc7ad0edb09a505159e5a606484ddbe746",
+   "size": 44263
+  },
+  {
+   "name": "Lite Beguine",
+   "bank": "BANK11",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "04e9e399c36aed2eb3b780025a3409909dbb0ab700f45c3b83947adf1d536613",
+   "size": 35794
+  },
+  {
+   "name": "Beguine",
+   "bank": "BANK11",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4b188a9f9d2308983f5a57139b74e41021cca3bcf27297f57a8c70f2752c7d85",
+   "size": 40853
+  },
+  {
+   "name": "Bachata",
+   "bank": "BANK11",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "337a0f1b32b1e7f9f407ced5d6ae5f5c5609ef86518a1844907e5760c2c51459",
+   "size": 67042
+  },
+  {
+   "name": "Latin Bolero",
+   "bank": "BANK11",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "697bcdc9b776ba48cb7a66c1b1396f9abdbd50bf497341f6ae7f6adbdbfdcf47",
+   "size": 28980
+  },
+  {
+   "name": "Bayon",
+   "bank": "BANK11",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b542a65348112d42a92bab05fd46a206c7f5bf57375e87b7ace3e7aec211ae63",
+   "size": 36386
+  },
+  {
+   "name": "Habanera",
+   "bank": "BANK11",
+   "slot": 26,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e6890c17e927181e385b348c20f32564b02a9dc0ec4538b4b6782505fbea09a9",
+   "size": 14486
+  },
+  {
+   "name": "Guajira",
+   "bank": "BANK11",
+   "slot": 27,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "98bf6e9841f462af77e04322a60e93b6bf91d421119fc6764176dd39f485a52b",
+   "size": 21656
+  },
+  {
+   "name": "Brazilian Samba",
+   "bank": "BANK12",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "08d298daf49f1114721df137c9cf06a0e000cd9a15db2942d7b0f67eb57c3c17",
+   "size": 62470
+  },
+  {
+   "name": "Sambalegre",
+   "bank": "BANK12",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7974fa4af64e4eb28e550a448a0aa15eed5848f6df0b1c8fc143aaa877cb4c69",
+   "size": 23414
+  },
+  {
+   "name": "Samba",
+   "bank": "BANK12",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ea09912d73c9f8efbfb986fb07c0425c25e2e6fce7f4960a292ec642ea2a4a86",
+   "size": 68536
+  },
+  {
+   "name": "Samba De Sol",
+   "bank": "BANK12",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "962123f8b65b062ff4bffc1537decf858e46e9baa56445f2d1a3d169e0c3745b",
+   "size": 109058
+  },
+  {
+   "name": "DiscoSamba",
+   "bank": "BANK12",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "16e9788fabc19102fc1fd0e32c81f1a317f9bd69ec1117410339cce3b55337d5",
+   "size": 42028
+  },
+  {
+   "name": "Mambo",
+   "bank": "BANK12",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e670fda9c67ed90af4ddd21d1288fe16e6a49395ae0c227898e9041d2a47db6a",
+   "size": 84063
+  },
+  {
+   "name": "Mambo 2000",
+   "bank": "BANK12",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f5290e297b0e823604cedda73d94bcd875c5d98510f84968c806798154d8738b",
+   "size": 58174
+  },
+  {
+   "name": "Mambo Party",
+   "bank": "BANK12",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b9f6897fab07f3006814e26f2d516ff607125ce86ddfca62b906ad533f63f042",
+   "size": 48195
+  },
+  {
+   "name": "Salsa 1",
+   "bank": "BANK12",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e896d62658e3010e36a6dcc7f8d4caf3557fe6fb566d8f0801d17c3394056eeb",
+   "size": 78649
+  },
+  {
+   "name": "Salsa 2",
+   "bank": "BANK12",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1de4e5dc9f7498d30d9384a45a089af9fbcb7700315f5c294e54efbd07119980",
+   "size": 44351
+  },
+  {
+   "name": "Merengue 1",
+   "bank": "BANK12",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a62bb5717ea4a3083b0f888f82a93eb1f313568a47d3ec74f5d6cb028a4f5c00",
+   "size": 33242
+  },
+  {
+   "name": "Merengue 2",
+   "bank": "BANK12",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fb2a420f09714dd1c75de9ae4a1b6f4c4f9ac40ff97d6779e92abd59f74fcab6",
+   "size": 33310
+  },
+  {
+   "name": "Club Latin",
+   "bank": "BANK12",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "99f865feb232b6d5f2b8fb98d5b3b269284119ddc8fc7cd2b236b8074fecc326",
+   "size": 43328
+  },
+  {
+   "name": "Gipsy Dance",
+   "bank": "BANK12",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a1439af3b196dc54a76c1b5c4d5a345c8e5d9fcd72fd4594a40888a31275af99",
+   "size": 64370
+  },
+  {
+   "name": "Rhumba",
+   "bank": "BANK12",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "db991f5955efbcdf2604b8fb0583c2bd2736a59c3275fc4eb153e0bc703347b5",
+   "size": 56156
+  },
+  {
+   "name": "Cumbia",
+   "bank": "BANK12",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d28ce02b09574da1c72e81c6742b6917a2b1eb99417a81ecef2bf59301e44da8",
+   "size": 26934
+  },
+  {
+   "name": "Calypso",
+   "bank": "BANK12",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "529591c63339a6548e743edce7b105e891f884e54eaf8fdc0bf8e4799cfb28b1",
+   "size": 37906
+  },
+  {
+   "name": "Lambada",
+   "bank": "BANK12",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0d557568d4a63f9126de213c8b8a436ba9dd01cceea2e161689d167576fddd94",
+   "size": 36370
+  },
+  {
+   "name": "Meneaito",
+   "bank": "BANK12",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "99963e85dd4baa050f32a02d7915ddcc9467a535014105d4e6e46086457b6ed3",
+   "size": 30084
+  },
+  {
+   "name": "Macarena",
+   "bank": "BANK12",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "78c51808e9d7f004a1a5ffa80ab81ca780b9a2e1de71d8ec5b8bd2f087ffc989",
+   "size": 28840
+  },
+  {
+   "name": "Bomba",
+   "bank": "BANK12",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "35901498a669c79ed8e5b0b443f2cd12185bc588975b906cba7d5d9b78731a1f",
+   "size": 20736
+  },
+  {
+   "name": "Tortura Dance",
+   "bank": "BANK12",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b3de2795bb7ab53022fbbbb417b0583f97b82ebeda620254408351009b8ff96b",
+   "size": 20195
+  },
+  {
+   "name": "Sabor",
+   "bank": "BANK12",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3e43f90fb10da059c86a5eea7d223296ee3507ab53fc495b35fcb5cdf966f008",
+   "size": 36287
+  },
+  {
+   "name": "Andean",
+   "bank": "BANK12",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0e579c98cc674e1327a0afcf78e8525fff66e1c48c1b5424826d02e4a499a578",
+   "size": 83820
+  },
+  {
+   "name": "Reggae 1",
+   "bank": "BANK12",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "74a26468c51b02a2964d07ac84c2a8e1af5b4a327bbd5c6026f109cb164db528",
+   "size": 33581
+  },
+  {
+   "name": "Reggae 2",
+   "bank": "BANK12",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6c8a783672f36067e1db524e81f318262dcdc8c01d290386bf91d80b2cfc105f",
+   "size": 24150
+  },
+  {
+   "name": "Bigger Band",
+   "bank": "BANK13",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "bbc177ab6c63a69229675e43e9a9e600e4e8eece5bbef21f6b0d54c6c7a6ef7d",
+   "size": 89451
+  },
+  {
+   "name": "Medium BigBand1",
+   "bank": "BANK13",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2bb8b9e9bd3e85968469f0b3892caa07d137e531dacfeca097d32530ee164318",
+   "size": 39037
+  },
+  {
+   "name": "Medium BigBand2",
+   "bank": "BANK13",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fe7c1ff0fb706488ccf9a09e52a7120c99b5d82c968693bc7ae5ce7841161644",
+   "size": 21546
+  },
+  {
+   "name": "Fast Big Band 1",
+   "bank": "BANK13",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "772885e640d5255b73cf6f82834002f0edd9af829025349901356ba73385efb0",
+   "size": 30235
+  },
+  {
+   "name": "Fast Big Band 2",
+   "bank": "BANK13",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4f1af94817d4d728e3ae58c98811d17cf24a9ea3756249308cd1e33609548ea3",
+   "size": 33575
+  },
+  {
+   "name": "Serenade Band",
+   "bank": "BANK13",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d6565cb3ea06a9401a954be1049ee6ba0da9b2399a8f076c5225fac6e4a2a2f3",
+   "size": 36206
+  },
+  {
+   "name": "Jazz Club",
+   "bank": "BANK13",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "51f681dfb21cdaefd09bf69ad6541b441ee0662955d615e59f9c49b812e175bf",
+   "size": 35578
+  },
+  {
+   "name": "BeBop",
+   "bank": "BANK13",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "69fd4b0f922603ed880fd7206db00459d3961c615df90f7ff9c2034bf49fbcec",
+   "size": 58886
+  },
+  {
+   "name": "Slow Swing Brush",
+   "bank": "BANK13",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "dcd0da5a489cb9a3ab36f21e333798c987286180a8173065363e1f3dff941f5f",
+   "size": 48694
+  },
+  {
+   "name": "Swing Ballad 1",
+   "bank": "BANK13",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0424708c886974476099a0b8433f765cbbd003265dc31de76e075078982a90ac",
+   "size": 16383
+  },
+  {
+   "name": "Swing Ballad 2",
+   "bank": "BANK13",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "897b52ea198f8953ceebb59bc0c121f49bb376fce2d06d51b8dd2e2bf66e9963",
+   "size": 40869
+  },
+  {
+   "name": "Swing Ballad 3",
+   "bank": "BANK13",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "38fcd57314be921ae20498154d8fe11534d3ba7a1518fafe4e46d5d1eb7c3008",
+   "size": 18708
+  },
+  {
+   "name": "Orchestral Swin#",
+   "bank": "BANK13",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "05508eaa17cab8276c2d51edd4f093eaf1092760447cbcc2b65e6ee56330c1f4",
+   "size": 43360
+  },
+  {
+   "name": "Django",
+   "bank": "BANK13",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b6e45bc36450ff1cd98d1861eedb753f7f7c3994a3bf33b9aa79bcb4b42119de",
+   "size": 50595
+  },
+  {
+   "name": "Jazz Brush",
+   "bank": "BANK13",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "800dd69bfc99ee289da6c4e481442e3bbabf3036cd130c14d5d7bc509309a836",
+   "size": 26267
+  },
+  {
+   "name": "Soft Jazz",
+   "bank": "BANK13",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "6c37f62512d6331494ebd6c97a2a1934989d0f2938a141af179f8ca097e1e3a7",
+   "size": 29172
+  },
+  {
+   "name": "Jazzy Blues",
+   "bank": "BANK13",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7bb2d0bfae88599c6fe5652acb6a4eb1bd4f6dfd7b3b15eef53db7874aa403b1",
+   "size": 31806
+  },
+  {
+   "name": "70's Beat Groove",
+   "bank": "BANK13",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "917d38b46871f78bd1fac380a0ef9b6fd311cc0b595e80cd322156577480401e",
+   "size": 39073
+  },
+  {
+   "name": "Organ Swing",
+   "bank": "BANK13",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "ce5ebb25f266b01146ea4f033b584344d00bea808deb1c6e34aa90f1a0925fe5",
+   "size": 38767
+  },
+  {
+   "name": "Organ Blues",
+   "bank": "BANK13",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "45559e26a57e75b66b55a49a30fb8491957ca8b3935c5be819667cad01ebae97",
+   "size": 62299
+  },
+  {
+   "name": "50's Swing",
+   "bank": "BANK13",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c4b8414f69a68050d8d941f3c8df39a63abbccd0c843bb12991ba6f9e6185c80",
+   "size": 27461
+  },
+  {
+   "name": "Medium Swing",
+   "bank": "BANK13",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c1638e2b086d8716aebb3ae8a6cb3cfa8ca1507cfd2b258afa112eb87f3ae3de",
+   "size": 36700
+  },
+  {
+   "name": "Vocal Swing",
+   "bank": "BANK13",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4bccd2aabf262e63e8f13c04bccfac847d8e73b1df575581f8943d545d8fabf8",
+   "size": 19787
+  },
+  {
+   "name": "Moon Swing",
+   "bank": "BANK13",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1c0f6302f4cc9e2867b1334f8fe31ec4b5642b4069122a6e1dcdd730db8fa7ea",
+   "size": 31822
+  },
+  {
+   "name": "Jazz Waltz 1",
+   "bank": "BANK13",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "b404ba4e4310bdf3eeb2ad7726a994a27972f82ea8efcaecc80bd6df04db0aca",
+   "size": 40995
+  },
+  {
+   "name": "Jazz Waltz 2#",
+   "bank": "BANK13",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f78a5b37c9e502e3286bc70c8272b275c6d92629e83c53e9802740fdecedad70",
+   "size": 40548
+  },
+  {
+   "name": "5/4 Swing",
+   "bank": "BANK13",
+   "slot": 26,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "85d52d7d9e4ae5eb9752fdab1be13bf93ca554ec51b00638fe619a4c0622c575",
+   "size": 31205
+  },
+  {
+   "name": "Stride",
+   "bank": "BANK13",
+   "slot": 27,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f2d13c6e53416bffad66f92428fe22eeef1718c0880258469b4529324fc6c8db",
+   "size": 27578
+  },
+  {
+   "name": "Dixieland",
+   "bank": "BANK13",
+   "slot": 28,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d2929e2c3a97b463adb1b5c94f816dd015549d14f152a9e3a95708d3d56274f1",
+   "size": 43854
+  },
+  {
+   "name": "Charleston",
+   "bank": "BANK13",
+   "slot": 29,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3ee54e62e37b788ab47763fe30914844f4d2e66ef7af97548fd263f3f1867fbb",
+   "size": 33870
+  },
+  {
+   "name": "German Waltz 1",
+   "bank": "BANK14",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0c6dc33efcb2441fbef957a4cf1dee103fc4aec1a00e88c76205c6771728ed62",
+   "size": 59077
+  },
+  {
+   "name": "German Waltz 2",
+   "bank": "BANK14",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "cb22db5f56eebccecd633df6300eadcd0d5e45e5318a228ad00acb60d24355b4",
+   "size": 51554
+  },
+  {
+   "name": "German Waltz 3",
+   "bank": "BANK14",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "79ac2e675dfa180a7599d8e4448de196cce3f2b47781f8f34d6cc6b5987e9d33",
+   "size": 54448
+  },
+  {
+   "name": "Vienna Waltz",
+   "bank": "BANK14",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f95533c1999f6104a826ac25e586d5de826728c3bdfa7eb5772bf4f3ca083d40",
+   "size": 32642
+  },
+  {
+   "name": "Italian Waltz",
+   "bank": "BANK14",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "20bd0d63697bb3543321e6b9fbbf436937fa748209eb9eb77e6aff11cbb0b32a",
+   "size": 16836
+  },
+  {
+   "name": "Musette Waltz",
+   "bank": "BANK14",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "51782f3cce48d9598751228541c5e1c6eab95d71f7d14f3e29403bcf44e3e1ae",
+   "size": 21067
+  },
+  {
+   "name": "French Waltz",
+   "bank": "BANK14",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "09b0db511202f841bd0842ecc2365a35eb8009c78b9058a7cd967f2651484f70",
+   "size": 15874
+  },
+  {
+   "name": "Irish Waltz",
+   "bank": "BANK14",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c04a5aaf3344c7966ec300d1d94d806fcdb9915a8404c4c34a099a459493cca2",
+   "size": 24915
+  },
+  {
+   "name": "Laendler Waltz",
+   "bank": "BANK14",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6a655763ee2480499a1a1385e33f8f5fb80d56b92aa43fbb4562e94d893c9aed",
+   "size": 25853
+  },
+  {
+   "name": "German Polka",
+   "bank": "BANK14",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1ec5093b92b321435b85a969df4f98e513d5734c1b62b05a21ddf8f4bd623c7a",
+   "size": 32658
+  },
+  {
+   "name": "Italian Polka 1",
+   "bank": "BANK14",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "72938b2299d3893a26552a8cd0342ee1f562c76e74be0e5e287dec160ec269af",
+   "size": 13173
+  },
+  {
+   "name": "Italian Polka 2",
+   "bank": "BANK14",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a922797c3664c8d0698244bb83d479b4ad9a49439ee0185f3713906c8e5b822a",
+   "size": 15465
+  },
+  {
+   "name": "Italian Polka 3",
+   "bank": "BANK14",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "be1e828671813d3d9533ab863f74e42f64b12a95bdb9f511bdc7b998bce85e3e",
+   "size": 27241
+  },
+  {
+   "name": "Italian Mazurka1",
+   "bank": "BANK14",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "711142cf66f18c1920ee5c2f34871d9b66b02cf0bb429e65bb9e2c166de881cd",
+   "size": 28127
+  },
+  {
+   "name": "Italian Mazurka2",
+   "bank": "BANK14",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4ba8a08a44f3ec8b0882673f85add4433195217373d9c92b198d561889f4ba95",
+   "size": 40501
+  },
+  {
+   "name": "Italian Mazurka3",
+   "bank": "BANK14",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "eecc02ab6fb27660aff61b4941e11e44f5c46164864062e6eaa0ea77d04f0388",
+   "size": 17361
+  },
+  {
+   "name": "March",
+   "bank": "BANK14",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f91544ca34d523a624f98b3f2b2448b74f81faf454a87b3d5b68ea8e9402f3a3",
+   "size": 61137
+  },
+  {
+   "name": "French March",
+   "bank": "BANK14",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "190c7d100c3559d541d8732f6c2b1df041aae24d99226f42eed19acf9cdcab47",
+   "size": 31236
+  },
+  {
+   "name": "Hollywood 1",
+   "bank": "BANK15",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7099d15e6e3d630a5b07816e6db75be5783ef1b8e5c30505f55ff084b659dd8b",
+   "size": 36900
+  },
+  {
+   "name": "Hollywood 2",
+   "bank": "BANK15",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f82598756acb199fc762fb7c7f85dea21c1b7200512117f963fe982daf4d3b02",
+   "size": 23684
+  },
+  {
+   "name": "Broadway",
+   "bank": "BANK15",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "009ce344d6bffe21f18c234e88101c906a426d92f242555acafe5d7297835915",
+   "size": 23502
+  },
+  {
+   "name": "Show Time",
+   "bank": "BANK15",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "418d92d4933fa4c77bd5010c3d2a49995cb879d7bcb257f53930660d91815837",
+   "size": 43384
+  },
+  {
+   "name": "The Avalon",
+   "bank": "BANK15",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1ddb9c62ab236ba83e49419e73f12358f9b495c9f573630cd13d6d4435d6ca9c",
+   "size": 77595
+  },
+  {
+   "name": "Tap Dance",
+   "bank": "BANK15",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b72fc69127068e2c69c555c80885db61587195934ae7d16b144a4bb32431e255",
+   "size": 50410
+  },
+  {
+   "name": "Movie Ballad",
+   "bank": "BANK15",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "915393acb750903fa50acc694934ad97929da16de68bf75ae9059cb90a6f5dee",
+   "size": 24275
+  },
+  {
+   "name": "Movie Swing",
+   "bank": "BANK15",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "ee952e225adb87383cc36bec2e92b5bb860e3d2737b50b96a61cbe434b0abe99",
+   "size": 63682
+  },
+  {
+   "name": "Safari Swing MG",
+   "bank": "BANK15",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fa1230ad9355465767ab9a888a506bcedcadf1d31dca369cfc7024ad9b907b5a",
+   "size": 36430
+  },
+  {
+   "name": "Western Movie",
+   "bank": "BANK15",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f7a9bc01f54025f894730c89f111ed30e93ca62722b51634a0b5cffc4d995308",
+   "size": 75480
+  },
+  {
+   "name": "Mystery Man",
+   "bank": "BANK15",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "59488649a1cddc2cc0a82db00446cf757db2dcda2552c3b4365eb36e7ac60a36",
+   "size": 73980
+  },
+  {
+   "name": "Cartoon Time",
+   "bank": "BANK15",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8d018c08ca4f106ad7213e975de8181eb89fb410ab1629c9a09f2f9fdabde354",
+   "size": 59552
+  },
+  {
+   "name": "Horror Movie",
+   "bank": "BANK15",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "18aa5a20ad08ab857e18b4f03dec1873d251eb00b8cba3986111ff9fd9b6d1a1",
+   "size": 55444
+  },
+  {
+   "name": "Love Movie",
+   "bank": "BANK15",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "44bf68e4bbd711333edbb709ff8db5505ce4945c0e719e6849eed91e9e4f15e8",
+   "size": 44210
+  },
+  {
+   "name": "Cinema Ballad",
+   "bank": "BANK15",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1acde1e6edff9aedf8e906a08a3b08918de0abad4d9948f14daee9adc69b0545",
+   "size": 22461
+  },
+  {
+   "name": "Love Ballad",
+   "bank": "BANK15",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a865012c1571fead36a5d6b36544cf1b440add0b1eeab480913b7bf984a266fa",
+   "size": 24301
+  },
+  {
+   "name": "Christmas Waltz",
+   "bank": "BANK15",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "a9ac1851338b65394cae9d7690a9acd18c79f8f84cb38e723eef1e8c69def321",
+   "size": 22164
+  },
+  {
+   "name": "Christmas Swing",
+   "bank": "BANK15",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "017129eaa1d924a1de544601c804ffc04402ac480f6983cb85863e2e58c575f0",
+   "size": 31525
+  },
+  {
+   "name": "Theatre Swing",
+   "bank": "BANK15",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c0d144320f520403ac62aa0ff9601d7a8a64a9bb124d3ac42934d3a7f8d6192d",
+   "size": 34093
+  },
+  {
+   "name": "Theatre March",
+   "bank": "BANK15",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "d6b8102d95261f0bc0b849cb16de8a8dde880630cfdaff7c7cedc6d3bfae0bda",
+   "size": 35829
+  },
+  {
+   "name": "Army Band",
+   "bank": "BANK15",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "52dcdbabaac23edbb579196adc02ed3562f13ff1aaaa9d0daa23c868abbe91a0",
+   "size": 69522
+  },
+  {
+   "name": "UnpluggedBallad1",
+   "bank": "BANK16",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "6e5aad38034aa00e881999f7ad10b9b6293fd56f01640ffd0e03b282ca8681da",
+   "size": 59462
+  },
+  {
+   "name": "UnpluggedBallad2",
+   "bank": "BANK16",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2daec5630f02e306e41c75ebd93c777d2a08bc668d85599c9722d19fa595fb99",
+   "size": 84548
+  },
+  {
+   "name": "UnpluggedBallad3",
+   "bank": "BANK16",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1eb3d2da1d7e63d9aec7cd1c9382ab9be2db464a496687c0f6577b594b06f309",
+   "size": 29463
+  },
+  {
+   "name": "Unplugged Slow",
+   "bank": "BANK16",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f4aa6c89671d1b77d1feb7940d5365d007ee43aad21c1c5be6872b4433556f39",
+   "size": 55626
+  },
+  {
+   "name": "Desert Shuffle",
+   "bank": "BANK16",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "9b7ff1eb19addb3f900be430be3e250b3f3044e84b5b809ff529747b3b94c0f3",
+   "size": 38888
+  },
+  {
+   "name": "Serenade",
+   "bank": "BANK16",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "a4eabb502b234a0dcdf058a9ea4ae6bbe8e00042d5d777cce6944d563679ef8a",
+   "size": 22526
+  },
+  {
+   "name": "Unplugged",
+   "bank": "BANK16",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "8c55042708a86cf71ac31d641e7fcd13cca11e78d27b1c67c10d115502421d36",
+   "size": 52845
+  },
+  {
+   "name": "Meditando",
+   "bank": "BANK16",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "945db5aa3855422aa713caf96e09a233c750ff15d18a372600fcf30fe8161110",
+   "size": 18977
+  },
+  {
+   "name": "Unplugged Gtr 1",
+   "bank": "BANK16",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "a0ab9a998f51d46fae04c172eebac34b8e5918c655e4b51f74417da8f4b6cee3",
+   "size": 24930
+  },
+  {
+   "name": "Unplugged Gtr 2",
+   "bank": "BANK16",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1e7c3b3d5c20e4771e9796d6149226fc1b16b61960111d293fd71d6c73d10e49",
+   "size": 31727
+  },
+  {
+   "name": "Unplugged Gtr 3",
+   "bank": "BANK16",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "85ea8007627fb72e37fd595765bbdc5d27826aac8f410c67f001ccfe034022f9",
+   "size": 29798
+  },
+  {
+   "name": "Unplugged Gtr 4",
+   "bank": "BANK16",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "041290a32d37bd1fdfdd796344899f5883b9667770264442d6655e7dedc9dbb9",
+   "size": 25210
+  },
+  {
+   "name": "Unplugged 8 Bt",
+   "bank": "BANK16",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "4c15ef155834f42943f31526489d8375feac9ed7579b19ed8c01482f475bb97b",
+   "size": 41386
+  },
+  {
+   "name": "Unplugged 16 Bt",
+   "bank": "BANK16",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3e6c4c07d621de5907bcd8b5c5069a10756c0d8b800f783c145c76edc9225a4d",
+   "size": 43526
+  },
+  {
+   "name": "Slide Blues",
+   "bank": "BANK16",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "6d6007ef631e8b238a478613043bc15cd8ff94591e052d56cbddc803ef02f487",
+   "size": 102169
+  },
+  {
+   "name": "Unplugged Rock",
+   "bank": "BANK16",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "b011f0c9285adc529a5d3ec5115b95d010797ffa8d2b867c9c867b55c06edf71",
+   "size": 63099
+  },
+  {
+   "name": "Unplugged Latin",
+   "bank": "BANK16",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c7741f2a29ee5e4c2d2858f34b1161e172351237d4569b58438e34fa8f346e9b",
+   "size": 26752
+  },
+  {
+   "name": "Unplugged Swing",
+   "bank": "BANK16",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "430fb20cf788e10f1e8cbc8a5ea5c6f2f224444536af23022169683ba617238c",
+   "size": 32448
+  },
+  {
+   "name": "Unplugged 3/4",
+   "bank": "BANK16",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7f0b415f668ffc281fa043ef6faf3ba1089d317498649591dc6fcb1eeeb0508b",
+   "size": 22272
+  },
+  {
+   "name": "Acoustic Bld.3/4",
+   "bank": "BANK16",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ad5fcdf68189b97699cf0c946d3ed7ff2d9d7ad137d4481569790915dc7ed046",
+   "size": 20690
+  },
+  {
+   "name": "Funky R&B",
+   "bank": "BANK17",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "30ae592d44e3a2f62d6cd30f4eeae7a0ef39ed00956360cafc390359ef24344b",
+   "size": 25644
+  },
+  {
+   "name": "AM : PM",
+   "bank": "BANK17",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "1e0f796eca383e0588650d82ef6493897f3777c806a61f571963d29b6e2e7d85",
+   "size": 36579
+  },
+  {
+   "name": "Little Boy",
+   "bank": "BANK17",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0fc2e7f2327037bfa25ef5e772df392883d5ceba61e3b6d9cde4941f303316cf",
+   "size": 33887
+  },
+  {
+   "name": "Island View",
+   "bank": "BANK17",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "676ea7bcfaa71b864cc38d133698779ece1f509d9328b6cebe49dc0dc03151d5",
+   "size": 56662
+  },
+  {
+   "name": "Karma",
+   "bank": "BANK17",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e83214662de116fc4760c7d29632328afc3a1008a2d01f7af9be8a63705e1e85",
+   "size": 48506
+  },
+  {
+   "name": "Smooth Jazz",
+   "bank": "BANK17",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "e135c054584916bce5cab70c968ab87546ab931c0b570b41ea8c4f2d692b6ccf",
+   "size": 35231
+  },
+  {
+   "name": "Slow & Jazzy",
+   "bank": "BANK17",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "e0d28c7d9d7678ba40efbbe11a73f35cea64d842681d540c3465765f5c005cf7",
+   "size": 38947
+  },
+  {
+   "name": "Take Beat",
+   "bank": "BANK17",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "c643e4a3361120bca97066509ca2a7a16f85089b421cefaf11b1368bedeb781b",
+   "size": 67774
+  },
+  {
+   "name": "Swing HipHop",
+   "bank": "BANK17",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "0cbaca14d24161d5590b3d4d5bddbf5ee69bd108ec3d75b02572a51b05be5b16",
+   "size": 59110
+  },
+  {
+   "name": "Slow HipHop",
+   "bank": "BANK17",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3c4d7ab657542a39a65cdaa45789898a90a062ccc85f887fdb6f3c95aba8caac",
+   "size": 74178
+  },
+  {
+   "name": "Hip Hindi Hop",
+   "bank": "BANK17",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "3bc02dd80b99816649bba9fd1114bf54a38962e772a2ff447e5da8b266cbf747",
+   "size": 30507
+  },
+  {
+   "name": "Soft HipHop",
+   "bank": "BANK17",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "fb13e0f2e2b6fc6b275df9460f5a5c527d0cb47bb27296a98b11d82a8bbc77c1",
+   "size": 58632
+  },
+  {
+   "name": "HipHop Funk",
+   "bank": "BANK17",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "84399d9bcb43070bec175f57ca773abb58cf9e4ffa897957bf16f568779e2f9d",
+   "size": 34306
+  },
+  {
+   "name": "Elektro Funk",
+   "bank": "BANK17",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "2d28ac40e7d687b1ee6ff0ea0b38385894be0b78ec4862ddd5f1ccd4e9087aa0",
+   "size": 48951
+  },
+  {
+   "name": "Jazzy PopFunk",
+   "bank": "BANK17",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "f5742bb9e8a88075682e839d132392ce879c82b95eb5b246cf1efeb11110f7f5",
+   "size": 79492
+  },
+  {
+   "name": "Pop Funk",
+   "bank": "BANK17",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "ddff016b7e2883c810c5eea18e5d2bc5f7b2e8660315d8f88a04c0bf335edcf9",
+   "size": 38542
+  },
+  {
+   "name": "Elektro Pop",
+   "bank": "BANK17",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "adaf93e7dae2428db74f6e90880f7bbc27edd12a4f7d411fb4827854345ca1fe",
+   "size": 66054
+  },
+  {
+   "name": "Modern Latin",
+   "bank": "BANK17",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "4219e4f251777fcb5a14aa8c0dc2935e75f898187a812f53fa2aa710b5486aba",
+   "size": 68098
+  },
+  {
+   "name": "Folk Beat",
+   "bank": "BANK17",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "cadf7ac3f59fd4eb0bb104765d23f0e19745c71fbdafac988c290052561bac9d",
+   "size": 43345
+  },
+  {
+   "name": "Wave Jazz",
+   "bank": "BANK17",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "27/48x13",
+   "sha256": "7dec08112473d739f4831de40ec51cb078abb8eddf946a6db740958bb63b8999",
+   "size": 48865
+  },
+  {
+   "name": "Little Shuffle",
+   "bank": "BANK17",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1276bc86139e364bfa71aa5a8b5a3765c96902d0dbb58182dee98e816c524503",
+   "size": 31621
+  },
+  {
+   "name": "Standard 8 Beat",
+   "bank": "USER01",
+   "slot": 0,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "c1e59c7a85dd92a02d3dd1299957fb1b6be40efc9368230781683981f1d2d12d",
+   "size": 40306
+  },
+  {
+   "name": "Standard 16 Beat",
+   "bank": "USER01",
+   "slot": 1,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "19751bb261c161632bdf5b82dc42054fea6e4e158dce3f54d934918e44a86114",
+   "size": 56500
+  },
+  {
+   "name": "Rock Cha Cha",
+   "bank": "USER01",
+   "slot": 2,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "7dc804e882e0997879bc862ebce9afb2643d3f6ff76c25a5632501357ab3e9c5",
+   "size": 98680
+  },
+  {
+   "name": "Cha Cha 4",
+   "bank": "USER01",
+   "slot": 3,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "15b28079f310ac8f25e6ea978e15261b0f3673db0732436c8fed59e466fb8cac",
+   "size": 102504
+  },
+  {
+   "name": "Salsa",
+   "bank": "USER01",
+   "slot": 4,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "26fef5e2b4f4b83794c10400bf76b7dfe7862a0cb1b33fab220c348bff4356fc",
+   "size": 127123
+  },
+  {
+   "name": "Bachata",
+   "bank": "USER01",
+   "slot": 5,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "63b27177ab3f0fa5dc465c50639467e496f4d7bf298bb549952a22fbf8b0d5f8",
+   "size": 74154
+  },
+  {
+   "name": "Rhumba",
+   "bank": "USER01",
+   "slot": 6,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "7fc6fd6c5f5af20dc8afbd4ea519e6f10f94f4efe52904d8a7d5dbdd2ab654df",
+   "size": 58941
+  },
+  {
+   "name": "New Flamenco",
+   "bank": "USER01",
+   "slot": 7,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "f216e937e735c8f8445cf949f59cb9c294f8ab4bdc376896dcc5df9a592996e5",
+   "size": 80030
+  },
+  {
+   "name": "Modern Tango",
+   "bank": "USER01",
+   "slot": 8,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1d5c6ae760f626ada25662157db58d418b4c98ed452fe0e89c09721fc688bebe",
+   "size": 55010
+  },
+  {
+   "name": "Paso Dance",
+   "bank": "USER01",
+   "slot": 9,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "04b0fb2e70fc2e499ae453a4655665852ef12eefe7ae14c00aefacbde1c463aa",
+   "size": 55440
+  },
+  {
+   "name": "Slow Waltz",
+   "bank": "USER01",
+   "slot": 10,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "cbcc4f4e6b86913cfd4a37e48ecb8b5aec430230a382f04d963a060bf9eaaffe",
+   "size": 35760
+  },
+  {
+   "name": "Jive",
+   "bank": "USER01",
+   "slot": 11,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1c0a85b5432cb0893dc9ba0403bf6ab86b4b7ccbc537a2e7874e8be098018cbe",
+   "size": 92698
+  },
+  {
+   "name": "Quick Step",
+   "bank": "USER01",
+   "slot": 12,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "c3fa4a555a4bd179b15767a3a2a79b9b6d211385b818fb841f0fc25c62c39fa6",
+   "size": 62811
+  },
+  {
+   "name": "Slow Fox",
+   "bank": "USER01",
+   "slot": 13,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "20982cc66a88e48d78df4b85cf0b6700559f70ee2d05126ef816c10a3cc17770",
+   "size": 61089
+  },
+  {
+   "name": "Reggaeton",
+   "bank": "USER01",
+   "slot": 14,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "a5711442a3fe86bbcd06adb7567fd31b9369203c4e2a3592b3fa280f2c82ef93",
+   "size": 41842
+  },
+  {
+   "name": "Pop Ska",
+   "bank": "USER01",
+   "slot": 15,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "ec2a78dffc0bb315f2702ff714b92e020dd756feee2968da9d1b93c6c5ff17cc",
+   "size": 50366
+  },
+  {
+   "name": "Vocal Latin",
+   "bank": "USER01",
+   "slot": 16,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "5ed4b5843efc2ac5aed84144d28ae45103489fbbf6c6f53105f13183c52d43f1",
+   "size": 42284
+  },
+  {
+   "name": "Vocal Pop",
+   "bank": "USER01",
+   "slot": 17,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "c5b7cd9371b1abb7d8a7a12f611f88bd157c0f9d27e91e6809ba843e656c294d",
+   "size": 64773
+  },
+  {
+   "name": "Cool Vocal",
+   "bank": "USER01",
+   "slot": 18,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "366ccd414abeffa9ed75b4479008f243fe3d53d87778c66ff4322469f7a0247a",
+   "size": 55517
+  },
+  {
+   "name": "Vocal Jazz",
+   "bank": "USER01",
+   "slot": 19,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "1dbcfb2fb29fad2922b205b0feae5da766202c28657b0ae51983775a274424bd",
+   "size": 39780
+  },
+  {
+   "name": "MOVIE BOB",
+   "bank": "USER01",
+   "slot": 20,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "e35a694c7d72fe63cd5da860b59b13b3217e7206aff350eb5090726c7c94571b",
+   "size": 184829
+  },
+  {
+   "name": "Orchestral Bld",
+   "bank": "USER01",
+   "slot": 21,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "ac6f1891455b8380d7d7e9f35d6aab5d24677b3a2cc9edb16c5421456c066183",
+   "size": 150145
+  },
+  {
+   "name": "Ballad 6/8",
+   "bank": "USER01",
+   "slot": 22,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "2de5bd1f7e7a5ba3e305a890714dd4d65f8c0b48d0365d96f0da9332e35f9359",
+   "size": 102879
+  },
+  {
+   "name": "Modern Ballad",
+   "bank": "USER01",
+   "slot": 23,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "a44d3017853182da9db1a857e7984064324d4314562774a4969a315f9fa2eecf",
+   "size": 43732
+  },
+  {
+   "name": "Pop Rock Hit",
+   "bank": "USER01",
+   "slot": 24,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "ea6037c945c3d13b71ba2449ba2cea21a344950ddb3e2e79950d9247767f9f16",
+   "size": 238084
+  },
+  {
+   "name": "GIVE IT 2 ME",
+   "bank": "USER01",
+   "slot": 25,
+   "element_count": 13,
+   "geometry": "28/80x13",
+   "sha256": "57d0fc17cbec9af6f3a13f521073c35eec500fd0125b74e31e72677755a63315",
+   "size": 39373
+  }
+ ],
+ "failed": []
+}

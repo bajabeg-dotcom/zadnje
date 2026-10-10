@@ -1,0 +1,351 @@
+{
+  "schema": "pa_tool-source-integration-provenance-v1",
+  "generated": "2026-10-06",
+  "sourceArchive": "PA800_Manager_Web_v0.2_NATIVE_SET_FORENSICS.zip",
+  "sourceArchiveBytes": 591492,
+  "sourceArchiveSha256": "bde563f9b8c764d610ff3bb42f2a4fcaf47f7ab7ed2d045f889b240ba3c057f8",
+  "sourceFileCount": 25,
+  "allSourceFilesAccountedFor": true,
+  "files": [
+    {
+      "source": "BUILD_MANIFEST.json",
+      "sourceBytes": 3982,
+      "sourceSha256": "c82f3b0de129544b32ee719b58ba629ae6b39172af91dfbe5ab475e1dd33aed8",
+      "destinations": [
+        {
+          "path": "docs/pa800_native_evidence/BUILD_MANIFEST_SOURCE.json",
+          "bytes": 3982,
+          "sha256": "c82f3b0de129544b32ee719b58ba629ae6b39172af91dfbe5ab475e1dd33aed8"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "HARDVER_TEST.md",
+      "sourceBytes": 4075,
+      "sourceSha256": "784fd983a98e4682accbbba5225611aeb70a07e7f73a17233e48f544b2bae4e5",
+      "destinations": [
+        {
+          "path": "docs/pa800_native_evidence/HARDVER_TEST_SOURCE.md",
+          "bytes": 4075,
+          "sha256": "784fd983a98e4682accbbba5225611aeb70a07e7f73a17233e48f544b2bae4e5"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "README.md",
+      "sourceBytes": 5220,
+      "sourceSha256": "22dcbc1cfca8e93b566f2724e69d170cea09ac124db3bfb527d488cad77ef688",
+      "destinations": [
+        {
+          "path": "docs/pa800_native_evidence/README_SOURCE.md",
+          "bytes": 5220,
+          "sha256": "22dcbc1cfca8e93b566f2724e69d170cea09ac124db3bfb527d488cad77ef688"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "core/__init__.py",
+      "sourceBytes": 0,
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destinations": [
+        {
+          "path": "pa_tool/native/__init__.py",
+          "bytes": 865,
+          "sha256": "3ee215d9f767ba8d101fca54e9367c0bf6e03b03072e58130922d8e3e751c1f4"
+        }
+      ],
+      "disposition": "replaced_empty_init_with_package_exports_and_read_only_contract"
+    },
+    {
+      "source": "core/codec.py",
+      "sourceBytes": 8067,
+      "sourceSha256": "c55d3ec3c09e1bcdb0064e6e226301fe06c18cacd0f32002f1a96687c07352c4",
+      "destinations": [
+        {
+          "path": "pa_tool/native/codec.py",
+          "bytes": 8794,
+          "sha256": "bb3c6db3b5e60d71b09a7cb21cfa2ed90f8be81a9f68f78326f5d5f65201e398"
+        }
+      ],
+      "disposition": "integrated_modified_compatibility_adapter_for_generic_container"
+    },
+    {
+      "source": "core/format.py",
+      "sourceBytes": 19929,
+      "sourceSha256": "38a8bfa8ed7c73d19bfbad2a9cc047f52a8079bf64cd637557c30b84fff6a1f9",
+      "destinations": [
+        {
+          "path": "pa_tool/native/format.py",
+          "bytes": 20036,
+          "sha256": "49adc5dccbb5861ffad9607e435e3353b9603122048bb7c5648aa513b4cff09b"
+        }
+      ],
+      "disposition": "integrated_modified_project_imports_and_uniform_64MiB_bound"
+    },
+    {
+      "source": "core/set_graph.py",
+      "sourceBytes": 5258,
+      "sourceSha256": "09e4237c9b75b3616eea12b1d5f09be60ff85801082b614a977d7fccb07b4bde",
+      "destinations": [
+        {
+          "path": "pa_tool/native/set_graph.py",
+          "bytes": 5258,
+          "sha256": "09e4237c9b75b3616eea12b1d5f09be60ff85801082b614a977d7fccb07b4bde"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "core/sounds.py",
+      "sourceBytes": 1340,
+      "sourceSha256": "6e26f24d020eb90456990563c305f36e681e9f0a9c6d585cba75ddce446aae47",
+      "destinations": [
+        {
+          "path": "pa_tool/native/sounds.py",
+          "bytes": 1554,
+          "sha256": "35b2237f99a4a319c5d1fb2a7e7dc999f8da92a16a5da1a1def33afbb5113ba4"
+        }
+      ],
+      "disposition": "integrated_modified_catalog_path_only"
+    },
+    {
+      "source": "data/PA800_FACTORY_SOUND_LIST_CC00_CC32_PC.txt",
+      "sourceBytes": 58412,
+      "sourceSha256": "8859878a888a6fbad2b17f6e6c630d7a0155f49aba5739963b4d716a0dc99996",
+      "destinations": [
+        {
+          "path": "data/PA800_FACTORY_SOUND_LIST_CC00_CC32_PC.txt",
+          "bytes": 58412,
+          "sha256": "8859878a888a6fbad2b17f6e6c630d7a0155f49aba5739963b4d716a0dc99996"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "fixtures/BANK01.PRF",
+      "sourceBytes": 5179,
+      "sourceSha256": "683c3814cc4ddeb83864a139e42a13d420ad418dc15cd30d3d3100cac5f03a40",
+      "destinations": [
+        {
+          "path": "data/pa800_native_fixtures/BANK01.PRF",
+          "bytes": 5179,
+          "sha256": "683c3814cc4ddeb83864a139e42a13d420ad418dc15cd30d3d3100cac5f03a40"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "fixtures/BANK01.STY",
+      "sourceBytes": 253104,
+      "sourceSha256": "70ad3fc561337ba331665a3fce473d7699baab067de6f9f3ee292d608239ab73",
+      "destinations": [
+        {
+          "path": "data/pa800_native_fixtures/BANK01.STY",
+          "bytes": 253104,
+          "sha256": "70ad3fc561337ba331665a3fce473d7699baab067de6f9f3ee292d608239ab73"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "fixtures/Bank01.pad",
+      "sourceBytes": 1764,
+      "sourceSha256": "4ac89051752b28617c49c66d99ccd4165ca31a16fc74b44793fb9a170bbe5b47",
+      "destinations": [
+        {
+          "path": "data/pa800_native_fixtures/Bank01.pad",
+          "bytes": 1764,
+          "sha256": "4ac89051752b28617c49c66d99ccd4165ca31a16fc74b44793fb9a170bbe5b47"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "fixtures/PRGMAPS.TBL",
+      "sourceBytes": 12785,
+      "sourceSha256": "9f635c77db3464ee6365e781556ded0d6f5ea4288c69d905cde52375bc67a204",
+      "destinations": [
+        {
+          "path": "data/pa800_native_fixtures/PRGMAPS.TBL",
+          "bytes": 12785,
+          "sha256": "9f635c77db3464ee6365e781556ded0d6f5ea4288c69d905cde52375bc67a204"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "fixtures/ROM.PCG",
+      "sourceBytes": 263722,
+      "sourceSha256": "b1f08ab776e81366b3532b32abac8633a6c9e03aa80fec909c1f47db7439de64",
+      "destinations": [
+        {
+          "path": "data/pa800_native_fixtures/ROM.PCG",
+          "bytes": 263722,
+          "sha256": "b1f08ab776e81366b3532b32abac8633a6c9e03aa80fec909c1f47db7439de64"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "fixtures/SETUP.GBL",
+      "sourceBytes": 1844,
+      "sourceSha256": "949cf595dca5379f043af5e24b2a5f5a66308342c24d4f3428644a633de39491",
+      "destinations": [
+        {
+          "path": "data/pa800_native_fixtures/SETUP.GBL",
+          "bytes": 1844,
+          "sha256": "949cf595dca5379f043af5e24b2a5f5a66308342c24d4f3428644a633de39491"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "public/app.js",
+      "sourceBytes": 36028,
+      "sourceSha256": "859e79fb7d14b6076faa791b1713c756917db4c78c4c5cf6d21119163b0778d1",
+      "destinations": [
+        {
+          "path": "pa_tool/gui/web/app.js",
+          "bytes": 36028,
+          "sha256": "859e79fb7d14b6076faa791b1713c756917db4c78c4c5cf6d21119163b0778d1"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "public/index.html",
+      "sourceBytes": 3282,
+      "sourceSha256": "54e7d5f200443b7af6c64fd207b8ff183ab692a0f7ad45b3cfd578ac2ac6a42d",
+      "destinations": [
+        {
+          "path": "pa_tool/gui/web/index.html",
+          "bytes": 3310,
+          "sha256": "83df5dc92fdaf0534de1170969d1d1237e636309cee8d2e5d7299e3363cb99bd"
+        }
+      ],
+      "disposition": "integrated_modified_pa_tool_version_branding"
+    },
+    {
+      "source": "public/style.css",
+      "sourceBytes": 20870,
+      "sourceSha256": "07ebbd31e1ce9192a527a1c7a1a8498cf066be55bda6b993e874737f0fc2cfa7",
+      "destinations": [
+        {
+          "path": "pa_tool/gui/web/style.css",
+          "bytes": 20870,
+          "sha256": "07ebbd31e1ce9192a527a1c7a1a8498cf066be55bda6b993e874737f0fc2cfa7"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "research/native_set_audit/NATIVE_SET_STATIC_INVENTORY.json",
+      "sourceBytes": 154832,
+      "sourceSha256": "520d02a8b4d55d3456109a7d3e6f892e96f8f773c44a6ebf7814cc33ca423b4a",
+      "destinations": [
+        {
+          "path": "docs/pa800_native_evidence/NATIVE_SET_STATIC_INVENTORY.json",
+          "bytes": 154832,
+          "sha256": "520d02a8b4d55d3456109a7d3e6f892e96f8f773c44a6ebf7814cc33ca423b4a"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "research/native_set_audit/REPORT.md",
+      "sourceBytes": 11480,
+      "sourceSha256": "fbde8191524bc356e34dac90f74610b8250c6e4c7e76f8c511ad451644e01b6f",
+      "destinations": [
+        {
+          "path": "docs/pa800_native_evidence/REPORT_SOURCE.md",
+          "bytes": 11480,
+          "sha256": "fbde8191524bc356e34dac90f74610b8250c6e4c7e76f8c511ad451644e01b6f"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "research/native_set_audit/STYLE_TO_USER_PCG_CANDIDATES.json",
+      "sourceBytes": 113429,
+      "sourceSha256": "df00add7268ea516f70f549f91bc33eb60d12b25e65f97d69abbe689fc0fa20c",
+      "destinations": [
+        {
+          "path": "docs/pa800_native_evidence/STYLE_TO_USER_PCG_CANDIDATES.json",
+          "bytes": 113429,
+          "sha256": "df00add7268ea516f70f549f91bc33eb60d12b25e65f97d69abbe689fc0fa20c"
+        }
+      ],
+      "disposition": "copied_exact"
+    },
+    {
+      "source": "research/native_set_audit/audit_native_sets.py",
+      "sourceBytes": 8630,
+      "sourceSha256": "2aa12fe980da6e4a2bcbf2dc278a6bead4a820d48b898cf2aef2f6fb84c5dae9",
+      "destinations": [
+        {
+          "path": "pa_tool/native/research.py",
+          "bytes": 9654,
+          "sha256": "50621747f3ce04e683e0d0a48a819bb50ddfc385e6573ff8fbf53a8719cd63ac"
+        }
+      ],
+      "disposition": "logic_consolidated_into_reusable_bounded_api"
+    },
+    {
+      "source": "research/native_set_audit/style_selector_graph.py",
+      "sourceBytes": 6526,
+      "sourceSha256": "180358acbcf7a7e44b3b69c7b831f97be20b6a4510ca1b328a921b823d28ee0d",
+      "destinations": [
+        {
+          "path": "pa_tool/native/research.py",
+          "bytes": 9654,
+          "sha256": "50621747f3ce04e683e0d0a48a819bb50ddfc385e6573ff8fbf53a8719cd63ac"
+        },
+        {
+          "path": "pa_tool/native/set_graph.py",
+          "bytes": 5258,
+          "sha256": "09e4237c9b75b3616eea12b1d5f09be60ff85801082b614a977d7fccb07b4bde"
+        }
+      ],
+      "disposition": "collision_catalog_retained_in_research_sparse_aware_graph_is_stronger"
+    },
+    {
+      "source": "server.py",
+      "sourceBytes": 21199,
+      "sourceSha256": "4af3bcc4b5d716425686e978a6915787f53d9e2fdd2c8215e4d9fc599632e092",
+      "destinations": [
+        {
+          "path": "pa_tool/native/workspace.py",
+          "bytes": 15261,
+          "sha256": "86707173c7c08840ed68e64ba73f11399571d2af40b7694224831c51083cbca4"
+        },
+        {
+          "path": "pa_tool/native/web.py",
+          "bytes": 6373,
+          "sha256": "aa2472bb4509ea9d86d942c802646b1a1cb674b00a6a3b7bc17bb592a8edd2e6"
+        }
+      ],
+      "disposition": "split_backend_and_http_layer_all_routes_and_workflows_retained"
+    },
+    {
+      "source": "tests/test_pa800.py",
+      "sourceBytes": 9014,
+      "sourceSha256": "93274d53eb52519f29aff6e13d2c521c1f1db1f0213052b453074d22068a3b52",
+      "destinations": [
+        {
+          "path": "tests/test_pa800_native.py",
+          "bytes": 9084,
+          "sha256": "cde96ba175e6978793dda4855f610c879f553a14dae73a012ac42e4f2aedc9b6"
+        }
+      ],
+      "disposition": "adapted_imports_and_fixture_path"
+    }
+  ],
+  "notes": [
+    "copied_exact means source and destination SHA-256 are identical",
+    "modified/consolidated rows are behavior-covered by tests and the feature matrix",
+    "no native writer existed in the source archive; none was inferred"
+  ]
+}

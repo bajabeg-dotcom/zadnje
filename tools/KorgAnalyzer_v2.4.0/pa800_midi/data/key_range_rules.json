@@ -1,0 +1,166 @@
+{
+  "rules": {
+    "accordion": {
+      "low": 41,
+      "high": 96,
+      "low_name": "F2",
+      "high_name": "C7",
+      "explanation": "F2-C7, harmonika"
+    },
+    "bass": {
+      "low": 28,
+      "high": 67,
+      "low_name": "E1",
+      "high_name": "G4",
+      "explanation": "E1-G4, bas gitara (4 žice)"
+    },
+    "brass": {
+      "low": 52,
+      "high": 84,
+      "low_name": "E3",
+      "high_name": "C6",
+      "explanation": "E3-C6, truba/limena sekcija"
+    },
+    "choir": {
+      "low": 36,
+      "high": 84,
+      "low_name": "C2",
+      "high_name": "C6",
+      "explanation": "C2-C6, hor/vokali"
+    },
+    "choir_aah": {
+      "low": 36,
+      "high": 84,
+      "low_name": "C2",
+      "high_name": "C6",
+      "explanation": "C2-C6, hor"
+    },
+    "clarinet": {
+      "low": 50,
+      "high": 91,
+      "low_name": "D3",
+      "high_name": "G6",
+      "explanation": "D3-G6, klarinet"
+    },
+    "drums": {
+      "low": 0,
+      "high": 127,
+      "low_name": "C-1",
+      "high_name": "G9",
+      "explanation": "bubnjevi se ne provjeravaju po visini"
+    },
+    "ethnic": {
+      "low": 40,
+      "high": 96,
+      "low_name": "E2",
+      "high_name": "C7",
+      "explanation": "E2-C7, etno instrumenti"
+    },
+    "flute": {
+      "low": 60,
+      "high": 96,
+      "low_name": "C4",
+      "high_name": "C7",
+      "explanation": "C4-C7, flauta"
+    },
+    "fx": {
+      "low": 0,
+      "high": 127,
+      "low_name": "C-1",
+      "high_name": "G9",
+      "explanation": "nema opsega -- efekti"
+    },
+    "guitar": {
+      "low": 40,
+      "high": 88,
+      "low_name": "E2",
+      "high_name": "E6",
+      "explanation": "E2-E6, gitara"
+    },
+    "lead_guitar": {
+      "low": 40,
+      "high": 96,
+      "low_name": "E2",
+      "high_name": "C7",
+      "explanation": "E2-C7, solo gitara"
+    },
+    "organ": {
+      "low": 36,
+      "high": 96,
+      "low_name": "C2",
+      "high_name": "C7",
+      "explanation": "C2-C7, drawbar/pipe orgulje"
+    },
+    "other": {
+      "low": 0,
+      "high": 127,
+      "low_name": "C-1",
+      "high_name": "G9",
+      "explanation": "nepoznat tip -- ne tvrdi se opseg"
+    },
+    "pad": {
+      "low": 36,
+      "high": 96,
+      "low_name": "C2",
+      "high_name": "C7",
+      "explanation": "C2-C7, padovi"
+    },
+    "piano": {
+      "low": 21,
+      "high": 108,
+      "low_name": "A0",
+      "high_name": "C8",
+      "explanation": "A0-C8, klavirski opseg"
+    },
+    "rhythm_guitar": {
+      "low": 40,
+      "high": 88,
+      "low_name": "E2",
+      "high_name": "E6",
+      "explanation": "E2-E6, gitara (najniža i najviša žica)"
+    },
+    "sax": {
+      "low": 46,
+      "high": 82,
+      "low_name": "A#2",
+      "high_name": "A#5",
+      "explanation": "A#2-A#5, tenor saksofon"
+    },
+    "strings": {
+      "low": 36,
+      "high": 96,
+      "low_name": "C2",
+      "high_name": "C7",
+      "explanation": "C2-C7, gudači"
+    },
+    "synth": {
+      "low": 0,
+      "high": 127,
+      "low_name": "C-1",
+      "high_name": "G9",
+      "explanation": "sintisajzer nema fizički opseg"
+    },
+    "trombone": {
+      "low": 40,
+      "high": 72,
+      "low_name": "E2",
+      "high_name": "C5",
+      "explanation": "E2-C5, trombon"
+    },
+    "trumpet": {
+      "low": 52,
+      "high": 84,
+      "low_name": "E3",
+      "high_name": "C6",
+      "explanation": "E3-C6, truba"
+    },
+    "woodwind": {
+      "low": 50,
+      "high": 96,
+      "low_name": "D3",
+      "high_name": "C7",
+      "explanation": "D3-C7, drveni puhači"
+    }
+  },
+  "overrides": {}
+}

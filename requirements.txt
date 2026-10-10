@@ -1,0 +1,12 @@
+# VirtualPa800 NATIVE 0.2 -- runtime dependencies
+#
+# NEMA vanjskih dependencija. Sav runtime (PA800 Manager Web v0.2,
+# pa_tool v0.3.0, KorgAnalyzer v2.4.0) koristi SAMO Python 3.10+
+# standardnu biblioteku.
+#
+# KorgPaManager_Complete_v1.1.1 nosi svoj vendored Mido 1.3.3 izvor
+# i offline CPython 3.12.10 installer (runtime_installer/) -- ni za
+# njega ne treba internet ni pip.
+#
+# Opcioni sistemski alati (samo za offline RAR korpus rad, ne treba app-u):
+#   7z / bsdtar

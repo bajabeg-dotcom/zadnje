@@ -1,0 +1,1 @@
+"""Korg-specific evidence and decoder plugin slots; no undocumented format claims."""

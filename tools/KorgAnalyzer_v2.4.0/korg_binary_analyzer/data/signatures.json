@@ -1,0 +1,155 @@
+[
+  {
+    "name": "ZIP local file",
+    "category": "archive",
+    "bytes": "504b0304",
+    "description": "ZIP local-file header",
+    "source": "PKWARE APPNOTE signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "ZIP end record",
+    "category": "archive",
+    "bytes": "504b0506",
+    "description": "ZIP end-of-central-directory marker",
+    "source": "PKWARE APPNOTE signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "GZIP",
+    "category": "compression",
+    "bytes": "1f8b08",
+    "description": "GZIP member header",
+    "source": "RFC 1952 magic",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "BZIP2",
+    "category": "compression",
+    "bytes": "425a68",
+    "description": "BZIP2 stream prefix",
+    "source": "bzip2 stream signature",
+    "status": "OBSERVED",
+    "confidence": 0.95
+  },
+  {
+    "name": "XZ",
+    "category": "compression",
+    "bytes": "fd377a585a00",
+    "description": "XZ stream header",
+    "source": "XZ stream signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "Zstandard",
+    "category": "compression",
+    "bytes": "28b52ffd",
+    "description": "Zstandard frame magic",
+    "source": "Zstandard frame signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "LZ4 frame",
+    "category": "compression",
+    "bytes": "04224d18",
+    "description": "LZ4 frame magic",
+    "source": "LZ4 frame signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "PNG",
+    "category": "image",
+    "bytes": "89504e470d0a1a0a",
+    "description": "PNG file signature",
+    "source": "PNG signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "JPEG",
+    "category": "image",
+    "bytes": "ffd8ff",
+    "description": "JPEG start marker",
+    "source": "JPEG marker",
+    "status": "OBSERVED",
+    "confidence": 0.95
+  },
+  {
+    "name": "RIFF",
+    "category": "container",
+    "bytes": "52494646",
+    "description": "RIFF container prefix; subtype/size require validation",
+    "source": "RIFF container marker",
+    "status": "CANDIDATE",
+    "confidence": 0.75
+  },
+  {
+    "name": "MIDI",
+    "category": "audio",
+    "bytes": "4d546864",
+    "description": "Standard MIDI header",
+    "source": "MIDI MThd marker",
+    "status": "CANDIDATE",
+    "confidence": 0.85
+  },
+  {
+    "name": "ELF",
+    "category": "executable",
+    "bytes": "7f454c46",
+    "description": "ELF magic",
+    "source": "ELF identification",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "SQLite",
+    "category": "database",
+    "bytes": "53514c69746520666f726d6174203300",
+    "description": "SQLite database signature",
+    "source": "SQLite signature",
+    "status": "OBSERVED",
+    "confidence": 0.99
+  },
+  {
+    "name": "PDF",
+    "category": "document",
+    "bytes": "255044462d",
+    "description": "PDF file prefix",
+    "source": "PDF signature",
+    "status": "OBSERVED",
+    "confidence": 0.95
+  },
+  {
+    "name": "AES S-box prefix",
+    "category": "crypto",
+    "bytes": "637c777bf26b6fc53001672bfed7ab76",
+    "description": "AES substitution-table prefix candidate",
+    "source": "FIPS 197 AES substitution table",
+    "status": "CANDIDATE",
+    "confidence": 0.9
+  },
+  {
+    "name": "MD5 constants prefix",
+    "category": "crypto",
+    "bytes": "78a46ad756b7c7e8db702024eecebdc1",
+    "description": "Prefix of little-endian MD5 round constants",
+    "source": "RFC 1321 MD5 constants",
+    "status": "CANDIDATE",
+    "confidence": 0.85
+  },
+  {
+    "name": "SHA-256 constants prefix",
+    "category": "crypto",
+    "bytes": "428a2f9871374491b5c0fbcfe9b5dba5",
+    "description": "Prefix of SHA-256 round constants",
+    "source": "FIPS 180-4 SHA-256 constants",
+    "status": "CANDIDATE",
+    "confidence": 0.85
+  }
+]

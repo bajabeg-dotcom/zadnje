@@ -1,0 +1,56 @@
+# Baja Music · Pa800 OS 2.02 — audit native `.SET` / `.STY` / `.PCG` / `.BKP`
+
+**Datum:** 25. 9. 2026. · **Cilj:** korisnikov **Pa800 OS Version 2.02, 27. 7. 2011.** · **Stanje:** stvarna konverzija cijelog SET-a i BKP-a **još nije završena**. Ranije Song Prepair / Converter Lab aplikacije rade s MIDI selektorima; to nije native `.STY/.PCG/.PCM/.BKP` konverzija. Ovaj dokument bilježi provjerene binarne nalaze, prošireni read-only web Manager i konkretne uzorke potrebne za nastavak.
+
+## 1. Relevantni materijal s Drivea: šta je *zaista* u arhivama
+
+| Izvor (Drive) | Pregled i nalaz | Ograničenje |
+|---|---|---|
+| [Hammy.SET.zip](https://drive.google.com/file/d/1YoPwLqsFRVSh6Sq-rv4mofXvjYCafx10/view) | **149** datoteka; `12 STY`, `3 PCG`, `99 PCM`, `1 KMP`, `20 PRF`, `10 PAD`, `2 SBD`, `1 GBL`, `1 VOC`. ZIP CRC svih članova **PASS**; ukupno 61.308.160 B raspakovano. | Kompletniji SET korpus s uzorcima, ali **nije potvrđeno** je li snimljen baš s korisnikovog Pa800 OS 2.02. U njemu **nema `.BKP`**. |
+| [Pa1x BABAJA 2011 bosna.SET.rar](https://drive.google.com/file/d/1shgcacJjXEV_JXT_bhr-8yc1CpaOjSSC/view) | **140** datoteka; `3 STY`, `3 PCG`, `99 PCM`, `1 KMP`, `20 PRF`, `10 PAD`, `1 SBD`, `1 SBL`, `1 GBL`, `1 VOC`. Sadržaj nije šifrovan; kompletna ekstrakcija/CRC putem `bsdtar` **PASS**. | Izvor je označen **Pa1X**; isti naziv banke ne znači isti format kao Pa800. Nema BKP-a. |
+| [Pa1x Redbull Novoboki Greek.SET.rar](https://drive.google.com/file/d/1ukwRCJD5eZlZ79l1rEhwma8k07iSkUFA/view) | Popis **56** članova: `3 STY`, `3 PCG`, `26 PCM`, `1 KMP`, `20 PRF`, `1 PAD`, `1 GBL`, `1 VOC`. | **Svih 56 članova je šifrovano.** Imena/veličine su dostupni, binarni sadržaj/CRC i konverzija nisu; potreban je vlasnikov password ili raspakovan ZIP. Nema imenovanog BKP-a u popisu. |
+| [USER01.STY](https://drive.google.com/file/d/18_rfsAL7qvqbG48XCiSHmwa5_EO9I2Iy/view) | Samostalna raw banka od 749.993 B: **40 Style + 40 type-09** resursa; inner `01 05 00 00`, **15** elemenata po Style-u. | Nema PCG/KMP/PCM partnera uz ovu datoteku; izvorni model/OS treba potvrditi. Ne pretpostavljati da je v5/15-elemenata native Pa800 OS 2.02. |
+| [pa800_pkg_extracted.zip](https://drive.google.com/file/d/1iVzNpDe05hH4-K2WUqPYqFZPI9HfqsV5/view) | **203** datoteke; `18 Factory STY`, `1 ROM.PCG` (1.071 indeksiranih resursa), `20 PRF`, `20 PAD`, `2 KMP`, **54 tvornička/demo MID** i `PRGMAPS.TBL`. Njegov Factory corpus ima **435 Style** resursa s v2/v4 i 13 elemenata. | Nema korisničkih PCM datoteka ni stvarnog BKP-a. Ne izjednačavati ZIP s kompletnim OS/backup paketom. |
+| [Pa800_os_v203_extracted.zip](https://drive.google.com/file/d/18iqPYfDDV_nICon-P2AGzEt6GWr7nwZS/view) | **71** datoteka, pretežno STARTUP/SYSTEM, GUI resursi i MZX; bez STY/PCG i BKP. | **OS 2.03 nije OS 2.02** i ne zamjenjuje korisnikov target. |
+| [Pa800_os_res_v202_EXTRACTED_MASTER_EVIDENCE_REPORT.zip](https://drive.google.com/file/d/19QWZXdG-ImJy3VCEeO3G2RPM0unDlB-s/view) | Jedan **tekstualni** Markdown izvještaj (72.085.023 B) o `Pa800_os_res_v202.pkg`, SHA-256 `a9ebc57de09463363ecf0b1ba5ec9c2e96ca43444bcd6c22cb7e16c93d099054`, veličine 134.050.105 B. Sam izvještaj kaže da je **2.931 binarni/raw fajl preskočen**. | Naslov „BKP EXTRACTOR” u tekstu **ne znači** da je ulazni izvor `.BKP`: izvor je OS `.pkg`, a stvarni BKP nije uključen. |
+| [pa800 256 format os v2.02.rar](https://drive.google.com/file/d/1TkkXK3KZ6e9f-W88EEKHB8QvBnCBwb-e/view) | 124.100.180 B, naziv pominje v2.02. | Drive alat odbija preuzimanje zbog limita **104.857.600 B**; sadržaj **nije** pregledan. Naziv „256 format” nije dokaz identičnog fabričkog OS-a. |
+| [Baja.zip](https://drive.google.com/file/d/1Vhsx-CCVi4lSqwjt3Iugdj-wk6j8McCH/view) / [objects.zip](https://drive.google.com/file/d/11yBTb106BLM3vaHzEb-LEl--RtdadkAv/view) | 524 MB / 120 MB. | Preveliki su za ovaj Drive kanal; unutrašnji popis nije provjeren. U njima se zato ne može isključiti BKP. Ako sadrže BKP/SET, pošalji izdvojene datoteke ili popis sadržaja. |
+
+Pregledani su i `Nova mapa.zip` (305 datoteka; STYLE/SND primjeri i neizvršeni EXE), `PA800_REVERSE_CHECKPOINT_2026-09-16.zip` (Style uzorci, skripte, ali ne BKP), `01 (1).zip` i `02.zip` (pretežno MID), `KorgInstrumenti.zip` (samo PDF) i projektni dokazni folderi. Pretraga naziva `.BKP` na Driveu vraća dokumente, **ne stvaran BKP fajl**. To **ne dokazuje** odsustvo BKP-a iz svih nepristupačnih velikih arhiva.
+
+**OS 2.02 provenijencija:** `pa800_pkg_extracted.zip/manifest.csv` locira `PCMIMAGE/BANK00.BIN` na payload offsetu `0xDE0576`; OS v202 izvještaj nezavisno bilježi `OC20` na istom offsetu i putanju `F:\PCMIMAGE\BANK00.BIN`. To je snažan binarni trag zajedničkog v202 izvora, **ne** zamjena za SHA-256 poređenje s nedostupnim originalnim `.pkg`.
+
+## 2. Šta je sada dekodirano — i šta nije
+
+- **Style i banke:** OC20/RAW resource root, type-05 imena, type-06 Style i type-09 companion, FE/KBEG/KEND offseti, OC31/OC32 checksum i osnovni CV/TrackInfo parse. Nakon uklanjanja pogrešne pretpostavke „uvijek 13 elemenata” čitač koristi StyleInfo bitmap: prošlo je **384/384 Hammy Style**, **96/96 Pa1X BABAJA Style** i **40/40** samostalnog `USER01.STY`; Factory corpus ima **435/435** Style. Hammy miješa v0/v1/v2/v4, BABAJA uglavnom v0/v1/v2, a samostalni uzorak je v5; zbog toga nije dopušten univerzalni copy/paste writer.
+- **Sound/PCG:** Hammy USER01/02/DK katalog ima **98/75/40** resursa (dio DK nije običan melodijski Sound). Programi u Hammy USER01/02 imaju inner `00 05`, kao dostupni Factory ROM.PCG; Pa1X USER01 koristi inner `00 02`, a `RAM.KMP`/`RAM01.PCM` imaju type-07 nasuprot Hammy type-11/type-12 u pregledanim resursima. To dokazuje **strukturne razlike**, ne zvučnu ekvivalenciju ili ispravan remap oscilatora/uzoraka.
+- **Stvarne STY→PCG kandidatske veze:** iz Hammy SET-a je pregledano **3.272** Style elemenata i **26.176** TrackInfo zapisa. Za korisničke banke `120.64` / `121.64` / `121.65` ima 270 različitih selektora: **189** ima jedinstvenog kandidata u USER PCG katalogu; **81** nema zapis u dostavljenim PCG bankama. To **nije dokaz da je 81 zvuk pokvaren** (mogući factory/default fallback). Pa1X: **107/110** USER selektora ima kandidata. Samostalni `USER01.STY`: **45** jedinstvenih USER selektora, ali **nijedan prateći PCG u toj datoteci**. STS/PRF → PCG, PCG oscillator → KMP → PCM i cross-model semantički remap **nisu dovršeni**.
+- **PAD/PRF:** pročitan je Pa1X PAD bitmap s **9** dvodijelnih PAD resursa koji su prije bili lažno odbačeni. Hammy ima **3** PRF resursa preserve-only (jedan 673+420 hibrid i dva single-section objekta); Pa1X BABAJA ima **139/181 PRF** preserve-only. Njihova uokvirenost se provjerava, ne izmišljaju se parametri.
+- **BKP:** stvaran originalni Pa800 OS2.02 `.BKP` **nije dostupan za analizu** u pregledanim datotekama. OS `.pkg`, tekstualni izvještaj i obični `.SET` nisu zamjena. Vanjski BKP packing, kompresija, restore redoslijed i integritet **nisu zatvoreni**. Ne nuditi generated BKP ili Restore dok se to ne testira na uređaju.
+
+## 3. Web aplikacija i granica obećanja
+
+U `pa800-manager/` je sada **Manager v0.2 — native SET forenzika (READ ONLY)**: ZIP import, inventar svih PCM/KMP/SONGBOOK članova s CRC/SHA-256, binarni Style/PAD pregled koji poštuje sparse bitmask, kandidatski Style→USER PCG graf i izvoz originala/JSON nalaza. Testiran je na Hammy ZIP-u (**149 članova**, svi CRC PASS, **384 Style**, **1.496 pregledanih resursa, 3 PRF preserve-only, 0 neuspjelih strukturnih provera**) i na nešifrovanom Pa1X RAR-u nakon lokalnog ZIP prepakovanja (svih **96 Style**, **105 PAD**, 139 PRF preserve-only). Lokalni web UI ne otvara RAR direktno niti obrađuje >64 MiB upload.
+
+To je **dijagnostička faza**, ne nova tvrdnja da cijeli `.SET` radi na instrumentu. Native Save/Convert/BKP Restore nije ponuđen. Dokazni PDF tvrdi da je STY writer softverski izvediv; ova konkretna aplikacija nema potvrđen završni OC20 writer ni hardware acceptance. Zadržavanje originala, očuvanje nepoznatih bajtova, save→reopen→diff i fizički Pa800 test su obavezni prije uključivanja tih funkcija.
+
+## 4. Tačno šta molim da postaviš — po prioritetu
+
+### Obavezno da se pređe na tvoj konkretni Pa800 OS2.02
+
+1. **`PA800_OS202_BEFORE.SET.zip`** — cijeli `.SET` folder **svježe snimljen na tvom instrumentu** preko `Media → Save → All`. Prilikom snimanja posebno **uključi PCM i SongBook**, jer Save All može po zadanim postavkama izostaviti te velike komponente [1](https://manualzz.com/doc/23368991/korg-pa800-user-manual). Potrebni su STYLE, SOUND (`USER01/02/DK.PCG`), MULTISMP (`RAM.KMP`), PCM (`RAMxx.PCM`), PERFORM, PAD, SONGBOOK i GLOBAL — onoliko koliko ih zaista ima. Kopiraj cijeli folder bez preimenovanja internih banki.
+2. **Originalni `PA800_OS202_FULL_UNCOMPRESSED.BKP`** napravljen kroz `Media → Utility → Full Backup Resources` na **istom stanju** instrumenta. Poželjna je i druga kopija s uključenom kompresijom. BKP je zaseban backup Factory+User resursa koji **isključuje OS**, a Restore mijenja instrument, zato **napravi backup, nikako Restore** [4](https://www.manualslib.com/manual/1189328/Korg-Pa800.html?page=250). Ako je BKP preko 100 MB, stavi sve dijelove `<90 MB` ili izdvoji sam originalni BKP u više dijelova s uputstvom za spajanje.
+3. **`PA800_OS202_AFTER_ONE_EDIT.SET.zip`** — drugi Save All nakon **tačno jedne** promjene na kopiranom/nevažnom USER objektu (npr. preimenovanje rezervnog Style slota), uz `CHANGELOG.txt`: koji slot, tačna promjena, izvorna i nova vrijednost, OS verzija. Ovaj par je potreban za dokaz offseta/checksuma i preservation testove. Ne mijenjaj nastupni original.
+4. Potvrdi: **je li `Hammy.SET.zip` upravo iz tvog Pa800 OS2.02?** Iz kojeg modela/OS-a je samostalni `USER01.STY`? **Koji izvorni SET** želiš prvi konvertovati na Pa800 (BABAJA, Redbull ili drugi)?
+
+### Korisno za drugi izvor i nedostupne arhive
+
+- Za Redbull `.rar`: vlasnička lozinka ili dekriptovani kompletni `.SET` kao ZIP. Bez toga se ne može testirati njegov native `.STY/.PCG/.PCM` sadržaj.
+- Ako `Baja.zip`, `objects.zip` ili OS2.02 RAR sadrže dodatni BKP/SET ili v202 raw resurse, pošalji **popis sadržaja** (`7z l -slt`/`unzip -Z1`) ili izdvojene relevantne fajlove u paketu ispod 100 MB; sadašnja ograničenja alata ne dopuštaju inventar tih velikih arhiva.
+- Poželjno: `OS_AND_CHANGELOG.txt` s fotografijom/zapisom OS 2.02 (27. 7. 2011.), naziv memorijske ekspanzije i `SHA256SUMS.txt`; lične podatke ne moraš dijeliti.
+
+## 5. Nakon novih uzoraka — uslovi za konačnu tvrdnju
+
+**Native konverzija** znači dokazati zasebno STY/CV/STS, PRF, USER PCG i oscillator, KMP/PCM, PAD/SongBook reference te SET stabla. Originalni nepoznati blokovi ostaju byte-exact; svaka promjena mora proći backup, serialize, reopen, structural + semantic diff. Za BKP posebno treba vanjski packer i verifikacija prije bilo kakvog restore-a. Potom na fizičkom Pa800 testirati *jednu testnu banku* Load → Select → Play → Save → Reload; full BKP restore tek uz zaseban kontrolisani plan. Do tada rezultat nije „100%” niti safe-to-restore.
+
+**Reproducibilnost:** `pa800-manager/research/native_set_audit/NATIVE_SET_STATIC_INVENTORY.json` i `STYLE_TO_USER_PCG_CANDIDATES.json` sadrže manifest i kandidatske adrese; skripte su uz njih. Velike originalne arhive su ostale neizmijenjene i nisu u distribuiranoj aplikaciji.

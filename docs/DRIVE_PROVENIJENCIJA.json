@@ -1,0 +1,164 @@
+{
+  "package": "VirtualPa800_NATIVE_0.2",
+  "date": "2026-10-10",
+  "note_bs": "Svaki fajl skinut sa Google Drive-a; gdje je postojao .sha256, verifikacija je OK.",
+  "byte_identical_originals": [
+    {
+      "path": "checksums/KorgAnalyzer_v2.4.0.zip.sha256",
+      "drive_id": "1uovi_hFMgB0aMw-iTNu8Epz-GkMnwvpL",
+      "drive_link": "https://drive.google.com/file/d/1uovi_hFMgB0aMw-iTNu8Epz-GkMnwvpL/view",
+      "size_bytes": 90,
+      "sha256": "5f23a2ce57eefa6c53aa145839673e8ee7a3f47101226f9229e3e77246da62f4"
+    },
+    {
+      "path": "checksums/KorgPaManager_Complete_v1.1.1.zip.sha256",
+      "drive_id": "1b68x_bOW3bTFWbqyn_egoyowBqDpSdwH",
+      "drive_link": "https://drive.google.com/file/d/1b68x_bOW3bTFWbqyn_egoyowBqDpSdwH/view",
+      "size_bytes": 100,
+      "sha256": "079e44030172182d785bbcca9462cebb916c8c98bbca1f8380c557ea3e3895f2"
+    },
+    {
+      "path": "checksums/PA800_GOLD_CORPUS_830.zip.sha256",
+      "drive_id": "163DMpsH9NLwPvaSM0MvMNl_7-BJcv3aS",
+      "drive_link": "https://drive.google.com/file/d/163DMpsH9NLwPvaSM0MvMNl_7-BJcv3aS/view",
+      "size_bytes": 92,
+      "sha256": "c125bb0bb758cb41e0dcb41e69a695eaa1cd0c985f27282649883cf5957e0b33"
+    },
+    {
+      "path": "docs/BAJA_PA800_NATIVE_SET_AUDIT_OS202_2026-09-25.md",
+      "drive_id": "1JwL5k8LNgujeSEjACBexDQU6RkEolrbC",
+      "drive_link": "https://drive.google.com/file/d/1JwL5k8LNgujeSEjACBexDQU6RkEolrbC/view",
+      "size_bytes": 11480,
+      "sha256": "fbde8191524bc356e34dac90f74610b8250c6e4c7e76f8c511ad451644e01b6f"
+    },
+    {
+      "path": "docs/INTEGRACIJA_PA800_MANAGER_WEB_V02.md",
+      "drive_id": "1iZf8_Yb6_EMiV-zzWVvg7-4TkbZonI5J",
+      "drive_link": "https://drive.google.com/file/d/1iZf8_Yb6_EMiV-zzWVvg7-4TkbZonI5J/view",
+      "size_bytes": 8398,
+      "sha256": "54bee7e80c4bb7370354c207b0f5380335be0f8c6bd2165f863be5064c4f7aa9"
+    },
+    {
+      "path": "docs/NATIVE_SET_STATIC_INVENTORY.json",
+      "drive_id": "1RhS5y3gtuyAZUsL0TFS-akiXauaHZ6Q3",
+      "drive_link": "https://drive.google.com/file/d/1RhS5y3gtuyAZUsL0TFS-akiXauaHZ6Q3/view",
+      "size_bytes": 154832,
+      "sha256": "520d02a8b4d55d3456109a7d3e6f892e96f8f773c44a6ebf7814cc33ca423b4a"
+    },
+    {
+      "path": "docs/PA800_FACTORY_SOUND_LIST_CC00_CC32_PC.txt",
+      "drive_id": "1_JnEx62NCOx8PJ2sOzhAjK91Mi5PBw2j",
+      "drive_link": "https://drive.google.com/file/d/1_JnEx62NCOx8PJ2sOzhAjK91Mi5PBw2j/view",
+      "size_bytes": 58412,
+      "sha256": "8859878a888a6fbad2b17f6e6c630d7a0155f49aba5739963b4d716a0dc99996"
+    },
+    {
+      "path": "gold/AUTO_SELECTED_GOLD.zip",
+      "drive_id": "1b-dvJmr7FTzUOXZ3Mn0BsrO2pt27WXaq",
+      "drive_link": "https://drive.google.com/file/d/1b-dvJmr7FTzUOXZ3Mn0BsrO2pt27WXaq/view",
+      "size_bytes": 10508194,
+      "sha256": "37f03f847192d6341c26ec8073e7a00187cdd95e2f40bfdc10126393fa2dcc54"
+    },
+    {
+      "path": "gold/PA800_GOLD_CORPUS_830.zip",
+      "drive_id": "1_8y71l2SjZkM4MHbuWTbA4X6M4-DErj3",
+      "drive_link": "https://drive.google.com/file/d/1_8y71l2SjZkM4MHbuWTbA4X6M4-DErj3/view",
+      "size_bytes": 10542949,
+      "sha256": "f3caca7b8f192f97c946c5058b25839cc53efc933f5ee7b19842ae9b3acebaf1"
+    },
+    {
+      "path": "research/1.zip",
+      "drive_id": "12lES_vMcglTp9QPgpcGaAQ1-VXQY4DQo",
+      "drive_link": "https://drive.google.com/file/d/12lES_vMcglTp9QPgpcGaAQ1-VXQY4DQo/view",
+      "size_bytes": 3599796,
+      "sha256": "4d31798536f4b205d174fabb08d6994bd4dac6506b5614de76edd88df7d60532"
+    },
+    {
+      "path": "research/Dokazi.zip",
+      "drive_id": "1R-A4WhhtHY2l5Lk0iz-EOkqjs7SlP53M",
+      "drive_link": "https://drive.google.com/file/d/1R-A4WhhtHY2l5Lk0iz-EOkqjs7SlP53M/view",
+      "size_bytes": 392603,
+      "sha256": "2fdc94700aeb8536441180f57991eead446b6db0d605381c8c685de0b3343600"
+    },
+    {
+      "path": "sets/PA800_KOMPLET_2026-10-05_v2.zip",
+      "drive_id": "1W-JQkrY8eYt7zCQvRKHy545AeoUJuqBw",
+      "drive_link": "https://drive.google.com/file/d/1W-JQkrY8eYt7zCQvRKHy545AeoUJuqBw/view",
+      "size_bytes": 19495727,
+      "sha256": "1388a73945775757e6a94ddc36162d6305ecfb9aec0477b158d77e9e28f5b27a"
+    },
+    {
+      "path": "styles/INIT_STY_OUT.zip",
+      "drive_id": "18UUxRpeD1axNB_icr6GTj3wEN-NHzlKO",
+      "drive_link": "https://drive.google.com/file/d/18UUxRpeD1axNB_icr6GTj3wEN-NHzlKO/view",
+      "size_bytes": 7412523,
+      "sha256": "a67f0a7771c1e487e2dd41a11e77495dfe67d2b422832b601ac2ec013dfb9104"
+    },
+    {
+      "path": "styles/PA800_FACTORY_STYLES_PATTERNS_PADS_REFERENCE.zip",
+      "drive_id": "16mdzAAldb7i6CD42pfc5z41UwpSvmYd8",
+      "drive_link": "https://drive.google.com/file/d/16mdzAAldb7i6CD42pfc5z41UwpSvmYd8/view",
+      "size_bytes": 6910193,
+      "sha256": "03c7dd02c22e51cf73613182e346ca2681b6314438cd68765513890ccdeeee67"
+    },
+    {
+      "path": "styles/Pa3xStyle Wrhunski.zip",
+      "drive_id": "1ujVQwnFQR4_TXp5ncb8LagJnNM8XEP9K",
+      "drive_link": "https://drive.google.com/file/d/1ujVQwnFQR4_TXp5ncb8LagJnNM8XEP9K/view",
+      "size_bytes": 8474043,
+      "sha256": "e293275e1c364118c87478db4bc4fc6ff200e12348ab615cf052809d2f6c52b9"
+    },
+    {
+      "path": "styles/STYLE.zip",
+      "drive_id": "1KauCCn30JGbmklcB0lkZkVMSLCZiA811",
+      "drive_link": "https://drive.google.com/file/d/1KauCCn30JGbmklcB0lkZkVMSLCZiA811/view",
+      "size_bytes": 2477823,
+      "sha256": "d6c5721c0f4d396056f619210cb25431de45e93a747b0aeaf891ab38b4fe7e37"
+    },
+    {
+      "path": "styles/VALJA_PA800_SONG_STYLES_FINAL_2026-10-03.zip",
+      "drive_id": "1MnB1GsID9YbeqVTcUxU5VKlD0gAZlzQG",
+      "drive_link": "https://drive.google.com/file/d/1MnB1GsID9YbeqVTcUxU5VKlD0gAZlzQG/view",
+      "size_bytes": 3483622,
+      "sha256": "36ad132efc8c969e61c08253669f2c2fa8a8368f5b282e6f9557d44f813ee291"
+    }
+  ],
+  "unpacked_from_archives": {
+    "app/pa800-manager-v0.2": {
+      "archive": "PA800_Manager_Web_v0.2_NATIVE_SET_FORENSICS.zip",
+      "drive_id": "1pXekHOns5ctwoz8Rfh_nC9heJh8Smuw0"
+    },
+    "app/pa800-manager-v0.1-legacy": {
+      "archive": "PA800_Manager_Web_v0.1_READ_ONLY_2026-09-25.zip",
+      "drive_id": "1DA5Gi0JdmPTbjPpeWoFLzMUlkJFjDug0"
+    },
+    "app/pa_tool-v0.3.0": {
+      "archive": "pa_tool_v0.3.0.zip",
+      "drive_id": "1ArCyc7bC2e0VhdrX3szy9D2kBjhc74pb"
+    },
+    "tools/KorgAnalyzer_v2.4.0": {
+      "archive": "KorgAnalyzer_v2.4.0.zip",
+      "drive_id": "1COyNvvuD7-DHl70o3vAD8FYgNUjLRwlz"
+    },
+    "tools/KorgPaManager_Complete_v1.1.1": {
+      "archive": "KorgPaManager_Complete_v1.1.1.zip",
+      "drive_id": "1BQ-yxF8WcsdjHOxG-SVDgcigShi8mDws"
+    },
+    "tools/korg_pa_build-iz-Dokazi": {
+      "archive": "Dokazi.zip (build/)",
+      "drive_id": "1R-A4WhhtHY2l5Lk0iz-EOkqjs7SlP53M"
+    }
+  },
+  "not_included": {
+    "SETOVI.zip": {
+      "drive_id": "1jgwdw2Rz54wQA_ODlcFB5jvu4soRQyn_",
+      "size_bytes": 362525195,
+      "reason": "362 MB > 100 MB limit transfera; dodati rucno (vidi STA_NIJE_UKLJUCENO.md)"
+    },
+    "kpmv3_runtime.zip": {
+      "drive_id": "1u443iIiVxEOiioZYochfE-rNbhfx8pYD",
+      "size_bytes": 49782794,
+      "reason": "sadrzi samo 179 MB .mdmp crash-dump; namjerno izbaceno"
+    }
+  }
+}

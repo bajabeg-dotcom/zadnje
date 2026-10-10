@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "description": "Potpuni popis onoga sto PA Manager odbija + hard limiti. Ovo je osnova za validate.py.",
+    "sources": [
+      "uploads/PA_FORMAT_REQUIREMENTS.md §5 (potpuni popis odbijanja)",
+      "uploads/PA_MANAGER_RULES.md §1.2 §1.3 (verzija + zakljucano)",
+      "uploads/PA_MODEL_REQUIREMENTS.md §1.5 (hard limiti)"
+    ],
+    "rule": "Alat ODBIJA prije konverzije. Svako odbijanje nosi tacnu poruku i offset dokaza."
+  },
+  "hard_limits": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §1.5 — broj stoji u nizu",
+    "entries": [
+      { "what": "uzoraka po WAV-u",    "limit": 1048576, "offset": "0x002520E8", "note": "2^20" },
+      { "what": "multisampleova",      "limit": 7590,    "offset": "0x002521A8" },
+      { "what": "dogadjaja po MIDI traci", "limit": 32767, "offset": "0x00240500" },
+      { "what": "foldera u SET-u",     "limit": 144,     "offset": "0x002E1938", "error": "Too Many Empty Folders!" },
+      { "what": "fajlova po banci",    "limit": 300,     "offset": "0x002E19B0" },
+      { "what": "layera po zvuku",     "limit": 1,       "offset": "0x0024F3F8", "operator": ">= 1" }
+    ]
+  },
+  "canonical_sample_format": {
+    "status": "VERIFIED",
+    "evidence": "0x00250114 = '44100 kHz / 16 bits / mono' — jedini niz koji opisuje kompletan format",
+    "sample_rate_hz": 44100,
+    "bits": 16,
+    "channels": 1,
+    "offered_rates": [8000, 11025, 16000, 22050, 32000, 44100],
+    "offered_rates_offsets": ["0x00251A2C", "0x00251A44", "0x00251A5C", "0x00251A74", "0x00251A8C", "+44100"],
+    "converters": [
+      { "offset": "0x002D9E14", "text": "Error @Convert24bit_to16" },
+      { "offset": "0x002D9E4C", "text": "Error @Convert8bit_to16 - " },
+      { "offset": "0x002D9EBC", "text": "Error @ConvertStereoToMono16 - " }
+    ]
+  },
+  "midi_requirements": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §1.6",
+    "entries": [
+      { "offset": "0x002D6F14", "text": "Only Midi Format 1 is supported.", "rule": "format = 1", "status": "VERIFIED" },
+      { "offset": "0x002D6F8C", "text": "Only Midi Format 1 with a Single track is supported.", "status": "VERIFIED" },
+      { "offset": "0x002D6FFC", "text": "PPQN Not Supported!  PPQN: ", "status": "VERIFIED" },
+      { "offset": "0x002D7038", "text": "Please convert to the supported PPQN of 384.", "rule": "PPQN = 384", "status": "HIGH" },
+      { "offset": "0x0023F77C", "text": "Cannot import Midi with a different Measure!", "status": "VERIFIED" }
+    ]
+  },
+  "rejections": {
+    "version_gate": {
+      "status": "VERIFIED (nizovi postoje); sadrzaj tabela verzija je NEPOTVRDEN",
+      "entries": [
+        { "offset": "0x00243F74", "text": ") and cannot be loaded." },
+        { "offset": "0x00243FA8", "text": "You will need to Convert & reSave the SET on the PA5X." },
+        { "offset": "0x002CDD38", "text": "Unknown Version: " },
+        { "offset": "0x00255DF8", "text": "Incorrect Version! This is actually a PA3X Style!" }
+      ],
+      "rule": "Ako se verzija ne poklapa: ODBIJ, ne konvertiraj."
+    },
+    "locked": {
+      "status": "VERIFIED",
+      "entries": [
+        { "offset": "0x00248380", "text": "Locked PAD Version Not Supported!", "class": "PAD" },
+        { "offset": "0x0024AD90", "text": "Locked STYLE is Not Supported!", "class": "STYLE" },
+        { "offset": "0x0024AA40", "text": "LOCAL Performance Version Not Supported!", "class": "PERF" },
+        { "offset": "0x0024AC20", "text": "LOCAL Style Version Not Supported!", "class": "STYLE" },
+        { "offset": "0x002CD87C", "text": "PA4X MG Edition Styles are 'Locked' and currently NOT Supported.", "class": "STYLE", "model": "Pa4X" },
+        { "offset": "0x0024EBF0", "text": "Cannot Edit Locked Sample.", "class": "SAMPLE" }
+      ]
+    },
+    "content_class": {
+      "status": "VERIFIED",
+      "entries": [
+        { "offset": "0x002DD868", "text": "Factory ROM & Local PCG Sounds are NOT Supported!", "kind": "FACTORY_ROM" },
+        { "offset": "0x0024F728", "text": "Song Files not supported!", "kind": "SONG" },
+        { "offset": "0x0024F5B8", "text": "KORG M50 .PCG not supported!", "kind": "M50" },
+        { "offset": "0x0024F634", "text": "KORG OASIS .PCG not supported!", "kind": "OASIS" },
+        { "offset": "0x002CE2E8", "text": "Compressed .KSF Files are NOT supported!", "kind": "KSF_COMPRESSED" },
+        { "offset": "0x002CE340", "text": "Stereo .KSF is not supported!", "kind": "KSF_STEREO" },
+        { "offset": "0x00253640", "text": "Compression is currently NOT supported on the Mac system.", "kind": "PLATFORM_MAC" },
+        { "offset": "0x00251F48", "text": "REX is only supported with Windows x64.", "kind": "PLATFORM_REX" },
+        { "offset": "0x002DD968", "text": "PA5X Sounds have been detected and will not be loaded.", "kind": "PA5X_SOUND", "model": "Pa5X" }
+      ]
+    },
+    "structure": {
+      "status": "VERIFIED",
+      "entries": [
+        { "offset": "0x002CD420", "text": "Invalid Header!  - " },
+        { "offset": "0x002D9B34", "text": "ChunkSize exceeds FileSize: " },
+        { "offset": "0x002CE244", "text": "Incorrect File Structure" },
+        { "offset": "0x002E1A6C", "text": "Item with no name!" },
+        { "offset": "0x002E1C14", "text": "Name must be Unique!" },
+        { "offset": "0x002E1C44", "text": "Too Many Empty Folders!" },
+        { "offset": "0x0024F824", "text": "Missing ProgramsBank Chunk (PBK1).", "status": "VERIFIED da poruka postoji / HIGH tumacenje", "note": "PBK1 je PCM program-bank chunk u KORG/PCG1 workstation dijalektu; nije prisutan u 4 stvarna PA KORF .PCG uzorka. Vidi data/pcg_chunks.json." },
+        { "offset": "0x0024F880", "text": "Missing ProgramsBank Chunk (PRG1).", "status": "VERIFIED da poruka postoji / HIGH tumacenje", "note": "PRG1 grupise program banke u KORG/PCG1 workstation dijalektu; nije univerzalni PA .PCG potpis. Vidi data/pcg_chunks.json." },
+        { "offset": "0x0024FA4C", "text": "MISSING .KMP" }
+      ]
+    }
+  },
+  "three_universal_rules": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §1.7 — pravilo se ponavlja kroz sve klase",
+    "rules": [
+      { "id": "NO_LOCKED", "text": "Nista zakljucano (PAD, STYLE, MG Edition, uzorci) — zakljucano = nevidljivo" },
+      { "id": "NO_COMPRESSED", "text": "Nista komprimirano — ni KSF, ni na Mac-u uopce" },
+      { "id": "NO_FACTORY_ROM", "text": "Nista s tvornickog ROM-a — samo korisnicki sadrzaj" }
+    ]
+  },
+  "ram_check": {
+    "status": "HIGH",
+    "evidence": "PA_MODEL_REQUIREMENTS.md §1.3 — mehanizam postoji; offsets: lblTotalPCRam 0x0024FAF4, lblRequiredRAM 0x0024FB50, lblAvailableRam 0x0024FB74, msgNoRam 0x0024FADC",
+    "rule": "izracunaj RequiredRAM, uporedi sa AvailableRam, odbij uz msgNoRam ako je prekoraceno"
+  },
+  "user_options": {
+    "status": "VERIFIED da kontrole postoje; imena su HIGH (rekonstrukcija)",
+    "panel_offset": "0x0023C9AC",
+    "form_offset": "0x0023C9F4",
+    "entries": [
+      { "offset": "0x0023CA38", "control": "chkImportSound", "rule": "uvezi i zvukove, ne samo stil" },
+      { "offset": "0x0023CA5C", "control": "styImportSTSSound", "rule": "STS-ovi nose svoj zvuk" },
+      { "offset": "0x0023CA84", "control": "styImportPADSound", "rule": "PAD-ovi nose svoj zvuk" },
+      { "offset": "0x0023CAC0", "control": "chkImportSoundMute", "rule": "uvezi zvuk ali ga utisaj" },
+      { "offset": "0x0023CAEC", "control": "chkImportZeroVolume", "rule": "postavi glasnocu na nulu" },
+      { "offset": "0x0023CB18", "control": "chkImportEmptryTrack", "rule": "preskoci prazne trake", "note": "typo 'Emptry' je u originalu — dokaz autenticnosti niza" },
+      { "offset": "0x0023CBB0", "control": "chkImportReMAPtoFactory", "rule": "premapiraj korisnicke zvukove na tvornicke" },
+      { "offset": "0x0023CBE4", "control": "chkEmptyUSERSound", "rule": "isprazni USER zvuk" },
+      { "offset": "0x0023CC0C", "control": "chkVolumeZero", "rule": "glasnoca nula" },
+      { "offset": "0x0023CC2C", "control": "chkImportSkipDuplicatePCG", "rule": "preskoci duplicirani PCG" }
+    ]
+  },
+  "extensions_known": {
+    "status": "VERIFIED",
+    "evidence": "PA_MANAGER_RULES.md §3.4 (UTF-16 .XXX spisak) + PA_MODEL_REQUIREMENTS.md §1.2",
+    "import": [".SET", ".KST", ".STY", ".PCG", ".PAD", ".PRF", ".MID", ".KSF", ".WAV", ".AIF", ".AIFF", ".RX2", ".REX", ".SF2", ".KSC", ".KMP", ".PCM"],
+    "export": [".MID", ".WAV", ".PCM", ".KMP", ".KSC", ".PRF", ".PAD"],
+    "note": "SET nema export; samo Pa5X ima vlastiti chunk put"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "description": "Matrica konverzija izmedju izdanja/modela + klasa. Osnova za convert/ i validate.py.",
+    "key_finding": {
+      "status": "VERIFIED",
+      "conclusion": "PA Manager NIJE konverter modela. On je jednosmjerna stanica za SET: stariji SET se ne moze ni ucitati, a novi se ne moze izvesti natrag. Sve ostalo ima ulaz i izlaz, ali UVIJEK po pojedinom objektu, nikad kao cjelovit SET.",
+      "evidence": "uploads/PA_MODEL_CONVERSION.md §0; PA_MANAGER_RULES.md §7"
+    },
+    "source": "uploads/PA_MODEL_CONVERSION.md §6 + PA_MANAGER_RULES.md §5"
+  },
+  "operations": {
+    "IMPORT": {
+      "status": "VERIFIED",
+      "input": ["SET", "STY", "PCG", "PAD", "MIDI", "KSF", "MS", "SF2", "WAV", "KSC", "REX"],
+      "output": "interni objekti",
+      "asymmetry": "9 per-model OpenSound SUB-ova; PA5X odbijen za SOUND import"
+    },
+    "EXPORT": {
+      "status": "VERIFIED",
+      "input": "interni objekti",
+      "output": ["MIDI", "Sample", "DK", "MS", "PCM", "grid"],
+      "asymmetry": "SET nema export; samo Pa5X ima vlastiti chunk put"
+    },
+    "CONVERT": {
+      "status": "VERIFIED",
+      "input": ["5X", "5X MG", "MG", "STD", "audio formati"],
+      "output": "isto, drugo izdanje",
+      "asymmetry": "dvosmjerno OSIM SET-a"
+    },
+    "MERGE": {
+      "status": "NEPOTVRDENO (tok nije dokazan)",
+      "input": "2 izvora",
+      "output": "kombinirani objekt",
+      "asymmetry": "4 klase (PCG/PAD/STY/PERF), BEZ SOUND-a",
+      "occurrences": "375x ascii / 192x utf16 — najzastupljeniji pojam od sva cetiri",
+      "flag": "experimental"
+    }
+  },
+  "conversion_functions": {
+    "status": "VERIFIED da nizovi/offseti postoje",
+    "evidence": "PA_MANAGER_RULES.md §5",
+    "entries": [
+      { "offset": "0x00243A00", "name": "Convert 5X >> 5X MG" },
+      { "offset": "0x00243A2C", "name": "Convert 5X MG >> 5X" },
+      { "offset": "0x0042CDE0", "name": "Convert MG > STD > MG", "note": "roundtrip" },
+      { "offset": "0x002D3AA0", "name": "ConvertToMG" },
+      { "offset": "0x003EC1B6", "name": "Convert to KORG PA5X .KST", "note": "cilj svih konverzija" },
+      { "offset": "0x002CFD50", "name": "<<<<<<Convert5XStereoTo2Mono" },
+      { "offset": "0x002CFD90", "name": "<<<<<<ConvertMix5XStereoToMono" },
+      { "offset": "0x00250114", "name": "sample rate konverzija" },
+      { "offset": "0x00252A8C", "name": "Sample Rate Convert" },
+      { "offset": "0x00255048", "name": "4XSTYSequenceConvert" },
+      { "offset": "0x002D71D0", "name": "ConvertEvents" },
+      { "offset": "0x002D71F0", "name": "MergeEvents" },
+      { "offset": "0x002D030C", "name": "Unable to Convert STS/FX/EQ/Settings Data.", "note": "eksplicitno priznanje da konverzija nije potpuna — STS/FX/EQ se ne prenose", "status": "HIGH" },
+      { "offset": "0x002439CC", "name": "GLOBAL_REMAP" }
+    ]
+  },
+  "two_axes": {
+    "status": "VERIFIED",
+    "axis_1_model_edition": {
+      "pairs": [
+        { "from": "Pa5X", "to": "Pa5X MG", "function": "Convert 5X >> 5X MG @0x00243A00", "status": "VERIFIED" },
+        { "from": "Pa5X MG", "to": "Pa5X", "function": "Convert 5X MG >> 5X @0x00243A2C", "status": "VERIFIED" },
+        { "from": "MG", "to": "STD", "function": "Convert MG > STD > MG @0x0042CDE0 (roundtrip)", "status": "VERIFIED" }
+      ],
+      "note": "jedina dvosmjerna konverzija"
+    },
+    "axis_2_audio": {
+      "pairs": [
+        { "from": "24 bit", "to": "16 bit", "error_offset": "0x002D9E14", "status": "VERIFIED" },
+        { "from": "8 bit", "to": "16 bit", "error_offset": "0x002D9E4C", "status": "VERIFIED" },
+        { "from": "stereo", "to": "mono 16", "error_offset": "0x002D9EBC", "status": "VERIFIED" },
+        { "from": "5X stereo", "to": "2x mono", "offset": "0x002CFD50", "status": "VERIFIED" },
+        { "from": "arbitrary rate", "to": "44100", "offset": "0x00252A8C", "status": "VERIFIED" }
+      ],
+      "note": "neovisno o modelu"
+    }
+  },
+  "directions": [
+    { "id": "mg_to_std",        "applicability": "MG izdanje -> standard", "exists": true,  "status": "VERIFIED", "offset": "0x00243A2C", "reversible": true },
+    { "id": "std_to_mg",        "applicability": "standard -> MG izdanje", "exists": true,  "status": "VERIFIED", "offset": "0x00243A00", "reversible": true },
+    { "id": "mg_roundtrip",     "applicability": "MG -> STD -> MG",        "exists": true,  "status": "VERIFIED", "offset": "0x0042CDE0", "reversible": true },
+    { "id": "downgrade_4x_3x",  "applicability": "Pa4X -> Pa3X (PCG MS level)", "exists": true, "status": "VERIFIED", "offset": "0x002CF730", "note": "jedini imenovani model<->model" },
+    { "id": "multisample_to_3x", "applicability": "multisample -> Pa3X",  "exists": true,  "status": "VERIFIED", "offset": "0x002D80D0" },
+    { "id": "user_to_factory",  "applicability": "USER -> Factory sound",  "exists": true,  "status": "VERIFIED", "offsets": ["0x0042CC70", "0x0023CBB0"] },
+    { "id": "sty_family",       "applicability": "STY izmedju porodica",    "exists": true,  "status": "VERIFIED/N", "module": "setconvert.conv.convert_sty" },
+    { "id": "set_to_kst",       "applicability": ".SET -> .KST",            "exists": null,  "status": "NEPOTVRDENO", "note": "cilj svih konverzija; najveci rizik, posljednja faza", "offset": "0x003EC1B6" },
+    { "id": "kst_to_set",       "applicability": ".KST -> .SET",            "exists": false, "status": "UNKNOWN", "note": "u fajlu ne postoji takav put -> alat odbija sa objasnjenjem" }
+  ],
+  "cannot_convert": {
+    "status": "VERIFIED",
+    "evidence": "PA_MODEL_CONVERSION.md §2.5",
+    "items": [
+      "SET kao cjelina (jednosmjerno)",
+      "SOUND prema PA5X",
+      "zakljucan sadrzaj (PAD/STYLE/MG/Sample)",
+      "komprimovani .KSF, stereo .KSF",
+      "Factory ROM & Local PCG zvukovi",
+      "STS/FX/EQ/Settings podaci (opcija konverzije priznaje gubitak)"
+    ]
+  },
+  "model_hierarchy_compat": {
+    "status": "VERIFIED",
+    "evidence": "KORG_PA_MODEL_LOGIC.md §3",
+    "families_descending": [
+      { "text": "PA900 - 600 - 300", "members": ["PA900", "PA600", "PA300"] },
+      { "text": "PA2X - 800 - 500", "members": ["PA2X", "PA800", "PA500"] },
+      { "text": "PA1X - PA80", "members": ["PA1X", "PA80"] }
+    ]
+  },
+  "model_groupings": {
+    "status": "VERIFIED (cetiri NEPODUDARNE tabele)",
+    "evidence": "PA_MANAGER_RULES.md §0.6",
+    "warning": "A/B/C su grupiranja za prikaz u UI; samo D grupira po stvarnom formatu zapisa. PA3X se pojavljuje na tri razlicita mjesta.",
+    "tables": {
+      "A": { "offsets": "0x242034-0x242090", "groups": [["Pa5X"], ["PA2X", "Pa3X", "Pa4X"], ["PA80", "PA1X"]] },
+      "B": { "offsets": "0x242320-0x2423BC", "groups": [["PA80", "PA1X"], ["PA2X", "PA800"], ["Pa3X", "PA900", "PA600", "PA300"], ["Pa4X", "PA1000", "PA700"]] },
+      "C": { "offset": "0x242B44", "groups": [["PA2X", "PA800"], ["PA500", "PA588"], ["PA600"], ["PA900"], ["PA300"], ["Pa3X Le"]] },
+      "D": { "name": "OpenSound SUB", "groups": [["PA80"], ["PA1X"], ["PA2X"], ["Pa3X"], ["PA500", "PA588"], ["PA300", "PA600"], ["PA900"], ["Pa4X"], ["PA700", "PA1000"]], "note": "JEDINA koja grupira po stvarnom formatu zapisa" }
+    }
+  },
+  "versions": {
+    "status": "NEPOTVRDENO (postojanje tabela VERIFIED, sadrzaj NEPOTVRDEN)",
+    "evidence": "PA_EDITABLE_PATTERNS.md §7: VersionMajor + CV 1..CV 6",
+    "rule": "PA3X ima vlastitu provjeru verzije stila @0x00255DF8"
+  }
+}
