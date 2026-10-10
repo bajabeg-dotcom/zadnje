@@ -4,7 +4,9 @@
 > pa_tool v0.3.0, KorgAnalyzer, KorgPaManager, **sav GOLD**, **svi stilovi**,
 > setovi i dokumentacija. Bez interneta, bez `pip install` — samo Python 3.10+.
 
-**Distribucija:** `VirtualPa800_NATIVE_0.2_[2026-10-10].zip` (GitHub Release v0.2.0, + `.sha256`)
+**Distribucija:** `VirtualPa800_NATIVE_0.2_[2026-10-10].zip` je u root-u ovog repo-a
+(97.8 MiB, SHA u `VirtualPa800_NATIVE_0.2_[2026-10-10].zip.sha256`) — skini ga direktno
+sa GitHub-a, raspakuj i dvoklikni `POKRENI_VirtualPa800.bat`.
 **Brzi start:** dvoklik `POKRENI_VirtualPa800.bat` (Windows) ili `./run.sh` (Linux/mac) →
 `http://127.0.0.1:8765`. Detalji: [`CITAJ_ME_PRVO.md`](CITAJ_ME_PRVO.md).
 

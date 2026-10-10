@@ -1,6 +1,5 @@
-# VirtualPa800 NATIVE 0.2 -- lokalne/dist stavke koje ne idu u git
-VirtualPa800_NATIVE_0.2_*.zip
-VirtualPa800_NATIVE_0.2_*.zip.sha256
+# VirtualPa800 NATIVE 0.2 -- lokalne stavke koje ne idu u git
+# (distribucijski VirtualPa800_NATIVE_0.2_*.zip JE u repo-u, u root-u)
 *.mdmp
 __pycache__/
 *.py[cod]
